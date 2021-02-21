@@ -6,6 +6,7 @@ plugins {
 mainClassName = 'com.huanhe_tech.siever.Main'
 
 ext.tws_api_uri = '/Users/gaofeng/IdeaProjects/TWSAPI972/twsapi_macunix.976.01/IBJts/source/JavaClient/libs_modularity/TwsApi.jar'
+ext.moduleInfoFileUri = 'src/main/java/module-info.java'
 
 dependencies {
     // 需要指定项目以来，否则 gradle 找不到其他模块
