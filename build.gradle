@@ -1,0 +1,53 @@
+plugins {
+    id 'java'
+    // 允许指定 mainClassName 入口
+    id 'application'
+}
+mainClassName = 'com.huanhe_tech.siever.Main'
+
+ext.tws_api_uri = '/Users/gaofeng/IdeaProjects/TWSAPI972/twsapi_macunix.976.01/IBJts/source/JavaClient/libs_modularity/TwsApi.jar'
+
+dependencies {
+    // 需要指定项目以来，否则 gradle 找不到其他模块
+    implementation project(':siever-utils')
+    implementation files(tws_api_uri)
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.6.0'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine'
+}
+
+allprojects {
+
+    group 'com.huanhe-tech'
+    version '1.0'
+
+
+    // gradle 暂时不会将依赖的模块加入到 module path 里，需要如下手动设置编译参数
+    plugins.withType(JavaPlugin).configureEach {
+        java {
+            modularity.inferModulePath = true
+        }
+
+        tasks.withType(JavaCompile) {
+            doFirst {
+                options.compilerArgs = [
+                        '--module-path', classpath.asPath,
+                ]
+                classpath = files()
+            }
+        }
+
+    }
+
+}
+
+subprojects {
+    // 通过系统创建 gradle 模块，系统会自动生成 java 插件和 maven 仓库，所以如下两个配置项只有在手动增加新模块时需要配置
+    apply plugin: 'java'
+    sourceCompatibility = 11
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        implementation files(tws_api_uri)
+    }
+}
