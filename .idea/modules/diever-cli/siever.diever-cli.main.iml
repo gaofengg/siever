@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.system.module.type="sourceSet" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../../siever-cli/build/classes/java/main" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../siever-cli/src/main">
+      <sourceFolder url="file://$MODULE_DIR$/../../../siever-cli/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../siever-cli/src/main/resources" type="java-resource" />
+    </content>
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="jdk" jdkName="11.0.5" jdkType="JavaSDK" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../../TWSAPI972/twsapi_macunix.976.01/IBJts/source/JavaClient/libs_modularity/TwsApi.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+  </component>
+</module>

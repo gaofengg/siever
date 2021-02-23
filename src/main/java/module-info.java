@@ -1,4 +1,4 @@
 module siever.main {
-    requires siever.utils;
+    requires siever.cli;
     exports com.huanhe_tech.siever;
 }
