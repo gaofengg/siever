@@ -1,12 +1,12 @@
 rootProject.name = 'siever'
 
+include 'siever-utils'
+include 'siever-controller'
+include 'siever-cli'
 
 // 规约子模块的 gradle 配置文件的文件名格式
 rootProject.children.each {
     project -> project.buildFileName = "${project.name}.gradle"
 }
 
-include 'siever-utils'
-include 'siever-controller'
-include 'siever-cli'
 

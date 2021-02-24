@@ -69,16 +69,16 @@ public class CliInstance implements IConnectionHandler {
     public void connected() {
         show("Connected! \n");
 
-        m_controller.reqHistoricalData(
+        controller().reqHistoricalData(
                 ContractSet.USStockWithPrimaryExch(),
-                "20210222 09:09:09",
+                "20210220 00:00:00",
                 1,
                 Types.DurationUnit.DAY,
                 Types.BarSize._1_day,
                 Types.WhatToShow.BID,
                 true,
                 false,
-                new HistoricalDataHandler());
+                new HistoricalDataHandler(ContractSet.USStockWithPrimaryExch().symbol()));
     }
 
     @Override
