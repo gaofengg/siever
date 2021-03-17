@@ -1,5 +1,5 @@
 module siever.cli{
     requires TwsApi;
-    requires siever.utils;
-    exports com.huanhe_tech.cli;
+    requires sqlite.jdbc;
+    exports com.huanhe_tech.handler;
 }

@@ -9,18 +9,17 @@ ext.tws_api_uri = '/Users/gaofeng/IdeaProjects/TWSAPI972/twsapi_macunix.976.01/I
 
 dependencies {
     // 需要指定项目以来，否则 gradle 找不到其他模块
-    implementation project(':siever-utils')
-    implementation project(':siever-cli')
     implementation files(tws_api_uri)
+    implementation project(':siever-cli')
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.6.0'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine'
+    implementation group: 'org.xerial', name: 'sqlite-jdbc', version: '3.34.0'
 }
 
 allprojects {
 
     group 'com.huanhe-tech'
     version '1.0'
-
 
     // gradle 暂时不会将依赖的模块加入到 module path 里，需要如下手动设置编译参数
     plugins.withType(JavaPlugin).configureEach {
@@ -36,7 +35,6 @@ allprojects {
                 classpath = files()
             }
         }
-
     }
 
 }
@@ -49,6 +47,7 @@ subprojects {
         mavenCentral()
     }
     dependencies {
+        implementation group: 'org.xerial', name: 'sqlite-jdbc', version: '3.34.0'
         implementation files(tws_api_uri)
     }
 }

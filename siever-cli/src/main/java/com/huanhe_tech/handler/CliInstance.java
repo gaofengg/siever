@@ -1,7 +1,5 @@
-package com.huanhe_tech.cli;
+package com.huanhe_tech.handler;
 
-import com.ib.client.Contract;
-import com.ib.client.Types;
 import com.ib.controller.ApiConnection.ILogger;
 import com.ib.controller.ApiController;
 import com.ib.controller.ApiController.IConnectionHandler;
@@ -13,11 +11,10 @@ import static java.lang.Thread.sleep;
 public class CliInstance implements IConnectionHandler {
     public static CliInstance INSTANCE;
     private ApiController m_controller;
-    private Contract m_contract = new Contract();
     private final Logger m_inLogger = new Logger();
     private final Logger m_outLogger = new Logger();
 
-    private static class Logger implements ILogger {
+    static class Logger implements ILogger {
 
         // 这里显示的信息需要定制，否则一堆无用的信息会出现
         @Override
@@ -69,16 +66,24 @@ public class CliInstance implements IConnectionHandler {
     public void connected() {
         show("Connected! \n");
 
-        controller().reqHistoricalData(
-                ContractSet.USStockWithPrimaryExch(),
-                "20210220 00:00:00",
-                1,
-                Types.DurationUnit.DAY,
-                Types.BarSize._1_day,
-                Types.WhatToShow.BID,
-                true,
-                false,
-                new HistoricalDataHandler(ContractSet.USStockWithPrimaryExch().symbol()));
+        // 请求标的数据
+//        controller().reqHistoricalData(
+//                ContractSet.USStockWithPrimaryExch(),
+//                "20210220 00:00:00",
+//                1,
+//                Types.DurationUnit.DAY,
+//                Types.BarSize._1_day,
+//                Types.WhatToShow.BID,
+//                true,
+//                false,
+//                new HistoricalDataHandler(ContractSet.USStockWithPrimaryExch().symbol()));
+
+        // 市场扫描
+//        controller().reqScannerSubscription(MScannerSubscription.AllSymbolASC(), null, new ScannerHandeler());
+        // symbol 模糊查找
+//        controller().reqMatchingSymbols("M", new SymbolSearchlHandler());
+        // 获取股票信息描述
+//        controller().reqContractDetails(ContractSet.USStockWithPrimaryExch(), new MContractDetailsHandler());
     }
 
     @Override

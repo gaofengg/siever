@@ -1,11 +1,11 @@
-package com.huanhe_tech.cli;
+package com.huanhe_tech.handler;
 
 import com.ib.client.Contract;
 
 public class ContractSet {
-    public static Contract USStockWithPrimaryExch() {
+    public static Contract USStockWithPrimaryExch(String symbol) {
         Contract contract = new Contract();
-        contract.symbol("M");
+        contract.symbol(symbol);
         contract.secType("STK");
         contract.currency("USD");
         contract.exchange("SMART");
