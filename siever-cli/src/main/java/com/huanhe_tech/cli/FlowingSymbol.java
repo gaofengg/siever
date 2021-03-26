@@ -1,11 +1,10 @@
 package com.huanhe_tech.cli;
 
-public enum FlowingSymbol {
-    INSTANCE(0, null);
-    private int id;
-    private String symbol;
+final public class FlowingSymbol {
+    private final int id;
+    private final String symbol;
 
-    FlowingSymbol(int id, String symbol) {
+    public FlowingSymbol(int id, String symbol) {
         this.id = id;
         this.symbol = symbol;
     }
@@ -18,15 +17,11 @@ public enum FlowingSymbol {
         return symbol;
     }
 
-    public void setId(int id) {
-        this.id = id;
-    }
-
-    public void setSymbol(String symbol) {
-        this.symbol = symbol;
-    }
-
-    public void setIdIncrement() {
-        id++;
+    @Override
+    public String toString() {
+        return "FlowingSymbol{" +
+                "id=" + id +
+                ", symbol='" + symbol + '\'' +
+                '}';
     }
 }

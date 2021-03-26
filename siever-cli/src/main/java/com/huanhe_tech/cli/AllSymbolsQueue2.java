@@ -22,14 +22,15 @@ public class AllSymbolsQueue2 {
                 }
             }
             list.addLast(flowingSymbol);
-            System.out.println("已向队列尾部加入：" + flowingSymbol.getId() + ", " + flowingSymbol.getSymbol());
+            System.out.println("已向队列尾部加入：" + flowingSymbol);
             list.notifyAll();
+            System.out.println("唤醒take");
         }
 
     }
 
     // 从队列头中取出并删除数据
-    public FlowingSymbol tack() {
+    public FlowingSymbol take() {
         synchronized (list) {
             while (list.isEmpty()) {
                 try {
@@ -40,7 +41,7 @@ public class AllSymbolsQueue2 {
                 }
             }
             FlowingSymbol flowingSymbol = list.removeFirst();
-            System.out.println("已从队列头部获取并删除：" + flowingSymbol.getId() + ", " + flowingSymbol.getSymbol());
+            System.out.println("已从队列头部获取并删除：" + flowingSymbol);
             list.notifyAll();
             return flowingSymbol;
         }

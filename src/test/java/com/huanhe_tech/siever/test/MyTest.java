@@ -15,7 +15,7 @@ public class MyTest {
     @Test
     public void exportSymbol() {
     }
-    
+
     @Test
     public void bilibili() {
         Path path = Paths.get("/Users/gaofeng/Downloads/bibi/bilibili.txt");
@@ -32,14 +32,16 @@ public class MyTest {
 
     @Test
     public void pc() {
-        AllSymbolsQueue2 allSymbolsQueue2 = new AllSymbolsQueue2(3);
-        for (int i = 0; i < 3; i++) {
-            new Thread(() -> {
-                new ProduceAllSymbols("test.txt", allSymbolsQueue2, FlowingSymbol.INSTANCE).putFlowingSymbolsToQueue();
-            }, Thread.currentThread().getName()).start();
+        AllSymbolsQueue2 allSymbolsQueue2 = new AllSymbolsQueue2(5);
+        ProduceAllSymbols produceAllSymbols = new ProduceAllSymbols("test.txt", allSymbolsQueue2);
+        ConsumeAllSymbols consumeAllSymbols = new ConsumeAllSymbols(allSymbolsQueue2);
+
+        new Thread(produceAllSymbols::putFlowingSymbolsToQueue).start();
+
+
+        for (int i = 0; i < 2; i++) {
+            new Thread(consumeAllSymbols::takeFlowingSymbolFormQueue).start();
         }
-
-        new ConsumeAllSymbols(allSymbolsQueue2).takeFlowingSymbolFormQueue();
-
     }
+
 }

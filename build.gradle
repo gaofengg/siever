@@ -6,6 +6,10 @@ plugins {
 
 mainClassName = 'com.huanhe_tech.siever.Main'
 
+repositories {
+    mavenCentral()
+}
+
 dependencies {
     // 需要指定项目以来，否则 gradle 找不到其他模块
     implementation project(':siever-cli')

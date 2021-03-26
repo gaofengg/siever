@@ -9,8 +9,9 @@ public class ConsumeAllSymbols {
 
     public void takeFlowingSymbolFormQueue() {
         while (true) {
-            FlowingSymbol flowingSymbol = allSymbolsQueue2.tack();
-            System.out.println("消费者消费了 {" + flowingSymbol.getId() + ": " + flowingSymbol.getSymbol() + "}");
+            FlowingSymbol flowingSymbol = allSymbolsQueue2.take();
+
+//            System.out.println("消费者消费了 " + flowingSymbol);
         }
     }
 }
