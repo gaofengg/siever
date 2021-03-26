@@ -4,12 +4,12 @@ public enum MGlobalSettings {
     INSTANCE(false, 0, false);
     private boolean reqHistoricalComplete; //
     private int symbolListIndex;
-    private boolean hasNN; // 是否属于 NASDAQ 或者 NYSE 的补票
+    private boolean isNN; // 是否属于 NASDAQ 或者 NYSE 的补票
 
-    MGlobalSettings(boolean reqHistoricalComplete, int symbolListIndex, boolean hasNN) {
+    MGlobalSettings(boolean reqHistoricalComplete, int symbolListIndex, boolean isNN) {
         this.reqHistoricalComplete = reqHistoricalComplete;
         this.symbolListIndex = symbolListIndex;
-        this.hasNN = hasNN;
+        this.isNN = isNN;
     }
 
     public boolean isReqHistoricalComplete() {
@@ -28,11 +28,11 @@ public enum MGlobalSettings {
         this.symbolListIndex += symbolListIndex;
     }
 
-    public boolean hasNN() {
-        return hasNN;
+    public boolean isNN() {
+        return isNN;
     }
 
-    public void setHasNN(boolean hasNN) {
-        this.hasNN = hasNN;
+    public void setNN(boolean NN) {
+        this.isNN = NN;
     }
 }

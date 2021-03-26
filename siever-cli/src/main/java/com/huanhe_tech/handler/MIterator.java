@@ -11,19 +11,21 @@ import java.util.List;
 import java.util.stream.Stream;
 
 public class MIterator {
-    MHistoricalDataHandler my_mec;
+    MHistoricalDataHandler my_historicalDataHandler;
+    MReqContractDetailsController my_reqCDController = MReqContractDetailsController.INSTANCE;
     private final MGlobalSettings mGlobalSettings = MGlobalSettings.INSTANCE;
     Path path = Paths.get("/Users/gaofeng/shortstock/usa.txt");
+//    String projectDir = System.getProperty("user.dir");
     Charset charset = StandardCharsets.UTF_8;
     private int count = 0;
 
     List<String> symbolList = new ArrayList<>();
 
-    public MHistoricalDataHandler myMecController() {
-        if (my_mec == null) {
-            my_mec = new MHistoricalDataHandler();
+    public MHistoricalDataHandler mHDHandler() {
+        if (my_historicalDataHandler == null) {
+            my_historicalDataHandler = new MHistoricalDataHandler();
         }
-        return my_mec;
+        return my_historicalDataHandler;
     }
 
     public void getSymbolFromFile() {
@@ -35,7 +37,8 @@ public class MIterator {
                         line -> {
                             if (line.matches("^(?!.*?#).*$") && count < 50) {
                                 line = line.substring(0, line.indexOf("|"));
-                                new MReqContractDetailsController(line).reqContractDetails();
+                                my_reqCDController.setSymbol(line);
+                                my_reqCDController.reqContractDetails();
 
                                 try {
                                     // 等待 MContractDetailsHandler 改 MGlobalSettings 的 hasNN
@@ -44,7 +47,7 @@ public class MIterator {
                                     e.printStackTrace();
                                 }
 
-                                if(mGlobalSettings.hasNN()) {
+                                if(mGlobalSettings.isNN()) {
                                     symbolList.add(line);
                                     count ++;
                                     System.out.println(count + ": " + line);
@@ -65,8 +68,8 @@ public class MIterator {
     public synchronized void echoHistoricalData() {
         do {
             mGlobalSettings.setReqHistoricalComplete(false);
-            MReqHistoricalDataController mec = new MReqHistoricalDataController(symbolList.get(mGlobalSettings.getSymbolListIndex()));
-            mec.reqAndHandlerHistoricalData();
+            MReqHistoricalDataController.INSTANCE.setSymbol(symbolList.get(mGlobalSettings.getSymbolListIndex()));
+            MReqHistoricalDataController.INSTANCE.reqAndHandlerHistoricalData();
 
             System.out.println(mGlobalSettings.isReqHistoricalComplete());
             System.out.println(mGlobalSettings.getSymbolListIndex());

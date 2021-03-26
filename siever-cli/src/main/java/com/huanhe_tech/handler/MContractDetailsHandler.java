@@ -5,8 +5,8 @@ import com.ib.controller.ApiController;
 
 import java.util.List;
 
-public class MContractDetailsHandler implements ApiController.IContractDetailsHandler {
-
+enum MContractDetailsHandler implements ApiController.IContractDetailsHandler {
+    INSTANCE;
     private final MGlobalSettings mGlobalSettings = MGlobalSettings.INSTANCE;
     @Override
     public void contractDetails(List<ContractDetails> list) {
@@ -15,7 +15,7 @@ public class MContractDetailsHandler implements ApiController.IContractDetailsHa
             boolean hasNN = list.stream().anyMatch(item -> {
                 String s = item.contract().primaryExch();
                 boolean b = s.contains("NASDAQ") || s.contains("NYSE");
-                MGlobalSettings.INSTANCE.setHasNN(b);
+                MGlobalSettings.INSTANCE.setNN(b);
 
                 return b;
             });

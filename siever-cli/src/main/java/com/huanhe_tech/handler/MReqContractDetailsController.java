@@ -1,13 +1,21 @@
 package com.huanhe_tech.handler;
 
-public class MReqContractDetailsController {
-    private final String symbol;
+enum MReqContractDetailsController {
+    INSTANCE(null);
+    private String symbol;
 
-    public MReqContractDetailsController(String symbol) {
+    MReqContractDetailsController(String symbol) {
+        this.symbol = symbol;
+    }
+
+    public void setSymbol(String symbol) {
         this.symbol = symbol;
     }
 
     public synchronized void reqContractDetails() {
-        MConnectHandler.INSTANCE.controller().reqContractDetails(ContractWithSTK.TempContractForReqDetails(symbol), new MContractDetailsHandler());
+        MConnectHandler.INSTANCE.controller().reqContractDetails(
+                ContractWithSTK.NNContractForReqDetails(symbol),
+                MContractDetailsHandler.INSTANCE
+        );
     }
 }

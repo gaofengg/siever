@@ -3,10 +3,11 @@ package com.huanhe_tech.handler;
 import com.ib.client.Types;
 import com.ib.controller.ApiController;
 
-public class MReqHistoricalDataController{
+public enum MReqHistoricalDataController{
+    INSTANCE(null);
     private MHistoricalDataHandler my_historicalDataHandler;
-    private final String symbol;
-    public MReqHistoricalDataController(String symbol) {
+    private String symbol;
+    MReqHistoricalDataController(String symbol) {
         this.symbol = symbol;
     }
 
@@ -16,6 +17,10 @@ public class MReqHistoricalDataController{
 //        }
 //        return my_dateTickController;
 //    }
+
+    public void setSymbol(String symbol) {
+        this.symbol = symbol;
+    }
 
     public MHistoricalDataHandler historicalDataHandler(String symbol) {
         if (my_historicalDataHandler == null) {
