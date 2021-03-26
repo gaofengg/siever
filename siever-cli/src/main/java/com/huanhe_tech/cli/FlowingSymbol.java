@@ -26,7 +26,7 @@ public enum FlowingSymbol {
         this.symbol = symbol;
     }
 
-    public int setIdIncrement() {
-       return id++;
+    public void setIdIncrement() {
+        id++;
     }
 }

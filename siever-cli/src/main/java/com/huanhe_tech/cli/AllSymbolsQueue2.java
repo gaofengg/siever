@@ -22,7 +22,7 @@ public class AllSymbolsQueue2 {
                 }
             }
             list.addLast(flowingSymbol);
-            System.out.println("已向队列尾部加入：" + flowingSymbol.toString());
+            System.out.println("已向队列尾部加入：" + flowingSymbol.getId() + ", " + flowingSymbol.getSymbol());
             list.notifyAll();
         }
 
@@ -40,7 +40,7 @@ public class AllSymbolsQueue2 {
                 }
             }
             FlowingSymbol flowingSymbol = list.removeFirst();
-            System.out.println("已从队列头部获取并删除：" + flowingSymbol.toString());
+            System.out.println("已从队列头部获取并删除：" + flowingSymbol.getId() + ", " + flowingSymbol.getSymbol());
             list.notifyAll();
             return flowingSymbol;
         }

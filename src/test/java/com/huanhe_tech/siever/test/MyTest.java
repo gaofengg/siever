@@ -1,9 +1,6 @@
 package com.huanhe_tech.siever.test;
 
-import com.huanhe_tech.cli.AllSymbolsQueue;
-import com.huanhe_tech.cli.ConsumeAllSymbols;
-import com.huanhe_tech.cli.FlowingSymbol;
-import com.huanhe_tech.cli.ProduceAllSymbols;
+import com.huanhe_tech.cli.*;
 import org.junit.jupiter.api.Test;
 
 import java.io.IOException;
@@ -35,14 +32,14 @@ public class MyTest {
 
     @Test
     public void pc() {
-        AllSymbolsQueue allSymbolsQueue = new AllSymbolsQueue(3);
+        AllSymbolsQueue2 allSymbolsQueue2 = new AllSymbolsQueue2(3);
         for (int i = 0; i < 3; i++) {
             new Thread(() -> {
-                new ProduceAllSymbols("test.txt", allSymbolsQueue, FlowingSymbol.INSTANCE).putFlowingSymbolsToQueue();
+                new ProduceAllSymbols("test.txt", allSymbolsQueue2, FlowingSymbol.INSTANCE).putFlowingSymbolsToQueue();
             }, Thread.currentThread().getName()).start();
         }
 
-        new ConsumeAllSymbols(allSymbolsQueue).takeFlowingSymbolFormQueue();
+        new ConsumeAllSymbols(allSymbolsQueue2).takeFlowingSymbolFormQueue();
 
     }
 }

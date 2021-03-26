@@ -1,15 +1,15 @@
 package com.huanhe_tech.cli;
 
 public class ConsumeAllSymbols {
-    private final AllSymbolsQueue allSymbolsQueue;
+    private final AllSymbolsQueue2 allSymbolsQueue2;
 
-    public ConsumeAllSymbols(AllSymbolsQueue allSymbolsQueue) {
-        this.allSymbolsQueue = allSymbolsQueue;
+    public ConsumeAllSymbols(AllSymbolsQueue2 allSymbolsQueue2) {
+        this.allSymbolsQueue2 = allSymbolsQueue2;
     }
 
     public void takeFlowingSymbolFormQueue() {
         while (true) {
-            FlowingSymbol flowingSymbol = allSymbolsQueue.takeSymbol();
+            FlowingSymbol flowingSymbol = allSymbolsQueue2.tack();
             System.out.println("消费者消费了 {" + flowingSymbol.getId() + ": " + flowingSymbol.getSymbol() + "}");
         }
     }
