@@ -1,17 +1,43 @@
 package com.huanhe_tech.cli;
 
-public class ConsumeAllSymbols {
-    private final AllSymbolsQueue2 allSymbolsQueue2;
+import com.huanhe_tech.cli.queue.AllFlowingSymbol;
+import com.huanhe_tech.cli.queue.AllSymbolsQueue;
+import com.huanhe_tech.handler.MGlobalSettings;
 
-    public ConsumeAllSymbols(AllSymbolsQueue2 allSymbolsQueue2) {
-        this.allSymbolsQueue2 = allSymbolsQueue2;
+public class ConsumeAllSymbols {
+    private final AllSymbolsQueue allSymbolsQueue;
+    private final MGlobalSettings mGlobalSettings = MGlobalSettings.INSTANCE;
+    private AllFlowingSymbol flowingSymbol;
+
+    public ConsumeAllSymbols(AllSymbolsQueue allSymbolsQueue) {
+        this.allSymbolsQueue = allSymbolsQueue;
     }
 
     public void takeFlowingSymbolFormQueue() {
-        while (true) {
-            FlowingSymbol flowingSymbol = allSymbolsQueue2.take();
+        if (flowingSymbol.getId() % 200 != 0) {
+            while (InstancePool.getConnectionController().checkConnection()) {
 
-//            System.out.println("消费者消费了 " + flowingSymbol);
+                flowingSymbol = allSymbolsQueue.takeSymbol();
+                InstancePool.getFilterServiceSet().filtrateByPrimaryExchWithNN(flowingSymbol, fs -> {
+                    new ReqContractDetailsController(fs.getSymbol()).reqContractDetails();
+                });
+                try {
+                    Thread.sleep(20);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+            }
+        } else {
+            InstancePool.getConnectionController().disconnect();
+
+            try {
+                Thread.sleep(1000);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+
+            InstancePool.getMainExecutor().run();
         }
     }
+
 }

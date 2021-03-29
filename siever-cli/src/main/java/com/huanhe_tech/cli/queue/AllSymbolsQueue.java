@@ -1,16 +1,16 @@
-package com.huanhe_tech.cli;
+package com.huanhe_tech.cli.queue;
 
 import java.util.concurrent.ArrayBlockingQueue;
 
-public class AllSymbolsQueue extends ArrayBlockingQueue<FlowingSymbol> {
-    private FlowingSymbol flowingSymbol;
+public class AllSymbolsQueue extends ArrayBlockingQueue<AllFlowingSymbol> {
+    private AllFlowingSymbol flowingSymbol;
 
     public AllSymbolsQueue(int capacity) {
         super(capacity);
     }
 
     // 存入 Symbol
-    public void putSymbol(FlowingSymbol flowingSymbol) {
+    public void putSymbol(AllFlowingSymbol flowingSymbol) {
         try {
             super.put(flowingSymbol);
         } catch (InterruptedException e) {
@@ -19,7 +19,7 @@ public class AllSymbolsQueue extends ArrayBlockingQueue<FlowingSymbol> {
     }
 
     // 获取 Symbol
-    public FlowingSymbol takeSymbol() {
+    public AllFlowingSymbol takeSymbol() {
         try {
             flowingSymbol = super.take();
         } catch (InterruptedException e) {

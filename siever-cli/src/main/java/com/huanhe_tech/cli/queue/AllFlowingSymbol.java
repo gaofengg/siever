@@ -1,10 +1,10 @@
-package com.huanhe_tech.cli;
+package com.huanhe_tech.cli.queue;
 
-final public class FlowingSymbol {
+final public class AllFlowingSymbol {
     private final int id;
     private final String symbol;
 
-    public FlowingSymbol(int id, String symbol) {
+    public AllFlowingSymbol(int id, String symbol) {
         this.id = id;
         this.symbol = symbol;
     }

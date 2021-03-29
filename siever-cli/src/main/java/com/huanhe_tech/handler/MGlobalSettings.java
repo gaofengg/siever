@@ -4,7 +4,7 @@ public enum MGlobalSettings {
     INSTANCE(false, 0, false);
     private boolean reqHistoricalComplete; //
     private int symbolListIndex;
-    private boolean isNN; // 是否属于 NASDAQ 或者 NYSE 的补票
+    private boolean isNN; // 是否属于 NASDAQ 或者 NYSE 的 symbol
 
     MGlobalSettings(boolean reqHistoricalComplete, int symbolListIndex, boolean isNN) {
         this.reqHistoricalComplete = reqHistoricalComplete;

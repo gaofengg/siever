@@ -1,6 +1,7 @@
 package com.huanhe_tech.siever.test;
 
 import com.huanhe_tech.cli.*;
+import com.huanhe_tech.cli.queue.AllSymbolsQueue;
 import org.junit.jupiter.api.Test;
 
 import java.io.IOException;
@@ -32,7 +33,7 @@ public class MyTest {
 
     @Test
     public void pc() {
-        AllSymbolsQueue2 allSymbolsQueue2 = new AllSymbolsQueue2(5);
+        AllSymbolsQueue allSymbolsQueue2 = new AllSymbolsQueue(5);
         ProduceAllSymbols produceAllSymbols = new ProduceAllSymbols("test.txt", allSymbolsQueue2);
         ConsumeAllSymbols consumeAllSymbols = new ConsumeAllSymbols(allSymbolsQueue2);
 
@@ -42,6 +43,18 @@ public class MyTest {
         for (int i = 0; i < 2; i++) {
             new Thread(consumeAllSymbols::takeFlowingSymbolFormQueue).start();
         }
+    }
+
+    @Test
+    public void testObjectPool() {
+//        System.out.println(ObjectPool.getAllSymbolsQueue().hashCode());
+//        System.out.println(ObjectPool.getAllSymbolsQueue().hashCode());
+//        System.out.println(ObjectPool.getAllSymbolsQueue().hashCode());
+
+        System.out.println(InstancePool.getProduceAllSymbols("test.txt").hashCode());
+        System.out.println(InstancePool.getProduceAllSymbols("test.txt").hashCode());
+        System.out.println(InstancePool.getProduceAllSymbols("test.txt").hashCode());
+        System.out.println(InstancePool.getProduceAllSymbols("test.txt").hashCode());
     }
 
 }

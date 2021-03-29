@@ -35,7 +35,7 @@ public class MIterator {
                 System.out.printf("%10s %10s %10s %22s", "SYMBOL", "HIGH", "LOW", "TIME\n");
                 lines.forEach(
                         line -> {
-                            if (line.matches("^(?!.*?#).*$") && count < 50) {
+                            if (line.matches("^(?!.*?#).*$") && count < 15550) {
                                 line = line.substring(0, line.indexOf("|"));
                                 my_reqCDController.setSymbol(line);
                                 my_reqCDController.reqContractDetails();
