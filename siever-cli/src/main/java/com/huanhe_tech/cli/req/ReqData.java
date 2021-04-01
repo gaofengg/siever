@@ -3,6 +3,7 @@ package com.huanhe_tech.cli.req;
 import com.huanhe_tech.cli.ContractSet;
 import com.huanhe_tech.cli.ContractWithSTK;
 import com.huanhe_tech.cli.InstancePool;
+import com.ib.client.EClientSocket;
 import com.ib.client.Types;
 
 public enum ReqData {
@@ -28,18 +29,16 @@ public enum ReqData {
     }
 
     public void reqHistAndHandleData() {
-
         InstancePool.getConnectionController().reqHistoricalData(
                 ContractSet.USStockWithPrimaryExch(symbol),
                 "",
                 1,
-                Types.DurationUnit.DAY,
+                Types.DurationUnit.MONTH,
                 Types.BarSize._1_day,
-                Types.WhatToShow.BID,
+                Types.WhatToShow.TRADES,
                 true,
                 false,
-//                InstancePool.getHistDataHandler(symbol)
-                InstancePool.getHistDataHandler().setSymbol(symbol)
+                new HistDataHandler(symbol)
         );
 
     }

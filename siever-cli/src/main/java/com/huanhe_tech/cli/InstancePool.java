@@ -13,7 +13,7 @@ public final class InstancePool {
     }
 
     private static String fileName = null;
-    private static final HistDataHandler histDataHandler = new HistDataHandler();
+//    private static final HistDataHandler histDataHandler = new HistDataHandler(symbol);
 
     private static class LazyLoad {
         static final AllSymbolsQueue instanceAllSymbolsQueue = new AllSymbolsQueue(200);
@@ -64,8 +64,8 @@ public final class InstancePool {
         return LazyLoad.instanceContractDetailsHandler;
     }
 
-    public static HistDataHandler getHistDataHandler() {
-        return histDataHandler;
-    }
+//    public static HistDataHandler getHistDataHandler() {
+//        return histDataHandler;
+//    }
 
 }

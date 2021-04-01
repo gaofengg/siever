@@ -20,32 +20,37 @@ public class ConsumeFilteredByTypeSymbolObj {
 
     public void takeFilteredByTypeSymbolObj() {
 
-        while (true) {
-            synchronized (reqHistoricalFlag) {
-                if (reqHistoricalFlag.getState()) {
-                    flowingSymbolObj = filtrateBySymbolTypeQueue.takeSymbolObj();
-                    reqHistoricalFlag.setState(false);
-                    System.out.println(Thread.currentThread().getName() + "Type 拿到了：" + flowingSymbolObj.toString());
-                    reqHistData();
-                    reqHistoricalFlag.notifyAll();
-                } else {
-                    System.out.println("****");
-                    try {
-                        reqHistoricalFlag.wait(3000);
-                        return;
-                    } catch (InterruptedException e) {
-                        e.printStackTrace();
-                    }
-                }
+        synchronized (reqHistoricalFlag) {
+            while (reqHistoricalFlag.getState()) {
+                flowingSymbolObj = filtrateBySymbolTypeQueue.takeSymbolObj();
+                reqHistoricalFlag.setState(false);
+                reqHistData();
+                reqHistoricalFlag.notifyAll();
+            }
+            try {
+                reqHistoricalFlag.wait();
+            } catch (InterruptedException e) {
+                e.printStackTrace();
             }
         }
 
     }
 
     public synchronized void reqHistData() {
-        InstancePool.getServiceSet().reqHistData(flowingSymbolObj, fs -> {
-            ReqData.REQ_HIST.setSymbol(fs.getSymbol()).reqHistAndHandleData();
-        });
+        synchronized (reqHistoricalFlag) {
+            if (!reqHistoricalFlag.getState()) {
+                InstancePool.getServiceSet().reqHistData(flowingSymbolObj, fs -> {
+                    ReqData.REQ_HIST.setSymbol(fs.getSymbol()).reqHistAndHandleData();
+                    reqHistoricalFlag.setState(true);
+                });
+            } else {
+                try {
+                    reqHistoricalFlag.wait();
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+            }
+        }
     }
 
 }
