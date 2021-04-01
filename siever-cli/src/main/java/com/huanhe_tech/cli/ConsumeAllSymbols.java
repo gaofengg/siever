@@ -1,43 +1,69 @@
 package com.huanhe_tech.cli;
 
-import com.huanhe_tech.cli.queue.AllFlowingSymbol;
 import com.huanhe_tech.cli.queue.AllSymbolsQueue;
-import com.huanhe_tech.handler.MGlobalSettings;
+import com.huanhe_tech.cli.queue.FlowingSymbolObj;
+import com.huanhe_tech.cli.req.ReqData;
 
 public class ConsumeAllSymbols {
     private final AllSymbolsQueue allSymbolsQueue;
-    private final MGlobalSettings mGlobalSettings = MGlobalSettings.INSTANCE;
-    private AllFlowingSymbol flowingSymbol;
+    private FlowingSymbolObj flowingSymbol;
+    private final GlobalFlags.ReqTypeFlag reqTypeFlag = GlobalFlags.ReqTypeFlag.STATE;
 
     public ConsumeAllSymbols(AllSymbolsQueue allSymbolsQueue) {
         this.allSymbolsQueue = allSymbolsQueue;
     }
 
     public void takeFlowingSymbolFormQueue() {
-        if (flowingSymbol.getId() % 200 != 0) {
-            while (InstancePool.getConnectionController().checkConnection()) {
-
-                flowingSymbol = allSymbolsQueue.takeSymbol();
-                InstancePool.getFilterServiceSet().filtrateByPrimaryExchWithNN(flowingSymbol, fs -> {
-                    new ReqContractDetailsController(fs.getSymbol()).reqContractDetails();
-                });
-                try {
-                    Thread.sleep(20);
-                } catch (InterruptedException e) {
-                    e.printStackTrace();
-                }
-            }
-        } else {
-            InstancePool.getConnectionController().disconnect();
-
-            try {
-                Thread.sleep(1000);
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
-
-            InstancePool.getMainExecutor().run();
+        InstancePool.getConnectionController().connect();
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
         }
+
+        synchronized (reqTypeFlag) {
+            do {
+                if (!InstancePool.getConnectionController().client().isConnected()) {
+                    System.out.println("重新链接 ...");
+                    reConnection();
+                }
+                if (reqTypeFlag.getState()) {
+                    flowingSymbol = allSymbolsQueue.takeSymbol();
+                    reqTypeFlag.setState(false);
+                    reqSymbolDetails();
+                    reqTypeFlag.notifyAll();
+                } else {
+                    try {
+                        reqTypeFlag.wait();
+                    } catch (InterruptedException e) {
+                        e.printStackTrace();
+                    }
+                }
+
+            } while (true);
+        }
+    }
+
+
+    public synchronized void reqSymbolDetails() {
+
+        InstancePool.getServiceSet().filtrateBy(flowingSymbol, fs ->
+                ReqData.REQ_TYPE.setSymbol(fs.getSymbol()).reqContractDetails()
+        );
+    }
+
+
+    public void reConnection() {
+        if (InstancePool.getConnectionController().client().isConnected()) {
+            InstancePool.getConnectionController().disconnect();
+        }
+        InstancePool.getConnectionController().connect();
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
     }
 
 }

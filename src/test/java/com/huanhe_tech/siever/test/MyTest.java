@@ -51,10 +51,17 @@ public class MyTest {
 //        System.out.println(ObjectPool.getAllSymbolsQueue().hashCode());
 //        System.out.println(ObjectPool.getAllSymbolsQueue().hashCode());
 
-        System.out.println(InstancePool.getProduceAllSymbols("test.txt").hashCode());
-        System.out.println(InstancePool.getProduceAllSymbols("test.txt").hashCode());
-        System.out.println(InstancePool.getProduceAllSymbols("test.txt").hashCode());
-        System.out.println(InstancePool.getProduceAllSymbols("test.txt").hashCode());
+//        System.out.println(InstancePool.getProduceAllSymbols("test.txt").hashCode());
+//        System.out.println(InstancePool.getProduceAllSymbols("test.txt").hashCode());
+//        System.out.println(InstancePool.getProduceAllSymbols("test.txt").hashCode());
+//        System.out.println(InstancePool.getProduceAllSymbols("test.txt").hashCode());
+
+        System.out.println(InstancePool.getHistDataHandler().setSymbol("").hashCode());
+        System.out.println(InstancePool.getHistDataHandler().setSymbol("").hashCode());
     }
 
+    @Test
+    public void testApi() {
+        System.out.println(GlobalFlags.ReqTypeFlag.STATE);
+    }
 }

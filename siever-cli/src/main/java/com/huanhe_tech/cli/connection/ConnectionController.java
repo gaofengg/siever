@@ -15,7 +15,6 @@ public class ConnectionController extends ApiController {
     }
 
     public void disconnect() {
-//        InstancePool.getConnectionController().disconnect();
         super.disconnect();
     }
 

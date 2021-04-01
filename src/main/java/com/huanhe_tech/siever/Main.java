@@ -1,6 +1,7 @@
 package com.huanhe_tech.siever;
 
 import com.huanhe_tech.cli.ConsumeAllSymbols;
+import com.huanhe_tech.cli.ConsumeFilteredByTypeSymbolObj;
 import com.huanhe_tech.cli.InstancePool;
 import com.huanhe_tech.cli.ProduceAllSymbols;
 import com.huanhe_tech.handler.MConnectHandler;
@@ -11,8 +12,9 @@ public class Main {
 
 
     public static void main(String[] args) {
-//        ProduceAllSymbols produceAllSymbols = InstancePool.getProduceAllSymbols("usa.txt");
-//        ConsumeAllSymbols consumeAllSymbols = InstancePool.getConsumeAllSymbols();
+        ProduceAllSymbols produceAllSymbols = InstancePool.getProduceAllSymbols("usa.txt");
+        ConsumeAllSymbols consumeAllSymbols = InstancePool.getConsumeAllSymbols();
+        ConsumeFilteredByTypeSymbolObj consumeFilteredByTypeSymbolObj = InstancePool.getConsumeFilteredByTypeSymbolObj();
 
         // 单线程测试
 //        MConnectHandler.INSTANCE.connect();
@@ -22,10 +24,9 @@ public class Main {
 
         // 多线程队列优化测试
 //        InstancePool.getConnectionController().connect();
-//        new Thread(produceAllSymbols::putFlowingSymbolsToQueue).start();
-//        new Thread(consumeAllSymbols::takeFlowingSymbolFormQueue).start();
-
-        InstancePool.getMainExecutor().run();
+        new Thread(produceAllSymbols::putFlowingSymbolsToQueue, "Get all symbol thread").start();
+        new Thread(consumeAllSymbols::takeFlowingSymbolFormQueue, "Filtrate type thread").start();
+        new Thread(consumeFilteredByTypeSymbolObj::takeFilteredByTypeSymbolObj, "Req historical date").start();
 
     }
 }
