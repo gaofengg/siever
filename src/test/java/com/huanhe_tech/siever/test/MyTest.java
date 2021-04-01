@@ -2,13 +2,16 @@ package com.huanhe_tech.siever.test;
 
 import com.huanhe_tech.cli.*;
 import com.huanhe_tech.cli.queue.AllSymbolsQueue;
+import com.ib.client.Types;
 import org.junit.jupiter.api.Test;
 
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.time.Duration;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class MyTest {
@@ -55,13 +58,10 @@ public class MyTest {
 //        System.out.println(InstancePool.getProduceAllSymbols("test.txt").hashCode());
 //        System.out.println(InstancePool.getProduceAllSymbols("test.txt").hashCode());
 //        System.out.println(InstancePool.getProduceAllSymbols("test.txt").hashCode());
-
-        System.out.println(InstancePool.getHistDataHandler().setSymbol("").hashCode());
-        System.out.println(InstancePool.getHistDataHandler().setSymbol("").hashCode());
     }
 
     @Test
     public void testApi() {
-        System.out.println(GlobalFlags.ReqTypeFlag.STATE);
+//        System.out.println(GlobalFlags.ReqTypeFlag.STATE);
     }
 }
