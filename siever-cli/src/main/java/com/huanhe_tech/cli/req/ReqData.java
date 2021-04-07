@@ -31,12 +31,14 @@ public enum ReqData {
         InstancePool.getConnectionController().reqHistoricalData(
                 ContractSet.USStockWithPrimaryExch(symbol),
                 "",
-                3,
-                Types.DurationUnit.MONTH,
+                2,
+                Types.DurationUnit.DAY,
                 Types.BarSize._1_day,
                 Types.WhatToShow.TRADES,
                 true,
                 false,
+//                new HistDataHandler(symbol)
+//                HistDataHandler.INSTANCE.setSymbol(symbol)
                 new HistDataHandler(symbol)
         );
 

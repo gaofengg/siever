@@ -1,11 +1,6 @@
 package com.huanhe_tech.siever;
 
-import com.huanhe_tech.cli.ConsumeAllSymbols;
-import com.huanhe_tech.cli.ConsumeFilteredByTypeSymbolObj;
-import com.huanhe_tech.cli.InstancePool;
-import com.huanhe_tech.cli.ProduceAllSymbols;
-import com.huanhe_tech.handler.MConnectHandler;
-import com.huanhe_tech.handler.MIterator;
+import com.huanhe_tech.cli.*;
 
 public class Main {
 //    private final static MGlobalSettings mGlobalSettings = MGlobalSettings.INSTANCE;
@@ -26,7 +21,10 @@ public class Main {
 //        InstancePool.getConnectionController().connect();
         new Thread(produceAllSymbols::putFlowingSymbolsToQueue, "Get all symbol thread").start();
         new Thread(consumeAllSymbols::takeFlowingSymbolFormQueue, "Filtrate type thread").start();
-        new Thread(consumeFilteredByTypeSymbolObj::takeFilteredByTypeSymbolObj, "Req historical date").start();
+        new Thread(consumeFilteredByTypeSymbolObj::takeFilteredByTypeSymbolObj, "Req historical date thread").start();
+        new Thread(() -> {
+            new HistDataAnalyzerAndHandler().getHistDataFromQueue();
+        }).start();
 
     }
 }

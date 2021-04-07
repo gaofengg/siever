@@ -4,6 +4,7 @@ import com.huanhe_tech.cli.connection.ConnectionController;
 import com.huanhe_tech.cli.connection.ConnectionHandler;
 import com.huanhe_tech.cli.queue.AllSymbolsQueue;
 import com.huanhe_tech.cli.queue.FiltrateBySymbolTypeQueue;
+import com.huanhe_tech.cli.queue.HistDataQueue;
 import com.huanhe_tech.cli.req.ContractDetailsHandler;
 import com.huanhe_tech.cli.req.HistDataHandler;
 
@@ -25,6 +26,7 @@ public final class InstancePool {
         static final ConnectionHandler instanceConnectionHandler = new ConnectionHandler();
         static final ConnectionController instanceConnectionController = new ConnectionController(instanceConnectionHandler, instanceConnectionHandler.m_inLogger, instanceConnectionHandler.m_outLogger);
         static final ContractDetailsHandler instanceContractDetailsHandler = new ContractDetailsHandler();
+        static final HistDataQueue instanceHistDataQueue = new HistDataQueue(200);
     }
 
     public static AllSymbolsQueue getAllSymbolsQueue() {
@@ -68,4 +70,7 @@ public final class InstancePool {
 //        return histDataHandler;
 //    }
 
+    public static HistDataQueue getHistDataQueue() {
+        return LazyLoad.instanceHistDataQueue;
+    }
 }
