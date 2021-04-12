@@ -24,10 +24,10 @@ public class MyTest {
 
     @Test
     public void bilibili() {
-        Path path = Paths.get("/Users/gaofeng/Downloads/bibi/bilibili.txt");
+        Path path = Paths.get("/Users/gaofeng/Downloads/bilibili/bilibili.txt");
         List<String> list = new ArrayList<>();
-        for (int i = 1; i < 282; i++) {
-            list.add("https://www.bilibili.com/video/BV16J411h7Rd?p=" + i);
+        for (int i = 1; i <= 57 ; i++) {
+            list.add("https://www.bilibili.com/video/BV1eJ411c7rf?p=" + i);
         }
         try {
             Files.write(path, list);

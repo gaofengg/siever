@@ -1,6 +1,5 @@
-package com.huanhe_tech.cli.DAO;
+package com.huanhe_tech.siever.utils;
 
-import com.huanhe_tech.siever.utils.LoadReSrc;
 import org.apache.commons.configuration2.Configuration;
 import org.apache.commons.configuration2.builder.fluent.Configurations;
 import org.apache.commons.configuration2.ex.ConfigurationException;
@@ -9,16 +8,21 @@ import java.io.File;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
+import java.sql.Statement;
 
-public class DbConnection {
-    public void connectionToDao() {
+public class JdbcConnection {
+    /**
+     *  链接数据库的方法
+     * @return con 返回一个 Connection
+     */
+    public static Connection jdbcConnect() {
         Configurations configs = new Configurations();
         Configuration config = null;
+        Connection con = null;
 
         // 读取配置文件
         try {
             config = configs.properties(new File(new LoadReSrc("resources", "conf/jdbc_connection_conf.properties").getUri()));
-            System.out.println(config.getString("sqlite_driver"));
         } catch (ConfigurationException e) {
             e.printStackTrace();
             System.out.println("配置文件加载失败。");
@@ -35,7 +39,7 @@ public class DbConnection {
 
             // 获取链接
             try {
-                Connection con = DriverManager.getConnection(config.getString("url"));
+                con = DriverManager.getConnection(config.getString("url"));
                 System.out.println(con);
             } catch (SQLException throwables) {
                 throwables.printStackTrace();
@@ -45,6 +49,29 @@ public class DbConnection {
             System.out.println("配置文件读取失败。");
         }
 
+        return con;
+
+    }
+
+    /**
+     *  断开数据库资源连接
+     * @param con Connection
+     * @param statement PreparedStatement
+     */
+    public static void jdbcClose(Connection con, Statement statement) {
+        try {
+            if (statement != null)
+                statement.close();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+
+        try {
+            if (con != null)
+                con.close();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
     }
 
 }
