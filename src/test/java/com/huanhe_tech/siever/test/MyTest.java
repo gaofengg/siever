@@ -6,6 +6,7 @@ import com.ib.client.Types;
 import org.junit.jupiter.api.Test;
 
 import java.io.IOException;
+import java.io.InputStream;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
@@ -13,6 +14,7 @@ import java.time.Duration;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Properties;
 
 public class MyTest {
 
@@ -63,5 +65,12 @@ public class MyTest {
     @Test
     public void testApi() {
 //        System.out.println(GlobalFlags.ReqTypeFlag.STATE);
+        System.out.println("aaa");
     }
+
+    @Test
+    public void aab() {
+        System.out.println("aab");
+    }
+
 }

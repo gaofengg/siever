@@ -2,6 +2,7 @@ package com.huanhe_tech.cli;
 
 import com.huanhe_tech.cli.queue.AllFlowingSymbol;
 import com.huanhe_tech.cli.queue.AllSymbolsQueue;
+import com.huanhe_tech.siever.utils.LoadReSrc;
 
 import java.io.IOException;
 import java.nio.charset.Charset;
@@ -24,9 +25,10 @@ public class ProduceAllSymbols {
     public ProduceAllSymbols(String fileName, AllSymbolsQueue allSymbolsQueue) {
         this.allSymbolsQueue = allSymbolsQueue;
 
-        String projectDir = System.getProperty("user.dir");
-        String assetsDir = projectDir + "/assets";
-        symbolListFilePath = Paths.get(assetsDir + "/" + fileName);
+//        String projectDir = System.getProperty("user.dir");
+//        String assetsDir = projectDir + "/resources";
+//        symbolListFilePath = Paths.get(assetsDir + "/" + fileName);
+        symbolListFilePath = Paths.get(new LoadReSrc("resources", fileName).getUri());
     }
 
     public void putFlowingSymbolsToQueue() {

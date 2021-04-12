@@ -2,7 +2,7 @@ package com.huanhe_tech.cli;
 
 import com.huanhe_tech.cli.queue.HistDataObjForIn;
 
-public class HistDataAnalyzerAndHandler {
+public class ConsumeHistData {
 
     public void getHistDataFromQueue() {
         try {

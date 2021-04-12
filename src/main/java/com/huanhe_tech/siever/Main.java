@@ -3,28 +3,20 @@ package com.huanhe_tech.siever;
 import com.huanhe_tech.cli.*;
 
 public class Main {
-//    private final static MGlobalSettings mGlobalSettings = MGlobalSettings.INSTANCE;
-
-
     public static void main(String[] args) {
-        ProduceAllSymbols produceAllSymbols = InstancePool.getProduceAllSymbols("usa.txt");
+        ProduceAllSymbols produceAllSymbols = InstancePool.getProduceAllSymbols("test.txt");
         ConsumeAllSymbols consumeAllSymbols = InstancePool.getConsumeAllSymbols();
         ConsumeFilteredByTypeSymbolObj consumeFilteredByTypeSymbolObj = InstancePool.getConsumeFilteredByTypeSymbolObj();
 
-        // 单线程测试
-//        MConnectHandler.INSTANCE.connect();
-//        MIterator mIterator = new MIterator();
-//        mIterator.getSymbolFromFile();
-
-
-        // 多线程队列优化测试
-//        InstancePool.getConnectionController().connect();
+        // 从本地文件读取 symbol，生成数据对象，put 到队列
         new Thread(produceAllSymbols::putFlowingSymbolsToQueue, "Get all symbol thread").start();
+        // 从前序队列取出对象数据, 并将处理后的数据 put到新的队列
         new Thread(consumeAllSymbols::takeFlowingSymbolFormQueue, "Filtrate type thread").start();
-        new Thread(consumeFilteredByTypeSymbolObj::takeFilteredByTypeSymbolObj, "Req historical date thread").start();
-        new Thread(() -> {
-            new HistDataAnalyzerAndHandler().getHistDataFromQueue();
-        }).start();
+        // 从前序队列取出对象数据
+//        new Thread(consumeFilteredByTypeSymbolObj::takeFilteredByTypeSymbolObj, "Req historical date thread").start();
+//        new Thread(() -> {
+//            new HistDataAnalyzerAndHandler().getHistDataFromQueue();
+//        }).start();
 
     }
 }
