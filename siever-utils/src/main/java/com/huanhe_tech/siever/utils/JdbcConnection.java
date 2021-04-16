@@ -4,7 +4,6 @@ import org.apache.commons.configuration2.Configuration;
 import org.apache.commons.configuration2.builder.fluent.Configurations;
 import org.apache.commons.configuration2.ex.ConfigurationException;
 
-import java.io.File;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
@@ -18,11 +17,11 @@ public class JdbcConnection {
     public static Connection jdbcConnect() {
         Configurations configs = new Configurations();
         Configuration config = null;
-        Connection con = null;
+        Connection conn = null;
 
         // 读取配置文件
         try {
-            config = configs.properties(new File(new LoadReSrc("resources", "conf/jdbc_connection_conf.properties").getUri()));
+            config = configs.properties(new LoadReSrc("resources", "conf/jdbc_connection_conf.properties").getUri());
         } catch (ConfigurationException e) {
             e.printStackTrace();
             System.out.println("配置文件加载失败。");
@@ -39,8 +38,8 @@ public class JdbcConnection {
 
             // 获取链接
             try {
-                con = DriverManager.getConnection(config.getString("url"));
-                System.out.println(con);
+                conn = DriverManager.getConnection(config.getString("url"));
+                System.out.println(conn);
             } catch (SQLException throwables) {
                 throwables.printStackTrace();
                 System.out.println("未找到相关数据库。");
@@ -49,16 +48,16 @@ public class JdbcConnection {
             System.out.println("配置文件读取失败。");
         }
 
-        return con;
+        return conn;
 
     }
 
     /**
      *  断开数据库资源连接
-     * @param con Connection
+     * @param conn Connection
      * @param statement PreparedStatement
      */
-    public static void jdbcClose(Connection con, Statement statement) {
+    public static void jdbcClose(Connection conn, Statement statement) {
         try {
             if (statement != null)
                 statement.close();
@@ -67,8 +66,8 @@ public class JdbcConnection {
         }
 
         try {
-            if (con != null)
-                con.close();
+            if (conn != null)
+                conn.close();
         } catch (SQLException e) {
             e.printStackTrace();
         }
