@@ -11,12 +11,12 @@ import java.util.List;
 
 public class HistDataHandler implements ApiController.IHistoricalDataHandler {
     private final String symbol;
-    private final int conid;
-    private static volatile int dataId; // listOfHistDataIn 里的 id
+    private final long conid;
+    private volatile int dataId; // listOfHistDataIn 里的 id
     private static volatile int objectId; // 加入到 queue 里的 id
     List<HistDataTemplate> listOfHistDataIn = new ArrayList<>();
 
-    public HistDataHandler(String symbol, int conid) {
+    public HistDataHandler(String symbol, long conid) {
         this.symbol = symbol;
         this.conid = conid;
     }
@@ -42,8 +42,7 @@ public class HistDataHandler implements ApiController.IHistoricalDataHandler {
 
     @Override
     public void historicalDataEnd() {
-//        System.out.println("\nExtraction Finish!" + symbol + nextDataId());
-//        HistDataHandler.dataId = 0;
+//        System.out.println("\nExtraction Finish!\t" + symbol);
 
         HistDataObjForIn histDataObjForIn = new HistDataObjForIn(nextObjectId(), conid, listOfHistDataIn);
 

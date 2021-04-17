@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="symbols_index.sqlite" uuid="724a5b8a-2c5e-48e1-808d-c2be138df380">
+    <data-source source="LOCAL" name="NN_hist" uuid="93e4f1e4-d43e-4a6c-ad87-4e4de56f4100">
       <driver-ref>sqlite.xerial</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
-      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/resources/db/symbol_index.db</jdbc-url>
+      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/resources/db/NN_hist.db</jdbc-url>
+      <libraries>
+        <library>
+          <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/Xerial SQLiteJDBC/3.34.0/sqlite-jdbc-3.34.0.jar</url>
+        </library>
+      </libraries>
     </data-source>
   </component>
 </project>

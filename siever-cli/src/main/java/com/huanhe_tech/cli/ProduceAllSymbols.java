@@ -25,9 +25,6 @@ public class ProduceAllSymbols {
     public ProduceAllSymbols(String fileName, AllSymbolsQueue allSymbolsQueue) {
         this.allSymbolsQueue = allSymbolsQueue;
 
-//        String projectDir = System.getProperty("user.dir");
-//        String assetsDir = projectDir + "/resources";
-//        symbolListFilePath = Paths.get(assetsDir + "/" + fileName);
         symbolListFilePath = Paths.get(new LoadReSrc("resources", fileName).getUri());
     }
 
@@ -40,7 +37,6 @@ public class ProduceAllSymbols {
                                 line = line.substring(0, line.indexOf("|"));
                                 AllFlowingSymbol flowingSymbol = new AllFlowingSymbol(nextId(), line);
                                 allSymbolsQueue.putSymbol(flowingSymbol);
-//                                System.out.println(flowingSymbol.getSymbol() + "存入队列");
                             }
                         }
                 );

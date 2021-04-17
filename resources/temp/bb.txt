@@ -1,101 +1,23 @@
-0: A
-1: AA
-2: AAC U
-3: AACG
-4: AACQ
-5: AACQU
-6: AAIC
-7: AAIC PRB
-8: AAIC PRC
-9: AAL
-10: AAME
-11: AAN
-12: AAOI
-13: AAON
-14: AAP
-15: AAPL
-16: AAT
-17: AAWW
-18: AAXJ
-19: AB
-20: ABB
-21: ABBV
-22: ABC
-23: ABCB
-24: ABCL
-25: ABCM
-26: ABEO
-27: ABEV
-28: ABG
-29: ABGI
-30: ABIO
-31: ABM
-32: ABMD
-33: ABNB
-34: ABR
-35: ABR PRA
-36: ABR PRB
-37: ABR PRC
-38: ABST
-39: ABT
-40: ABTX
-41: ABUS
-42: AC
-43: ACA
-44: ACAC
-45: ACACU
-46: ACAD
-47: ACAHU
-48: ACB
-49: ACBI
-50: ACC
-51: ACCD
-52: ACCO
-53: ACEL
-54: ACER
-55: ACET
-56: ACEV
-57: ACEVU
-58: ACGL
-59: ACGLO
-60: ACGLP
-61: ACH
-62: ACHC
-63: ACHV
-64: ACI
-65: ACIC
-66: ACIC U
-67: ACII U
-68: ACIU
-69: ACIW
-70: ACKIT
-71: ACKIU
-72: ACLS
-73: ACM
-74: ACMR
-75: ACN
-76: ACNB
-77: ACND
-78: ACND U
-79: ACOR
-80: ACP
-81: ACQRU
-82: ACR
-83: ACR PRC
-84: ACRE
-85: ACRS
-86: ACRX
-87: ACST
-88: ACTG
-89: ACV
-90: ACWI
-91: ACWX
-92: ADAG
-93: ADAP
-94: ADBE
-95: ADC
-96: ADCT
-97: ADER
-98: ADERU
-99: ADES
-100: ADEX
+HistDataObjForIn{id=0, conid ='69259320', list=[HistFlowingSymbol{time='2021-04-15 00:00:00', conid= 69259320, id=0, symbol=AAIC, open=4.01, high=4.0352, low=3.95, close=3.98, volume=1317, wap=3.987175, count=531}, HistFlowingSymbol{time='2021-04-16 00:00:00', conid= 69259320, id=1, symbol=AAIC, open=4.03, high=4.08, low=3.95, close=4.07, volume=2269, wap=4.04349, count=837}]}
+HistDataObjForIn{id=1, conid ='276016743', list=[HistFlowingSymbol{time='2021-04-15 00:00:00', conid= 276016743, id=2, symbol=AAIC PRB, open=23.9, high=23.92, low=23.9, close=23.9, volume=9, wap=23.906, count=6}, HistFlowingSymbol{time='2021-04-16 00:00:00', conid= 276016743, id=3, symbol=AAIC PRB, open=23.9, high=23.9, low=23.9, close=23.9, volume=0, wap=23.9, count=0}]}
+HistDataObjForIn{id=2, conid ='356101385', list=[HistFlowingSymbol{time='2021-04-15 00:00:00', conid= 356101385, id=4, symbol=AAIC PRC, open=23.8, high=23.8, low=23.57, close=23.57, volume=56, wap=23.7285, count=34}, HistFlowingSymbol{time='2021-04-16 00:00:00', conid= 356101385, id=5, symbol=AAIC PRC, open=23.8, high=23.8, low=23.72, close=23.795, volume=30, wap=23.792, count=16}]}
+HistDataObjForIn{id=3, conid ='139673266', list=[HistFlowingSymbol{time='2021-04-15 00:00:00', conid= 139673266, id=6, symbol=AAL, open=22.65, high=22.67, low=21.69, close=22.13, volume=294445, wap=22.0295, count=88756}, HistFlowingSymbol{time='2021-04-16 00:00:00', conid= 139673266, id=7, symbol=AAL, open=22.06, high=22.36, low=21.87, close=22.03, volume=217332, wap=22.029, count=67477}]}
+HistDataObjForIn{id=4, conid ='265585', list=[HistFlowingSymbol{time='2021-04-15 00:00:00', conid= 265585, id=8, symbol=AAME, open=3.68, high=3.7, low=3.47, close=3.55, volume=1112, wap=3.614905, count=423}, HistFlowingSymbol{time='2021-04-16 00:00:00', conid= 265585, id=9, symbol=AAME, open=3.58, high=3.96, low=3.5, close=3.7, volume=5106, wap=3.692065, count=970}]}
+HistDataObjForIn{id=5, conid ='135423662', list=[HistFlowingSymbol{time='2021-04-15 00:00:00', conid= 135423662, id=10, symbol=AAOI, open=8.35, high=8.35, low=7.8, close=7.88, volume=6151, wap=7.9465, count=2623}, HistFlowingSymbol{time='2021-04-16 00:00:00', conid= 135423662, id=11, symbol=AAOI, open=7.9, high=7.96, low=7.68, close=7.89, volume=3166, wap=7.8475, count=1631}]}
+HistDataObjForIn{id=6, conid ='455975127', list=[HistFlowingSymbol{time='2021-04-15 00:00:00', conid= 455975127, id=12, symbol=AAN, open=25.02, high=25.16, low=24.55, close=24.91, volume=825, wap=24.8845, count=602}, HistFlowingSymbol{time='2021-04-16 00:00:00', conid= 455975127, id=13, symbol=AAN, open=25.0, high=25.57, low=24.6, close=25.54, volume=1281, wap=25.1925, count=954}]}
+HistDataObjForIn{id=7, conid ='265595', list=[HistFlowingSymbol{time='2021-04-15 00:00:00', conid= 265595, id=14, symbol=AAON, open=69.38, high=70.01, low=68.76, close=69.68, volume=513, wap=69.725, count=443}, HistFlowingSymbol{time='2021-04-16 00:00:00', conid= 265595, id=15, symbol=AAON, open=69.97, high=70.0, low=69.17, close=69.51, volume=287, wap=69.725, count=215}]}
+HistDataObjForIn{id=8, conid ='4027', list=[HistFlowingSymbol{time='2021-04-15 00:00:00', conid= 4027, id=16, symbol=AAP, open=188.29, high=190.2, low=188.09, close=189.46, volume=3430, wap=189.042, count=2649}, HistFlowingSymbol{time='2021-04-16 00:00:00', conid= 4027, id=17, symbol=AAP, open=191.28, high=193.17, low=190.55, close=192.92, volume=3905, wap=192.216, count=2822}]}
+HistDataObjForIn{id=9, conid ='265598', list=[HistFlowingSymbol{time='2021-04-15 00:00:00', conid= 265598, id=18, symbol=AAPL, open=133.85, high=135.0, low=133.64, close=134.5, volume=660908, wap=134.391, count=274830}, HistFlowingSymbol{time='2021-04-16 00:00:00', conid= 265598, id=19, symbol=AAPL, open=134.3, high=134.67, low=133.28, close=134.16, volume=602073, wap=134.001, count=229818}]}
+HistFlowingSymbol{
+id=0, primary key
+time='2021-04-15 00:00:00', 不能重复
+symbol=AAIC,
+conid= 69259320,
+open=4.01,
+high=4.0352,
+low=3.95,
+close=3.98,
+volume=1317,
+wap=3.987175,
+count=531
+}

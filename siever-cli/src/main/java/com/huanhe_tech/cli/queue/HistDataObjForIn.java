@@ -12,10 +12,10 @@ import java.util.List;
 
 public class HistDataObjForIn {
     private final int id;
-    private final int conid;
+    private final long conid;
     private final List<HistDataTemplate> list;
 
-    public HistDataObjForIn(int id, int conid, List<HistDataTemplate> list) {
+    public HistDataObjForIn(int id, long conid, List<HistDataTemplate> list) {
         this.id = id;
         this.conid = conid;
         this.list = list;
@@ -25,7 +25,7 @@ public class HistDataObjForIn {
         return id;
     }
 
-    public int getConid() {
+    public long getConid() {
         return conid;
     }
 

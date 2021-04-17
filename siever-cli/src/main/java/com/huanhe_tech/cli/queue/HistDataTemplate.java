@@ -9,7 +9,7 @@ package com.huanhe_tech.cli.queue;
  *
  */
 public class HistDataTemplate extends FlowingSymbolObj{
-    private final int conid;
+    private final long conid;
     private final String time;
     private final double open;
     private final double high;
@@ -19,7 +19,7 @@ public class HistDataTemplate extends FlowingSymbolObj{
     private final double wap;
     private final int count;
 
-    public HistDataTemplate(int id, String symbol, int conid, String time, double open, double high, double low, double close, long volume, double wap, int count) {
+    public HistDataTemplate(int id, String symbol, long conid, String time, double open, double high, double low, double close, long volume, double wap, int count) {
         super(id, symbol);
         this.conid = conid;
         this.time = time;
@@ -32,7 +32,7 @@ public class HistDataTemplate extends FlowingSymbolObj{
         this.count = count;
     }
 
-    public int getConid() {
+    public long getConid() {
         return conid;
     }
 
@@ -70,7 +70,7 @@ public class HistDataTemplate extends FlowingSymbolObj{
 
     @Override
     public String toString() {
-        return "HistFlowingSymbol{" +
+        return "HistDataTemplate{" +
 
                 "time='" + time + '\'' +
                 ", conid= " + conid +
