@@ -1,7 +1,14 @@
 package com.huanhe_tech.cli.queue;
 
 final public class FilteredByTypeFlowingSymbol extends FlowingSymbolObj{
-    public FilteredByTypeFlowingSymbol(int id, String symbol) {
+    private final int conid;
+
+    public FilteredByTypeFlowingSymbol(int id, String symbol, int conid) {
         super(id, symbol);
+        this.conid = conid;
+    }
+
+    public int getConid() {
+        return conid;
     }
 }

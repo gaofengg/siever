@@ -1,5 +1,6 @@
 package com.huanhe_tech.cli;
 
+import com.huanhe_tech.cli.queue.FilteredByTypeFlowingSymbol;
 import com.huanhe_tech.cli.queue.FiltrateBySymbolTypeQueue;
 import com.huanhe_tech.cli.queue.FlowingSymbolObj;
 import com.huanhe_tech.cli.req.HistDataHandler;
@@ -11,7 +12,7 @@ import java.util.stream.Stream;
 
 public class ConsumeFilteredByTypeSymbolObj {
     private final FiltrateBySymbolTypeQueue filtrateBySymbolTypeQueue;
-    private FlowingSymbolObj flowingSymbolObj;
+    private FilteredByTypeFlowingSymbol flowingSymbolObj;
     private final GlobalFlags.ReqHistoricalFlag reqHistoricalFlag = GlobalFlags.ReqHistoricalFlag.STATE;
 
     public ConsumeFilteredByTypeSymbolObj(FiltrateBySymbolTypeQueue filtrateBySymbolTypeQueue) {
@@ -40,7 +41,7 @@ public class ConsumeFilteredByTypeSymbolObj {
         synchronized (reqHistoricalFlag) {
             if (!reqHistoricalFlag.getState()) {
                 InstancePool.getServiceSet().reqHistData(flowingSymbolObj, fs -> {
-                    ReqData.REQ_HIST.setSymbol(fs.getSymbol()).reqHistAndHandleData();
+                    ReqData.REQ_HIST.setSymbol(fs.getSymbol()).setConid(fs.getConid()).reqHistAndHandleData();
                     reqHistoricalFlag.setState(true);
                 });
             } else {

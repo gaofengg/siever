@@ -1,5 +1,6 @@
 package com.huanhe_tech.cli;
 
+import com.huanhe_tech.cli.queue.FilteredByTypeFlowingSymbol;
 import com.huanhe_tech.cli.queue.FlowingSymbolObj;
 import com.ib.client.Bar;
 
@@ -13,7 +14,7 @@ public class ServiceSet {
         consumer.accept(flowingSymbolObjSub);
     }
 
-    public void reqHistData(FlowingSymbolObj flowingSymbolObj, Consumer<FlowingSymbolObj> consumer) {
+    public void reqHistData(FilteredByTypeFlowingSymbol flowingSymbolObj, Consumer<FilteredByTypeFlowingSymbol> consumer) {
         consumer.accept(flowingSymbolObj);
     }
 

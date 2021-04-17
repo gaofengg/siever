@@ -12,12 +12,12 @@ import java.util.List;
 
 public class HistDataObjForIn {
     private final int id;
-    private final String symbol;
+    private final int conid;
     private final List<HistDataTemplate> list;
 
-    public HistDataObjForIn(int id, String symbol, List<HistDataTemplate> list) {
+    public HistDataObjForIn(int id, int conid, List<HistDataTemplate> list) {
         this.id = id;
-        this.symbol = symbol;
+        this.conid = conid;
         this.list = list;
     }
 
@@ -25,8 +25,8 @@ public class HistDataObjForIn {
         return id;
     }
 
-    public String getSymbol() {
-        return symbol;
+    public int getConid() {
+        return conid;
     }
 
     public List<HistDataTemplate> getList() {
@@ -37,7 +37,7 @@ public class HistDataObjForIn {
     public String toString() {
         return "HistDataObjForIn{" +
                 "id=" + id +
-                ", symbol='" + symbol + '\'' +
+                ", conid ='" + conid + '\'' +
                 ", list=" + list +
                 '}';
     }

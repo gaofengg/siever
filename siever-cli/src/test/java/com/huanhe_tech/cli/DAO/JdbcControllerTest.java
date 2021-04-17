@@ -1,6 +1,5 @@
 package com.huanhe_tech.cli.DAO;
 
-//import com.alibaba.druid.pool.DruidDataSourceFactory;
 import com.alibaba.druid.pool.DruidDataSourceFactory;
 import com.huanhe_tech.siever.utils.IJdbcUtils;
 import org.apache.commons.dbutils.QueryRunner;
@@ -41,5 +40,10 @@ class JdbcControllerTest {
     @Test
     public void test03() {
         System.out.println(System.getProperty("user.dir"));
+    }
+
+    @Test
+    public void test04() {
+        new JdbcController().queryOne();
     }
 }

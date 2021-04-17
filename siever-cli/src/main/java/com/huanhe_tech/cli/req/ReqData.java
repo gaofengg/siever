@@ -6,17 +6,24 @@ import com.huanhe_tech.cli.InstancePool;
 import com.ib.client.Types;
 
 public enum ReqData {
-    REQ_TYPE(null),
-    REQ_HIST(null);
+    REQ_TYPE(null, 0),
+    REQ_HIST(null, 0);
 
     private String symbol;
+    private int conid;
 
-    ReqData(String symbol) {
+    ReqData(String symbol, int conid) {
         this.symbol = symbol;
+        this.conid = conid;
     }
 
     public ReqData setSymbol(String symbol) {
         this.symbol = symbol;
+        return ReqData.this;
+    }
+
+    public ReqData setConid(int conid) {
+        this.conid = conid;
         return ReqData.this;
     }
 
@@ -37,9 +44,7 @@ public enum ReqData {
                 Types.WhatToShow.TRADES,
                 true,
                 false,
-//                new HistDataHandler(symbol)
-//                HistDataHandler.INSTANCE.setSymbol(symbol)
-                new HistDataHandler(symbol)
+                new HistDataHandler(symbol, conid)
         );
 
     }

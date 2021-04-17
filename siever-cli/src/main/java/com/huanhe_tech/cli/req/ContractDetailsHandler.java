@@ -22,9 +22,8 @@ public class ContractDetailsHandler implements ApiController.IContractDetailsHan
                     String s = item.contract().primaryExch();
                     boolean b = s.contains("NASDAQ") || s.contains("NYSE");
                     if (b) {
-//                        FilteredByTypeFlowingSymbol filteredByTypeFlowingSymbol = new FilteredByTypeFlowingSymbol(nextId(), item.contract().symbol());
-//                        InstancePool.getFiltrateBySymbolTypeQueue().putSymbolObj(filteredByTypeFlowingSymbol);
-                        System.out.println(item.conid());
+                        FilteredByTypeFlowingSymbol filteredByTypeFlowingSymbol = new FilteredByTypeFlowingSymbol(nextId(), item.contract().symbol(), item.contract().conid());
+                        InstancePool.getFiltrateBySymbolTypeQueue().putSymbolObj(filteredByTypeFlowingSymbol);
                     }
                     return b;
                 });

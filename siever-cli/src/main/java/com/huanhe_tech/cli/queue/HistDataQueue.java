@@ -1,5 +1,8 @@
 package com.huanhe_tech.cli.queue;
 
+
+import org.jetbrains.annotations.NotNull;
+
 import java.util.concurrent.ArrayBlockingQueue;
 
 public class HistDataQueue extends ArrayBlockingQueue<HistDataObjForIn> {

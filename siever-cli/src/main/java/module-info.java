@@ -6,6 +6,7 @@ module siever.cli{
     requires java.naming;
     requires druid;
     requires commons.dbutils;
+    requires org.jetbrains.annotations;
     exports com.huanhe_tech.cli;
     exports com.huanhe_tech.cli.DAO;
     exports com.huanhe_tech.cli.connection;

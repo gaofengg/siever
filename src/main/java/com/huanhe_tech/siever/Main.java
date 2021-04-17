@@ -10,14 +10,14 @@ public class Main {
         ConsumeFilteredByTypeSymbolObj consumeFilteredByTypeSymbolObj = InstancePool.getConsumeFilteredByTypeSymbolObj();
 
         // 从本地文件读取 symbol，生成数据对象，put 到队列
-//        new Thread(produceAllSymbols::putFlowingSymbolsToQueue, "Get all symbol thread").start();
+        new Thread(produceAllSymbols::putFlowingSymbolsToQueue, "Get all symbol thread").start();
         // 从前序队列取出对象数据, 并将处理后的数据 put到新的队列
-//        new Thread(consumeAllSymbols::takeFlowingSymbolFormQueue, "Filtrate type thread").start();
+        new Thread(consumeAllSymbols::takeFlowingSymbolFormQueue, "Filtrate type thread").start();
         // 从前序队列取出对象数据
-//        new Thread(consumeFilteredByTypeSymbolObj::takeFilteredByTypeSymbolObj, "Req historical date thread").start();
-//        new Thread(() -> {
-//            new HistDataAnalyzerAndHandler().getHistDataFromQueue();
-//        }).start();
+        new Thread(consumeFilteredByTypeSymbolObj::takeFilteredByTypeSymbolObj, "Req historical date thread").start();
+        new Thread(() -> {
+            new ConsumeHistData().getHistDataFromQueue();
+        }).start();
 
     }
 }

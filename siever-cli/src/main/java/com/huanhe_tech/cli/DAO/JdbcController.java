@@ -2,9 +2,13 @@ package com.huanhe_tech.cli.DAO;
 
 import com.huanhe_tech.siever.utils.*;
 import org.apache.commons.dbutils.QueryRunner;
+import org.apache.commons.dbutils.handlers.BeanHandler;
+import org.apache.commons.dbutils.handlers.BeanListHandler;
 
 import java.sql.Connection;
 import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
 
 public class JdbcController {
 //    public static void main(String[] args) throws IOException, SQLException {
@@ -60,6 +64,39 @@ public class JdbcController {
         } finally {
             IJdbcUtils.closeResource(conn, null);
         }
+    }
+
+    public void queryOne(){
+        Connection conn = null;
+        try {
+            QueryRunner qr = new QueryRunner();
+            conn = IJdbcUtils.getConnection();
+            BeanHandler<SymbolsList> bh = new BeanHandler<>(SymbolsList.class);
+            String sql = "select id, conid from symbols_list_tbl where id = ?";
+            SymbolsList symbolsList = qr.query(conn, sql, bh, 4);
+            System.out.println(symbolsList);
+        } catch (SQLException throwables) {
+            throwables.printStackTrace();
+        } finally {
+            IJdbcUtils.closeResource(conn, null);
+        }
+    }
+
+    public void multiQuery(int id) {
+        Connection conn = null;
+        try {
+            QueryRunner qr = new QueryRunner();
+            conn = IJdbcUtils.getConnection();
+            BeanListHandler<SymbolsList> blh = new BeanListHandler<>(SymbolsList.class);
+            String sql = "select id, conid from symbols_list_tbl where id < ?";
+            List<SymbolsList> symbolsLists = qr.query(conn, sql, blh, id);
+            symbolsLists.forEach(System.out::println);
+        } catch (SQLException throwables) {
+            throwables.printStackTrace();
+        } finally {
+            IJdbcUtils.closeResource(conn, null);
+        }
+
     }
 }
 
