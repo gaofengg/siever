@@ -15,14 +15,12 @@ import com.ib.client.Types;
 
 public enum ReqData {
     REQ_TYPE(null, 0),
-    REQ_HIST(null, 0);
-
-    static {
-
-    }
+    REQ_HIST(null, 0),
+    INSTANCE(null,0);
 
     private String symbol;
     private long conid;
+    private int intervalDays;
 
     ReqData(String symbol, long conid) {
         this.symbol = symbol;
@@ -39,6 +37,10 @@ public enum ReqData {
         return ReqData.this;
     }
 
+    public void setIntervalDays(int intervalDays) {
+        this.intervalDays = intervalDays;
+    }
+
     public void reqContractDetails() {
         InstancePool.getConnectionController().reqContractDetails(
                 ContractWithSTK.NNContractForReqDetails(symbol),
@@ -50,7 +52,7 @@ public enum ReqData {
         InstancePool.getConnectionController().reqHistoricalData(
                 ContractSet.USStockWithPrimaryExch(symbol),
                 "",
-                2,
+                intervalDays,
                 Types.DurationUnit.DAY,
                 Types.BarSize._1_day,
                 Types.WhatToShow.TRADES,

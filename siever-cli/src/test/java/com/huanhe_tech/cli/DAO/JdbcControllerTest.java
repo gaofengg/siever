@@ -7,6 +7,10 @@ import org.junit.jupiter.api.Test;
 
 import java.sql.Connection;
 import java.sql.SQLException;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.time.*;
+import java.util.Date;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -43,7 +47,22 @@ class JdbcControllerTest {
     }
 
     @Test
-    public void test04() {
-        new JdbcController().queryOne();
+    public void test04() throws ParseException {
+        ZonedDateTime zdt = Instant.now().atZone(ZoneId.of("GMT-4"));
+        LocalDate lastDate = LocalDate.parse("2021-04-16");
+        LocalDate nowDate = LocalDate.now(ZoneId.of("GMT-4"));
+        int i = lastDate.compareTo(nowDate);
+        System.out.println(i);
+
+    }
+
+    @Test
+    public void test05() {
+        LocalDateTime now = LocalDateTime.now(ZoneId.of("GMT-4"));
+        System.out.println("now: " + now);
+//        LocalDate tomorrow = now.plusDays(1);
+//        System.out.println(tomorrow);
+        System.out.println(now.getDayOfWeek().getValue());
+
     }
 }
