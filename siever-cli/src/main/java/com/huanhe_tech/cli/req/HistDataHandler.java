@@ -2,7 +2,7 @@ package com.huanhe_tech.cli.req;
 
 import com.huanhe_tech.cli.InstancePool;
 import com.huanhe_tech.cli.queue.HistDataObjForIn;
-import com.huanhe_tech.cli.queue.HistDataTemplate;
+import com.huanhe_tech.cli.beans.BeanOfHistData;
 import com.ib.controller.ApiController;
 import com.ib.controller.Bar;
 
@@ -14,7 +14,7 @@ public class HistDataHandler implements ApiController.IHistoricalDataHandler {
     private final long conid;
     private volatile int dataId; // listOfHistDataIn 里的 id
     private static volatile int objectId; // 加入到 queue 里的 id
-    List<HistDataTemplate> listOfHistDataIn = new ArrayList<>();
+    List<BeanOfHistData> listOfHistDataIn = new ArrayList<>();
 
     public HistDataHandler(String symbol, long conid) {
         this.symbol = symbol;
@@ -23,7 +23,7 @@ public class HistDataHandler implements ApiController.IHistoricalDataHandler {
 
     @Override
     public void historicalData(Bar bar) {
-        listOfHistDataIn.add(new HistDataTemplate(
+        listOfHistDataIn.add(new BeanOfHistData(
                 nextDataId(),
                 symbol,
                 conid,

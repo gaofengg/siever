@@ -1,4 +1,6 @@
-package com.huanhe_tech.cli.queue;
+package com.huanhe_tech.cli.beans;
+
+import com.huanhe_tech.cli.queue.FlowingSymbolObj;
 
 /**
  *  数据结构：
@@ -8,7 +10,7 @@ package com.huanhe_tech.cli.queue;
  *  这是一个 ArrayList 中的一个对象单元模板类。
  *
  */
-public class HistDataTemplate extends FlowingSymbolObj{
+public class BeanOfHistData extends FlowingSymbolObj {
     private final long conid;
     private final String time;
     private final double open;
@@ -19,7 +21,7 @@ public class HistDataTemplate extends FlowingSymbolObj{
     private final double wap;
     private final int count;
 
-    public HistDataTemplate(int id, String symbol, long conid, String time, double open, double high, double low, double close, long volume, double wap, int count) {
+    public BeanOfHistData(int id, String symbol, long conid, String time, double open, double high, double low, double close, long volume, double wap, int count) {
         super(id, symbol);
         this.conid = conid;
         this.time = time;

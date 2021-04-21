@@ -1,4 +1,4 @@
-package com.huanhe_tech.cli.DAO;
+package com.huanhe_tech.cli.beans;
 
 public class SymbolsList {
     private int id;

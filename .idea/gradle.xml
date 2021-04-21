@@ -13,7 +13,6 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/siever-cli" />
-            <option value="$PROJECT_DIR$/siever-controller" />
             <option value="$PROJECT_DIR$/siever-utils" />
           </set>
         </option>

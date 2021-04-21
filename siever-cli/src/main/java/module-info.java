@@ -14,4 +14,5 @@ module siever.cli{
     exports com.huanhe_tech.cli.req;
     exports com.huanhe_tech.cli.controller;
     opens com.huanhe_tech.cli.DAO to siever.utils;
+    exports com.huanhe_tech.cli.strategies;
 }

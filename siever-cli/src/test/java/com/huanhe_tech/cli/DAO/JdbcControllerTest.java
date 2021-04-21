@@ -1,6 +1,7 @@
 package com.huanhe_tech.cli.DAO;
 
 import com.alibaba.druid.pool.DruidDataSourceFactory;
+import com.huanhe_tech.cli.req.ReqData;
 import com.huanhe_tech.siever.utils.IJdbcUtils;
 import org.apache.commons.dbutils.QueryRunner;
 import org.junit.jupiter.api.Test;
@@ -64,5 +65,11 @@ class JdbcControllerTest {
 //        System.out.println(tomorrow);
         System.out.println(now.getDayOfWeek().getValue());
 
+    }
+
+    @Test
+    public void test06() {
+        int intervalDays = ReqData.INSTANCE.getIntervalDays();
+        System.out.println(intervalDays);
     }
 }

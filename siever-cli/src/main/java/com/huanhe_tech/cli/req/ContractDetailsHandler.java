@@ -1,8 +1,10 @@
 package com.huanhe_tech.cli.req;
 
+import com.huanhe_tech.cli.ConsumeAllSymbols;
 import com.huanhe_tech.cli.GlobalFlags;
 import com.huanhe_tech.cli.InstancePool;
 import com.huanhe_tech.cli.queue.FilteredByTypeFlowingSymbol;
+import com.huanhe_tech.cli.queue.FlowingSymbolObj;
 import com.ib.client.ContractDetails;
 import com.ib.controller.ApiController;
 
@@ -11,6 +13,7 @@ import java.util.List;
 public class ContractDetailsHandler implements ApiController.IContractDetailsHandler {
     private static int id = 0;
     private final GlobalFlags.ReqTypeFlag reqTypeFlag = GlobalFlags.ReqTypeFlag.STATE;
+
 
     @Override
     public synchronized void contractDetails(List<ContractDetails> list) {

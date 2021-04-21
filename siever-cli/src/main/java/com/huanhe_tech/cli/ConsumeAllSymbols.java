@@ -40,7 +40,7 @@ public class ConsumeAllSymbols {
                     }
                 }
 
-            } while (true);
+            } while (allSymbolsQueue.iterator().hasNext());
         }
     }
 

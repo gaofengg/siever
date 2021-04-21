@@ -1,5 +1,7 @@
 package com.huanhe_tech.cli.queue;
 
+import com.huanhe_tech.cli.beans.BeanOfHistData;
+
 import java.util.List;
 
 /**
@@ -13,9 +15,9 @@ import java.util.List;
 public class HistDataObjForIn {
     private final int id;
     private final long conid;
-    private final List<HistDataTemplate> list;
+    private final List<BeanOfHistData> list;
 
-    public HistDataObjForIn(int id, long conid, List<HistDataTemplate> list) {
+    public HistDataObjForIn(int id, long conid, List<BeanOfHistData> list) {
         this.id = id;
         this.conid = conid;
         this.list = list;
@@ -29,7 +31,7 @@ public class HistDataObjForIn {
         return conid;
     }
 
-    public List<HistDataTemplate> getList() {
+    public List<BeanOfHistData> getList() {
         return list;
     }
 

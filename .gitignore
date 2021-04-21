@@ -1,0 +1,9 @@
+resources/db/NN_hist.db
+.DS_Store
+.gradle/
+build/
+resources/.DS_Store
+siever-cli/build/
+siever-cli/src/main/java/com/huanhe_tech/.DS_Store
+siever-cli/src/main/java/com/huanhe_tech/cli/.DS_Store
+siever-utils/build/
