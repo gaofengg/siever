@@ -8,9 +8,7 @@ import org.apache.commons.dbutils.handlers.ScalarHandler;
 import java.sql.Connection;
 import java.sql.SQLException;
 import java.time.LocalDate;
-import java.time.LocalDateTime;
 import java.time.ZoneId;
-import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -71,8 +69,6 @@ public class MainController {
         String date = dateStr.substring(0, dateStr.indexOf(" "));
         LocalDate lastDate = LocalDate.parse(date);
         LocalDate nowDate = LocalDate.now(ZoneId.of("GMT-4"));
-        String nowDateTime = LocalDateTime.now(ZoneId.of("GMT-4")).format(DateTimeFormatter.ofPattern("yy-MM-dd hh:mm:ss"));
-        System.out.println("Current Time in New York: " + nowDateTime);
 
         // 获取其实日期到截止日期之间的工作日数
         int intervalDays = nowDate.compareTo(lastDate);

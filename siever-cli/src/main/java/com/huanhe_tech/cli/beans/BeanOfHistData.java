@@ -11,15 +11,18 @@ import com.huanhe_tech.cli.queue.FlowingSymbolObj;
  *
  */
 public class BeanOfHistData extends FlowingSymbolObj {
-    private final long conid;
-    private final String time;
-    private final double open;
-    private final double high;
-    private final double low;
-    private final double close;
-    private final long volume;
-    private final double wap;
-    private final int count;
+    private long conid;
+    private String time;
+    private double open;
+    private double high;
+    private double low;
+    private double close;
+    private long volume;
+    private double wap;
+    private int count;
+
+    public BeanOfHistData() {
+    }
 
     public BeanOfHistData(int id, String symbol, long conid, String time, double open, double high, double low, double close, long volume, double wap, int count) {
         super(id, symbol);
@@ -33,6 +36,54 @@ public class BeanOfHistData extends FlowingSymbolObj {
         this.wap = wap;
         this.count = count;
     }
+
+    public void setId(int id) {
+        super.setId(id);
+    }
+
+    public void setSymbol(String symbol) {
+        super.setSymbol(symbol);
+    }
+
+    public void setConid(long conid) {
+        this.conid = conid;
+    }
+
+    public void setTime(String time) {
+        this.time = time;
+    }
+
+    public void setOpen(double open) {
+        this.open = open;
+    }
+
+    public void setHigh(double high) {
+        this.high = high;
+    }
+
+    public void setLow(double low) {
+        this.low = low;
+    }
+
+    public void setClose(double close) {
+        this.close = close;
+    }
+
+    public void setVolume(long volume) {
+        this.volume = volume;
+    }
+
+    public void setWap(double wap) {
+        this.wap = wap;
+    }
+
+    public void setCount(int count) {
+        this.count = count;
+    }
+
+    public int getId() {return super.getId();}
+
+    public String getSymbol() {return super.getSymbol();}
 
     public long getConid() {
         return conid;

@@ -1,11 +1,22 @@
 package com.huanhe_tech.cli.queue;
 
 public class FlowingSymbolObj {
-    private final int id;
-    private final String symbol;
+    private int id;
+    private String symbol;
+
+    public FlowingSymbolObj() {
+    }
 
     public FlowingSymbolObj(int id, String symbol) {
         this.id = id;
+        this.symbol = symbol;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public void setSymbol(String symbol) {
         this.symbol = symbol;
     }
 

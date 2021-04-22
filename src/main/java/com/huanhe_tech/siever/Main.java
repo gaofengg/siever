@@ -1,13 +1,17 @@
 package com.huanhe_tech.siever;
 
-import com.huanhe_tech.cli.*;
-import com.huanhe_tech.cli.controller.MainController;
-import com.huanhe_tech.cli.strategies.StrategyOfExtremum;
+import com.huanhe_tech.cli.strategies.StrategySource;
 
 import java.sql.SQLException;
+import java.time.LocalDateTime;
+import java.time.ZoneId;
+import java.time.format.DateTimeFormatter;
 
 public class Main {
     public static void main(String[] args) throws SQLException {
+        String nowDateTime = LocalDateTime.now(ZoneId.of("GMT-4")).format(DateTimeFormatter.ofPattern("yy-MM-dd hh:mm:ss"));
+        System.out.println("Current Time in New York: " + nowDateTime);
+
 //        if (new MainController().needUpdate()) {
 //            System.out.println("直接计算");
 //        } else {
@@ -28,6 +32,6 @@ public class Main {
 ////            System.out.println("数据库更新完毕，开始计算。");
 //        }
 
-        new StrategyOfExtremum().getHistData();
+        new StrategySource().getHistData();
     }
 }
