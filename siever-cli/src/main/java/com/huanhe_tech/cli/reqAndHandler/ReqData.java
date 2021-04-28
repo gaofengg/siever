@@ -1,4 +1,4 @@
-package com.huanhe_tech.cli.req;
+package com.huanhe_tech.cli.reqAndHandler;
 
 import com.huanhe_tech.cli.ContractSet;
 import com.huanhe_tech.cli.ContractWithSTK;
@@ -54,22 +54,21 @@ public enum ReqData {
     public void reqContractDetails() {
         InstancePool.getConnectionController().reqContractDetails(
                 ContractWithSTK.NNContractForReqDetails(symbol),
-                InstancePool.getContractDetailsHandler()
+                new ContractDetailsHandler(symbol)
         );
     }
 
-    public void reqHistAndHandleData() {
+    public void reqHistAndPersistenceHandle(int intervalDays) {
         InstancePool.getConnectionController().reqHistoricalData(
                 ContractSet.USStockWithPrimaryExch(symbol),
                 "",
-//                ReqData.INSTANCE.getIntervalDays(),
-                ReqData.INSTANCE.intervalDays,
+                intervalDays,
                 Types.DurationUnit.DAY,
                 Types.BarSize._1_day,
                 Types.WhatToShow.TRADES,
                 true,
                 false,
-                new HistDataHandler(symbol, conid)
+                new HistDataHandlerAndPersistence(conid, symbol, intervalDays)
         );
 
     }

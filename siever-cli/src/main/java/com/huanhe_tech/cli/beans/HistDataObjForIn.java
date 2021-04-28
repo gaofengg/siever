@@ -1,4 +1,4 @@
-package com.huanhe_tech.cli.queue;
+package com.huanhe_tech.cli.beans;
 
 import com.huanhe_tech.cli.beans.BeanOfHistData;
 
@@ -15,11 +15,13 @@ import java.util.List;
 public class HistDataObjForIn {
     private final int id;
     private final long conid;
+    private final String symbol;
     private final List<BeanOfHistData> list;
 
-    public HistDataObjForIn(int id, long conid, List<BeanOfHistData> list) {
+    public HistDataObjForIn(int id, long conid, String symbol, List<BeanOfHistData> list) {
         this.id = id;
         this.conid = conid;
+        this.symbol = symbol;
         this.list = list;
     }
 
@@ -31,6 +33,10 @@ public class HistDataObjForIn {
         return conid;
     }
 
+    public String getSymbol() {
+        return symbol;
+    }
+
     public List<BeanOfHistData> getList() {
         return list;
     }
@@ -40,6 +46,7 @@ public class HistDataObjForIn {
         return "HistDataObjForIn{" +
                 "id=" + id +
                 ", conid ='" + conid + '\'' +
+                ", symbol ='" + symbol + '\'' +
                 ", list=" + list +
                 '}';
     }

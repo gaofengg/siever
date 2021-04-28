@@ -2,55 +2,45 @@ package com.huanhe_tech.cli;
 
 import com.huanhe_tech.cli.queue.FilteredByTypeFlowingSymbol;
 import com.huanhe_tech.cli.queue.FiltrateBySymbolTypeQueue;
-import com.huanhe_tech.cli.queue.FlowingSymbolObj;
-import com.huanhe_tech.cli.req.HistDataHandler;
-import com.huanhe_tech.cli.req.ReqData;
-import com.ib.controller.Bar;
+import com.huanhe_tech.siever.utils.IJdbcUtils;
+import org.apache.commons.dbutils.QueryRunner;
 
-import java.util.function.Function;
-import java.util.stream.Stream;
+import java.sql.Connection;
+import java.sql.SQLException;
 
 public class ConsumeFilteredByTypeSymbolObj {
-    private final FiltrateBySymbolTypeQueue filtrateBySymbolTypeQueue;
-    private FilteredByTypeFlowingSymbol flowingSymbolObj;
-    private final GlobalFlags.ReqHistoricalFlag reqHistoricalFlag = GlobalFlags.ReqHistoricalFlag.STATE;
+    private Connection conn;
+    private QueryRunner qr;
 
-    public ConsumeFilteredByTypeSymbolObj(FiltrateBySymbolTypeQueue filtrateBySymbolTypeQueue) {
-        this.filtrateBySymbolTypeQueue = filtrateBySymbolTypeQueue;
-    }
-
-    public void takeFilteredByTypeSymbolObj() {
-
-        synchronized (reqHistoricalFlag) {
-            while (reqHistoricalFlag.getState()) {
-                flowingSymbolObj = filtrateBySymbolTypeQueue.takeSymbolObj();
-                reqHistoricalFlag.setState(false);
-                reqHistData();
-                reqHistoricalFlag.notifyAll();
-            }
-            try {
-                reqHistoricalFlag.wait();
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
+    public void takeAndPersistence() {
+        try {
+            conn = IJdbcUtils.getConnection();
+            qr = new QueryRunner();
+            String sql_clear_tbl = "delete from symbols_list_tbl";
+            qr.update(conn, sql_clear_tbl);
+        } catch (SQLException throwables) {
+            throwables.printStackTrace();
         }
 
+        FiltrateBySymbolTypeQueue filtrateBySymbolTypeQueue = InstancePool.getFiltrateBySymbolTypeQueue();
+
+        while (true) {
+            FilteredByTypeFlowingSymbol flowingSymbolObj = filtrateBySymbolTypeQueue.takeSymbolObj();
+            persistenceSymbolList(conn, qr, flowingSymbolObj);
+            System.out.println(flowingSymbolObj);
+            if (flowingSymbolObj.getSymbol().equals("#EOF")) {
+                IJdbcUtils.closeResource(conn, null);
+                break;
+            }
+        }
     }
 
-    public synchronized void reqHistData() {
-        synchronized (reqHistoricalFlag) {
-            if (!reqHistoricalFlag.getState()) {
-                InstancePool.getServiceSet().reqHistData(flowingSymbolObj, fs -> {
-                    ReqData.REQ_HIST.setSymbol(fs.getSymbol()).setConid(fs.getConid()).reqHistAndHandleData();
-                    reqHistoricalFlag.setState(true);
-                });
-            } else {
-                try {
-                    reqHistoricalFlag.wait();
-                } catch (InterruptedException e) {
-                    e.printStackTrace();
-                }
-            }
+    private void persistenceSymbolList(Connection conn, QueryRunner qr, FilteredByTypeFlowingSymbol flowingSymbol) {
+        try {
+            String sql_insert = "insert into symbols_list_tbl (id, conid, symbol) values(?, ?, ?)";
+            qr.update(conn, sql_insert, flowingSymbol.getId(), flowingSymbol.getConid(), flowingSymbol.getSymbol());
+        } catch (SQLException throwables) {
+            throwables.printStackTrace();
         }
     }
 

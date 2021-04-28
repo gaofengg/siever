@@ -33,11 +33,11 @@ public class ProduceAllSymbols {
                 Stream<String> lines = Files.lines(symbolListFilePath, charset);
                 lines.forEach(
                         line -> {
-                            if (line.matches("^(?!.*?#).*$")) {
-                                line = line.substring(0, line.indexOf("|"));
-                                AllFlowingSymbol flowingSymbol = new AllFlowingSymbol(nextId(), line);
-                                allSymbolsQueue.putSymbol(flowingSymbol);
-                            }
+                                if (line.matches("^(?!.*?#B|#S).*$")) {
+                                    line = line.substring(0, line.indexOf("|"));
+                                    AllFlowingSymbol flowingSymbol = new AllFlowingSymbol(nextId(), line);
+                                    allSymbolsQueue.putSymbol(flowingSymbol);
+                                }
                         }
                 );
             } catch (IOException e) {

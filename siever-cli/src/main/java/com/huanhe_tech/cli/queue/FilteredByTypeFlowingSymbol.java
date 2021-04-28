@@ -11,4 +11,13 @@ final public class FilteredByTypeFlowingSymbol extends FlowingSymbolObj{
     public long getConid() {
         return conid;
     }
+
+    @Override
+    public String toString() {
+        return "FilteredByTypeFlowingSymbol {" +
+                "id=" + super.getId() +
+                " symbol=" + super.getSymbol() +
+                " conid=" + conid +
+                '}';
+    }
 }

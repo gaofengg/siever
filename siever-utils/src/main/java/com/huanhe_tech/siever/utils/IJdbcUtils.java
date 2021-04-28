@@ -14,7 +14,7 @@ public class IJdbcUtils {
     private static DataSource ds;
     static {
         try {
-            Properties props = PropertiesLoader.getProperties("resources", "conf/jdbc_connection_conf.properties");
+            Properties props = new PropertiesHandler("resources", "conf/jdbc_connection_conf.properties").getProps();
             ds = DruidDataSourceFactory.createDataSource(props);
         } catch (Exception e) {
             e.printStackTrace();

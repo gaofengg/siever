@@ -5,6 +5,7 @@ module siever.main {
     requires commons.dbutils;
     requires siever.utils;
     requires java.sql;
+    requires TwsApi;
     exports com.huanhe_tech.siever;
 
 }

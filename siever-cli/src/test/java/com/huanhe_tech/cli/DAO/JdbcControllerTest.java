@@ -1,7 +1,7 @@
 package com.huanhe_tech.cli.DAO;
 
 import com.alibaba.druid.pool.DruidDataSourceFactory;
-import com.huanhe_tech.cli.req.ReqData;
+import com.huanhe_tech.cli.reqAndHandler.ReqData;
 import com.huanhe_tech.siever.utils.IJdbcUtils;
 import org.apache.commons.dbutils.QueryRunner;
 import org.junit.jupiter.api.Test;
@@ -9,21 +9,12 @@ import org.junit.jupiter.api.Test;
 import java.sql.Connection;
 import java.sql.SQLException;
 import java.text.ParseException;
-import java.text.SimpleDateFormat;
 import java.time.*;
-import java.util.Date;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 class JdbcControllerTest {
     @Test
     public void test01() {
-        System.out.println("test01");
-        try {
-            DruidDataSourceFactory.createDataSource(null);
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
+
     }
 
     @Test
@@ -48,7 +39,7 @@ class JdbcControllerTest {
     }
 
     @Test
-    public void test04() throws ParseException {
+    public void test04() {
         ZonedDateTime zdt = Instant.now().atZone(ZoneId.of("GMT-4"));
         LocalDate lastDate = LocalDate.parse("2021-04-16");
         LocalDate nowDate = LocalDate.now(ZoneId.of("GMT-4"));
@@ -71,5 +62,11 @@ class JdbcControllerTest {
     public void test06() {
         int intervalDays = ReqData.INSTANCE.getIntervalDays();
         System.out.println(intervalDays);
+    }
+
+    @Test
+    public void test07() {
+        String str = "235436567";
+        System.out.println(Long.parseLong(str));
     }
 }

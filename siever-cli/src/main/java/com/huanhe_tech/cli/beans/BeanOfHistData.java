@@ -37,14 +37,6 @@ public class BeanOfHistData extends FlowingSymbolObj {
         this.count = count;
     }
 
-    public void setId(int id) {
-        super.setId(id);
-    }
-
-    public void setSymbol(String symbol) {
-        super.setSymbol(symbol);
-    }
-
     public void setConid(long conid) {
         this.conid = conid;
     }
@@ -80,10 +72,6 @@ public class BeanOfHistData extends FlowingSymbolObj {
     public void setCount(int count) {
         this.count = count;
     }
-
-    public int getId() {return super.getId();}
-
-    public String getSymbol() {return super.getSymbol();}
 
     public long getConid() {
         return conid;
@@ -123,7 +111,7 @@ public class BeanOfHistData extends FlowingSymbolObj {
 
     @Override
     public String toString() {
-        return "HistDataTemplate{" +
+        return "HistDataBean{" +
 
                 "time='" + time + '\'' +
                 ", conid= " + conid +

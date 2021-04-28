@@ -48,4 +48,41 @@ public class GlobalFlags extends ReentrantLock {
         }
     }
 
+    /**
+     * 向 conid 表更新历史数据完成与否的标志位
+     */
+    public enum UpdateHistDone {
+        STATE(false);
+        private Boolean b;
+
+        UpdateHistDone(Boolean b) {
+            this.b = b;
+        }
+
+        public Boolean getB() {
+            return b;
+        }
+
+        public void setB(Boolean b) {
+            this.b = b;
+        }
+    }
+
+    public enum UpdateHistCompleteness {
+        STATE(false);
+        private Boolean b;
+
+        UpdateHistCompleteness(Boolean b) {
+            this.b = b;
+        }
+
+        public Boolean getB() {
+            return b;
+        }
+
+        public void setB(Boolean b) {
+            this.b = b;
+        }
+    }
+
 }
