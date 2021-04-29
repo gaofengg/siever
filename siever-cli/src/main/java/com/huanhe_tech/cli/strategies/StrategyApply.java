@@ -4,7 +4,6 @@ import com.huanhe_tech.cli.GlobalFlags;
 import com.huanhe_tech.cli.InstancePool;
 import com.huanhe_tech.cli.beans.BeanOfHistData;
 import com.huanhe_tech.cli.connection.Reconnection;
-import com.huanhe_tech.cli.reqAndHandler.HistDataHandlerAndPersistence;
 import com.huanhe_tech.siever.utils.IntervalDaysCalc;
 import com.huanhe_tech.cli.reqAndHandler.ReqSingleHistData;
 import com.huanhe_tech.siever.utils.IJdbcUtils;
@@ -20,13 +19,15 @@ import java.util.Map;
 /**
  * 校验 symbol 表数据的完整性
  * 需更新的数据为零，否则输出数据未更新提示
- * 数据最少是否有60条，如果没有，忽略该 symbol 的计算
+ * 数据最少是否有30条，如果没有，忽略该 symbol 的计算
  */
 
 public class StrategyApply {
     private String symbol;
 
-    public void getHistDataAndStrategyApply(Strategy strategy) {
+    public void getHistDataAndStrategyApply(Strategy<List<BeanOfHistData>> strategy) {
+        int histMinSize = 30;
+        int extremeNum = 2;
         if (!InstancePool.getConnectionController().client().isConnected()) {
             System.out.println("Reconnecting ...");
             new Reconnection();
@@ -35,7 +36,7 @@ public class StrategyApply {
         try {
             Connection conn = IJdbcUtils.getConnection();
             QueryRunner qr = new QueryRunner();
-            String sql = "select id, conid, symbol from symbols_list_tbl limit 4";
+            String sql = "select id, conid, symbol from symbols_list_tbl limit 1";
             MapListHandler mlh = new MapListHandler();
 
             List<Map<String, Object>> idAndConidAndSymbolMapList = qr.query(conn, sql, mlh);
@@ -59,25 +60,34 @@ public class StrategyApply {
                 String time = histBeanList.get(histBeanList.size() - 1).getTime();
                 intervalDays = new IntervalDaysCalc().intervalDays(time);
                 if (intervalDays == 0) {
-                    if (histBeanList.size() >= 30) {
-                        System.out.println("No need to update data in " + symbol + ", start calculation.");
-                        strategy.run();
+                    if (histBeanList.size() >= histMinSize) {
+                        System.out.println(symbol + " -> No need to update data in " + symbol + ", start calculating.");
+                        strategy.run(histBeanList);
                     } else {
-                        System.out.println(symbol + " -- Insufficient target symbol data. Data size < 60.");
+                        System.out.println(symbol + " -> Insufficient target symbol data. Data size < 30. Calculation is ignored.");
                     }
                 } else {
-                    System.out.println(intervalDays + " daily data of " + histBeanList.get(1).getSymbol() + " needs to be updated.");
+                    System.out.println(histBeanList.get(1).getSymbol() + " -> " + intervalDays + " daily data of " + histBeanList.get(1).getSymbol() + " needs to be updated.");
                     new ReqSingleHistData(item, intervalDays);
                     if (GlobalFlags.UpdateHistCompleteness.STATE.getB()) {
-                        if (histBeanList.size() >= 30) {
-                            System.out.println("Data update is done, start calculation.");
-                            strategy.run();
+                        if (histBeanList.size() >= histMinSize) {
+                            System.out.println(symbol + " -> Data update is done, start calculating.");
+                            // 重新获取数据库中的数据
+                            String sql_hist_reacquire = "";
+                            List<BeanOfHistData> re_histBeanList = null;
+                            BeanListHandler<BeanOfHistData> re_blh = new BeanListHandler<>(BeanOfHistData.class);
+                            try {
+                                re_histBeanList = qr.query(conn, sql_hist_reacquire, re_blh);
+                            } catch (SQLException throwables) {
+                                throwables.printStackTrace();
+                            }
+                            strategy.run(re_histBeanList);
                         } else {
-                            System.out.println(symbol + " -- Insufficient target symbol data. Data size < 60. Calculation ignored.");
+                            System.out.println(symbol + " -> Insufficient target symbol data. Data size < 30. Calculation is ignored.");
                         }
                         GlobalFlags.UpdateHistCompleteness.STATE.setB(false);
                     } else {
-                        System.out.println("Incomplete data update, IGNORE calculation.");
+                        System.out.println(symbol + " -> Incomplete data update, Calculation is ignored.");
                     }
                 }
             });
