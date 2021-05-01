@@ -5,44 +5,37 @@ import com.huanhe_tech.cli.beans.BeanOfHistData;
 import java.util.*;
 
 public class StrategyExtreme implements Strategy<List<BeanOfHistData>> {
-    private int extremeNum = 2;
-    private int calcArea = 29;
+    private int extremeNumbers = 3;
+    private int pileNumbers = 2;
 
     public StrategyExtreme() {
     }
 
     /**
-     * @param extremeNum 获取的极值数量，例如，如果该值为2，则取最高价和次高价，以及最低价和次低价。
-     * @param calcArea   执行计算的天数，从最近日期向过去推算。
+     * @param pileNumbers 计算极值时，极值左右两边桩值的数量（单边数量）
+     *                    桩值：计算 low 极值时，两边的桩值必须大于 low 极值，计算 high 极值反之
+     * @param extremeNumbers 极值数列里最多保存的极值对象数量
+     *
      */
-    public StrategyExtreme(int extremeNum, int calcArea) {
-        this.extremeNum = extremeNum;
-        this.calcArea = calcArea;
+    public StrategyExtreme(int pileNumbers, int extremeNumbers) {
+        this.pileNumbers = pileNumbers;
+        this.extremeNumbers = extremeNumbers;
     }
 
     @Override
     public void run(List<BeanOfHistData> list) {
         String symbol = list.get(0).getSymbol();
-        List<BeanOfHistData> sortByLowList = new ArrayList<>();
-        List<BeanOfHistData> sortByHighList = new ArrayList<>();
-        System.out.println("策略运行了");
 
-        Collections.reverse(list);
-        System.out.println(list.get(0).getTime() + " -> " + list.get(0).getLow());
-        System.out.println(list.get(calcArea).getTime() + " -> " + list.get(calcArea).getLow());
-        int direction = Double.compare(list.get(0).getLow(), list.get(29).getLow());
-        // 计算标的的趋势方向
-        String orientation;
-        if (direction > 0) {
-            orientation = "UP";
-        } else if (direction < 0) {
-            orientation = "DOWN";
+        list.sort(Comparator.comparing(BeanOfHistData::getTime).reversed());
+        List<BeanOfHistData> lowsList = new CalcExtremesAndOrientation(list).findLows(pileNumbers, extremeNumbers);
+        if (lowsList.get(0).getLow() > lowsList.get(lowsList.size() - 1).getLow()) {
+            System.out.println(symbol + " -> Orientation: UP");
         } else {
-            orientation = "PEER";
+            System.out.println(symbol + " -> Orientation: DOWN");
         }
-        System.out.println(symbol + " -> Orientaion: " + orientation);
-//        List<BeanOfHistData> sortByLowListSub = list.subList(0, extremeNum);
-//        sortByLowListSub.forEach(System.out::println);
+//        String orientation = new CalcExtremesAndOrientation(list).getOrientation();
+        lowsList.forEach(System.out::println);
+//        System.out.println(orientation);
 
 
     }

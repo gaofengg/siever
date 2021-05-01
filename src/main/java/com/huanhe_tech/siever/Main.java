@@ -23,10 +23,10 @@ public class Main {
             // 从 FiltrateBySymbolTypeQueue 队列取出对象，写入数据库中的 symbols_list_tbl 表
             new Thread(() -> {
                 new ConsumeFilteredByTypeSymbolObj().takeAndPersistence();
-                new StrategyApply().getHistDataAndStrategyApply(new StrategyExtreme(2, 29));
+                new StrategyApply().getHistDataAndStrategyApply(new StrategyExtreme(4, 3));
             }).start();
         } else {
-            new StrategyApply().getHistDataAndStrategyApply(new StrategyExtreme(2, 29));
+            new StrategyApply().getHistDataAndStrategyApply(new StrategyExtreme(4, 3));
         }
 
     }

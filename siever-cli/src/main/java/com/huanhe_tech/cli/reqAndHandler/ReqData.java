@@ -5,6 +5,8 @@ import com.huanhe_tech.cli.ContractWithSTK;
 import com.huanhe_tech.cli.InstancePool;
 import com.ib.client.Types;
 
+import java.util.Map;
+
 /**
  *  关于向数据库中补充新历史数据的逻辑
  *  1，查询数据库中的指定5个标的的数据最后插入日期，取最近的日期，减去近日日期，可得出

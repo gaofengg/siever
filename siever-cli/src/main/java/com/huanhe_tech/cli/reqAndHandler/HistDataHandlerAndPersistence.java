@@ -1,6 +1,7 @@
 package com.huanhe_tech.cli.reqAndHandler;
 
 import com.huanhe_tech.cli.GlobalFlags;
+import com.huanhe_tech.siever.utils.ColorSOP;
 import com.huanhe_tech.siever.utils.IJdbcUtils;
 import com.ib.controller.ApiController;
 import com.ib.controller.Bar;
@@ -14,7 +15,6 @@ public class HistDataHandlerAndPersistence implements ApiController.IHistoricalD
     private String symbol;
     private int intervalDays;
     private Connection conn;
-    private int addTablesCount;
     private QueryRunner qr;
     private String sql_inset_hist;
     private int insertRecord;
@@ -27,12 +27,11 @@ public class HistDataHandlerAndPersistence implements ApiController.IHistoricalD
         this.conid = conid;
         this.symbol = symbol;
         this.intervalDays = intervalDays;
-        int addTables = 0;
+
         try {
             conn = IJdbcUtils.getConnection();
             qr = new QueryRunner();
 
-// 以 symbol_list_tbl 表中的 conid 作为表名创建历史数据表
             String sql_create_table = "create table if not exists " + "'" + conid + "'" + " ( id integer unique primary key, " +
                     "`time` text unique not null, " +
                     "conid integer not null, " +
@@ -44,23 +43,19 @@ public class HistDataHandlerAndPersistence implements ApiController.IHistoricalD
                     "volume integer, " +
                     "wap real, " +
                     "count integer)";
-            addTables = qr.update(conn, sql_create_table);
+            try {
+                qr.update(conn, sql_create_table);
+            } catch (SQLException throwables) {
+                throwables.printStackTrace();
+            }
+
+            sql_inset_hist = "insert or ignore into " +
+                    "'" + conid + "'" +
+                    " (time, conid, symbol, open, high, low, close, volume, wap, count)" +
+                    "values(?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
         } catch (SQLException throwables) {
             throwables.printStackTrace();
         }
-        if (addTables > 0) {
-            addTablesCount = addTablesCount + addTables;
-            System.out.println(addTablesCount + " tables has been created." + " Create table: " + conid + " of " + symbol + ".");
-        }
-
-        sql_inset_hist = "insert or ignore into " +
-                "'" + conid + "'" +
-                " (time, conid, symbol, open, high, low, close, volume, wap, count)" +
-                "values(?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
-    }
-
-    public int getInsertCount() {
-        return insertCount;
     }
 
     @Override
@@ -86,15 +81,25 @@ public class HistDataHandlerAndPersistence implements ApiController.IHistoricalD
 
     @Override
     public void historicalDataEnd() {
-        if (insertRecord > 0) {
-            System.out.println(conid + " table has inserted " + insertCount + " piece of daily data for symbol " + symbol + ".");
-        }
+//        if (insertCount == intervalDays) {
+            ColorSOP.i(symbol + " -> " + conid + " data table is created. " + insertCount + " days of historical data inserted.");
+//        } else {
+//            String deleteTable = "drop table " + "'" + conid + "'";
+//            try {
+//                qr.update(conn, deleteTable);
+//            } catch (SQLException throwables) {
+//                throwables.printStackTrace();
+//            }
+//            ColorSOP.w(symbol + " -> " + conid + " Failed to insert historical data, this table has been deleted.");
+//        }
+
         synchronized (GlobalFlags.UpdateHistDone.STATE) {
             GlobalFlags.UpdateHistDone.STATE.setB(true);
-            GlobalFlags.UpdateHistCompleteness.STATE.setB(insertCount == intervalDays);
+//            GlobalFlags.UpdateHistCompleteness.STATE.setB(insertCount == intervalDays);
+            GlobalFlags.UpdateHistCompleteness.STATE.setB(true);
             GlobalFlags.UpdateHistDone.STATE.notifyAll();
         }
 
-//        IJdbcUtils.closeResource(conn, null);
+        IJdbcUtils.closeResource(conn, null);
     }
 }

@@ -7,11 +7,9 @@ import java.util.Map;
 public class ReqSingleHistData {
     public ReqSingleHistData(Map<String, Object> idAndConidAndSymbolMapList, int intervalDays) {
 
-        InstancePool.getServiceSet().reqSingleHistData(idAndConidAndSymbolMapList, icsm -> {
-            ReqData.REQ_HIST.setSymbol(icsm.get("symbol").toString())
-                    .setConid(Long.parseLong(icsm.get("conid").toString()))
-                    .reqHistAndPersistenceHandle(intervalDays);
-        });
+        InstancePool.getServiceSet().reqSingleHistData(idAndConidAndSymbolMapList, icsm -> ReqData.REQ_HIST.setSymbol(icsm.get("symbol").toString())
+                .setConid(Long.parseLong(icsm.get("conid").toString()))
+                .reqHistAndPersistenceHandle(intervalDays));
 
         synchronized (GlobalFlags.UpdateHistDone.STATE) {
             while (true) {

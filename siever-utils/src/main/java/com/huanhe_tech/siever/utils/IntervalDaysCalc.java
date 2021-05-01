@@ -21,7 +21,7 @@ public class IntervalDaysCalc {
         LocalDate nowDate = LocalDate.now(ZoneId.of("GMT-4"));
 
         // 获取其实日期到截止日期之间的工作日数
-        int intervalDays = nowDate.compareTo(lastDate);
+        int intervalDays = nowDate.compareTo(lastDate) + 1;
         for (int i = 1; i < intervalDays; i++) {
             LocalDate nextDate = lastDate.plusDays(i);
             if (nextDate.getDayOfWeek().getValue() != 6 && nextDate.getDayOfWeek().getValue() != 7) {

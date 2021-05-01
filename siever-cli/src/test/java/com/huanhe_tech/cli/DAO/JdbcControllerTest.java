@@ -2,7 +2,9 @@ package com.huanhe_tech.cli.DAO;
 
 import com.alibaba.druid.pool.DruidDataSourceFactory;
 import com.huanhe_tech.cli.reqAndHandler.ReqData;
+import com.huanhe_tech.siever.utils.ColorSOP;
 import com.huanhe_tech.siever.utils.IJdbcUtils;
+import com.sun.source.tree.ContinueTree;
 import org.apache.commons.dbutils.QueryRunner;
 import org.junit.jupiter.api.Test;
 
@@ -10,6 +12,8 @@ import java.sql.Connection;
 import java.sql.SQLException;
 import java.text.ParseException;
 import java.time.*;
+import java.util.ArrayList;
+import java.util.List;
 
 class JdbcControllerTest {
     @Test
@@ -68,5 +72,29 @@ class JdbcControllerTest {
     public void test07() {
         String str = "235436567";
         System.out.println(Long.parseLong(str));
+    }
+
+    @Test
+    public void test08() {
+        List<Integer> lists = new ArrayList<>();
+        lists.add(2);
+        lists.add(4);
+        lists.add(1);
+        lists.add(9);
+        lists.add(22);
+        lists.add(41);
+
+        continueOUt:
+        for (int list : lists) {
+           if (list == 1) {
+//               System.out.println(list);
+               continue continueOUt;
+           }
+            System.out.println(list);
+        }
+
+        lists.forEach(item -> {
+
+        });
     }
 }
