@@ -31,4 +31,9 @@ public class ColorSOP {
     public static void w(String warningMessage) {
         System.out.println(ANSI_YELLOW + warningMessage + ANSI_RESET);
     }
+
+    // yes
+    public static void y(String yesMessage) {
+        System.out.println(ANSI_GREEN + yesMessage + ANSI_RESET);
+    }
 }

@@ -85,4 +85,21 @@ public class GlobalFlags extends ReentrantLock {
         }
     }
 
+    public enum ReTakeHistDataBean {
+        STATE(false);
+        private Boolean b;
+
+        ReTakeHistDataBean(Boolean b) {
+            this.b = b;
+        }
+
+        public Boolean getB() {
+            return b;
+        }
+
+        public void setB(Boolean b) {
+            this.b = b;
+        }
+    }
+
 }

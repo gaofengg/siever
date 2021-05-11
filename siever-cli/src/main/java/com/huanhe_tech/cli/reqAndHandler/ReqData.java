@@ -3,9 +3,8 @@ package com.huanhe_tech.cli.reqAndHandler;
 import com.huanhe_tech.cli.ContractSet;
 import com.huanhe_tech.cli.ContractWithSTK;
 import com.huanhe_tech.cli.InstancePool;
+import com.huanhe_tech.siever.utils.ILocalDataTime;
 import com.ib.client.Types;
-
-import java.util.Map;
 
 /**
  *  关于向数据库中补充新历史数据的逻辑
@@ -22,18 +21,12 @@ public enum ReqData {
 
     private String symbol;
     private long conid;
-    private int intervalDays;
 
     ReqData(String symbol, long conid) {
         this.symbol = symbol;
         this.conid = conid;
     }
 
-    ReqData(String symbol, long conid, int intervalDays) {
-        this.symbol = symbol;
-        this.conid = conid;
-        this.intervalDays = intervalDays;
-    }
 
     public ReqData setSymbol(String symbol) {
         this.symbol = symbol;
@@ -45,13 +38,9 @@ public enum ReqData {
         return ReqData.this;
     }
 
-    public void setIntervalDays(int intervalDays) {
-        this.intervalDays = intervalDays;
-    }
-
-    public int getIntervalDays() {
-        return intervalDays;
-    }
+//    public void setIntervalDays(int intervalDays) {
+//        this.intervalDays = intervalDays;
+//    }
 
     public void reqContractDetails() {
         InstancePool.getConnectionController().reqContractDetails(
@@ -63,14 +52,14 @@ public enum ReqData {
     public void reqHistAndPersistenceHandle(int intervalDays) {
         InstancePool.getConnectionController().reqHistoricalData(
                 ContractSet.USStockWithPrimaryExch(symbol),
-                "",
+                new ILocalDataTime().getLocalDataTime(),
                 intervalDays,
                 Types.DurationUnit.DAY,
                 Types.BarSize._1_day,
                 Types.WhatToShow.TRADES,
                 true,
                 false,
-                new HistDataHandlerAndPersistence(conid, symbol, intervalDays)
+                new HistDataHandler(conid, symbol, intervalDays)
         );
 
     }

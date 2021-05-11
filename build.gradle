@@ -13,7 +13,6 @@ dependencies {
     implementation fileTree(dir: 'libs', includes: ['*.jar'])
 }
 
-
 allprojects {
     group 'com.huanhe-tech'
     version '1.0'
@@ -59,7 +58,7 @@ allprojects {
         }
     }
 
-    [compileJava, compileTestJava, javadoc]*.options*.encoding = 'UTF-8'
+    [ compileJava, compileTestJava, javadoc ]*.options*.encoding = 'UTF-8'
 }
 
 subprojects {
