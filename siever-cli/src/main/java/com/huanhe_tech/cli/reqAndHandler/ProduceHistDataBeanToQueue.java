@@ -1,6 +1,10 @@
 package com.huanhe_tech.cli.reqAndHandler;
 
+import com.huanhe_tech.cli.GlobalFlags;
+import com.huanhe_tech.cli.InstancePool;
 import com.huanhe_tech.cli.beans.BeanOfHistData;
+import com.huanhe_tech.cli.beans.BeanOfHistListInQueue;
+import com.huanhe_tech.cli.beans.EndOfHistBeanQueue;
 import com.huanhe_tech.cli.strategies.Strategy;
 import com.huanhe_tech.siever.utils.ColorSOP;
 import com.huanhe_tech.siever.utils.IJdbcUtils;
@@ -25,7 +29,7 @@ public class ProduceHistDataBeanToQueue {
             conn = IJdbcUtils.getConnection();
             qr = new QueryRunner();
 
-            String sql = "select id, conid, symbol from symbols_list_tbl where id > 160 and id < 185";
+            String sql = "select id, conid, symbol from symbols_list_tbl where id < 200";
             MapListHandler mlh = new MapListHandler();
 
             idAndConidAndSymbolMapList = qr.query(conn, sql, mlh);
@@ -33,7 +37,6 @@ public class ProduceHistDataBeanToQueue {
             throwables.printStackTrace();
         }
         // forEach 拿的是 symbols_list_tbl 的数据, {id=1, conid=1715006, symbol=A}
-
         if (idAndConidAndSymbolMapList != null) {
             continueOut:
             for (Map<String, Object> item : idAndConidAndSymbolMapList) {
@@ -66,6 +69,8 @@ public class ProduceHistDataBeanToQueue {
                     }
                 }
             }
+            InstancePool.getQueueWithHistDataBean().put(new EndOfHistBeanQueue());
+            InstancePool.getConnectionController().disconnect();
         } else {
             ColorSOP.e("ERROR: symbols_list_tbl seems to be null.");
         }

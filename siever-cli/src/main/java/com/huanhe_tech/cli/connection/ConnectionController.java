@@ -1,5 +1,6 @@
 package com.huanhe_tech.cli.connection;
 
+import com.huanhe_tech.cli.GlobalFlags;
 import com.huanhe_tech.cli.InstancePool;
 import com.ib.controller.ApiConnection;
 import com.ib.controller.ApiController;

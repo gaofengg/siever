@@ -1,6 +1,7 @@
 package com.huanhe_tech.cli.DAO;
 
 import com.alibaba.druid.pool.DruidDataSourceFactory;
+import com.huanhe_tech.cli.beans.EndOfHistBeanQueue;
 import com.huanhe_tech.cli.reqAndHandler.ReqData;
 import com.huanhe_tech.siever.utils.ColorSOP;
 import com.huanhe_tech.siever.utils.IJdbcUtils;
@@ -8,8 +9,10 @@ import com.huanhe_tech.siever.utils.IntervalDaysCalc;
 import com.huanhe_tech.siever.utils.StrToZonedDateTime;
 import com.sun.source.tree.ContinueTree;
 import org.apache.commons.dbutils.QueryRunner;
+import org.apache.commons.logging.Log;
 import org.junit.jupiter.api.Test;
 
+import javax.swing.plaf.TableHeaderUI;
 import java.sql.Connection;
 import java.sql.SQLException;
 import java.text.ParseException;
@@ -19,6 +22,8 @@ import java.time.temporal.TemporalField;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
+import java.util.concurrent.TimeUnit;
+import java.util.concurrent.locks.ReentrantLock;
 
 class JdbcControllerTest {
     @Test
@@ -27,7 +32,7 @@ class JdbcControllerTest {
     }
 
     @Test
-    public void test02(){
+    public void test02() {
         Connection conn = null;
         try {
             conn = IJdbcUtils.getConnection();
@@ -86,10 +91,10 @@ class JdbcControllerTest {
 
         continueOUt:
         for (int list : lists) {
-           if (list == 1) {
+            if (list == 1) {
 //               System.out.println(list);
-               continue continueOUt;
-           }
+                continue continueOUt;
+            }
             System.out.println(list);
         }
 
@@ -107,7 +112,7 @@ class JdbcControllerTest {
         ZonedDateTime lastTimeInDatabase = ZonedDateTime.parse(parseZonedDateStr);
         System.out.println(lastTimeInDatabase);
         ZonedDateTime nowTime = ZonedDateTime.now(ZoneId.of("GMT-4"));
-        System.out.println("------------" + nowTime.format(DateTimeFormatter.ofPattern("yyyy-MM-dd hh:mm:ss")));
+        System.out.println("------------" + nowTime.format(DateTimeFormatter.ofPattern("yyyy-MM-dd hh:mm:ss a z")));
         System.out.println(nowTime.compareTo(lastTimeInDatabase));
         System.out.println(Duration.between(nowTime, lastTimeInDatabase).abs().toDays());
 
@@ -140,5 +145,49 @@ class JdbcControllerTest {
         // 作用：纽约时间的当天下午6点已收盘，当天的历史数据应该被获取。
         ZonedDateTime todayPoint = StrToZonedDateTime.newYork(nowTime.format(DateTimeFormatter.ofPattern("yyyy-MM-dd")) + " 18:00:00");
         System.out.println(nowTime.compareTo(todayPoint));
+    }
+
+    @Test
+    public void Test11() {
+        ReentrantLock lock = new ReentrantLock();
+        Thread t1 = new Thread(() -> {
+            System.out.println("t1 started");
+            Thread t2 = new Thread(() -> {
+                try {
+                    if (!lock.tryLock(1, TimeUnit.SECONDS)) {
+                        try {
+                            System.out.println("t2 started");
+                            try {
+                                Thread.sleep(5000);
+                            } catch (InterruptedException e) {
+                                e.printStackTrace();
+                            }
+                            System.out.println("t1 waited 5 second");
+
+                        } finally {
+                            lock.unlock();
+                        }
+                    }
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+            }, "thread-son");
+            t2.start();
+
+        }, "Thread-parent");
+        t1.start();
+
+        lock.lock();
+        System.out.println("the main thread continue.");
+        try {
+            Thread.sleep(5000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+    }
+
+    @Test
+    public void test12() {
+        System.out.println(new EndOfHistBeanQueue().getList());
     }
 }

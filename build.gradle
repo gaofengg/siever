@@ -14,6 +14,7 @@ dependencies {
 }
 
 allprojects {
+
     group 'com.huanhe-tech'
     version '1.0'
 
@@ -56,13 +57,12 @@ allprojects {
             options.compilerArgs = ['--module-path', classpath.asPath]
             classpath = files()
         }
+        options.encoding = "UTF-8"
     }
 
-    [ compileJava, compileTestJava, javadoc ]*.options*.encoding = 'UTF-8'
 }
 
 subprojects {
-
     dependencies {
         implementation group: 'org.xerial', name: 'sqlite-jdbc', version: '3.34.0'
         implementation fileTree(dir: '../libs', includes: ['*.jar'])

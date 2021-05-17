@@ -13,4 +13,5 @@ public class ContractWithSTK {
         contract.secType("STK");
         return contract;
     }
+
 }

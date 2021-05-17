@@ -1,17 +1,12 @@
 package com.huanhe_tech.cli.reqAndHandler;
 
-import com.huanhe_tech.cli.GlobalFlags;
 import com.huanhe_tech.cli.InstancePool;
 import com.huanhe_tech.cli.beans.BeanOfHistData;
 import com.huanhe_tech.cli.beans.BeanOfHistListInQueue;
 import com.huanhe_tech.siever.utils.ColorSOP;
-import com.huanhe_tech.siever.utils.IJdbcUtils;
 import com.ib.controller.ApiController;
 import com.ib.controller.Bar;
-import org.apache.commons.dbutils.QueryRunner;
 
-import java.sql.Connection;
-import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 

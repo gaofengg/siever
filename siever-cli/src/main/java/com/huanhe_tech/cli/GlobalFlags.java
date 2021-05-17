@@ -67,39 +67,4 @@ public class GlobalFlags extends ReentrantLock {
             this.b = b;
         }
     }
-
-    public enum UpdateHistCompleteness {
-        STATE(false);
-        private Boolean b;
-
-        UpdateHistCompleteness(Boolean b) {
-            this.b = b;
-        }
-
-        public Boolean getB() {
-            return b;
-        }
-
-        public void setB(Boolean b) {
-            this.b = b;
-        }
-    }
-
-    public enum ReTakeHistDataBean {
-        STATE(false);
-        private Boolean b;
-
-        ReTakeHistDataBean(Boolean b) {
-            this.b = b;
-        }
-
-        public Boolean getB() {
-            return b;
-        }
-
-        public void setB(Boolean b) {
-            this.b = b;
-        }
-    }
-
 }

@@ -5,10 +5,8 @@ import com.huanhe_tech.cli.beans.BeanOfHistData;
 import com.huanhe_tech.cli.beans.BeanOfHistListInQueue;
 import com.huanhe_tech.cli.connection.Reconnection;
 import com.huanhe_tech.cli.reqAndHandler.OpHistData;
-import com.huanhe_tech.siever.utils.ColorSOP;
 import com.huanhe_tech.siever.utils.IJdbcUtils;
 import org.apache.commons.dbutils.QueryRunner;
-import org.apache.commons.dbutils.handlers.BeanListHandler;
 import org.apache.commons.dbutils.handlers.ScalarHandler;
 
 import java.sql.Connection;
@@ -35,8 +33,10 @@ public class StrategyApply {
             QueryRunner qr = new QueryRunner();
 
             // 从 QueueWithHistDataBean 队列取数据
-            while (!InstancePool.getQueueWithHistDataBean().isEmpty()) {
+//            while (!InstancePool.getQueueWithHistDataBean().isEmpty()) {
+            while (true) {
                 BeanOfHistListInQueue beanOfHistListInQueue = InstancePool.getQueueWithHistDataBean().take();
+                if (beanOfHistListInQueue.getId() == 20000) break;
                 List<BeanOfHistData> list = beanOfHistListInQueue.getList();
                 String conid = null;
                 String symbol = null;
@@ -46,17 +46,14 @@ public class StrategyApply {
                     int tableCount = tablesCount(conid, conn, qr);
                     if (tableCount == 0) {
                         new OpHistData().createTableAndInsertData(conid, conn, qr);
-                        new OpHistData().updateData(conid, symbol, conn, qr, item);
-                    } else {
-                        new OpHistData().updateData(conid, symbol, conn, qr, item);
                     }
+                    new OpHistData().updateData(conid, symbol, conn, qr, item);
                 }
-
                 // 重新从数据库中拿数据，计算
                 new OpHistData().queryAndApplyStrategy(conid, symbol, conn, qr, histMinSize, strategy);
             }
 
-            InstancePool.getConnectionController().disconnect();
+
             IJdbcUtils.closeResource(conn, null);
 
         } catch (SQLException throwables) {

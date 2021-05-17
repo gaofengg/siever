@@ -15,7 +15,7 @@ public final class InstancePool {
         // 所有队列对象必须单例
         static final AllSymbolsQueue instanceAllSymbolsQueue = new AllSymbolsQueue(200);
         static final FiltrateBySymbolTypeQueue instanceFiltrateBySymbolTypeQueue = new FiltrateBySymbolTypeQueue(200);
-        static final QueueWithHistDataBean instanceQueueWithHistDataBean = new QueueWithHistDataBean(200);
+        static final QueueWithHistDataBean instanceQueueWithHistDataBean = new QueueWithHistDataBean(10);
         static final ServiceSet instanceServiceSet = new ServiceSet();
         static final ConnectionHandler instanceConnectionHandler = new ConnectionHandler();
         static final ConnectionController instanceConnectionController = new ConnectionController(instanceConnectionHandler, instanceConnectionHandler.m_inLogger, instanceConnectionHandler.m_outLogger);
