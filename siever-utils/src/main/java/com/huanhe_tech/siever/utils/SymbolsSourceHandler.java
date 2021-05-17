@@ -46,7 +46,7 @@ public class SymbolsSourceHandler {
         return flag;
     }
 
-    public static void setBOF() {
+    public static void updateBOF() {
         ph.setProps("BOF", newBOF);
     }
 }

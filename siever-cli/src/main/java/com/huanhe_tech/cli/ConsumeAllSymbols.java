@@ -37,7 +37,7 @@ public class ConsumeAllSymbols {
                             e.printStackTrace();
                         }
                     } else {
-                        SymbolsSourceHandler.setBOF();
+                        SymbolsSourceHandler.updateBOF();
                         InstancePool.getFiltrateBySymbolTypeQueue().putSymbolObj(new FilteredByTypeFlowingSymbol(20000, "#EOF", 0));
                         InstancePool.getConnectionController().disconnect();
                         break;
