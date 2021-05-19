@@ -2,9 +2,11 @@ package com.huanhe_tech.cli.reqAndHandler;
 
 import com.huanhe_tech.cli.GlobalFlags;
 import com.huanhe_tech.cli.InstancePool;
+import com.huanhe_tech.cli.beans.BeanOfExtremeResult;
 import com.huanhe_tech.cli.beans.BeanOfHistData;
 import com.huanhe_tech.cli.beans.BeanOfHistListInQueue;
 import com.huanhe_tech.cli.beans.EndOfHistBeanQueue;
+import com.huanhe_tech.cli.connection.Reconnection;
 import com.huanhe_tech.cli.strategies.Strategy;
 import com.huanhe_tech.siever.utils.ColorSOP;
 import com.huanhe_tech.siever.utils.IJdbcUtils;
@@ -29,9 +31,8 @@ public class ProduceHistDataBeanToQueue {
             conn = IJdbcUtils.getConnection();
             qr = new QueryRunner();
 
-            String sql = "select id, conid, symbol from symbols_list_tbl where id < 200";
+            String sql = "select id, conid, symbol from symbols_list_tbl";
             MapListHandler mlh = new MapListHandler();
-
             idAndConidAndSymbolMapList = qr.query(conn, sql, mlh);
         } catch (SQLException throwables) {
             throwables.printStackTrace();
@@ -40,6 +41,10 @@ public class ProduceHistDataBeanToQueue {
         if (idAndConidAndSymbolMapList != null) {
             continueOut:
             for (Map<String, Object> item : idAndConidAndSymbolMapList) {
+                if (!InstancePool.getConnectionController().client().isConnected()) {
+                    System.out.println("Reconnecting ...");
+                    new Reconnection();
+                }
                 if (item.get("symbol").toString().equals("#EOF")) {
                     break;
                 }
@@ -70,6 +75,15 @@ public class ProduceHistDataBeanToQueue {
                 }
             }
             InstancePool.getQueueWithHistDataBean().put(new EndOfHistBeanQueue());
+            InstancePool.getQueueWithExtremeResultBean().put(new BeanOfExtremeResult(
+                    20000,
+                    0L,
+                    "#EOF",
+                    "0",
+                    0.0,
+                    0.0,
+                    0.0
+            ));
             InstancePool.getConnectionController().disconnect();
         } else {
             ColorSOP.e("ERROR: symbols_list_tbl seems to be null.");

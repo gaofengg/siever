@@ -15,6 +15,7 @@ public class Main {
     public static void main(String[] args) {
         int pileNumber = 4;
         int extremeNumber = 3;
+        int latestExtremeFromToday = 2;
         String nowDateTime = ZonedDateTime.now(ZoneId.of("GMT-4")).format(DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss"));
         System.out.print("Current Time in New York: ");
         ColorSOP.y(nowDateTime);
@@ -35,14 +36,15 @@ public class Main {
                 e.printStackTrace();
             }
 
-            new Thread(() -> new ProduceHistDataBeanToQueue(new StrategyExtreme(pileNumber, extremeNumber))).start();
-            new Thread(() -> new StrategyApply().getHistDataAndStrategyApply(new StrategyExtreme(pileNumber, extremeNumber))).start();
+            new Thread(() -> new ProduceHistDataBeanToQueue(new StrategyExtreme(pileNumber, extremeNumber, latestExtremeFromToday))).start();
+            new Thread(() -> new StrategyApply().getHistDataAndStrategyApply(new StrategyExtreme(pileNumber, extremeNumber, latestExtremeFromToday))).start();
+            new Thread(ConsumeExtremeResult::new).start();
             // 查表 symbols_list_tbl，请求历史数据，put 到 QueueWithHistDataBean
             // 从 QueueWithHistDataBean 队列 take HistDataBean 创表或更新数据，并计算
         } else if (SymbolsSourceHandler.needUpdate(uri) == 0) {
-            System.out.println("aaaaaaaaaaaaaaa");
-            new Thread(() -> new ProduceHistDataBeanToQueue(new StrategyExtreme(pileNumber, extremeNumber))).start();
-            new Thread(() -> new StrategyApply().getHistDataAndStrategyApply(new StrategyExtreme(pileNumber, extremeNumber))).start();
+            new Thread(() -> new ProduceHistDataBeanToQueue(new StrategyExtreme(pileNumber, extremeNumber, latestExtremeFromToday ))).start();
+            new Thread(() -> new StrategyApply().getHistDataAndStrategyApply(new StrategyExtreme(pileNumber, extremeNumber, latestExtremeFromToday))).start();
+            new Thread(ConsumeExtremeResult::new).start();
         } else {
             ColorSOP.e("You seem to be using expired symbol source data, please update it to " + uri + ".");
         }

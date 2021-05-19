@@ -50,11 +50,6 @@ public class ConsumeAllSymbols {
 
 
     private synchronized void reqSymbolDetails() {
-        try {
-            Thread.sleep(50);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
         InstancePool.getServiceSet().filtrateBy(flowingSymbol, fs ->
                 ReqData.REQ_TYPE.setSymbol(fs.getSymbol()).reqContractDetails()
         );

@@ -3,10 +3,7 @@ package com.huanhe_tech.cli.DAO;
 import com.alibaba.druid.pool.DruidDataSourceFactory;
 import com.huanhe_tech.cli.beans.EndOfHistBeanQueue;
 import com.huanhe_tech.cli.reqAndHandler.ReqData;
-import com.huanhe_tech.siever.utils.ColorSOP;
-import com.huanhe_tech.siever.utils.IJdbcUtils;
-import com.huanhe_tech.siever.utils.IntervalDaysCalc;
-import com.huanhe_tech.siever.utils.StrToZonedDateTime;
+import com.huanhe_tech.siever.utils.*;
 import com.sun.source.tree.ContinueTree;
 import org.apache.commons.dbutils.QueryRunner;
 import org.apache.commons.logging.Log;
@@ -20,6 +17,7 @@ import java.time.*;
 import java.time.format.DateTimeFormatter;
 import java.time.temporal.TemporalField;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Date;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
@@ -189,5 +187,62 @@ class JdbcControllerTest {
     @Test
     public void test12() {
         System.out.println(new EndOfHistBeanQueue().getList());
+    }
+
+    @Test
+    public void test13() {
+        String str1 = "2021-05-17 00:00:00";
+        String str2 = "2021-05-10 00:00:00";
+
+    }
+
+    @Test
+    public void test14() {
+        List<Integer> list = new ArrayList<>(Arrays.asList(1, 3, 5, 7, 9));
+        List<Integer> list1 = new ArrayList<>(Arrays.asList(2, 4, 6, 8, 10));
+        list.forEach(System.out::println);
+        System.out.println(isOrdered(list));
+        mergeLists(list, list1).forEach(System.out::println);
+    }
+
+    public boolean isOrdered(List<Integer> list) {
+        for (int i = 0; i < list.size() - 1; i++) {
+            if (list.get(i) < list.get(i + 1)) {
+                continue;
+            } else {
+                return false;
+            }
+        }
+        return true;
+    }
+
+    public List<Integer> mergeLists(List<Integer> list, List<Integer> list1) {
+        List<Integer> mergedList = new ArrayList<>();
+        int count = 0;
+        int count1 = 0;
+        for (int i = 0; i < list.size() + list1.size(); i++) {
+            if (i % 2 == 0) {
+                mergedList.add(list.get(count));
+                count++;
+            } else {
+                mergedList.add(list1.get(count1));
+                count1++;
+            }
+        }
+        return mergedList;
+    }
+
+    @Test
+    public void test11() {
+        double a = 12.45633455;
+        System.out.println(DoubleDecimalDigits.transition(2, a));
+    }
+
+    @Test
+    public void test23() {
+        List<Integer> list = new ArrayList<>(Arrays.asList(1, 2, 5, 3, 4, 3, 8, 10, 6, 9));
+        System.out.println(list.get(2) + " " + list.get(7));
+        System.out.println(list.indexOf(5));
+
     }
 }
