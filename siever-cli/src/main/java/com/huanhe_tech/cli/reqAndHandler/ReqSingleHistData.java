@@ -13,6 +13,11 @@ public class ReqSingleHistData {
             new Reconnection();
         }
 
+        try {
+            Thread.sleep(555);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
         InstancePool.getServiceSet().reqSingleHistData(idAndConidAndSymbolMapList, icsm -> ReqData.REQ_HIST.setSymbol(icsm.get("symbol").toString())
                 .setConid(Long.parseLong(icsm.get("conid").toString()))
                 .reqHistAndPersistenceHandle(intervalDays));

@@ -7,9 +7,9 @@ public class Reconnection {
         if (InstancePool.getConnectionController().client().isConnected()) {
             InstancePool.getConnectionController().disconnect();
         }
-        InstancePool.getConnectionController().connect();
         try {
-            Thread.sleep(2000);
+            Thread.sleep(5000);
+            InstancePool.getConnectionController().connect();
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
