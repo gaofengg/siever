@@ -21,7 +21,7 @@ import java.util.*;
  * 4、合并两个 list
  * 5、判断 list.getTime() 是否有序
  * 6、确定趋势方向
- * 7、最近的最值里最近的交易日间隔的天数（通过历史数据行的　id　间隔来计算），决定开仓机会
+ * 7、找趋势突破
  */
 
 public class StrategyExtreme implements Strategy<List<BeanOfHistData>> {
@@ -42,9 +42,10 @@ public class StrategyExtreme implements Strategy<List<BeanOfHistData>> {
      *                       桩值：计算 low 极值时，两边的桩值必须大于 low 极值，计算 high 极值反之
      * @param extremeNumbers 极值数列里最多保存的极值对象数量
      */
-    public StrategyExtreme(int pileNumbers, int extremeNumbers) {
+    public StrategyExtreme(int pileNumbers, int extremeNumbers, int redundancy) {
         this.pileNumbers = pileNumbers;
         this.extremeNumbers = extremeNumbers;
+        this.redundancy = redundancy;
     }
 
     @Override
@@ -56,7 +57,6 @@ public class StrategyExtreme implements Strategy<List<BeanOfHistData>> {
         // 按照日期从最近日期开始排序
         list.sort(Comparator.comparing(BeanOfHistData::getTime).reversed());
         // 按照日期倒序，生成低点 list 和高点 list
-//        CalcExtremes calcExtremes = new CalcExtremes(list, pileNumbers, extremeNumbers);
         List<BeanOfHistData> lowsList = new CalcExtremes(list, pileNumbers, extremeNumbers).findLows();
         List<BeanOfHistData> highList = new CalcExtremes(list, pileNumbers, extremeNumbers).findHigh();
         // 低点极值的平均值
@@ -81,7 +81,6 @@ public class StrategyExtreme implements Strategy<List<BeanOfHistData>> {
                     // 如果方向是上涨，则找到最低点离今日两日的标的。
                     if (orientation.equals("UP") &&
                             extremeHeader(lowsList, mergedBeanOfHistDataList).equals("LOW") &&
-//                            latestExtremeToToDay(latestExtremeFromToday, mergedBeanOfHistDataList)) {
                             firstBreakthrough(list, mergedBeanOfHistDataList, orientation, redundancy)) { // 【过滤条件太苛刻】
 
                         count++;
@@ -99,7 +98,6 @@ public class StrategyExtreme implements Strategy<List<BeanOfHistData>> {
                                 DoubleDecimalDigits.transition(2, ad)));
                     } else if (orientation.equals("DOWN") &&
                             extremeHeader(lowsList, mergedBeanOfHistDataList).equals("HIGH") &&
-//                            latestExtremeToToDay(latestExtremeFromToday, mergedBeanOfHistDataList)) {
                             firstBreakthrough(list, mergedBeanOfHistDataList, orientation, redundancy)) { // 【过滤条件太苛刻】
 
                         count++;
@@ -127,7 +125,7 @@ public class StrategyExtreme implements Strategy<List<BeanOfHistData>> {
     /**
      * 第一次出现突破标识日为最近一个交易日
      * 当 orientation 为 DOWN 时，最近一个交易日的低点第一次小于近期高点的最低点（突破日），反之亦然
-     * 【过滤条件太苛刻，不容易找到结果】
+     * 【过滤条件太苛刻，不容易找到结果，应适当增加 redundancy 冗余值】
      * @param list 按照日期倒序排序的原始 list
      * @param mergedList 合并后的 list
      * @param orientation 趋势方向
@@ -276,16 +274,5 @@ public class StrategyExtreme implements Strategy<List<BeanOfHistData>> {
             return "DOWN";
         }
     }
-
-    /**
-     * @param betweenDays 最近的极值离最后一个交易日的距离（天）
-     * @param mergedList  合并后的 list
-     * @return 如果符合以上两个条件，返回真，反之亦然
-     */
-    public boolean latestExtremeToToDay(int betweenDays, List<BeanOfHistData> mergedList) {
-        int actuallyBetweenDays = new IntervalDaysCalc().intervalDays(mergedList.get(0).getTime());
-        return actuallyBetweenDays == betweenDays;
-    }
-
 }
 

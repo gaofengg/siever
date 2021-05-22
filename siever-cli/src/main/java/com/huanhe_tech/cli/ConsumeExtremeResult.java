@@ -23,8 +23,6 @@ public class ConsumeExtremeResult {
         String sql_insert_result = null;
         QueryRunner qr = new QueryRunner();
         try {
-//            Connection conn = IJdbcUtils.getConnection();
-//            QueryRunner qr = new QueryRunner();
             // 查询表是否存在
             String sql_find_result_tbl = "select count(*) from sqlite_master where type='table' and name='extreme_result'";
             // 创建表 extreme_result

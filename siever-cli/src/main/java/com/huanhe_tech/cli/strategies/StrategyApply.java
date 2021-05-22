@@ -1,6 +1,7 @@
 package com.huanhe_tech.cli.strategies;
 
 import com.huanhe_tech.cli.InstancePool;
+import com.huanhe_tech.cli.beans.BeanOfExtremeResult;
 import com.huanhe_tech.cli.beans.BeanOfHistData;
 import com.huanhe_tech.cli.beans.BeanOfHistListInQueue;
 import com.huanhe_tech.cli.connection.Reconnection;
@@ -33,10 +34,20 @@ public class StrategyApply {
             QueryRunner qr = new QueryRunner();
 
             // 从 QueueWithHistDataBean 队列取数据
-//            while (!InstancePool.getQueueWithHistDataBean().isEmpty()) {
             while (true) {
                 BeanOfHistListInQueue beanOfHistListInQueue = InstancePool.getQueueWithHistDataBean().take();
-                if (beanOfHistListInQueue.getId() == 20000) break;
+                if (beanOfHistListInQueue.getId() == 20000) {
+                    InstancePool.getQueueWithExtremeResultBean().put(new BeanOfExtremeResult(
+                            20000,
+                            0L,
+                            "#EOF",
+                            "0",
+                            0.0,
+                            0.0,
+                            0.0
+                    ));
+                    break;
+                }
                 List<BeanOfHistData> list = beanOfHistListInQueue.getList();
                 String conid = null;
                 String symbol = null;
@@ -52,7 +63,6 @@ public class StrategyApply {
                 // 重新从数据库中拿数据，计算
                 new OpHistData().queryAndApplyStrategy(conid, symbol, conn, qr, histMinSize, strategy);
             }
-
 
             IJdbcUtils.closeResource(conn, null);
 

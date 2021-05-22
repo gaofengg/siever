@@ -46,6 +46,7 @@ public class ProduceHistDataBeanToQueue {
                     new Reconnection();
                 }
                 if (item.get("symbol").toString().equals("#EOF")) {
+                    InstancePool.getQueueWithHistDataBean().put(new EndOfHistBeanQueue());
                     break;
                 }
                 String symbol = item.get("symbol").toString();
@@ -74,16 +75,12 @@ public class ProduceHistDataBeanToQueue {
                     }
                 }
             }
-            InstancePool.getQueueWithHistDataBean().put(new EndOfHistBeanQueue());
-            InstancePool.getQueueWithExtremeResultBean().put(new BeanOfExtremeResult(
-                    20000,
-                    0L,
-                    "#EOF",
-                    "0",
-                    0.0,
-                    0.0,
-                    0.0
-            ));
+
+            try {
+                Thread.sleep(1000);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
             InstancePool.getConnectionController().disconnect();
         } else {
             ColorSOP.e("ERROR: symbols_list_tbl seems to be null.");
