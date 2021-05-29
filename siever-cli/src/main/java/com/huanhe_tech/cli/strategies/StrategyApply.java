@@ -36,7 +36,7 @@ public class StrategyApply {
             // 从 QueueWithHistDataBean 队列取数据
             while (true) {
                 BeanOfHistListInQueue beanOfHistListInQueue = InstancePool.getQueueWithHistDataBean().take();
-                if (beanOfHistListInQueue.getId() == 20000) {
+                if (beanOfHistListInQueue.getId() == 20000 || beanOfHistListInQueue.getId() == 20001) {
                     InstancePool.getQueueWithExtremeResultBean().put(new BeanOfExtremeResult(
                             20000,
                             0L,
@@ -46,6 +46,13 @@ public class StrategyApply {
                             0.0,
                             0.0
                     ));
+                    while (true) {
+                        if (InstancePool.getConnectionController().client().isConnected()) {
+                            InstancePool.getConnectionController().disconnect();
+                        } else {
+                            break;
+                        }
+                    }
                     break;
                 }
                 List<BeanOfHistData> list = beanOfHistListInQueue.getList();

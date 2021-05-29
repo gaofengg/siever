@@ -52,7 +52,7 @@ public class GlobalFlags extends ReentrantLock {
      * 向 conid 表更新历史数据完成与否的标志位
      */
     public enum UpdateHistDone {
-        STATE(false);
+        STATE(true);
         private Boolean b;
 
         UpdateHistDone(Boolean b) {

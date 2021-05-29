@@ -1,5 +1,6 @@
 package com.huanhe_tech.cli.reqAndHandler;
 
+import com.huanhe_tech.cli.GlobalFlags;
 import com.huanhe_tech.cli.InstancePool;
 import com.huanhe_tech.cli.beans.BeanOfHistData;
 import com.huanhe_tech.cli.beans.BeanOfHistListInQueue;
@@ -46,6 +47,11 @@ public class HistDataHandler implements ApiController.IHistoricalDataHandler {
     public void historicalDataEnd() {
         InstancePool.getQueueWithHistDataBean().put(new BeanOfHistListInQueue(nextQueueIndexId(),beanOfHistDataList));
         ColorSOP.i(symbol + " -> " + conid+ " " + intervalDays + " days of historical data inserted.");
+
+        synchronized (GlobalFlags.UpdateHistDone.STATE) {
+            GlobalFlags.UpdateHistDone.STATE.setB(true);
+            GlobalFlags.UpdateHistDone.STATE.notifyAll();
+        }
     }
 
     private synchronized int nextId() {
@@ -55,4 +61,5 @@ public class HistDataHandler implements ApiController.IHistoricalDataHandler {
     private synchronized int nextQueueIndexId() {
         return queueIndexId++;
     }
+
 }

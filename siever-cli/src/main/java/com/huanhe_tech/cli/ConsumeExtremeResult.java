@@ -1,10 +1,14 @@
 package com.huanhe_tech.cli;
 
 import com.huanhe_tech.cli.beans.BeanOfExtremeResult;
+import com.huanhe_tech.cli.crawler.CrawlerExecutor;
+import com.huanhe_tech.cli.crawler.MarketCapStrToDecimal;
 import com.huanhe_tech.siever.utils.IJdbcUtils;
+import com.huanhe_tech.cli.crawler.SymbolRename;
 import org.apache.commons.dbutils.QueryRunner;
 import org.apache.commons.dbutils.handlers.ScalarHandler;
 
+import java.math.BigDecimal;
 import java.sql.Connection;
 import java.sql.SQLException;
 
@@ -32,11 +36,13 @@ public class ConsumeExtremeResult {
                     "orientation text not null," +
                     "high_avg real," +
                     "low_avg real," +
-                    "ad real)";
+                    "ad real," +
+                    "market_cap NUMERIC," +
+                    "url text)";
             // 清除 extreme_result 表中的数据
             String sql_clear_tbl = "delete from extreme_result";
             // 写表
-            sql_insert_result = "insert or ignore into extreme_result (conid, symbol, orientation, high_avg, low_avg, ad) values(?, ?, ?, ?, ?, ?)";
+            sql_insert_result = "insert or ignore into extreme_result (conid, symbol, orientation, high_avg, low_avg, ad, market_cap, url) values(?, ?, ?, ?, ?, ?, ?, ?)";
 
             ScalarHandler<Integer> shResult = new ScalarHandler<>();
             int resultTableExistsCount = qr.query(conn, sql_find_result_tbl, shResult);
@@ -54,6 +60,13 @@ public class ConsumeExtremeResult {
         while (true) {
             BeanOfExtremeResult beanOfExtremeResult = InstancePool.getQueueWithExtremeResultBean().take();
             if (beanOfExtremeResult.getSymbol().equals("#EOF")) break;
+            String yahooFormatSymbol = beanOfExtremeResult.getSymbol();
+            if (beanOfExtremeResult.getSymbol().contains(" ")) {
+                yahooFormatSymbol = new SymbolRename(beanOfExtremeResult.getSymbol()).translate();
+            }
+            CrawlerExecutor crawlerExecutor = new CrawlerExecutor(yahooFormatSymbol).execute();
+            BigDecimal marketCap = new MarketCapStrToDecimal(crawlerExecutor.getMarketCap()).translate();
+            String url = crawlerExecutor.getUrl();
             try {
                 qr.update(conn,
                         sql_insert_result,
@@ -62,7 +75,9 @@ public class ConsumeExtremeResult {
                         beanOfExtremeResult.getOrientation(),
                         beanOfExtremeResult.getHigh_avg(),
                         beanOfExtremeResult.getLow_avg(),
-                        beanOfExtremeResult.getAd());
+                        beanOfExtremeResult.getAd(),
+                        marketCap,
+                        url);
             } catch (SQLException throwables) {
                 throwables.printStackTrace();
             }

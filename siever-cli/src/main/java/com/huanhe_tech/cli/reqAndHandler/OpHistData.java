@@ -12,6 +12,7 @@ import java.sql.Connection;
 import java.sql.SQLException;
 import java.util.Comparator;
 import java.util.List;
+import java.util.concurrent.atomic.AtomicInteger;
 
 public class OpHistData {
     public void queryAndApplyStrategy(String conid, String symbol, Connection conn, QueryRunner qr, int histMinSize, Strategy<List<BeanOfHistData>> strategy) {
@@ -28,6 +29,8 @@ public class OpHistData {
 
         if (histBeanList == null) {
             ColorSOP.e("ERROR: -> " + symbol + " " + conid + "table seems to be null.");
+        } else if (noMovement(histBeanList, 30, 2)){
+            ColorSOP.w("IGNORE -> " + symbol + " " + conid + " Inactive Market Data");
         } else {
             if (histBeanList.size() >= histMinSize) {
                 strategy.run(histBeanList);
@@ -35,6 +38,32 @@ public class OpHistData {
                 ColorSOP.w(symbol + " * -> Insufficient target symbol data. Data size < 30. Calculation is ignored.");
             }
         }
+    }
+
+    /**
+     * 判断 30 个日历史数据中，是否有死盘的交易日，即开盘价等于收盘价，振幅为零的数据，如果该数据大于指定的数量，返回 false，否则返回 true
+     * @param list 一个 symbol 的历史数据
+     * @param filterSize 过滤数据的长度，即按照条件查找，最长查找 filterSize条数据
+     * @param countNumber 指定符合过滤条件的日历史数据数量
+     * @return 返回
+     */
+    public boolean noMovement (List<BeanOfHistData> list, int filterSize, int countNumber) {
+        int count = 0;
+        int filterCount = 0;
+        boolean flag = false;
+
+        for (BeanOfHistData beanOfHistData : list) {
+            if (beanOfHistData.getLow() == beanOfHistData.getHigh() && beanOfHistData.getOpen() == beanOfHistData.getClose()) {
+                count++;
+            }
+            if (count > countNumber) {
+                flag = true;
+                break;
+            } else if (filterCount >= filterSize) {
+                break;
+            }
+        }
+        return flag;
     }
 
     public void createTableAndInsertData(String conid, Connection conn, QueryRunner qr) {

@@ -21,12 +21,12 @@ public class IntervalDaysCalc {
         ZonedDateTime nowTime = ZonedDateTime.now(ZoneId.of("GMT-4"));
         // 获取当天下午6点的时间点
         // 需求说明：如果时间过了当天的下午6点，便将当前时间改成后一天的 00:00:00
-        // 作用：纽约时间的当天下午6点已收盘，当天的历史数据应该被获取。
-        ZonedDateTime todayPoint = StrToZonedDateTime.newYork(nowTime.format(DateTimeFormatter.ofPattern("yyyy-MM-dd")) + " 18:00:00");
-
-        if (nowTime.compareTo(todayPoint) > 0) {
-            nowTime = StrToZonedDateTime.newYork(nowTime.plusDays(1).format(DateTimeFormatter.ofPattern("yyyy-MM-dd")) + " 00:00:00");
-        }
+        // 作用：纽约时间的当天下午6点已收盘，当天的历史数据应该被获取。【无法获取，必须要等到北京时间的中午12点以后】
+//        ZonedDateTime todayPoint = StrToZonedDateTime.newYork(nowTime.format(DateTimeFormatter.ofPattern("yyyy-MM-dd")) + " 18:00:00");
+//
+//        if (nowTime.compareTo(todayPoint) > 0) {
+//            nowTime = StrToZonedDateTime.newYork(nowTime.plusDays(1).format(DateTimeFormatter.ofPattern("yyyy-MM-dd")) + " 00:00:00");
+//        }
 
         long intervalDays = Duration.between(nowTime, lastDateTime).abs().toDays();
         List<ZonedDateTime> daysList = new ArrayList<>();

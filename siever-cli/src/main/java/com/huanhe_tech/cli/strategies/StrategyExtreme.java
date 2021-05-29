@@ -3,14 +3,10 @@ package com.huanhe_tech.cli.strategies;
 import com.huanhe_tech.cli.InstancePool;
 import com.huanhe_tech.cli.beans.BeanOfExtremeResult;
 import com.huanhe_tech.cli.beans.BeanOfHistData;
-import com.huanhe_tech.cli.reqAndHandler.OpHistData;
 import com.huanhe_tech.siever.utils.ColorSOP;
 import com.huanhe_tech.siever.utils.DoubleDecimalDigits;
-import com.huanhe_tech.siever.utils.IJdbcUtils;
 import com.huanhe_tech.siever.utils.IntervalDaysCalc;
-import org.apache.commons.dbutils.QueryRunner;
 
-import java.sql.Connection;
 import java.util.*;
 
 /*
@@ -28,11 +24,7 @@ public class StrategyExtreme implements Strategy<List<BeanOfHistData>> {
     private int extremeNumbers = 3;
     private int pileNumbers = 2;
     private int redundancy = 0;
-    private int count = 0;
     private int id = 0;
-
-    private Connection conn;
-    private QueryRunner qr;
 
     public StrategyExtreme() {
     }
@@ -83,8 +75,6 @@ public class StrategyExtreme implements Strategy<List<BeanOfHistData>> {
                             extremeHeader(lowsList, mergedBeanOfHistDataList).equals("LOW") &&
                             firstBreakthrough(list, mergedBeanOfHistDataList, orientation, redundancy)) { // 【过滤条件太苛刻】
 
-                        count++;
-                        System.out.println(count);
                         ColorSOP.y(symbol + " -> Opening opportunity. Orientation: " + orientation);
 
                         mergedBeanOfHistDataList.forEach(System.out::println);
@@ -100,8 +90,6 @@ public class StrategyExtreme implements Strategy<List<BeanOfHistData>> {
                             extremeHeader(lowsList, mergedBeanOfHistDataList).equals("HIGH") &&
                             firstBreakthrough(list, mergedBeanOfHistDataList, orientation, redundancy)) { // 【过滤条件太苛刻】
 
-                        count++;
-                        System.out.println(count);
                         ColorSOP.y(symbol + " -> Opening opportunity. Orientation: " + orientation);
                         mergedBeanOfHistDataList.forEach(System.out::println);
                         InstancePool.getQueueWithExtremeResultBean().put(new BeanOfExtremeResult(nextId(),

@@ -13,9 +13,9 @@ import java.time.format.DateTimeFormatter;
 
 public class Main {
     public static void main(String[] args) {
-        int pileNumber = 4;
-        int extremeNumber = 3;
-        int redundancy = 0;
+        int pileNumber = 3;
+        int extremeNumber = 2;
+        int redundancy = 1;
         String nowDateTime = ZonedDateTime.now(ZoneId.of("GMT-4")).format(DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss"));
         System.out.print("Current Time in New York: ");
         ColorSOP.y(nowDateTime);

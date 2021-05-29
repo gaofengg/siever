@@ -7,6 +7,9 @@ module siever.cli{
     requires druid;
     requires commons.dbutils;
     requires org.jetbrains.annotations;
+    requires commons.logging;
+    requires webmagic.core;
+    requires org.slf4j;
     exports com.huanhe_tech.cli;
     exports com.huanhe_tech.cli.connection;
     exports com.huanhe_tech.cli.queue;

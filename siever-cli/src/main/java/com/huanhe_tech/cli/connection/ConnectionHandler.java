@@ -1,11 +1,15 @@
 package com.huanhe_tech.cli.connection;
 
+import com.huanhe_tech.cli.GlobalFlags;
 import com.ib.controller.ApiConnection.ILogger;
 import com.ib.controller.ApiController;
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
 
 import java.util.List;
 
 public class ConnectionHandler implements ApiController.IConnectionHandler {
+    private final Log log = LogFactory.getLog(getClass());
     public ILogger m_inLogger = new Logger("Start Connecting ...");
     public ILogger m_outLogger = new Logger("");
 
@@ -44,7 +48,15 @@ public class ConnectionHandler implements ApiController.IConnectionHandler {
 
     @Override
     public void message(int i, int i1, String s) {
-
+        if (i != -1) {
+            log.error(i + "\n" + i1 + "\n" + s);
+            synchronized (GlobalFlags.UpdateHistDone.STATE) {
+                if (!GlobalFlags.UpdateHistDone.STATE.getB() && s != null) {
+                    GlobalFlags.UpdateHistDone.STATE.setB(true);
+                    GlobalFlags.UpdateHistDone.STATE.notifyAll();
+                }
+            }
+        }
     }
 
     @Override

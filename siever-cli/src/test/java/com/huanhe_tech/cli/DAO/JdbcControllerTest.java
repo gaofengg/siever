@@ -2,14 +2,20 @@ package com.huanhe_tech.cli.DAO;
 
 import com.alibaba.druid.pool.DruidDataSourceFactory;
 import com.huanhe_tech.cli.beans.EndOfHistBeanQueue;
+import com.huanhe_tech.cli.crawler.MarketCapStrToDecimal;
 import com.huanhe_tech.cli.reqAndHandler.ReqData;
 import com.huanhe_tech.siever.utils.*;
+import com.ib.controller.ApiController;
+import com.ib.controller.Bar;
 import com.sun.source.tree.ContinueTree;
 import org.apache.commons.dbutils.QueryRunner;
 import org.apache.commons.logging.Log;
 import org.junit.jupiter.api.Test;
 
+import javax.swing.*;
 import javax.swing.plaf.TableHeaderUI;
+import java.math.BigDecimal;
+import java.math.RoundingMode;
 import java.sql.Connection;
 import java.sql.SQLException;
 import java.text.ParseException;
@@ -244,5 +250,75 @@ class JdbcControllerTest {
         System.out.println(list.get(2) + " " + list.get(7));
         System.out.println(list.indexOf(5));
 
+    }
+
+    @Test
+    public void test24() {
+
+    }
+
+    class MyHistDataHandler implements ApiController.IHistoricalDataHandler {
+
+        @Override
+        public void historicalData(Bar bar) {
+
+        }
+
+        @Override
+        public void historicalDataEnd() {
+        }
+    }
+
+    @Test
+    public void test25() {
+        String str = "DLNG PRA";
+        String str1 = str.replace(" ", "_");
+        String str11 = str1.substring(0, str1.length() - 2);
+        String str12 = str1.substring(str1.length() - 2, str1.length() -1);
+        String str13 = str11.concat(str12);
+        System.out.println(str13);
+
+    }
+
+    @Test
+    public void test26() {
+        String str = "20.397B";
+        String num = str.substring(0, str.length() - 1);
+        long l;
+        String unit = str.substring(str.length() - 1);
+        switch (unit) {
+            case "M":
+                l = 1_000_000L;
+                break;
+            case "B":
+                l = 1_000_000_000L;
+                break;
+            case "T":
+                l = 1_000_000_000_000L;
+                break;
+            default:
+                l = 0;
+        }
+        double d = Double.parseDouble(num);
+        System.out.println(d);
+        BigDecimal bigDecimal = new BigDecimal(d);
+        BigDecimal multiply = bigDecimal.multiply(new BigDecimal(l));
+        BigDecimal divide = multiply.divide(new BigDecimal(1_000_000_000), 4, RoundingMode.HALF_UP);
+        System.out.println(bigDecimal);
+        System.out.println(divide);
+
+    }
+
+    @Test
+    void test27() {
+        int i = new IntervalDaysCalc().intervalDays("2021-05-27 00:00:00");
+        System.out.println(i);
+
+    }
+
+    @Test
+    void test28() {
+        BigDecimal translate = new MarketCapStrToDecimal("20.397B").translate();
+        System.out.println(translate);
     }
 }
