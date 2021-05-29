@@ -6,6 +6,9 @@ plugins {
 
 mainClassName = 'com.huanhe_tech.siever.Main'
 
+sourceCompatibility = 11
+targetCompatibility = 11
+
 dependencies {
     // 需要指定项目以来，否则 gradle 找不到其他模块
     implementation project(":siever-utils")
@@ -49,6 +52,11 @@ allprojects {
 
         implementation group: 'ch.qos.logback', name: 'logback-classic', version: '1.2.3'
 
+        implementation 'javax.servlet:javax.servlet-api:4.0.1'
+        implementation group: 'javax.ws.rs', name: 'javax.ws.rs-api', version: '2.1.1'
+        implementation group: 'javax.xml.bind', name: 'jaxb-api', version: '2.3.1'
+
+
     }
 
     test {
@@ -65,6 +73,7 @@ allprojects {
     }
 
 }
+
 
 subprojects {
     dependencies {

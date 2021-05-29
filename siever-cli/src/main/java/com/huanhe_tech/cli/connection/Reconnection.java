@@ -5,7 +5,7 @@ import com.huanhe_tech.cli.InstancePool;
 public class Reconnection {
     public Reconnection() {
             try {
-                Thread.sleep(5000);
+                Thread.sleep(3000);
                 InstancePool.getConnectionController().connect();
             } catch (InterruptedException e) {
                 e.printStackTrace();

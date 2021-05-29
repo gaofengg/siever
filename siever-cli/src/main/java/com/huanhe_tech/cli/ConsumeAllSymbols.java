@@ -5,6 +5,7 @@ import com.huanhe_tech.cli.queue.AllSymbolsQueue;
 import com.huanhe_tech.cli.queue.FilteredByTypeFlowingSymbol;
 import com.huanhe_tech.cli.queue.FlowingSymbolObj;
 import com.huanhe_tech.cli.reqAndHandler.ReqData;
+import com.huanhe_tech.siever.utils.LLoger;
 import com.huanhe_tech.siever.utils.SymbolsSourceHandler;
 
 public class ConsumeAllSymbols {
@@ -21,7 +22,7 @@ public class ConsumeAllSymbols {
         synchronized (reqTypeFlag) {
             do {
                 if (!InstancePool.getConnectionController().client().isConnected()) {
-                    System.out.println("Reconnecting ...");
+                    LLoger.logger.warn("Reconnecting ...");
                     new Reconnection();
                 }
                 if (reqTypeFlag.getState()) {

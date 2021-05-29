@@ -2,13 +2,14 @@ package com.huanhe_tech.cli.reqAndHandler;
 
 import com.huanhe_tech.cli.InstancePool;
 import com.huanhe_tech.cli.connection.Reconnection;
+import com.huanhe_tech.siever.utils.LLoger;
 
 import java.util.Map;
 
 public class ReqSingleHistData {
     public ReqSingleHistData(Map<String, Object> idAndConidAndSymbolMapList, int intervalDays) {
         if (!InstancePool.getConnectionController().client().isConnected()) {
-            System.out.println("Reconnecting ...");
+            LLoger.logger.warn("Reconnecting ...");
             new Reconnection();
         }
 

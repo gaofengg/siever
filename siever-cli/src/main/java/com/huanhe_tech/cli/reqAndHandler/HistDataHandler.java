@@ -4,7 +4,7 @@ import com.huanhe_tech.cli.GlobalFlags;
 import com.huanhe_tech.cli.InstancePool;
 import com.huanhe_tech.cli.beans.BeanOfHistData;
 import com.huanhe_tech.cli.beans.BeanOfHistListInQueue;
-import com.huanhe_tech.siever.utils.ColorSOP;
+import com.huanhe_tech.siever.utils.LLoger;
 import com.ib.controller.ApiController;
 import com.ib.controller.Bar;
 
@@ -46,7 +46,7 @@ public class HistDataHandler implements ApiController.IHistoricalDataHandler {
     @Override
     public void historicalDataEnd() {
         InstancePool.getQueueWithHistDataBean().put(new BeanOfHistListInQueue(nextQueueIndexId(),beanOfHistDataList));
-        ColorSOP.i(symbol + " -> " + conid+ " " + intervalDays + " days of historical data inserted.");
+        LLoger.logger.trace("{} -> {} {} days of historical data inserted.", symbol, conid, intervalDays);
 
         synchronized (GlobalFlags.UpdateHistDone.STATE) {
             GlobalFlags.UpdateHistDone.STATE.setB(true);

@@ -3,9 +3,9 @@ package com.huanhe_tech.cli.strategies;
 import com.huanhe_tech.cli.InstancePool;
 import com.huanhe_tech.cli.beans.BeanOfExtremeResult;
 import com.huanhe_tech.cli.beans.BeanOfHistData;
-import com.huanhe_tech.siever.utils.ColorSOP;
 import com.huanhe_tech.siever.utils.DoubleDecimalDigits;
 import com.huanhe_tech.siever.utils.IntervalDaysCalc;
+import com.huanhe_tech.siever.utils.LLoger;
 
 import java.util.*;
 
@@ -75,9 +75,8 @@ public class StrategyExtreme implements Strategy<List<BeanOfHistData>> {
                             extremeHeader(lowsList, mergedBeanOfHistDataList).equals("LOW") &&
                             firstBreakthrough(list, mergedBeanOfHistDataList, orientation, redundancy)) { // 【过滤条件太苛刻】
 
-                        ColorSOP.y(symbol + " -> Opening opportunity. Orientation: " + orientation);
-
-                        mergedBeanOfHistDataList.forEach(System.out::println);
+                        LLoger.logger.info("{} -> Opening opportunity, Orientation: {}", symbol, orientation);
+                        mergedBeanOfHistDataList.forEach(item -> LLoger.logger.info(item.toString()));
 
                         InstancePool.getQueueWithExtremeResultBean().put(new BeanOfExtremeResult(nextId(),
                                 conid,
@@ -90,8 +89,8 @@ public class StrategyExtreme implements Strategy<List<BeanOfHistData>> {
                             extremeHeader(lowsList, mergedBeanOfHistDataList).equals("HIGH") &&
                             firstBreakthrough(list, mergedBeanOfHistDataList, orientation, redundancy)) { // 【过滤条件太苛刻】
 
-                        ColorSOP.y(symbol + " -> Opening opportunity. Orientation: " + orientation);
-                        mergedBeanOfHistDataList.forEach(System.out::println);
+                        LLoger.logger.info("{} -> Opening opportunity, Orientation: {}", symbol, orientation);
+                        mergedBeanOfHistDataList.forEach(item -> LLoger.logger.info(item.toString()));
                         InstancePool.getQueueWithExtremeResultBean().put(new BeanOfExtremeResult(nextId(),
                                 conid,
                                 symbol,

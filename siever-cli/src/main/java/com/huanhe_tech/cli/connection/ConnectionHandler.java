@@ -1,21 +1,19 @@
 package com.huanhe_tech.cli.connection;
 
 import com.huanhe_tech.cli.GlobalFlags;
+import com.huanhe_tech.siever.utils.LLoger;
 import com.ib.controller.ApiConnection.ILogger;
 import com.ib.controller.ApiController;
-import org.apache.commons.logging.Log;
-import org.apache.commons.logging.LogFactory;
 
 import java.util.List;
 
 public class ConnectionHandler implements ApiController.IConnectionHandler {
-    private final Log log = LogFactory.getLog(getClass());
-    public ILogger m_inLogger = new Logger("Start Connecting ...");
-    public ILogger m_outLogger = new Logger("");
+    public ILogger m_inLogger = new CLogger("Start Connecting ...");
+    public ILogger m_outLogger = new CLogger("");
 
-    static class Logger implements ILogger {
+    static class CLogger implements ILogger {
 
-        public Logger(String s) {
+        public CLogger(String s) {
             System.out.println(s);
         }
 
@@ -27,29 +25,29 @@ public class ConnectionHandler implements ApiController.IConnectionHandler {
 
     @Override
     public void connected() {
-        System.out.println("Connected!");
+        LLoger.logger.trace("Connected!");
     }
 
     @Override
     public void disconnected() {
-        System.out.println("Disconnected!");
+        LLoger.logger.warn("Disconnected!");
     }
 
     @Override
     public void accountList(List<String> list) {
-        System.out.print("Acount List: ");
-        list.forEach(System.out::println);
+        LLoger.logger.info("Acount List: ");
+        list.forEach(LLoger.logger::info);
     }
 
     @Override
     public void error(Exception e) {
-        System.out.println(e.toString());
+        LLoger.logger.error(e.toString());
     }
 
     @Override
     public void message(int i, int i1, String s) {
         if (i != -1) {
-            log.error(i + "\n" + i1 + "\n" + s);
+            LLoger.logger.error("{}\t{}\n{}", i, i1, s);
             synchronized (GlobalFlags.UpdateHistDone.STATE) {
                 if (!GlobalFlags.UpdateHistDone.STATE.getB() && s != null) {
                     GlobalFlags.UpdateHistDone.STATE.setB(true);
@@ -61,7 +59,6 @@ public class ConnectionHandler implements ApiController.IConnectionHandler {
 
     @Override
     public void show(String s) {
-        System.out.println(s);
+        LLoger.logger.trace(s);
     }
-
 }

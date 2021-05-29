@@ -6,8 +6,8 @@ import com.huanhe_tech.cli.beans.BeanOfHistData;
 import com.huanhe_tech.cli.beans.EndOfHistBeanQueue;
 import com.huanhe_tech.cli.beans.InterruptOfHistBeanQueue;
 import com.huanhe_tech.cli.strategies.Strategy;
-import com.huanhe_tech.siever.utils.ColorSOP;
 import com.huanhe_tech.siever.utils.IJdbcUtils;
+import com.huanhe_tech.siever.utils.LLoger;
 import org.apache.commons.dbutils.QueryRunner;
 import org.apache.commons.dbutils.handlers.MapListHandler;
 import org.apache.commons.dbutils.handlers.ScalarHandler;
@@ -52,7 +52,7 @@ public class ProduceHistDataBeanToQueue {
                     if (icsMapList.hasNext()) {
                         icsMap = icsMapList.next();
                     } else {
-                        System.out.println("NO GOODS");
+                        LLoger.logger.trace("NO GOODS!");
                         InstancePool.getQueueWithHistDataBean().put(new InterruptOfHistBeanQueue());
                         break;
                     }
@@ -85,7 +85,7 @@ public class ProduceHistDataBeanToQueue {
                     } else {
                         int intervalDays = new OpHistData().intervalDays(conid, symbol, conn, qr);
                         if (intervalDays == 0) {
-                            ColorSOP.i(symbol + " -> " + conid + " no updates are available.");
+                            LLoger.logger.trace("{} -> {} no updates are available.", symbol, conid);
                             new OpHistData().queryAndApplyStrategy(conid, symbol, conn, qr, 30, strategy);
                             GlobalFlags.UpdateHistDone.STATE.setB(true);
                         } else {
@@ -100,7 +100,7 @@ public class ProduceHistDataBeanToQueue {
                 }
             }
         } else {
-            ColorSOP.e("ERROR: symbols_list_tbl seems to be null.");
+            LLoger.logger.error("ERROR: symbols_list_tbl seems to be null.");
         }
     }
 }

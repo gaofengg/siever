@@ -4,7 +4,7 @@ import com.huanhe_tech.cli.*;
 import com.huanhe_tech.cli.reqAndHandler.ProduceHistDataBeanToQueue;
 import com.huanhe_tech.cli.strategies.StrategyApply;
 import com.huanhe_tech.cli.strategies.StrategyExtreme;
-import com.huanhe_tech.siever.utils.ColorSOP;
+import com.huanhe_tech.siever.utils.LLoger;
 import com.huanhe_tech.siever.utils.SymbolsSourceHandler;
 
 import java.time.ZoneId;
@@ -17,8 +17,7 @@ public class Main {
         int extremeNumber = 2;
         int redundancy = 1;
         String nowDateTime = ZonedDateTime.now(ZoneId.of("GMT-4")).format(DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss"));
-        System.out.print("Current Time in New York: ");
-        ColorSOP.y(nowDateTime);
+        LLoger.logger.info("Current Time in New York: {}", nowDateTime);
         String uri = "resources/usa.txt";
         // 将 symbol list 的源文件头的日期与配置文件里值对比，判断源文件是否更新过？
         if (SymbolsSourceHandler.needUpdate(uri) > 0) {
@@ -46,7 +45,7 @@ public class Main {
             new Thread(() -> new StrategyApply().getHistDataAndStrategyApply(new StrategyExtreme(pileNumber, extremeNumber, redundancy))).start();
             new Thread(ConsumeExtremeResult::new).start();
         } else {
-            ColorSOP.e("You seem to be using expired symbol source data, please update it to " + uri + ".");
+            LLoger.logger.error("You seem to be using expired symbol source data, please update it to " + uri + ".");
         }
 
     }

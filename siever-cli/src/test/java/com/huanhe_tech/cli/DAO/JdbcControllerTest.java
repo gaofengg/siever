@@ -321,4 +321,9 @@ class JdbcControllerTest {
         BigDecimal translate = new MarketCapStrToDecimal("20.397B").translate();
         System.out.println(translate);
     }
+
+    @Test
+    void test29() {
+        LLoger.logger.warn(getClass().toString());
+    }
 }

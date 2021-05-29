@@ -2,8 +2,8 @@ package com.huanhe_tech.cli.reqAndHandler;
 
 import com.huanhe_tech.cli.beans.BeanOfHistData;
 import com.huanhe_tech.cli.strategies.Strategy;
-import com.huanhe_tech.siever.utils.ColorSOP;
 import com.huanhe_tech.siever.utils.IntervalDaysCalc;
+import com.huanhe_tech.siever.utils.LLoger;
 import com.ib.controller.Bar;
 import org.apache.commons.dbutils.QueryRunner;
 import org.apache.commons.dbutils.handlers.BeanListHandler;
@@ -12,7 +12,6 @@ import java.sql.Connection;
 import java.sql.SQLException;
 import java.util.Comparator;
 import java.util.List;
-import java.util.concurrent.atomic.AtomicInteger;
 
 public class OpHistData {
     public void queryAndApplyStrategy(String conid, String symbol, Connection conn, QueryRunner qr, int histMinSize, Strategy<List<BeanOfHistData>> strategy) {
@@ -28,14 +27,14 @@ public class OpHistData {
         }
 
         if (histBeanList == null) {
-            ColorSOP.e("ERROR: -> " + symbol + " " + conid + "table seems to be null.");
+            LLoger.logger.error("ERROR -> {} {} table seems to be null.", symbol, conid);
         } else if (noMovement(histBeanList, 30, 2)){
-            ColorSOP.w("IGNORE -> " + symbol + " " + conid + " Inactive Market Data");
+            LLoger.logger.warn("IGNORE -> {} {} Inactive Market Data", symbol, conid);
         } else {
             if (histBeanList.size() >= histMinSize) {
                 strategy.run(histBeanList);
             } else {
-                ColorSOP.w(symbol + " * -> Insufficient target symbol data. Data size < 30. Calculation is ignored.");
+                LLoger.logger.warn("{} -> Insufficient target symbol data. Data size < 30. Calculation is ignored.", symbol);
             }
         }
     }
@@ -84,7 +83,6 @@ public class OpHistData {
         } catch (SQLException throwables) {
             throwables.printStackTrace();
         }
-//        ColorSOP.i(symbol + " -> " + conid + " data table is created. " + insertCount + " days of historical data inserted.");
     }
 
     public void updateData(String conid, String symbol, Connection conn, QueryRunner qr, Bar bar, int insertCount) {
@@ -132,7 +130,6 @@ public class OpHistData {
         } catch (SQLException throwables) {
             throwables.printStackTrace();
         }
-//        ColorSOP.i(symbol + " -> " + conid + " data table is created. " + insertCount + " days of historical data inserted.");
     }
 
     public int intervalDays(String conid, String symbol, Connection conn, QueryRunner qr) {
