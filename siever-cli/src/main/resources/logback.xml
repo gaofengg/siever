@@ -7,6 +7,7 @@
     <conversionRule conversionWord="customcolor" converterClass="com.huanhe_tech.siever.utils.LogBackgroundColorFul"/>
     <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
         <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+            <charset class="java.nio.charset.Charset">UTF-8</charset>
             <!--格式化输出：%d表示日期，%thread表示线程名，%-5level：级别从左显示5个字符宽度%msg：日志消息，%n是换行符-->
             <pattern>%white(%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread]) %customcolor(%-5level %logger{50} - %msg%n)</pattern>
         </encoder>

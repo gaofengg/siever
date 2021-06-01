@@ -52,9 +52,10 @@ allprojects {
 
         implementation group: 'ch.qos.logback', name: 'logback-classic', version: '1.2.3'
 
-        implementation 'javax.servlet:javax.servlet-api:4.0.1'
         implementation group: 'javax.ws.rs', name: 'javax.ws.rs-api', version: '2.1.1'
+        compileOnly group: 'javax.servlet', name: 'javax.servlet-api', version: '4.0.1'
         implementation group: 'javax.xml.bind', name: 'jaxb-api', version: '2.3.1'
+
 
 
     }
@@ -74,10 +75,17 @@ allprojects {
 
 }
 
+tasks.installDist.doLast {
+    copy {
+        from('resources')
+        into("$buildDir/install/siever/bin/resources")
+    }
+}
 
 subprojects {
     dependencies {
         implementation group: 'org.xerial', name: 'sqlite-jdbc', version: '3.34.0'
         implementation fileTree(dir: '../libs', includes: ['*.jar'])
     }
+
 }
