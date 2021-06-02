@@ -76,7 +76,7 @@ public class StrategyExtreme implements Strategy<List<BeanOfHistData>> {
                             firstBreakthrough(list, mergedBeanOfHistDataList, orientation, redundancy)) { // 【过滤条件太苛刻】
 
                         LLoger.logger.info("{} -> Opening opportunity, Orientation: {}", symbol, orientation);
-                        mergedBeanOfHistDataList.forEach(item -> LLoger.logger.info(item.toString()));
+                        mergedBeanOfHistDataList.forEach(item -> LLoger.logger.debug(item.toString()));
 
                         InstancePool.getQueueWithExtremeResultBean().put(new BeanOfExtremeResult(nextId(),
                                 conid,
@@ -90,7 +90,7 @@ public class StrategyExtreme implements Strategy<List<BeanOfHistData>> {
                             firstBreakthrough(list, mergedBeanOfHistDataList, orientation, redundancy)) { // 【过滤条件太苛刻】
 
                         LLoger.logger.info("{} -> Opening opportunity, Orientation: {}", symbol, orientation);
-                        mergedBeanOfHistDataList.forEach(item -> LLoger.logger.info(item.toString()));
+                        mergedBeanOfHistDataList.forEach(item -> LLoger.logger.debug(item.toString()));
                         InstancePool.getQueueWithExtremeResultBean().put(new BeanOfExtremeResult(nextId(),
                                 conid,
                                 symbol,

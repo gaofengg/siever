@@ -10,7 +10,6 @@ module siever.cli{
     requires commons.logging;
     requires org.slf4j;
     requires java.ws.rs;
-    requires javax.servlet.api;
     requires java.xml.bind;
     exports com.huanhe_tech.cli;
     exports com.huanhe_tech.cli.connection;
