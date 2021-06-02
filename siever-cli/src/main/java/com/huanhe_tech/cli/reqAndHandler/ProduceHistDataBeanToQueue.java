@@ -36,7 +36,7 @@ public class ProduceHistDataBeanToQueue {
             conn = IJdbcUtils.getConnection();
             qr = new QueryRunner();
 
-            String sql = "select id, conid, symbol from symbols_list_tbl where id < 200";
+            String sql = "select id, conid, symbol from symbols_list_tbl";
             MapListHandler mlh = new MapListHandler();
             idAndConidAndSymbolMapList = qr.query(conn, sql, mlh);
         } catch (SQLException throwables) {

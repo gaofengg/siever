@@ -13,7 +13,7 @@ public class IPipeline implements Pipeline {
 
     @Override
     public void process(ResultItems resultItems, Task task) {
-        LLoger.logger.trace("https://finance.yahoo.com/chart/" + symbol);
+        LLoger.logger.debug("https://finance.yahoo.com/chart/" + symbol);
     }
 
     public String getUrl() {

@@ -11,6 +11,7 @@ module siever.cli{
     requires org.slf4j;
     requires java.ws.rs;
     requires java.xml.bind;
+    requires webmagic.core;
     exports com.huanhe_tech.cli;
     exports com.huanhe_tech.cli.connection;
     exports com.huanhe_tech.cli.queue;

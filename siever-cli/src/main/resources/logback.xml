@@ -8,7 +8,8 @@
     <property name="log.maxHistory" value="10"/>
     <property name="log.filePath" value="resources/log"/>
     <property name="log.pattern" value="%d{yyyy-MM-dd HH:mm:ss:SSS} [%thread] %-5level %logger{50} - %msg%n"/>
-    <property name="log.colorPattern" value="%d{yyyy-MM-dd HH:mm:ss:SSS} [%thread] %customColor(%-5level %logger{50} - %msg%n)" />
+    <property name="log.colorPattern"
+              value="%d{yyyy-MM-dd HH:mm:ss:SSS} [%thread] %customColor(%-5level %logger{50} - %msg%n)"/>
 
     <!-- 控制台设置 -->
     <appender name="consoleAppender" class="ch.qos.logback.core.ConsoleAppender">
@@ -85,17 +86,30 @@
         </filter>
     </appender>
 
+    <!-- TRACE -->
+    <appender name="traceAppender" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <!-- 文件路径 -->
+        <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+            <pattern>${log.pattern}</pattern>
+        </encoder>
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+            <level>Trace</level>
+            <onMatch>ACCEPT</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter>
+    </appender>
+
     <logger name="com.huanhe_tech.siever" level="TRACE" additivity="true">
         <appender-ref ref="debugAppender"/>
         <appender-ref ref="infoAppender"/>
         <appender-ref ref="errorAppender"/>
     </logger>
 
-    <logger name="us.codecraft.webmagic.Spider" level="ERROR">
-
+    <logger name="us.codecraft.webmagic" level="ERROR" additivity="false">
+        <appender-ref ref="errorAppender" />
     </logger>
 
-    <root level="info">
+    <root level="INFO">
         <appender-ref ref="consoleAppender"/>
     </root>
 </configuration>
