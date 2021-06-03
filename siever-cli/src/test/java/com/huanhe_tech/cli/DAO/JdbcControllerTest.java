@@ -10,6 +10,7 @@ import com.ib.controller.Bar;
 import com.sun.source.tree.ContinueTree;
 import org.apache.commons.dbutils.QueryRunner;
 import org.apache.commons.logging.Log;
+import org.apache.commons.math3.stat.descriptive.moment.Variance;
 import org.junit.jupiter.api.Test;
 
 import javax.swing.*;
@@ -22,12 +23,10 @@ import java.text.ParseException;
 import java.time.*;
 import java.time.format.DateTimeFormatter;
 import java.time.temporal.TemporalField;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Date;
-import java.util.List;
+import java.util.*;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.locks.ReentrantLock;
+import java.util.stream.Collector;
 
 class JdbcControllerTest {
     @Test
@@ -325,5 +324,15 @@ class JdbcControllerTest {
     @Test
     void test29() {
         LLoger.logger.warn(getClass().toString());
+    }
+
+    @Test
+    void test30() {
+        List<Integer> list = new ArrayList<>(Arrays.asList(8, 5, 9, 7, 6));
+        double[] doubles = list.stream().mapToDouble(x -> x).toArray();
+        double evaluate = new Variance().evaluate(doubles);
+        System.out.println(evaluate);
+
+
     }
 }

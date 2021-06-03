@@ -7,6 +7,7 @@ module siever.cli{
     requires druid;
     requires commons.dbutils;
     requires org.jetbrains.annotations;
+    requires commons.math3;
     requires commons.logging;
     requires org.slf4j;
     requires java.ws.rs;

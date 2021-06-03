@@ -4,6 +4,7 @@ import com.huanhe_tech.cli.*;
 import com.huanhe_tech.cli.reqAndHandler.ProduceHistDataBeanToQueue;
 import com.huanhe_tech.cli.strategies.StrategyApply;
 import com.huanhe_tech.cli.strategies.StrategyExtreme;
+import com.huanhe_tech.siever.utils.CliParam;
 import com.huanhe_tech.siever.utils.LLoger;
 import com.huanhe_tech.siever.utils.SymbolsSourceHandler;
 
@@ -13,9 +14,11 @@ import java.time.format.DateTimeFormatter;
 
 public class Main {
     public static void main(String[] args) {
-        int pileNumber = 3;
-        int extremeNumber = 2;
-        int redundancy = 1;
+        final int pileNumber = Integer.parseInt(CliParam.getParam("pileNumber"));
+        final int extremeNumber = Integer.parseInt(CliParam.getParam("extremeNumber"));
+        final int redundancy = Integer.parseInt(CliParam.getParam("redundancy"));
+        final int durationDays = Integer.parseInt(CliParam.getParam("durationDays"));
+
         String nowDateTime = ZonedDateTime.now(ZoneId.of("GMT-4")).format(DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss"));
         LLoger.logger.info("Current Time in New York: {}", nowDateTime);
         String uri = "resources/usa.txt";
@@ -35,14 +38,14 @@ public class Main {
                 e.printStackTrace();
             }
 
-            new Thread(() -> new ProduceHistDataBeanToQueue(new StrategyExtreme(pileNumber, extremeNumber, redundancy))).start();
-            new Thread(() -> new StrategyApply().getHistDataAndStrategyApply(new StrategyExtreme(pileNumber, extremeNumber, redundancy))).start();
+            new Thread(() -> new ProduceHistDataBeanToQueue(new StrategyExtreme(pileNumber, extremeNumber, redundancy, durationDays))).start();
+            new Thread(() -> new StrategyApply().getHistDataAndStrategyApply(new StrategyExtreme(pileNumber, extremeNumber, redundancy, durationDays))).start();
             new Thread(ConsumeExtremeResult::new).start();
             // 查表 symbols_list_tbl，请求历史数据，put 到 QueueWithHistDataBean
             // 从 QueueWithHistDataBean 队列 take HistDataBean 创表或更新数据，并计算
         } else if (SymbolsSourceHandler.needUpdate(uri) == 0) {
-            new Thread(() -> new ProduceHistDataBeanToQueue(new StrategyExtreme(pileNumber, extremeNumber, redundancy))).start();
-            new Thread(() -> new StrategyApply().getHistDataAndStrategyApply(new StrategyExtreme(pileNumber, extremeNumber, redundancy))).start();
+            new Thread(() -> new ProduceHistDataBeanToQueue(new StrategyExtreme(pileNumber, extremeNumber, redundancy, durationDays))).start();
+            new Thread(() -> new StrategyApply().getHistDataAndStrategyApply(new StrategyExtreme(pileNumber, extremeNumber, redundancy, durationDays))).start();
             new Thread(ConsumeExtremeResult::new).start();
         } else {
             LLoger.logger.error("You seem to be using expired symbol source data, please update it to " + uri + ".");

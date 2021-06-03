@@ -4,10 +4,8 @@ import com.huanhe_tech.cli.InstancePool;
 import com.huanhe_tech.cli.beans.BeanOfExtremeResult;
 import com.huanhe_tech.cli.beans.BeanOfHistData;
 import com.huanhe_tech.cli.beans.BeanOfHistListInQueue;
-import com.huanhe_tech.cli.connection.Reconnection;
 import com.huanhe_tech.cli.reqAndHandler.OpHistData;
 import com.huanhe_tech.siever.utils.IJdbcUtils;
-import com.huanhe_tech.siever.utils.LLoger;
 import org.apache.commons.dbutils.QueryRunner;
 import org.apache.commons.dbutils.handlers.ScalarHandler;
 
@@ -25,11 +23,6 @@ public class StrategyApply {
 
     public void getHistDataAndStrategyApply(Strategy<List<BeanOfHistData>> strategy) {
         int histMinSize = 30;
-        if (!InstancePool.getConnectionController().client().isConnected()) {
-            LLoger.logger.warn("Reconnecting ...");
-            new Reconnection();
-        }
-
         try {
             Connection conn = IJdbcUtils.getConnection();
             QueryRunner qr = new QueryRunner();
@@ -43,6 +36,7 @@ public class StrategyApply {
                             0L,
                             "#EOF",
                             "0",
+                            0.0,
                             0.0,
                             0.0,
                             0.0

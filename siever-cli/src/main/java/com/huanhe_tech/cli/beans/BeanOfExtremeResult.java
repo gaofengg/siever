@@ -5,18 +5,34 @@ public class BeanOfExtremeResult {
     private long conid;
     private String symbol;
     private String orientation;
-    private double high_avg;
-    private double low_avg;
-    private double ad;
+    private double quoteChangeVariance;
+    private double volumeVariance;
+    private double volumeBreak;
+    private double extremeVariance;
 
-    public BeanOfExtremeResult(int id, long conid, String symbol, String orientation, double high_avg, double low_avg, double ad) {
+    /**
+     *
+     * @param id id
+     * @param conid conid
+     * @param symbol symbol
+     * @param orientation orientation UP or Down
+     * @param quoteChangeVariance 涨跌幅的取样方差，数值越大，说明波动越大，即大涨大跌
+     * @param volumeVariance 成交量的取样方差，数值越大，说明资金波动越大，即大进大出
+     * @param volumeBreak 成交量突破，计算指定周期内的平均成交量（今日成交量不参与计算）av，使用 今日成交量 / av
+     * @param extremeVariance 极点的取样方差，数值越大，说明极值范围内的涨跌幅越大
+     *                        按照上涨的标的开盘或单日不会跌太深，下跌的标的开盘或单日不会涨太高的原则
+     *                        如果标的上涨，应该使用高点的数组求极值取样方差
+     *                        反之亦然
+     */
+    public BeanOfExtremeResult(int id, long conid, String symbol, String orientation, double quoteChangeVariance, double volumeVariance, double volumeBreak, double extremeVariance) {
         this.id = id;
         this.conid = conid;
         this.symbol = symbol;
         this.orientation = orientation;
-        this.high_avg = high_avg;
-        this.low_avg = low_avg;
-        this.ad = ad;
+        this.quoteChangeVariance = quoteChangeVariance;
+        this.volumeVariance = volumeVariance;
+        this.volumeBreak = volumeBreak;
+        this.extremeVariance = extremeVariance;
     }
 
     public int getId() {
@@ -51,28 +67,36 @@ public class BeanOfExtremeResult {
         this.orientation = orientation;
     }
 
-    public double getHigh_avg() {
-        return high_avg;
+    public double getQuoteChangeVariance() {
+        return quoteChangeVariance;
     }
 
-    public void setHigh_avg(double high_avg) {
-        this.high_avg = high_avg;
+    public void setQuoteChangeVariance(double quoteChangeVariance) {
+        this.quoteChangeVariance = quoteChangeVariance;
     }
 
-    public double getLow_avg() {
-        return low_avg;
+    public double getVolumeVariance() {
+        return volumeVariance;
     }
 
-    public void setLow_avg(double low_avg) {
-        this.low_avg = low_avg;
+    public void setVolumeVariance(double volumeVariance) {
+        this.volumeVariance = volumeVariance;
     }
 
-    public double getAd() {
-        return ad;
+    public double getVolumeBreak() {
+        return volumeBreak;
     }
 
-    public void setAd(double ad) {
-        this.ad = ad;
+    public void setVolumeBreak(double volumeBreak) {
+        this.volumeBreak = volumeBreak;
+    }
+
+    public double getExtremeVariance() {
+        return extremeVariance;
+    }
+
+    public void setExtremeVariance(double extremeVariance) {
+        this.extremeVariance = extremeVariance;
     }
 
     @Override
@@ -82,9 +106,9 @@ public class BeanOfExtremeResult {
                 ", conid=" + conid +
                 ", symbol='" + symbol + '\'' +
                 ", orientation='" + orientation + '\'' +
-                ", high_ave=" + high_avg +
-                ", low_ave=" + low_avg +
-                ", ad=" + ad +
+                ", high_ave=" + quoteChangeVariance +
+                ", low_ave=" + volumeVariance +
+                ", ad=" + volumeBreak +
                 '}';
     }
 }

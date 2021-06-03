@@ -52,6 +52,8 @@ allprojects {
 
         implementation group: 'ch.qos.logback', name: 'logback-classic', version: '1.2.3'
 
+        implementation group: 'org.apache.commons', name: 'commons-math3', version: '3.6.1'
+
         implementation group: 'javax.ws.rs', name: 'javax.ws.rs-api', version: '2.1.1'
         compileOnly group: 'javax.servlet', name: 'javax.servlet-api', version: '4.0.1'
         implementation group: 'javax.xml.bind', name: 'jaxb-api', version: '2.3.1'

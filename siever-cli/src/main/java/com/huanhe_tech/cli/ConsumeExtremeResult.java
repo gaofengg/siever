@@ -34,15 +34,25 @@ public class ConsumeExtremeResult {
                     "conid integer not null," +
                     "symbol text not null," +
                     "orientation text not null," +
-                    "high_avg real," +
-                    "low_avg real," +
-                    "ad real," +
+                    "quote_change_var real," +
+                    "volume_var real," +
+                    "volume_break real," +
+                    "extreme_var real," +
                     "market_cap NUMERIC," +
                     "url text)";
             // 清除 extreme_result 表中的数据
             String sql_clear_tbl = "delete from extreme_result";
             // 写表
-            sql_insert_result = "insert or ignore into extreme_result (conid, symbol, orientation, high_avg, low_avg, ad, market_cap, url) values(?, ?, ?, ?, ?, ?, ?, ?)";
+            sql_insert_result = "insert or ignore into extreme_result (" +
+                    "conid, " +
+                    "symbol, " +
+                    "orientation," +
+                    "quote_change_var , " +
+                    "volume_var, " +
+                    "volume_break, " +
+                    "extreme_var, " +
+                    "market_cap," +
+                    " url) values(?, ?, ?, ?, ?, ?, ?, ?, ?)";
 
             ScalarHandler<Integer> shResult = new ScalarHandler<>();
             int resultTableExistsCount = qr.query(conn, sql_find_result_tbl, shResult);
@@ -68,14 +78,14 @@ public class ConsumeExtremeResult {
             BigDecimal marketCap = new MarketCapStrToDecimal(crawlerExecutor.getMarketCap()).translate();
             String url = crawlerExecutor.getUrl();
             try {
-                qr.update(conn,
-                        sql_insert_result,
+                qr.update(conn, sql_insert_result,
                         beanOfExtremeResult.getConid(),
                         beanOfExtremeResult.getSymbol(),
                         beanOfExtremeResult.getOrientation(),
-                        beanOfExtremeResult.getHigh_avg(),
-                        beanOfExtremeResult.getLow_avg(),
-                        beanOfExtremeResult.getAd(),
+                        beanOfExtremeResult.getQuoteChangeVariance(),
+                        beanOfExtremeResult.getVolumeVariance(),
+                        beanOfExtremeResult.getVolumeBreak(),
+                        beanOfExtremeResult.getExtremeVariance(),
                         marketCap,
                         url);
             } catch (SQLException throwables) {
