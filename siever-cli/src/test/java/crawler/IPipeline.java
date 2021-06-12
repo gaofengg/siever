@@ -1,4 +1,4 @@
-package com.huanhe_tech.cli.crawler;
+package crawler;
 
 import com.huanhe_tech.siever.utils.LLoger;
 import us.codecraft.webmagic.ResultItems;

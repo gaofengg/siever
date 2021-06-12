@@ -2,8 +2,6 @@ package com.huanhe_tech.cli.DAO;
 
 import com.alibaba.druid.pool.DruidDataSourceFactory;
 import com.huanhe_tech.cli.beans.EndOfHistBeanQueue;
-import com.huanhe_tech.cli.crawler.MarketCapStrToDecimal;
-import com.huanhe_tech.cli.reqAndHandler.ReqData;
 import com.huanhe_tech.siever.utils.*;
 import com.ib.controller.ApiController;
 import com.ib.controller.Bar;
@@ -315,11 +313,6 @@ class JdbcControllerTest {
 
     }
 
-    @Test
-    void test28() {
-        BigDecimal translate = new MarketCapStrToDecimal("20.397B").translate();
-        System.out.println(translate);
-    }
 
     @Test
     void test29() {
@@ -334,5 +327,18 @@ class JdbcControllerTest {
         System.out.println(evaluate);
 
 
+    }
+
+    @Test
+    void test31() {
+        double[] array = {1.9, 4.3, 2.2, 6.5, 1.1};
+        List<Double> list = new ArrayList<>();
+        for (double v : array) {
+            list.add(v);
+        }
+//        list.remove(0);
+//        list.add(0, 5.5);
+
+        list.forEach(System.out::println);
     }
 }

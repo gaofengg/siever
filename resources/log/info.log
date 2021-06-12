@@ -1,429 +1,1044 @@
-2021-06-03 10:07:39:405 [main] INFO  com.huanhe_tech.siever.Main - Current Time in New York: 2021-06-02 22:07:39
-2021-06-03 10:07:41:126 [Thread-0] INFO  com.huanhe_tech.siever.Main - ABMD -> Opening opportunity, Orientation: DOWN
-2021-06-03 10:07:41:715 [Thread-0] INFO  com.huanhe_tech.siever.Main - ACM -> Opening opportunity, Orientation: DOWN
-2021-06-03 10:09:08:751 [main] INFO  com.huanhe_tech.siever.Main - Current Time in New York: 2021-06-02 22:09:08
-2021-06-03 10:09:10:270 [Thread-0] INFO  com.huanhe_tech.siever.Main - ABMD -> Opening opportunity, Orientation: DOWN
-2021-06-03 10:09:10:807 [Thread-0] INFO  com.huanhe_tech.siever.Main - ACM -> Opening opportunity, Orientation: DOWN
-2021-06-03 11:11:59:728 [main] INFO  com.huanhe_tech.siever.Main - Current Time in New York: 2021-06-02 23:11:59
-2021-06-03 11:12:01:243 [Thread-0] INFO  com.huanhe_tech.siever.Main - ABMD -> Opening opportunity, Orientation: DOWN
-2021-06-03 11:12:01:766 [Thread-0] INFO  com.huanhe_tech.siever.Main - ACM -> Opening opportunity, Orientation: DOWN
-2021-06-03 11:26:49:780 [main] INFO  com.huanhe_tech.siever.Main - Current Time in New York: 2021-06-02 23:26:49
-2021-06-03 11:26:51:325 [Thread-0] INFO  com.huanhe_tech.siever.Main - ABMD -> Opening opportunity, Orientation: DOWN
-2021-06-03 11:26:51:851 [Thread-0] INFO  com.huanhe_tech.siever.Main - ACM -> Opening opportunity, Orientation: DOWN
-2021-06-03 11:26:55:701 [Thread-5] INFO  com.huanhe_tech.siever.Main - Acount List: 
-2021-06-03 11:26:55:702 [Thread-5] INFO  com.huanhe_tech.siever.Main - U8978970
-2021-06-03 11:27:01:101 [Thread-0] INFO  com.huanhe_tech.siever.Main - AKU -> Opening opportunity, Orientation: DOWN
-2021-06-03 11:27:01:475 [Thread-0] INFO  com.huanhe_tech.siever.Main - ALOT -> Opening opportunity, Orientation: UP
-2021-06-03 11:27:01:587 [Thread-0] INFO  com.huanhe_tech.siever.Main - ALTM -> Opening opportunity, Orientation: UP
-2021-06-03 11:27:02:418 [Thread-0] INFO  com.huanhe_tech.siever.Main - AOD -> Opening opportunity, Orientation: UP
-2021-06-03 11:27:03:344 [Thread-0] INFO  com.huanhe_tech.siever.Main - ARW -> Opening opportunity, Orientation: UP
-2021-06-03 11:27:03:518 [Thread-0] INFO  com.huanhe_tech.siever.Main - ASIX -> Opening opportunity, Orientation: UP
-2021-06-03 11:27:04:311 [Thread-0] INFO  com.huanhe_tech.siever.Main - ATO -> Opening opportunity, Orientation: DOWN
-2021-06-03 11:27:05:704 [Thread-0] INFO  com.huanhe_tech.siever.Main - BCAB -> Opening opportunity, Orientation: DOWN
-2021-06-03 11:27:46:584 [main] INFO  com.huanhe_tech.siever.Main - Current Time in New York: 2021-06-02 23:27:46
-2021-06-03 11:27:48:102 [Thread-0] INFO  com.huanhe_tech.siever.Main - ABMD -> Opening opportunity, Orientation: DOWN
-2021-06-03 11:27:48:622 [Thread-0] INFO  com.huanhe_tech.siever.Main - ACM -> Opening opportunity, Orientation: DOWN
-2021-06-03 11:27:52:362 [Thread-5] INFO  com.huanhe_tech.siever.Main - Acount List: 
-2021-06-03 11:27:52:363 [Thread-5] INFO  com.huanhe_tech.siever.Main - U8978970
-2021-06-03 11:27:54:000 [Thread-0] INFO  com.huanhe_tech.siever.Main - AKU -> Opening opportunity, Orientation: DOWN
-2021-06-03 11:27:54:355 [Thread-0] INFO  com.huanhe_tech.siever.Main - ALOT -> Opening opportunity, Orientation: UP
-2021-06-03 11:27:54:467 [Thread-0] INFO  com.huanhe_tech.siever.Main - ALTM -> Opening opportunity, Orientation: UP
-2021-06-03 11:27:55:336 [Thread-0] INFO  com.huanhe_tech.siever.Main - AOD -> Opening opportunity, Orientation: UP
-2021-06-03 11:27:56:165 [Thread-0] INFO  com.huanhe_tech.siever.Main - ARW -> Opening opportunity, Orientation: UP
-2021-06-03 11:27:56:369 [Thread-0] INFO  com.huanhe_tech.siever.Main - ASIX -> Opening opportunity, Orientation: UP
-2021-06-03 11:27:57:124 [Thread-0] INFO  com.huanhe_tech.siever.Main - ATO -> Opening opportunity, Orientation: DOWN
-2021-06-03 11:27:58:364 [Thread-0] INFO  com.huanhe_tech.siever.Main - BCAB -> Opening opportunity, Orientation: DOWN
-2021-06-03 11:28:00:848 [Thread-0] INFO  com.huanhe_tech.siever.Main - BLDP -> Opening opportunity, Orientation: DOWN
-2021-06-03 11:28:04:038 [Thread-0] INFO  com.huanhe_tech.siever.Main - CDLX -> Opening opportunity, Orientation: DOWN
-2021-06-03 11:28:04:129 [Thread-0] INFO  com.huanhe_tech.siever.Main - CDXS -> Opening opportunity, Orientation: DOWN
-2021-06-03 11:28:04:834 [Thread-0] INFO  com.huanhe_tech.siever.Main - CHGG -> Opening opportunity, Orientation: DOWN
-2021-06-03 11:28:06:942 [Thread-0] INFO  com.huanhe_tech.siever.Main - COFS -> Opening opportunity, Orientation: UP
-2021-06-03 11:28:06:994 [Thread-0] INFO  com.huanhe_tech.siever.Main - COIN -> Opening opportunity, Orientation: DOWN
-2021-06-03 11:28:07:281 [Thread-0] INFO  com.huanhe_tech.siever.Main - CP -> Opening opportunity, Orientation: UP
-2021-06-03 11:28:10:131 [Thread-0] INFO  com.huanhe_tech.siever.Main - CWEN -> Opening opportunity, Orientation: UP
-2021-06-03 11:28:10:416 [Thread-0] INFO  com.huanhe_tech.siever.Main - DAIO -> Opening opportunity, Orientation: UP
-2021-06-03 11:28:11:945 [Thread-0] INFO  com.huanhe_tech.siever.Main - DG -> Opening opportunity, Orientation: DOWN
-2021-06-03 11:28:14:553 [Thread-0] INFO  com.huanhe_tech.siever.Main - DKNG -> Opening opportunity, Orientation: DOWN
-2021-06-03 11:28:19:315 [Thread-0] INFO  com.huanhe_tech.siever.Main - ECL -> Opening opportunity, Orientation: DOWN
-2021-06-03 11:28:21:048 [Thread-0] INFO  com.huanhe_tech.siever.Main - EPIX -> Opening opportunity, Orientation: UP
-2021-06-03 11:28:23:443 [Thread-0] INFO  com.huanhe_tech.siever.Main - ETWO -> Opening opportunity, Orientation: UP
-2021-06-03 11:28:25:604 [Thread-0] INFO  com.huanhe_tech.siever.Main - EURN -> Opening opportunity, Orientation: UP
-2021-06-03 11:28:29:450 [Thread-0] INFO  com.huanhe_tech.siever.Main - FERG -> Opening opportunity, Orientation: UP
-2021-06-03 11:28:31:054 [Thread-0] INFO  com.huanhe_tech.siever.Main - FFA -> Opening opportunity, Orientation: UP
-2021-06-03 11:28:35:378 [Thread-0] INFO  com.huanhe_tech.siever.Main - FSLY -> Opening opportunity, Orientation: DOWN
-2021-06-03 11:28:38:796 [Thread-0] INFO  com.huanhe_tech.siever.Main - GDRX -> Opening opportunity, Orientation: DOWN
-2021-06-03 11:28:42:831 [Thread-0] INFO  com.huanhe_tech.siever.Main - GOOGL -> Opening opportunity, Orientation: UP
-2021-06-03 11:28:44:941 [Thread-0] INFO  com.huanhe_tech.siever.Main - HMY -> Opening opportunity, Orientation: UP
-2021-06-03 11:28:48:331 [Thread-0] INFO  com.huanhe_tech.siever.Main - IDE -> Opening opportunity, Orientation: UP
-2021-06-03 11:28:48:528 [Thread-0] INFO  com.huanhe_tech.siever.Main - IGA -> Opening opportunity, Orientation: UP
-2021-06-03 11:28:50:771 [Thread-0] INFO  com.huanhe_tech.siever.Main - III -> Opening opportunity, Orientation: UP
-2021-06-03 11:28:53:916 [Thread-0] INFO  com.huanhe_tech.siever.Main - INTU -> Opening opportunity, Orientation: UP
-2021-06-03 11:28:56:865 [Thread-0] INFO  com.huanhe_tech.siever.Main - ITIC -> Opening opportunity, Orientation: DOWN
-2021-06-03 11:28:59:344 [Thread-0] INFO  com.huanhe_tech.siever.Main - JLL -> Opening opportunity, Orientation: UP
-2021-06-03 11:29:02:983 [Thread-0] INFO  com.huanhe_tech.siever.Main - JTD -> Opening opportunity, Orientation: UP
-2021-06-03 11:29:04:398 [Thread-0] INFO  com.huanhe_tech.siever.Main - KBNT -> Opening opportunity, Orientation: DOWN
-2021-06-03 11:29:07:189 [Thread-0] INFO  com.huanhe_tech.siever.Main - KEY PRI -> Opening opportunity, Orientation: UP
-2021-06-03 11:29:09:904 [Thread-0] INFO  com.huanhe_tech.siever.Main - KN -> Opening opportunity, Orientation: DOWN
-2021-06-03 11:29:12:266 [Thread-0] INFO  com.huanhe_tech.siever.Main - KNSA -> Opening opportunity, Orientation: DOWN
-2021-06-03 11:29:18:449 [Thread-0] INFO  com.huanhe_tech.siever.Main - MFA PRC -> Opening opportunity, Orientation: UP
-2021-06-03 11:29:19:590 [Thread-0] INFO  com.huanhe_tech.siever.Main - MPW -> Opening opportunity, Orientation: UP
-2021-06-03 11:29:20:671 [Thread-0] INFO  com.huanhe_tech.siever.Main - MSTR -> Opening opportunity, Orientation: DOWN
-2021-06-03 11:29:23:367 [Thread-0] INFO  com.huanhe_tech.siever.Main - MUFG -> Opening opportunity, Orientation: UP
-2021-06-03 11:29:26:267 [Thread-0] INFO  com.huanhe_tech.siever.Main - NCNO -> Opening opportunity, Orientation: DOWN
-2021-06-03 11:29:31:508 [main] INFO  com.huanhe_tech.siever.Main - Current Time in New York: 2021-06-02 23:29:31
-2021-06-03 11:29:33:031 [Thread-0] INFO  com.huanhe_tech.siever.Main - ABMD -> Opening opportunity, Orientation: DOWN
-2021-06-03 11:29:33:527 [Thread-0] INFO  com.huanhe_tech.siever.Main - ACM -> Opening opportunity, Orientation: DOWN
-2021-06-03 11:29:37:256 [Thread-5] INFO  com.huanhe_tech.siever.Main - Acount List: 
-2021-06-03 11:29:37:257 [Thread-5] INFO  com.huanhe_tech.siever.Main - U8978970
-2021-06-03 11:29:38:863 [Thread-0] INFO  com.huanhe_tech.siever.Main - AKU -> Opening opportunity, Orientation: DOWN
-2021-06-03 11:29:39:175 [Thread-0] INFO  com.huanhe_tech.siever.Main - ALOT -> Opening opportunity, Orientation: UP
-2021-06-03 11:29:39:305 [Thread-0] INFO  com.huanhe_tech.siever.Main - ALTM -> Opening opportunity, Orientation: UP
-2021-06-03 11:29:40:066 [Thread-0] INFO  com.huanhe_tech.siever.Main - AOD -> Opening opportunity, Orientation: UP
-2021-06-03 11:29:40:848 [Thread-0] INFO  com.huanhe_tech.siever.Main - ARW -> Opening opportunity, Orientation: UP
-2021-06-03 11:29:41:055 [Thread-0] INFO  com.huanhe_tech.siever.Main - ASIX -> Opening opportunity, Orientation: UP
-2021-06-03 11:29:41:765 [Thread-0] INFO  com.huanhe_tech.siever.Main - ATO -> Opening opportunity, Orientation: DOWN
-2021-06-03 11:29:43:043 [Thread-0] INFO  com.huanhe_tech.siever.Main - BCAB -> Opening opportunity, Orientation: DOWN
-2021-06-03 11:29:44:937 [Thread-0] INFO  com.huanhe_tech.siever.Main - BLDP -> Opening opportunity, Orientation: DOWN
-2021-06-03 11:29:47:914 [Thread-0] INFO  com.huanhe_tech.siever.Main - CDLX -> Opening opportunity, Orientation: DOWN
-2021-06-03 11:29:48:004 [Thread-0] INFO  com.huanhe_tech.siever.Main - CDXS -> Opening opportunity, Orientation: DOWN
-2021-06-03 11:29:48:575 [Thread-0] INFO  com.huanhe_tech.siever.Main - CHGG -> Opening opportunity, Orientation: DOWN
-2021-06-03 11:29:50:386 [Thread-0] INFO  com.huanhe_tech.siever.Main - COFS -> Opening opportunity, Orientation: UP
-2021-06-03 11:29:50:427 [Thread-0] INFO  com.huanhe_tech.siever.Main - COIN -> Opening opportunity, Orientation: DOWN
-2021-06-03 11:29:50:697 [Thread-0] INFO  com.huanhe_tech.siever.Main - CP -> Opening opportunity, Orientation: UP
-2021-06-03 11:29:55:967 [main] INFO  com.huanhe_tech.siever.Main - Current Time in New York: 2021-06-02 23:29:55
-2021-06-03 11:29:57:414 [Thread-0] INFO  com.huanhe_tech.siever.Main - ABMD -> Opening opportunity, Orientation: DOWN
-2021-06-03 11:29:57:993 [Thread-0] INFO  com.huanhe_tech.siever.Main - ACM -> Opening opportunity, Orientation: DOWN
-2021-06-03 11:30:01:769 [Thread-5] INFO  com.huanhe_tech.siever.Main - Acount List: 
-2021-06-03 11:30:01:770 [Thread-5] INFO  com.huanhe_tech.siever.Main - U8978970
-2021-06-03 11:30:03:384 [Thread-0] INFO  com.huanhe_tech.siever.Main - AKU -> Opening opportunity, Orientation: DOWN
-2021-06-03 11:30:03:736 [Thread-0] INFO  com.huanhe_tech.siever.Main - ALOT -> Opening opportunity, Orientation: UP
-2021-06-03 11:30:03:835 [Thread-0] INFO  com.huanhe_tech.siever.Main - ALTM -> Opening opportunity, Orientation: UP
-2021-06-03 11:30:04:611 [Thread-0] INFO  com.huanhe_tech.siever.Main - AOD -> Opening opportunity, Orientation: UP
-2021-06-03 11:30:05:515 [Thread-0] INFO  com.huanhe_tech.siever.Main - ARW -> Opening opportunity, Orientation: UP
-2021-06-03 11:30:05:668 [Thread-0] INFO  com.huanhe_tech.siever.Main - ASIX -> Opening opportunity, Orientation: UP
-2021-06-03 11:30:06:440 [Thread-0] INFO  com.huanhe_tech.siever.Main - ATO -> Opening opportunity, Orientation: DOWN
-2021-06-03 11:30:07:664 [Thread-0] INFO  com.huanhe_tech.siever.Main - BCAB -> Opening opportunity, Orientation: DOWN
-2021-06-03 11:30:09:723 [Thread-0] INFO  com.huanhe_tech.siever.Main - BLDP -> Opening opportunity, Orientation: DOWN
-2021-06-03 11:30:12:591 [Thread-0] INFO  com.huanhe_tech.siever.Main - CDLX -> Opening opportunity, Orientation: DOWN
-2021-06-03 11:30:12:665 [Thread-0] INFO  com.huanhe_tech.siever.Main - CDXS -> Opening opportunity, Orientation: DOWN
-2021-06-03 11:30:13:277 [Thread-0] INFO  com.huanhe_tech.siever.Main - CHGG -> Opening opportunity, Orientation: DOWN
-2021-06-03 11:30:14:997 [Thread-0] INFO  com.huanhe_tech.siever.Main - COFS -> Opening opportunity, Orientation: UP
-2021-06-03 11:30:15:031 [Thread-0] INFO  com.huanhe_tech.siever.Main - COIN -> Opening opportunity, Orientation: DOWN
-2021-06-03 11:30:15:271 [Thread-0] INFO  com.huanhe_tech.siever.Main - CP -> Opening opportunity, Orientation: UP
-2021-06-03 11:30:17:471 [Thread-0] INFO  com.huanhe_tech.siever.Main - CWEN -> Opening opportunity, Orientation: UP
-2021-06-03 11:30:17:722 [Thread-0] INFO  com.huanhe_tech.siever.Main - DAIO -> Opening opportunity, Orientation: UP
-2021-06-03 11:30:20:601 [Thread-0] INFO  com.huanhe_tech.siever.Main - DG -> Opening opportunity, Orientation: DOWN
-2021-06-03 11:30:23:213 [Thread-0] INFO  com.huanhe_tech.siever.Main - DKNG -> Opening opportunity, Orientation: DOWN
-2021-06-03 11:30:27:475 [Thread-0] INFO  com.huanhe_tech.siever.Main - ECL -> Opening opportunity, Orientation: DOWN
-2021-06-03 11:30:29:566 [Thread-0] INFO  com.huanhe_tech.siever.Main - EPIX -> Opening opportunity, Orientation: UP
-2021-06-03 11:30:31:696 [Thread-0] INFO  com.huanhe_tech.siever.Main - ETWO -> Opening opportunity, Orientation: UP
-2021-06-03 11:30:33:821 [Thread-0] INFO  com.huanhe_tech.siever.Main - EURN -> Opening opportunity, Orientation: UP
-2021-06-03 11:30:37:595 [Thread-0] INFO  com.huanhe_tech.siever.Main - FERG -> Opening opportunity, Orientation: UP
-2021-06-03 11:30:39:340 [Thread-0] INFO  com.huanhe_tech.siever.Main - FFA -> Opening opportunity, Orientation: UP
-2021-06-03 11:30:43:448 [Thread-0] INFO  com.huanhe_tech.siever.Main - FSLY -> Opening opportunity, Orientation: DOWN
-2021-06-03 11:30:46:470 [Thread-0] INFO  com.huanhe_tech.siever.Main - GDRX -> Opening opportunity, Orientation: DOWN
-2021-06-03 11:30:50:365 [Thread-0] INFO  com.huanhe_tech.siever.Main - GOOGL -> Opening opportunity, Orientation: UP
-2021-06-03 11:30:52:536 [Thread-0] INFO  com.huanhe_tech.siever.Main - HMY -> Opening opportunity, Orientation: UP
-2021-06-03 11:30:55:380 [Thread-0] INFO  com.huanhe_tech.siever.Main - IDE -> Opening opportunity, Orientation: UP
-2021-06-03 11:30:55:657 [Thread-0] INFO  com.huanhe_tech.siever.Main - IGA -> Opening opportunity, Orientation: UP
-2021-06-03 11:30:58:388 [Thread-0] INFO  com.huanhe_tech.siever.Main - III -> Opening opportunity, Orientation: UP
-2021-06-03 11:31:01:391 [Thread-0] INFO  com.huanhe_tech.siever.Main - INTU -> Opening opportunity, Orientation: UP
-2021-06-03 11:31:04:341 [Thread-0] INFO  com.huanhe_tech.siever.Main - ITIC -> Opening opportunity, Orientation: DOWN
-2021-06-03 11:31:06:872 [Thread-0] INFO  com.huanhe_tech.siever.Main - JLL -> Opening opportunity, Orientation: UP
-2021-06-03 11:31:10:564 [Thread-0] INFO  com.huanhe_tech.siever.Main - JTD -> Opening opportunity, Orientation: UP
-2021-06-03 11:31:12:248 [Thread-0] INFO  com.huanhe_tech.siever.Main - KBNT -> Opening opportunity, Orientation: DOWN
-2021-06-03 11:31:15:148 [Thread-0] INFO  com.huanhe_tech.siever.Main - KEY PRI -> Opening opportunity, Orientation: UP
-2021-06-03 11:31:17:952 [Thread-0] INFO  com.huanhe_tech.siever.Main - KN -> Opening opportunity, Orientation: DOWN
-2021-06-03 11:31:20:551 [Thread-0] INFO  com.huanhe_tech.siever.Main - KNSA -> Opening opportunity, Orientation: DOWN
-2021-06-03 11:31:26:636 [Thread-0] INFO  com.huanhe_tech.siever.Main - MFA PRC -> Opening opportunity, Orientation: UP
-2021-06-03 11:31:27:603 [Thread-0] INFO  com.huanhe_tech.siever.Main - MPW -> Opening opportunity, Orientation: UP
-2021-06-03 11:31:29:261 [Thread-0] INFO  com.huanhe_tech.siever.Main - MSTR -> Opening opportunity, Orientation: DOWN
-2021-06-03 11:31:31:989 [Thread-0] INFO  com.huanhe_tech.siever.Main - MUFG -> Opening opportunity, Orientation: UP
-2021-06-03 11:31:34:943 [Thread-0] INFO  com.huanhe_tech.siever.Main - NCNO -> Opening opportunity, Orientation: DOWN
-2021-06-03 11:31:37:728 [Thread-0] INFO  com.huanhe_tech.siever.Main - NGG -> Opening opportunity, Orientation: UP
-2021-06-03 11:31:39:980 [Thread-0] INFO  com.huanhe_tech.siever.Main - NGL PRB -> Opening opportunity, Orientation: UP
-2021-06-03 11:31:43:386 [Thread-0] INFO  com.huanhe_tech.siever.Main - NI -> Opening opportunity, Orientation: DOWN
-2021-06-03 11:31:46:440 [Thread-0] INFO  com.huanhe_tech.siever.Main - NOMD -> Opening opportunity, Orientation: UP
-2021-06-03 11:31:49:047 [Thread-0] INFO  com.huanhe_tech.siever.Main - NRZ PRB -> Opening opportunity, Orientation: UP
-2021-06-03 11:31:52:013 [Thread-0] INFO  com.huanhe_tech.siever.Main - NVO -> Opening opportunity, Orientation: UP
-2021-06-03 11:31:56:166 [Thread-0] INFO  com.huanhe_tech.siever.Main - OLLI -> Opening opportunity, Orientation: DOWN
-2021-06-03 11:31:57:176 [Thread-0] INFO  com.huanhe_tech.siever.Main - OM -> Opening opportunity, Orientation: DOWN
-2021-06-03 11:32:00:688 [Thread-0] INFO  com.huanhe_tech.siever.Main - PACB -> Opening opportunity, Orientation: DOWN
-2021-06-03 11:32:05:645 [Thread-0] INFO  com.huanhe_tech.siever.Main - PKX -> Opening opportunity, Orientation: DOWN
-2021-06-03 11:32:06:228 [Thread-0] INFO  com.huanhe_tech.siever.Main - PODD -> Opening opportunity, Orientation: DOWN
-2021-06-03 11:32:10:027 [Thread-0] INFO  com.huanhe_tech.siever.Main - PSA PRD -> Opening opportunity, Orientation: UP
-2021-06-03 11:32:11:490 [Thread-0] INFO  com.huanhe_tech.siever.Main - PSXP -> Opening opportunity, Orientation: UP
-2021-06-03 11:32:15:603 [Thread-0] INFO  com.huanhe_tech.siever.Main - RCUS -> Opening opportunity, Orientation: DOWN
-2021-06-03 11:32:17:471 [Thread-0] INFO  com.huanhe_tech.siever.Main - REAL -> Opening opportunity, Orientation: DOWN
-2021-06-03 11:32:20:111 [Thread-0] INFO  com.huanhe_tech.siever.Main - RELX -> Opening opportunity, Orientation: UP
-2021-06-03 11:32:22:867 [Thread-0] INFO  com.huanhe_tech.siever.Main - REXR -> Opening opportunity, Orientation: UP
-2021-06-03 11:32:26:960 [Thread-0] INFO  com.huanhe_tech.siever.Main - SAFE -> Opening opportunity, Orientation: UP
-2021-06-03 11:32:28:283 [Thread-0] INFO  com.huanhe_tech.siever.Main - SAP -> Opening opportunity, Orientation: UP
-2021-06-03 11:32:31:258 [Thread-0] INFO  com.huanhe_tech.siever.Main - SCR -> Opening opportunity, Orientation: DOWN
-2021-06-03 11:32:35:962 [Thread-0] INFO  com.huanhe_tech.siever.Main - SNSE -> Opening opportunity, Orientation: UP
-2021-06-03 11:32:36:313 [Thread-0] INFO  com.huanhe_tech.siever.Main - SOL -> Opening opportunity, Orientation: DOWN
-2021-06-03 11:32:39:179 [Thread-0] INFO  com.huanhe_tech.siever.Main - SPLP PRA -> Opening opportunity, Orientation: UP
-2021-06-03 11:32:42:184 [Thread-0] INFO  com.huanhe_tech.siever.Main - SRV -> Opening opportunity, Orientation: UP
-2021-06-03 11:32:44:901 [Thread-0] INFO  com.huanhe_tech.siever.Main - STIM -> Opening opportunity, Orientation: UP
-2021-06-03 11:32:47:457 [Thread-0] INFO  com.huanhe_tech.siever.Main - STT PRG -> Opening opportunity, Orientation: UP
-2021-06-03 11:32:50:806 [Thread-0] INFO  com.huanhe_tech.siever.Main - TBPH -> Opening opportunity, Orientation: DOWN
-2021-06-03 11:32:55:055 [Thread-0] INFO  com.huanhe_tech.siever.Main - TLSA -> Opening opportunity, Orientation: UP
-2021-06-03 11:32:57:412 [Thread-0] INFO  com.huanhe_tech.siever.Main - TWLO -> Opening opportunity, Orientation: DOWN
-2021-06-03 11:33:00:184 [Thread-0] INFO  com.huanhe_tech.siever.Main - UZD -> Opening opportunity, Orientation: UP
-2021-06-03 11:33:00:721 [Thread-0] INFO  com.huanhe_tech.siever.Main - VAPO -> Opening opportunity, Orientation: DOWN
-2021-06-03 11:33:05:004 [Thread-0] INFO  com.huanhe_tech.siever.Main - WATT -> Opening opportunity, Orientation: DOWN
-2021-06-03 11:33:06:486 [Thread-0] INFO  com.huanhe_tech.siever.Main - WIX -> Opening opportunity, Orientation: DOWN
-2021-06-03 11:33:10:963 [Thread-0] INFO  com.huanhe_tech.siever.Main - YI -> Opening opportunity, Orientation: DOWN
-2021-06-03 11:33:11:579 [Thread-0] INFO  com.huanhe_tech.siever.Main - ZBRA -> Opening opportunity, Orientation: UP
-2021-06-03 11:33:21:124 [main] INFO  com.huanhe_tech.siever.Main - Current Time in New York: 2021-06-02 23:33:20
-2021-06-03 11:33:22:853 [Thread-0] INFO  com.huanhe_tech.siever.Main - ABMD -> Opening opportunity, Orientation: DOWN
-2021-06-03 11:33:23:389 [Thread-0] INFO  com.huanhe_tech.siever.Main - ACM -> Opening opportunity, Orientation: DOWN
-2021-06-03 11:33:27:229 [Thread-5] INFO  com.huanhe_tech.siever.Main - Acount List: 
-2021-06-03 11:33:27:230 [Thread-5] INFO  com.huanhe_tech.siever.Main - U8978970
-2021-06-03 11:33:28:771 [Thread-0] INFO  com.huanhe_tech.siever.Main - AKU -> Opening opportunity, Orientation: DOWN
-2021-06-03 11:33:29:079 [Thread-0] INFO  com.huanhe_tech.siever.Main - ALOT -> Opening opportunity, Orientation: UP
-2021-06-03 11:33:29:165 [Thread-0] INFO  com.huanhe_tech.siever.Main - ALTM -> Opening opportunity, Orientation: UP
-2021-06-03 11:33:29:867 [Thread-0] INFO  com.huanhe_tech.siever.Main - AOD -> Opening opportunity, Orientation: UP
-2021-06-03 11:33:30:683 [Thread-0] INFO  com.huanhe_tech.siever.Main - ARW -> Opening opportunity, Orientation: UP
-2021-06-03 11:33:30:845 [Thread-0] INFO  com.huanhe_tech.siever.Main - ASIX -> Opening opportunity, Orientation: UP
-2021-06-03 11:33:31:579 [Thread-0] INFO  com.huanhe_tech.siever.Main - ATO -> Opening opportunity, Orientation: DOWN
-2021-06-03 11:33:32:843 [Thread-0] INFO  com.huanhe_tech.siever.Main - BCAB -> Opening opportunity, Orientation: DOWN
-2021-06-03 11:33:34:652 [Thread-0] INFO  com.huanhe_tech.siever.Main - BLDP -> Opening opportunity, Orientation: DOWN
-2021-06-03 11:33:37:468 [Thread-0] INFO  com.huanhe_tech.siever.Main - CDLX -> Opening opportunity, Orientation: DOWN
-2021-06-03 11:34:43:094 [main] INFO  com.huanhe_tech.siever.Main - Current Time in New York: 2021-06-02 23:34:42
-2021-06-03 11:34:44:583 [Thread-0] INFO  com.huanhe_tech.siever.Main - ABMD -> Opening opportunity, Orientation: DOWN
-2021-06-03 11:34:45:050 [Thread-0] INFO  com.huanhe_tech.siever.Main - ACM -> Opening opportunity, Orientation: DOWN
-2021-06-03 11:34:48:824 [Thread-5] INFO  com.huanhe_tech.siever.Main - Acount List: 
-2021-06-03 11:34:48:825 [Thread-5] INFO  com.huanhe_tech.siever.Main - U8978970
-2021-06-03 11:34:50:343 [Thread-0] INFO  com.huanhe_tech.siever.Main - AKU -> Opening opportunity, Orientation: DOWN
-2021-06-03 11:34:50:674 [Thread-0] INFO  com.huanhe_tech.siever.Main - ALOT -> Opening opportunity, Orientation: UP
-2021-06-03 11:34:50:785 [Thread-0] INFO  com.huanhe_tech.siever.Main - ALTM -> Opening opportunity, Orientation: UP
-2021-06-03 11:34:51:505 [Thread-0] INFO  com.huanhe_tech.siever.Main - AOD -> Opening opportunity, Orientation: UP
-2021-06-03 11:34:52:274 [Thread-0] INFO  com.huanhe_tech.siever.Main - ARW -> Opening opportunity, Orientation: UP
-2021-06-03 11:34:52:418 [Thread-0] INFO  com.huanhe_tech.siever.Main - ASIX -> Opening opportunity, Orientation: UP
-2021-06-03 11:34:53:085 [Thread-0] INFO  com.huanhe_tech.siever.Main - ATO -> Opening opportunity, Orientation: DOWN
-2021-06-03 11:34:54:159 [Thread-0] INFO  com.huanhe_tech.siever.Main - BCAB -> Opening opportunity, Orientation: DOWN
-2021-06-03 11:34:55:864 [Thread-0] INFO  com.huanhe_tech.siever.Main - BLDP -> Opening opportunity, Orientation: DOWN
-2021-06-03 11:34:58:390 [Thread-0] INFO  com.huanhe_tech.siever.Main - CDLX -> Opening opportunity, Orientation: DOWN
-2021-06-03 11:34:58:459 [Thread-0] INFO  com.huanhe_tech.siever.Main - CDXS -> Opening opportunity, Orientation: DOWN
-2021-06-03 11:34:59:004 [Thread-0] INFO  com.huanhe_tech.siever.Main - CHGG -> Opening opportunity, Orientation: DOWN
-2021-06-03 11:35:00:588 [Thread-0] INFO  com.huanhe_tech.siever.Main - COFS -> Opening opportunity, Orientation: UP
-2021-06-03 11:35:00:621 [Thread-0] INFO  com.huanhe_tech.siever.Main - COIN -> Opening opportunity, Orientation: DOWN
-2021-06-03 11:35:01:914 [Thread-0] INFO  com.huanhe_tech.siever.Main - CP -> Opening opportunity, Orientation: UP
-2021-06-03 11:35:06:486 [Thread-0] INFO  com.huanhe_tech.siever.Main - CWEN -> Opening opportunity, Orientation: UP
-2021-06-03 11:35:07:235 [Thread-0] INFO  com.huanhe_tech.siever.Main - DAIO -> Opening opportunity, Orientation: UP
-2021-06-03 11:35:10:306 [Thread-0] INFO  com.huanhe_tech.siever.Main - DG -> Opening opportunity, Orientation: DOWN
-2021-06-03 11:35:12:797 [Thread-0] INFO  com.huanhe_tech.siever.Main - DKNG -> Opening opportunity, Orientation: DOWN
-2021-06-03 11:35:17:021 [Thread-0] INFO  com.huanhe_tech.siever.Main - ECL -> Opening opportunity, Orientation: DOWN
-2021-06-03 11:35:18:960 [Thread-0] INFO  com.huanhe_tech.siever.Main - EPIX -> Opening opportunity, Orientation: UP
-2021-06-03 11:35:21:495 [Thread-0] INFO  com.huanhe_tech.siever.Main - ETWO -> Opening opportunity, Orientation: UP
-2021-06-03 11:35:23:647 [Thread-0] INFO  com.huanhe_tech.siever.Main - EURN -> Opening opportunity, Orientation: UP
-2021-06-03 11:35:27:328 [Thread-0] INFO  com.huanhe_tech.siever.Main - FERG -> Opening opportunity, Orientation: UP
-2021-06-03 11:35:28:991 [Thread-0] INFO  com.huanhe_tech.siever.Main - FFA -> Opening opportunity, Orientation: UP
-2021-06-03 11:36:11:539 [main] INFO  com.huanhe_tech.siever.Main - Current Time in New York: 2021-06-02 23:36:11
-2021-06-03 11:36:13:015 [Thread-0] INFO  com.huanhe_tech.siever.Main - ABMD -> Opening opportunity, Orientation: DOWN
-2021-06-03 11:36:13:504 [Thread-0] INFO  com.huanhe_tech.siever.Main - ACM -> Opening opportunity, Orientation: DOWN
-2021-06-03 11:36:17:307 [Thread-5] INFO  com.huanhe_tech.siever.Main - Acount List: 
-2021-06-03 11:36:17:308 [Thread-5] INFO  com.huanhe_tech.siever.Main - U8978970
-2021-06-03 11:36:18:850 [Thread-0] INFO  com.huanhe_tech.siever.Main - AKU -> Opening opportunity, Orientation: DOWN
-2021-06-03 11:36:19:170 [Thread-0] INFO  com.huanhe_tech.siever.Main - ALOT -> Opening opportunity, Orientation: UP
-2021-06-03 11:36:19:299 [Thread-0] INFO  com.huanhe_tech.siever.Main - ALTM -> Opening opportunity, Orientation: UP
-2021-06-03 11:36:20:064 [Thread-0] INFO  com.huanhe_tech.siever.Main - AOD -> Opening opportunity, Orientation: UP
-2021-06-03 11:36:20:931 [Thread-0] INFO  com.huanhe_tech.siever.Main - ARW -> Opening opportunity, Orientation: UP
-2021-06-03 11:36:21:111 [Thread-0] INFO  com.huanhe_tech.siever.Main - ASIX -> Opening opportunity, Orientation: UP
-2021-06-03 11:36:21:814 [Thread-0] INFO  com.huanhe_tech.siever.Main - ATO -> Opening opportunity, Orientation: DOWN
-2021-06-03 11:36:23:081 [Thread-0] INFO  com.huanhe_tech.siever.Main - BCAB -> Opening opportunity, Orientation: DOWN
-2021-06-03 11:36:24:966 [Thread-0] INFO  com.huanhe_tech.siever.Main - BLDP -> Opening opportunity, Orientation: DOWN
-2021-06-03 11:36:27:930 [Thread-0] INFO  com.huanhe_tech.siever.Main - CDLX -> Opening opportunity, Orientation: DOWN
-2021-06-03 11:36:28:004 [Thread-0] INFO  com.huanhe_tech.siever.Main - CDXS -> Opening opportunity, Orientation: DOWN
-2021-06-03 11:36:28:596 [Thread-0] INFO  com.huanhe_tech.siever.Main - CHGG -> Opening opportunity, Orientation: DOWN
-2021-06-03 11:36:30:379 [Thread-0] INFO  com.huanhe_tech.siever.Main - COFS -> Opening opportunity, Orientation: UP
-2021-06-03 11:36:30:415 [Thread-0] INFO  com.huanhe_tech.siever.Main - COIN -> Opening opportunity, Orientation: DOWN
-2021-06-03 11:36:30:656 [Thread-0] INFO  com.huanhe_tech.siever.Main - CP -> Opening opportunity, Orientation: UP
-2021-06-03 11:36:32:799 [Thread-0] INFO  com.huanhe_tech.siever.Main - CWEN -> Opening opportunity, Orientation: UP
-2021-06-03 11:36:33:092 [Thread-0] INFO  com.huanhe_tech.siever.Main - DAIO -> Opening opportunity, Orientation: UP
-2021-06-03 11:36:39:642 [main] INFO  com.huanhe_tech.siever.Main - Current Time in New York: 2021-06-02 23:36:39
-2021-06-03 11:36:41:205 [Thread-0] INFO  com.huanhe_tech.siever.Main - ABMD -> Opening opportunity, Orientation: DOWN
-2021-06-03 11:36:41:679 [Thread-0] INFO  com.huanhe_tech.siever.Main - ACM -> Opening opportunity, Orientation: DOWN
-2021-06-03 11:36:45:482 [Thread-5] INFO  com.huanhe_tech.siever.Main - Acount List: 
-2021-06-03 11:36:45:483 [Thread-5] INFO  com.huanhe_tech.siever.Main - U8978970
-2021-06-03 11:36:47:052 [Thread-0] INFO  com.huanhe_tech.siever.Main - AKU -> Opening opportunity, Orientation: DOWN
-2021-06-03 11:36:47:429 [Thread-0] INFO  com.huanhe_tech.siever.Main - ALOT -> Opening opportunity, Orientation: UP
-2021-06-03 11:36:47:523 [Thread-0] INFO  com.huanhe_tech.siever.Main - ALTM -> Opening opportunity, Orientation: UP
-2021-06-03 11:36:48:245 [Thread-0] INFO  com.huanhe_tech.siever.Main - AOD -> Opening opportunity, Orientation: UP
-2021-06-03 11:36:49:050 [Thread-0] INFO  com.huanhe_tech.siever.Main - ARW -> Opening opportunity, Orientation: UP
-2021-06-03 11:36:49:194 [Thread-0] INFO  com.huanhe_tech.siever.Main - ASIX -> Opening opportunity, Orientation: UP
-2021-06-03 11:36:49:898 [Thread-0] INFO  com.huanhe_tech.siever.Main - ATO -> Opening opportunity, Orientation: DOWN
-2021-06-03 11:36:51:063 [Thread-0] INFO  com.huanhe_tech.siever.Main - BCAB -> Opening opportunity, Orientation: DOWN
-2021-06-03 11:36:52:824 [Thread-0] INFO  com.huanhe_tech.siever.Main - BLDP -> Opening opportunity, Orientation: DOWN
-2021-06-03 11:36:55:472 [Thread-0] INFO  com.huanhe_tech.siever.Main - CDLX -> Opening opportunity, Orientation: DOWN
-2021-06-03 11:36:55:544 [Thread-0] INFO  com.huanhe_tech.siever.Main - CDXS -> Opening opportunity, Orientation: DOWN
-2021-06-03 11:36:56:091 [Thread-0] INFO  com.huanhe_tech.siever.Main - CHGG -> Opening opportunity, Orientation: DOWN
-2021-06-03 11:36:57:748 [Thread-0] INFO  com.huanhe_tech.siever.Main - COFS -> Opening opportunity, Orientation: UP
-2021-06-03 11:36:57:784 [Thread-0] INFO  com.huanhe_tech.siever.Main - COIN -> Opening opportunity, Orientation: DOWN
-2021-06-03 11:36:58:022 [Thread-0] INFO  com.huanhe_tech.siever.Main - CP -> Opening opportunity, Orientation: UP
-2021-06-03 11:37:00:220 [Thread-0] INFO  com.huanhe_tech.siever.Main - CWEN -> Opening opportunity, Orientation: UP
-2021-06-03 11:37:01:129 [Thread-0] INFO  com.huanhe_tech.siever.Main - DAIO -> Opening opportunity, Orientation: UP
-2021-06-03 11:37:04:086 [Thread-0] INFO  com.huanhe_tech.siever.Main - DG -> Opening opportunity, Orientation: DOWN
-2021-06-03 11:37:06:589 [Thread-0] INFO  com.huanhe_tech.siever.Main - DKNG -> Opening opportunity, Orientation: DOWN
-2021-06-03 11:37:10:802 [Thread-0] INFO  com.huanhe_tech.siever.Main - ECL -> Opening opportunity, Orientation: DOWN
-2021-06-03 11:37:12:667 [Thread-0] INFO  com.huanhe_tech.siever.Main - EPIX -> Opening opportunity, Orientation: UP
-2021-06-03 11:37:14:969 [Thread-0] INFO  com.huanhe_tech.siever.Main - ETWO -> Opening opportunity, Orientation: UP
-2021-06-03 11:37:17:131 [Thread-0] INFO  com.huanhe_tech.siever.Main - EURN -> Opening opportunity, Orientation: UP
-2021-06-03 11:37:20:865 [Thread-0] INFO  com.huanhe_tech.siever.Main - FERG -> Opening opportunity, Orientation: UP
-2021-06-03 11:37:22:543 [Thread-0] INFO  com.huanhe_tech.siever.Main - FFA -> Opening opportunity, Orientation: UP
-2021-06-03 11:37:26:753 [Thread-0] INFO  com.huanhe_tech.siever.Main - FSLY -> Opening opportunity, Orientation: DOWN
-2021-06-03 11:37:29:818 [Thread-0] INFO  com.huanhe_tech.siever.Main - GDRX -> Opening opportunity, Orientation: DOWN
-2021-06-03 11:37:33:663 [Thread-0] INFO  com.huanhe_tech.siever.Main - GOOGL -> Opening opportunity, Orientation: UP
-2021-06-03 11:37:35:587 [Thread-0] INFO  com.huanhe_tech.siever.Main - HMY -> Opening opportunity, Orientation: UP
-2021-06-03 11:37:39:015 [Thread-0] INFO  com.huanhe_tech.siever.Main - IDE -> Opening opportunity, Orientation: UP
-2021-06-03 11:37:39:392 [Thread-0] INFO  com.huanhe_tech.siever.Main - IGA -> Opening opportunity, Orientation: UP
-2021-06-03 11:37:42:180 [Thread-0] INFO  com.huanhe_tech.siever.Main - III -> Opening opportunity, Orientation: UP
-2021-06-03 11:37:45:304 [Thread-0] INFO  com.huanhe_tech.siever.Main - INTU -> Opening opportunity, Orientation: UP
-2021-06-03 11:37:50:199 [Thread-0] INFO  com.huanhe_tech.siever.Main - ITIC -> Opening opportunity, Orientation: DOWN
-2021-06-03 11:37:52:651 [Thread-0] INFO  com.huanhe_tech.siever.Main - JLL -> Opening opportunity, Orientation: UP
-2021-06-03 11:37:55:991 [Thread-0] INFO  com.huanhe_tech.siever.Main - JTD -> Opening opportunity, Orientation: UP
-2021-06-03 11:37:57:733 [Thread-0] INFO  com.huanhe_tech.siever.Main - KBNT -> Opening opportunity, Orientation: DOWN
-2021-06-03 11:38:00:548 [Thread-0] INFO  com.huanhe_tech.siever.Main - KEY PRI -> Opening opportunity, Orientation: UP
-2021-06-03 11:38:03:333 [Thread-0] INFO  com.huanhe_tech.siever.Main - KN -> Opening opportunity, Orientation: DOWN
-2021-06-03 11:38:05:957 [Thread-0] INFO  com.huanhe_tech.siever.Main - KNSA -> Opening opportunity, Orientation: DOWN
-2021-06-03 11:38:11:980 [Thread-0] INFO  com.huanhe_tech.siever.Main - MFA PRC -> Opening opportunity, Orientation: UP
-2021-06-03 11:38:13:051 [Thread-0] INFO  com.huanhe_tech.siever.Main - MPW -> Opening opportunity, Orientation: UP
-2021-06-03 11:38:14:296 [Thread-0] INFO  com.huanhe_tech.siever.Main - MSTR -> Opening opportunity, Orientation: DOWN
-2021-06-03 11:38:16:871 [Thread-0] INFO  com.huanhe_tech.siever.Main - MUFG -> Opening opportunity, Orientation: UP
-2021-06-03 11:38:19:770 [Thread-0] INFO  com.huanhe_tech.siever.Main - NCNO -> Opening opportunity, Orientation: DOWN
-2021-06-03 11:38:22:432 [Thread-0] INFO  com.huanhe_tech.siever.Main - NGG -> Opening opportunity, Orientation: UP
-2021-06-03 11:38:24:650 [Thread-0] INFO  com.huanhe_tech.siever.Main - NGL PRB -> Opening opportunity, Orientation: UP
-2021-06-03 11:38:27:444 [Thread-0] INFO  com.huanhe_tech.siever.Main - NI -> Opening opportunity, Orientation: DOWN
-2021-06-03 11:38:30:567 [Thread-0] INFO  com.huanhe_tech.siever.Main - NOMD -> Opening opportunity, Orientation: UP
-2021-06-03 11:38:33:039 [Thread-0] INFO  com.huanhe_tech.siever.Main - NRZ PRB -> Opening opportunity, Orientation: UP
-2021-06-03 11:38:36:471 [Thread-0] INFO  com.huanhe_tech.siever.Main - NVO -> Opening opportunity, Orientation: UP
-2021-06-03 11:38:40:791 [Thread-0] INFO  com.huanhe_tech.siever.Main - OLLI -> Opening opportunity, Orientation: DOWN
-2021-06-03 11:38:48:268 [Thread-0] INFO  com.huanhe_tech.siever.Main - OM -> Opening opportunity, Orientation: DOWN
-2021-06-03 11:38:52:612 [Thread-0] INFO  com.huanhe_tech.siever.Main - PACB -> Opening opportunity, Orientation: DOWN
-2021-06-03 11:38:57:501 [Thread-0] INFO  com.huanhe_tech.siever.Main - PKX -> Opening opportunity, Orientation: DOWN
-2021-06-03 11:38:59:806 [Thread-0] INFO  com.huanhe_tech.siever.Main - PODD -> Opening opportunity, Orientation: DOWN
-2021-06-03 11:39:04:002 [Thread-0] INFO  com.huanhe_tech.siever.Main - PSA PRD -> Opening opportunity, Orientation: UP
-2021-06-03 11:39:10:085 [Thread-0] INFO  com.huanhe_tech.siever.Main - PSXP -> Opening opportunity, Orientation: UP
-2021-06-03 11:39:17:121 [Thread-0] INFO  com.huanhe_tech.siever.Main - RCUS -> Opening opportunity, Orientation: DOWN
-2021-06-03 11:39:19:383 [Thread-0] INFO  com.huanhe_tech.siever.Main - REAL -> Opening opportunity, Orientation: DOWN
-2021-06-03 11:39:23:236 [Thread-0] INFO  com.huanhe_tech.siever.Main - RELX -> Opening opportunity, Orientation: UP
-2021-06-03 11:39:27:244 [Thread-0] INFO  com.huanhe_tech.siever.Main - REXR -> Opening opportunity, Orientation: UP
-2021-06-03 11:39:34:464 [Thread-0] INFO  com.huanhe_tech.siever.Main - SAFE -> Opening opportunity, Orientation: UP
-2021-06-03 11:39:36:620 [Thread-0] INFO  com.huanhe_tech.siever.Main - SAP -> Opening opportunity, Orientation: UP
-2021-06-03 11:39:47:131 [Thread-0] INFO  com.huanhe_tech.siever.Main - SCR -> Opening opportunity, Orientation: DOWN
-2021-06-03 11:39:52:189 [Thread-0] INFO  com.huanhe_tech.siever.Main - SNSE -> Opening opportunity, Orientation: UP
-2021-06-03 11:39:53:306 [Thread-0] INFO  com.huanhe_tech.siever.Main - SOL -> Opening opportunity, Orientation: DOWN
-2021-06-03 11:39:56:756 [Thread-0] INFO  com.huanhe_tech.siever.Main - SPLP PRA -> Opening opportunity, Orientation: UP
-2021-06-03 11:40:00:482 [Thread-0] INFO  com.huanhe_tech.siever.Main - SRV -> Opening opportunity, Orientation: UP
-2021-06-03 11:40:04:164 [Thread-0] INFO  com.huanhe_tech.siever.Main - STIM -> Opening opportunity, Orientation: UP
-2021-06-03 11:40:08:444 [Thread-0] INFO  com.huanhe_tech.siever.Main - STT PRG -> Opening opportunity, Orientation: UP
-2021-06-03 11:40:12:546 [Thread-0] INFO  com.huanhe_tech.siever.Main - TBPH -> Opening opportunity, Orientation: DOWN
-2021-06-03 11:40:17:224 [Thread-0] INFO  com.huanhe_tech.siever.Main - TLSA -> Opening opportunity, Orientation: UP
-2021-06-03 11:40:20:582 [Thread-0] INFO  com.huanhe_tech.siever.Main - TWLO -> Opening opportunity, Orientation: DOWN
-2021-06-03 11:40:24:069 [Thread-0] INFO  com.huanhe_tech.siever.Main - UZD -> Opening opportunity, Orientation: UP
-2021-06-03 11:40:26:528 [Thread-0] INFO  com.huanhe_tech.siever.Main - VAPO -> Opening opportunity, Orientation: DOWN
-2021-06-03 11:40:32:094 [Thread-0] INFO  com.huanhe_tech.siever.Main - WATT -> Opening opportunity, Orientation: DOWN
-2021-06-03 11:40:34:026 [Thread-0] INFO  com.huanhe_tech.siever.Main - WIX -> Opening opportunity, Orientation: DOWN
-2021-06-03 11:40:38:823 [Thread-0] INFO  com.huanhe_tech.siever.Main - YI -> Opening opportunity, Orientation: DOWN
-2021-06-03 11:40:40:749 [Thread-0] INFO  com.huanhe_tech.siever.Main - ZBRA -> Opening opportunity, Orientation: UP
-2021-06-03 13:02:14:450 [main] INFO  com.huanhe_tech.siever.Main - Current Time in New York: 2021-06-03 01:02:14
-2021-06-03 13:02:18:587 [Thread-5] INFO  com.huanhe_tech.siever.Main - Acount List: 
-2021-06-03 13:02:18:589 [Thread-5] INFO  com.huanhe_tech.siever.Main - U8978970
-2021-06-03 13:46:57:953 [main] INFO  com.huanhe_tech.siever.Main - Current Time in New York: 2021-06-03 01:46:57
-2021-06-03 17:05:17:973 [main] INFO  com.huanhe_tech.siever.Main - Current Time in New York: 2021-06-03 05:05:17
-2021-06-03 17:06:07:664 [main] INFO  com.huanhe_tech.siever.Main - Current Time in New York: 2021-06-03 05:06:07
-2021-06-03 17:06:12:754 [Thread-5] INFO  com.huanhe_tech.siever.Main - Acount List: 
-2021-06-03 17:06:12:756 [Thread-5] INFO  com.huanhe_tech.siever.Main - U8978970
-2021-06-03 17:08:13:637 [Thread-1] INFO  com.huanhe_tech.siever.Main - AKU -> Orientation: DOWN
-2021-06-03 17:09:33:276 [main] INFO  com.huanhe_tech.siever.Main - Current Time in New York: 2021-06-03 05:09:32
-2021-06-03 17:09:39:057 [Thread-5] INFO  com.huanhe_tech.siever.Main - Acount List: 
-2021-06-03 17:09:39:059 [Thread-5] INFO  com.huanhe_tech.siever.Main - U8978970
-2021-06-03 17:09:40:573 [Thread-0] INFO  com.huanhe_tech.siever.Main - AKU -> Orientation: DOWN
-2021-06-03 17:09:57:074 [Thread-1] INFO  com.huanhe_tech.siever.Main - ALOT -> Orientation: UP
-2021-06-03 17:10:24:273 [main] INFO  com.huanhe_tech.siever.Main - Current Time in New York: 2021-06-03 05:10:24
-2021-06-03 17:10:29:735 [Thread-5] INFO  com.huanhe_tech.siever.Main - Acount List: 
-2021-06-03 17:10:29:736 [Thread-5] INFO  com.huanhe_tech.siever.Main - U8978970
-2021-06-03 17:10:31:255 [Thread-0] INFO  com.huanhe_tech.siever.Main - AKU -> Orientation: DOWN
-2021-06-03 17:10:31:678 [Thread-0] INFO  com.huanhe_tech.siever.Main - ALOT -> Orientation: UP
-2021-06-03 17:17:47:033 [main] INFO  com.huanhe_tech.siever.Main - Current Time in New York: 2021-06-03 05:17:46
-2021-06-03 17:17:52:856 [Thread-5] INFO  com.huanhe_tech.siever.Main - Acount List: 
-2021-06-03 17:17:52:858 [Thread-5] INFO  com.huanhe_tech.siever.Main - U8978970
-2021-06-03 17:17:54:364 [Thread-0] INFO  com.huanhe_tech.siever.Main - AKU -> Orientation: DOWN
-2021-06-03 17:17:54:831 [Thread-0] INFO  com.huanhe_tech.siever.Main - ALOT -> Orientation: UP
-2021-06-03 17:22:21:650 [main] INFO  com.huanhe_tech.siever.Main - Current Time in New York: 2021-06-03 05:22:21
-2021-06-03 17:22:27:693 [Thread-5] INFO  com.huanhe_tech.siever.Main - Acount List: 
-2021-06-03 17:22:27:695 [Thread-5] INFO  com.huanhe_tech.siever.Main - U8978970
-2021-06-03 17:22:29:214 [Thread-0] INFO  com.huanhe_tech.siever.Main - AKU -> Orientation: DOWN
-2021-06-03 17:22:29:670 [Thread-0] INFO  com.huanhe_tech.siever.Main - ALOT -> Orientation: UP
-2021-06-03 17:41:49:800 [main] INFO  com.huanhe_tech.siever.Main - Current Time in New York: 2021-06-03 05:41:49
-2021-06-03 17:41:55:458 [Thread-5] INFO  com.huanhe_tech.siever.Main - Acount List: 
-2021-06-03 17:41:55:460 [Thread-5] INFO  com.huanhe_tech.siever.Main - U8978970
-2021-06-03 17:41:57:000 [Thread-0] INFO  com.huanhe_tech.siever.Main - AKU -> Orientation: DOWN
-2021-06-03 17:41:57:427 [Thread-0] INFO  com.huanhe_tech.siever.Main - ALOT -> Orientation: UP
-2021-06-03 17:43:56:644 [main] INFO  com.huanhe_tech.siever.Main - Current Time in New York: 2021-06-03 05:43:56
-2021-06-03 17:44:02:505 [Thread-5] INFO  com.huanhe_tech.siever.Main - Acount List: 
-2021-06-03 17:44:02:506 [Thread-5] INFO  com.huanhe_tech.siever.Main - U8978970
-2021-06-03 17:44:04:030 [Thread-0] INFO  com.huanhe_tech.siever.Main - AKU -> Orientation: DOWN
-2021-06-03 17:44:04:468 [Thread-0] INFO  com.huanhe_tech.siever.Main - ALOT -> Orientation: UP
-2021-06-03 17:44:26:021 [Thread-1] INFO  com.huanhe_tech.siever.Main - ARW -> Orientation: UP
-2021-06-03 17:44:39:940 [Thread-1] INFO  com.huanhe_tech.siever.Main - ASIX -> Orientation: UP
-2021-06-03 17:48:54:981 [Thread-1] INFO  com.huanhe_tech.siever.Main - BLDP -> Orientation: DOWN
-2021-06-03 17:52:50:548 [Thread-1] INFO  com.huanhe_tech.siever.Main - CDLX -> Orientation: DOWN
-2021-06-03 17:52:57:188 [Thread-1] INFO  com.huanhe_tech.siever.Main - CDXS -> Orientation: DOWN
-2021-06-03 17:54:23:102 [Thread-1] INFO  com.huanhe_tech.siever.Main - CIM PRB -> Orientation: UP
-2021-06-03 18:04:38:149 [Thread-1] INFO  com.huanhe_tech.siever.Main - ETWO -> Orientation: UP
-2021-06-03 18:04:42:323 [Thread-1] INFO  com.huanhe_tech.siever.Main - EURN -> Orientation: UP
-2021-06-03 18:08:31:435 [Thread-1] INFO  com.huanhe_tech.siever.Main - FSLY -> Orientation: DOWN
-2021-06-03 18:11:38:362 [Thread-1] INFO  com.huanhe_tech.siever.Main - GMDA -> Orientation: DOWN
-2021-06-03 18:12:28:219 [Thread-1] INFO  com.huanhe_tech.siever.Main - GRCL -> Orientation: UP
-2021-06-03 18:17:12:002 [Thread-1] INFO  com.huanhe_tech.siever.Main - IGA -> Orientation: UP
-2021-06-03 18:19:11:463 [Thread-1] INFO  com.huanhe_tech.siever.Main - ITIC -> Orientation: DOWN
-2021-06-03 18:20:02:985 [Thread-1] INFO  com.huanhe_tech.siever.Main - JLL -> Orientation: UP
-2021-06-03 18:30:53:873 [Thread-1] INFO  com.huanhe_tech.siever.Main - NI -> Orientation: DOWN
-2021-06-03 18:32:01:044 [Thread-1] INFO  com.huanhe_tech.siever.Main - NRZ PRB -> Orientation: UP
-2021-06-03 18:35:23:121 [Thread-1] INFO  com.huanhe_tech.siever.Main - PACB -> Orientation: DOWN
-2021-06-03 18:38:36:146 [Thread-1] INFO  com.huanhe_tech.siever.Main - PODD -> Orientation: DOWN
-2021-06-03 18:42:20:148 [Thread-1] INFO  com.huanhe_tech.siever.Main - RELX -> Orientation: UP
-2021-06-03 18:45:31:432 [Thread-1] INFO  com.huanhe_tech.siever.Main - SCR -> Orientation: DOWN
-2021-06-03 18:48:46:347 [Thread-1] INFO  com.huanhe_tech.siever.Main - SPRB -> Orientation: DOWN
-2021-06-03 18:49:20:747 [Thread-1] INFO  com.huanhe_tech.siever.Main - SRV -> Orientation: UP
-2021-06-03 18:51:25:903 [Thread-1] INFO  com.huanhe_tech.siever.Main - TBPH -> Orientation: DOWN
-2021-06-03 18:54:36:792 [Thread-1] INFO  com.huanhe_tech.siever.Main - TWLO -> Orientation: DOWN
-2021-06-03 18:56:26:913 [Thread-1] INFO  com.huanhe_tech.siever.Main - VAPO -> Orientation: DOWN
-2021-06-03 18:57:42:882 [Thread-1] INFO  com.huanhe_tech.siever.Main - VNET -> Orientation: DOWN
-2021-06-03 18:59:39:025 [Thread-1] INFO  com.huanhe_tech.siever.Main - WIX -> Orientation: DOWN
-2021-06-03 19:01:32:718 [Thread-1] INFO  com.huanhe_tech.siever.Main - ZBRA -> Orientation: UP
-2021-06-03 20:03:44:786 [main] INFO  com.huanhe_tech.siever.Main - Current Time in New York: 2021-06-03 08:03:44
-2021-06-03 20:03:50:506 [Thread-5] INFO  com.huanhe_tech.siever.Main - Acount List: 
-2021-06-03 20:03:50:508 [Thread-5] INFO  com.huanhe_tech.siever.Main - U8978970
-2021-06-03 20:03:52:058 [Thread-0] INFO  com.huanhe_tech.siever.Main - AKU -> Orientation: DOWN
-2021-06-03 20:03:52:545 [Thread-0] INFO  com.huanhe_tech.siever.Main - ALOT -> Orientation: UP
-2021-06-03 20:03:54:320 [Thread-0] INFO  com.huanhe_tech.siever.Main - ARW -> Orientation: UP
-2021-06-03 20:03:54:516 [Thread-0] INFO  com.huanhe_tech.siever.Main - ASIX -> Orientation: UP
-2021-06-03 20:03:58:187 [Thread-0] INFO  com.huanhe_tech.siever.Main - BLDP -> Orientation: DOWN
-2021-06-03 20:04:00:918 [Thread-0] INFO  com.huanhe_tech.siever.Main - CDLX -> Orientation: DOWN
-2021-06-03 20:04:00:996 [Thread-0] INFO  com.huanhe_tech.siever.Main - CDXS -> Orientation: DOWN
-2021-06-03 20:04:01:963 [Thread-0] INFO  com.huanhe_tech.siever.Main - CIM PRB -> Orientation: UP
-2021-06-03 20:04:10:225 [Thread-0] INFO  com.huanhe_tech.siever.Main - ETWO -> Orientation: UP
-2021-06-03 20:04:10:272 [Thread-0] INFO  com.huanhe_tech.siever.Main - EURN -> Orientation: UP
-2021-06-03 20:04:12:914 [Thread-0] INFO  com.huanhe_tech.siever.Main - FSLY -> Orientation: DOWN
-2021-06-03 20:04:17:251 [Thread-0] INFO  com.huanhe_tech.siever.Main - GMDA -> Orientation: DOWN
-2021-06-03 20:04:26:019 [Thread-0] INFO  com.huanhe_tech.siever.Main - GRCL -> Orientation: UP
-2021-06-03 20:05:02:760 [Thread-0] INFO  com.huanhe_tech.siever.Main - IGA -> Orientation: UP
-2021-06-03 20:05:04:401 [Thread-0] INFO  com.huanhe_tech.siever.Main - ITIC -> Orientation: DOWN
-2021-06-03 20:05:04:978 [Thread-0] INFO  com.huanhe_tech.siever.Main - JLL -> Orientation: UP
-2021-06-03 20:05:15:358 [Thread-0] INFO  com.huanhe_tech.siever.Main - NI -> Orientation: DOWN
-2021-06-03 20:05:16:089 [Thread-0] INFO  com.huanhe_tech.siever.Main - NRZ PRB -> Orientation: UP
-2021-06-03 20:05:19:043 [Thread-0] INFO  com.huanhe_tech.siever.Main - PACB -> Orientation: DOWN
-2021-06-03 20:05:22:195 [Thread-0] INFO  com.huanhe_tech.siever.Main - PODD -> Orientation: DOWN
-2021-06-03 20:05:25:630 [Thread-0] INFO  com.huanhe_tech.siever.Main - RELX -> Orientation: UP
-2021-06-03 20:05:27:832 [Thread-0] INFO  com.huanhe_tech.siever.Main - SCR -> Orientation: DOWN
-2021-06-03 20:05:30:714 [Thread-0] INFO  com.huanhe_tech.siever.Main - SPRB -> Orientation: DOWN
-2021-06-03 20:05:31:173 [Thread-0] INFO  com.huanhe_tech.siever.Main - SRV -> Orientation: UP
-2021-06-03 20:05:33:047 [Thread-0] INFO  com.huanhe_tech.siever.Main - TBPH -> Orientation: DOWN
-2021-06-03 20:05:37:181 [Thread-0] INFO  com.huanhe_tech.siever.Main - TWLO -> Orientation: DOWN
-2021-06-03 20:05:39:046 [Thread-0] INFO  com.huanhe_tech.siever.Main - VAPO -> Orientation: DOWN
-2021-06-03 20:05:39:918 [Thread-0] INFO  com.huanhe_tech.siever.Main - VNET -> Orientation: DOWN
-2021-06-03 20:06:11:852 [Thread-0] INFO  com.huanhe_tech.siever.Main - WIX -> Orientation: DOWN
-2021-06-03 20:06:15:285 [Thread-0] INFO  com.huanhe_tech.siever.Main - ZBRA -> Orientation: UP
+2021-06-12 19:01:52:923 [main] INFO  com.huanhe_tech.siever.Main - Current Time in New York: 2021-06-12 07:01:52
+2021-06-12 19:01:54:516 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 1128.0
+2021-06-12 19:01:54:774 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 206092.0
+2021-06-12 19:01:55:016 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 1715.0
+2021-06-12 19:01:55:126 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 1060.0
+2021-06-12 19:01:55:285 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 224.0
+2021-06-12 19:01:55:362 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 3020.0
+2021-06-12 19:01:55:735 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 376.0
+2021-06-12 19:01:55:852 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 409.0
+2021-06-12 19:01:55:890 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 167511.0
+2021-06-12 19:01:55:961 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 22108.0
+2021-06-12 19:01:55:971 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 47587.0
+2021-06-12 19:01:56:026 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 29.0
+2021-06-12 19:01:56:061 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 1478.0
+2021-06-12 19:01:59:120 [Thread-5] INFO  com.huanhe_tech.siever.Main - Acount List: 
+2021-06-12 19:01:59:121 [Thread-5] INFO  com.huanhe_tech.siever.Main - U8978970
+2021-06-12 19:01:59:890 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 377.0
+2021-06-12 19:02:00:055 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 3709.0
+2021-06-12 19:02:00:055 [Thread-0] INFO  com.huanhe_tech.siever.Main - AGLE -> Orientation: DOWN
+2021-06-12 19:02:00:164 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 232901.0
+2021-06-12 19:02:00:214 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 605.0
+2021-06-12 19:02:00:318 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 15454.0
+2021-06-12 19:02:00:344 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 6041.0
+2021-06-12 19:02:00:604 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 24102.0
+2021-06-12 19:02:00:626 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 28774.0
+2021-06-12 19:02:00:764 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 23582.0
+2021-06-12 19:02:01:334 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 1009.0
+2021-06-12 19:02:01:430 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 49.0
+2021-06-12 19:02:01:460 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 22194.0
+2021-06-12 19:02:01:902 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 1806.0
+2021-06-12 19:02:02:056 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 7684.0
+2021-06-12 19:02:02:410 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 3140.0
+2021-06-12 19:02:02:503 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 24339.0
+2021-06-12 19:02:02:597 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 577.0
+2021-06-12 19:02:02:665 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 56.0
+2021-06-12 19:02:02:681 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 6237.0
+2021-06-12 19:02:02:780 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 2587.0
+2021-06-12 19:02:02:796 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 451.0
+2021-06-12 19:02:02:939 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 15156.0
+2021-06-12 19:02:02:955 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 3872.0
+2021-06-12 19:02:03:326 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 240.0
+2021-06-12 19:02:03:339 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 521.0
+2021-06-12 19:02:03:518 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 875.0
+2021-06-12 19:02:03:910 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 1060.0
+2021-06-12 19:02:03:983 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 4458.0
+2021-06-12 19:02:04:335 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 1892.0
+2021-06-12 19:02:04:682 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 13883.0
+2021-06-12 19:02:04:881 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 254243.0
+2021-06-12 19:02:04:957 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 2260.0
+2021-06-12 19:02:05:115 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 275042.0
+2021-06-12 19:02:05:165 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 456072.0
+2021-06-12 19:02:05:546 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 10925.0
+2021-06-12 19:02:05:670 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 11532.0
+2021-06-12 19:02:06:376 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 8366.0
+2021-06-12 19:02:06:581 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 6939.0
+2021-06-12 19:02:06:858 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 1381.0
+2021-06-12 19:02:06:889 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 317.0
+2021-06-12 19:02:07:150 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 135.0
+2021-06-12 19:02:07:174 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 1325.0
+2021-06-12 19:02:07:256 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 25891.0
+2021-06-12 19:02:07:335 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 6090.0
+2021-06-12 19:02:07:516 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 1580.0
+2021-06-12 19:02:07:671 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 9759.0
+2021-06-12 19:02:07:724 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 2626.0
+2021-06-12 19:02:07:876 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 352.0
+2021-06-12 19:02:08:155 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 5836.0
+2021-06-12 19:02:08:194 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 85094.0
+2021-06-12 19:02:08:212 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 23323.0
+2021-06-12 19:02:08:259 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 2872.0
+2021-06-12 19:02:09:031 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 111.0
+2021-06-12 19:02:09:676 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 43184.0
+2021-06-12 19:02:09:718 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 7150.0
+2021-06-12 19:02:09:842 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 9681.0
+2021-06-12 19:02:09:894 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 6789.0
+2021-06-12 19:02:09:937 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 133.0
+2021-06-12 19:02:10:028 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 5525.0
+2021-06-12 19:02:10:198 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 758.0
+2021-06-12 19:02:10:514 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 780.0
+2021-06-12 19:02:11:258 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 555.0
+2021-06-12 19:02:11:312 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 281.0
+2021-06-12 19:02:11:364 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 5563.0
+2021-06-12 19:02:11:373 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 10984.0
+2021-06-12 19:02:11:448 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 1284.0
+2021-06-12 19:02:12:025 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 3323.0
+2021-06-12 19:02:12:099 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 378.0
+2021-06-12 19:02:12:121 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 250.0
+2021-06-12 19:02:12:232 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 10942.0
+2021-06-12 19:02:12:686 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 6675.0
+2021-06-12 19:02:12:761 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 4058.0
+2021-06-12 19:02:12:772 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 1123.0
+2021-06-12 19:02:12:783 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 1366.0
+2021-06-12 19:02:12:849 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 3023.0
+2021-06-12 19:02:12:899 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 13677.0
+2021-06-12 19:02:13:129 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 36484.0
+2021-06-12 19:02:13:157 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 633.0
+2021-06-12 19:02:13:188 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 343.0
+2021-06-12 19:02:13:261 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 78.0
+2021-06-12 19:02:13:324 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 2763.0
+2021-06-12 19:02:13:816 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 7518.0
+2021-06-12 19:02:13:852 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 11957.0
+2021-06-12 19:02:14:072 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 1785.0
+2021-06-12 19:02:14:400 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 16664.0
+2021-06-12 19:02:14:407 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 11352.0
+2021-06-12 19:02:14:446 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 495.0
+2021-06-12 19:02:14:486 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 198.0
+2021-06-12 19:02:14:615 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 1519.0
+2021-06-12 19:02:14:643 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 184.0
+2021-06-12 19:02:14:840 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 10989.0
+2021-06-12 19:02:15:874 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 2502.0
+2021-06-12 19:02:15:904 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 2887.0
+2021-06-12 19:02:16:187 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 3344.0
+2021-06-12 19:02:16:524 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 1723.0
+2021-06-12 19:02:16:916 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 3104.0
+2021-06-12 19:02:16:923 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 841.0
+2021-06-12 19:02:16:931 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 9106.0
+2021-06-12 19:02:16:946 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 1145.0
+2021-06-12 19:02:17:080 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 539.0
+2021-06-12 19:02:17:094 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 1576.0
+2021-06-12 19:02:17:259 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 28352.0
+2021-06-12 19:02:17:328 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 2477.0
+2021-06-12 19:02:17:630 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 20864.0
+2021-06-12 19:02:17:777 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 273.0
+2021-06-12 19:02:18:153 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 27.0
+2021-06-12 19:02:18:161 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 13070.0
+2021-06-12 19:02:18:294 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 93404.0
+2021-06-12 19:02:18:294 [Thread-0] INFO  com.huanhe_tech.siever.Main - DKNG -> Orientation: DOWN
+2021-06-12 19:02:18:358 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 89.0
+2021-06-12 19:02:18:405 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 56787.0
+2021-06-12 19:02:18:483 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 7289.0
+2021-06-12 19:02:18:483 [Thread-0] INFO  com.huanhe_tech.siever.Main - DMTK -> Orientation: DOWN
+2021-06-12 19:02:18:491 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 2060.0
+2021-06-12 19:02:18:555 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 5151.0
+2021-06-12 19:02:18:886 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 1959.0
+2021-06-12 19:02:18:936 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 8308.0
+2021-06-12 19:02:19:359 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 6434.0
+2021-06-12 19:02:19:383 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 4013.0
+2021-06-12 19:02:19:407 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 5450.0
+2021-06-12 19:02:20:186 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 2046.0
+2021-06-12 19:02:20:286 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 123.0
+2021-06-12 19:02:20:338 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 5895.0
+2021-06-12 19:02:20:457 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 1349.0
+2021-06-12 19:02:20:523 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 534.0
+2021-06-12 19:02:20:540 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 9102.0
+2021-06-12 19:02:20:637 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 3153.0
+2021-06-12 19:02:20:748 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 2480.0
+2021-06-12 19:02:20:786 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 13148.0
+2021-06-12 19:02:20:822 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 6097.0
+2021-06-12 19:02:20:829 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 37443.0
+2021-06-12 19:02:20:879 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 12873.0
+2021-06-12 19:02:20:975 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 790.0
+2021-06-12 19:02:21:116 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 4910.0
+2021-06-12 19:02:21:116 [Thread-0] INFO  com.huanhe_tech.siever.Main - EPAY -> Orientation: DOWN
+2021-06-12 19:02:21:153 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 928.0
+2021-06-12 19:02:21:313 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 19965.0
+2021-06-12 19:02:21:405 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 71746.0
+2021-06-12 19:02:21:465 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 2676.0
+2021-06-12 19:02:21:518 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 80.0
+2021-06-12 19:02:21:620 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 119779.0
+2021-06-12 19:02:21:742 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 24805.0
+2021-06-12 19:02:21:870 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 7666.0
+2021-06-12 19:02:21:878 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 1205.0
+2021-06-12 19:02:21:993 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 4465.0
+2021-06-12 19:02:22:076 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 35809.0
+2021-06-12 19:02:22:105 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 4463.0
+2021-06-12 19:02:22:231 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 3935.0
+2021-06-12 19:02:22:231 [Thread-0] INFO  com.huanhe_tech.siever.Main - EZGO -> Orientation: DOWN
+2021-06-12 19:02:22:269 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 106.0
+2021-06-12 19:02:22:418 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 97623.0
+2021-06-12 19:02:22:723 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 317.0
+2021-06-12 19:02:22:731 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 424.0
+2021-06-12 19:02:23:059 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 2318.0
+2021-06-12 19:02:23:394 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 3458.0
+2021-06-12 19:02:23:518 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 5497.0
+2021-06-12 19:02:23:846 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 70.0
+2021-06-12 19:02:23:853 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 3617.0
+2021-06-12 19:02:24:070 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 1166.0
+2021-06-12 19:02:24:166 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 3606.0
+2021-06-12 19:02:24:276 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 13.0
+2021-06-12 19:02:24:318 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 3289.0
+2021-06-12 19:02:24:415 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 6186.0
+2021-06-12 19:02:24:445 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 69167.0
+2021-06-12 19:02:24:445 [Thread-0] INFO  com.huanhe_tech.siever.Main - FSLY -> Orientation: DOWN
+2021-06-12 19:02:24:786 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 605.0
+2021-06-12 19:02:25:163 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 3947.0
+2021-06-12 19:02:25:466 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 1383.0
+2021-06-12 19:02:25:575 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 767.0
+2021-06-12 19:02:25:592 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 509.0
+2021-06-12 19:02:25:988 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 1731236.0
+2021-06-12 19:02:26:231 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 10768.0
+2021-06-12 19:02:26:354 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 2596.0
+2021-06-12 19:02:26:355 [Thread-0] INFO  com.huanhe_tech.siever.Main - GHG -> Orientation: UP
+2021-06-12 19:02:26:412 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 2250.0
+2021-06-12 19:02:26:820 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 122.0
+2021-06-12 19:02:26:919 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 5795.0
+2021-06-12 19:02:26:942 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 16628.0
+2021-06-12 19:02:27:063 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 303.0
+2021-06-12 19:02:27:079 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 131.0
+2021-06-12 19:02:27:079 [Thread-0] INFO  com.huanhe_tech.siever.Main - GLOP PRA -> Orientation: UP
+2021-06-12 19:02:27:113 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 28.0
+2021-06-12 19:02:28:772 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 6561.0
+2021-06-12 19:02:28:891 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 3500.0
+2021-06-12 19:02:29:006 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 35136.0
+2021-06-12 19:02:29:449 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 23194.0
+2021-06-12 19:02:29:694 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 19951.0
+2021-06-12 19:02:29:743 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 4034.0
+2021-06-12 19:02:29:775 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 4135.0
+2021-06-12 19:02:29:791 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 4413.0
+2021-06-12 19:02:30:281 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 1321.0
+2021-06-12 19:02:30:983 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 828.0
+2021-06-12 19:02:31:381 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 21114.0
+2021-06-12 19:02:31:428 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 3080.0
+2021-06-12 19:02:31:493 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 447.0
+2021-06-12 19:02:31:503 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 315.0
+2021-06-12 19:02:31:526 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 609.0
+2021-06-12 19:02:31:598 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 12469.0
+2021-06-12 19:02:32:416 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 2772.0
+2021-06-12 19:02:32:416 [Thread-0] INFO  com.huanhe_tech.siever.Main - HSY -> Orientation: UP
+2021-06-12 19:02:32:485 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 627.0
+2021-06-12 19:02:33:730 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 891.0
+2021-06-12 19:02:34:147 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 840.0
+2021-06-12 19:02:34:282 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 1180.0
+2021-06-12 19:02:34:306 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 10462.0
+2021-06-12 19:02:34:328 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 318.0
+2021-06-12 19:02:34:349 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 7492.0
+2021-06-12 19:02:34:521 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 2274.0
+2021-06-12 19:02:34:574 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 6398.0
+2021-06-12 19:02:34:640 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 973.0
+2021-06-12 19:02:34:702 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 4374.0
+2021-06-12 19:02:34:758 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 610.0
+2021-06-12 19:02:35:093 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 1363.0
+2021-06-12 19:02:35:161 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 3434.0
+2021-06-12 19:02:35:543 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 16042.0
+2021-06-12 19:02:35:706 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 7103.0
+2021-06-12 19:02:35:801 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 2795.0
+2021-06-12 19:02:35:801 [Thread-0] INFO  com.huanhe_tech.siever.Main - ISUN -> Orientation: DOWN
+2021-06-12 19:02:35:853 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 638.0
+2021-06-12 19:02:35:888 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 2028.0
+2021-06-12 19:02:36:293 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 4649.0
+2021-06-12 19:02:36:362 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 11396.0
+2021-06-12 19:02:36:665 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 1295.0
+2021-06-12 19:02:36:721 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 3771.0
+2021-06-12 19:02:36:745 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 5331.0
+2021-06-12 19:02:36:766 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 82.0
+2021-06-12 19:02:37:910 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 631.0
+2021-06-12 19:02:37:932 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 5285.0
+2021-06-12 19:02:38:304 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 402.0
+2021-06-12 19:02:38:312 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 968.0
+2021-06-12 19:02:38:320 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 693.0
+2021-06-12 19:02:38:421 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 73.0
+2021-06-12 19:02:38:945 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 8759.0
+2021-06-12 19:02:38:976 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 20757.0
+2021-06-12 19:02:39:040 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 1584.0
+2021-06-12 19:02:39:089 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 110353.0
+2021-06-12 19:02:39:239 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 2693.0
+2021-06-12 19:02:39:419 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 1920.0
+2021-06-12 19:02:40:042 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 10083.0
+2021-06-12 19:02:40:079 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 2828.0
+2021-06-12 19:02:40:160 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 357.0
+2021-06-12 19:02:40:173 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 103.0
+2021-06-12 19:02:40:356 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 2531.0
+2021-06-12 19:02:40:655 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 22082.0
+2021-06-12 19:02:41:049 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 809.0
+2021-06-12 19:02:41:112 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 361.0
+2021-06-12 19:02:41:326 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 18991.0
+2021-06-12 19:02:41:424 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 33.0
+2021-06-12 19:02:41:463 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 304.0
+2021-06-12 19:02:41:471 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 5203.0
+2021-06-12 19:02:41:494 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 2438.0
+2021-06-12 19:02:41:568 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 594.0
+2021-06-12 19:02:41:576 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 177.0
+2021-06-12 19:02:41:619 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 3908.0
+2021-06-12 19:02:41:723 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 5512.0
+2021-06-12 19:02:41:839 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 924.0
+2021-06-12 19:02:41:965 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 50237.0
+2021-06-12 19:02:42:058 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 1651.0
+2021-06-12 19:02:42:066 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 9770.0
+2021-06-12 19:02:42:100 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 2900.0
+2021-06-12 19:02:42:148 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 2428.0
+2021-06-12 19:02:42:707 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 7817.0
+2021-06-12 19:02:42:782 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 368.0
+2021-06-12 19:02:42:968 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 389.0
+2021-06-12 19:02:43:157 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 55934.0
+2021-06-12 19:02:43:157 [Thread-0] INFO  com.huanhe_tech.siever.Main - METX -> Orientation: DOWN
+2021-06-12 19:02:43:167 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 69066.0
+2021-06-12 19:02:43:297 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 22732.0
+2021-06-12 19:02:43:647 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 2756.0
+2021-06-12 19:02:43:663 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 21024.0
+2021-06-12 19:02:43:809 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 32848.0
+2021-06-12 19:02:43:976 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 328.0
+2021-06-12 19:02:44:054 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 8889.0
+2021-06-12 19:02:44:066 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 515.0
+2021-06-12 19:02:44:125 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 105026.0
+2021-06-12 19:02:44:152 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 125.0
+2021-06-12 19:02:44:169 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 257.0
+2021-06-12 19:02:44:739 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 313.0
+2021-06-12 19:02:44:879 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 4936.0
+2021-06-12 19:02:45:020 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 1425.0
+2021-06-12 19:02:45:118 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 498.0
+2021-06-12 19:02:45:118 [Thread-0] INFO  com.huanhe_tech.siever.Main - MTRN -> Orientation: UP
+2021-06-12 19:02:45:174 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 3878.0
+2021-06-12 19:02:45:404 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 870.0
+2021-06-12 19:02:45:645 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 10445.0
+2021-06-12 19:02:45:709 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 851.0
+2021-06-12 19:02:45:831 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 7712.0
+2021-06-12 19:02:45:913 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 1679.0
+2021-06-12 19:02:45:992 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 31903.0
+2021-06-12 19:02:46:032 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 239.0
+2021-06-12 19:02:46:042 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 314.0
+2021-06-12 19:02:46:051 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 46522.0
+2021-06-12 19:02:46:113 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 12673.0
+2021-06-12 19:02:46:270 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 987.0
+2021-06-12 19:02:46:396 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 179.0
+2021-06-12 19:02:46:433 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 1598.0
+2021-06-12 19:02:46:676 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 184296.0
+2021-06-12 19:02:46:699 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 1553.0
+2021-06-12 19:02:47:305 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 672.0
+2021-06-12 19:02:47:415 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 3363.0
+2021-06-12 19:02:47:466 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 505.0
+2021-06-12 19:02:47:693 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 5101.0
+2021-06-12 19:02:47:710 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 1872.0
+2021-06-12 19:02:47:719 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 889.0
+2021-06-12 19:02:47:869 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 163.0
+2021-06-12 19:02:48:370 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 92.0
+2021-06-12 19:02:48:420 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 181.0
+2021-06-12 19:02:49:200 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 7524.0
+2021-06-12 19:02:49:211 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 567.0
+2021-06-12 19:02:49:277 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 1687.0
+2021-06-12 19:02:49:689 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 406.0
+2021-06-12 19:02:49:780 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 5957.0
+2021-06-12 19:02:49:913 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 173.0
+2021-06-12 19:02:50:094 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 459.0
+2021-06-12 19:02:50:112 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 1688.0
+2021-06-12 19:02:50:177 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 26293.0
+2021-06-12 19:02:50:178 [Thread-0] INFO  com.huanhe_tech.siever.Main - OPTT -> Orientation: DOWN
+2021-06-12 19:02:50:189 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 862.0
+2021-06-12 19:02:50:234 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 46431.0
+2021-06-12 19:02:50:432 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 8778.0
+2021-06-12 19:02:50:493 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 6953.0
+2021-06-12 19:02:50:537 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 449.0
+2021-06-12 19:02:50:616 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 13677.0
+2021-06-12 19:02:50:934 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 41680.0
+2021-06-12 19:02:51:044 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 9455.0
+2021-06-12 19:02:51:077 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 1883.0
+2021-06-12 19:02:51:145 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 21329.0
+2021-06-12 19:02:51:203 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 71.0
+2021-06-12 19:02:51:233 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 353825.0
+2021-06-12 19:02:51:240 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 84438.0
+2021-06-12 19:02:51:289 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 356.0
+2021-06-12 19:02:51:304 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 84315.0
+2021-06-12 19:02:51:312 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 64.0
+2021-06-12 19:02:51:341 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 798.0
+2021-06-12 19:02:51:534 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 31652.0
+2021-06-12 19:02:52:401 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 375.0
+2021-06-12 19:02:52:471 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 568.0
+2021-06-12 19:02:52:479 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 34027.0
+2021-06-12 19:02:52:513 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 2996.0
+2021-06-12 19:02:52:772 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 165.0
+2021-06-12 19:02:52:822 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 9356.0
+2021-06-12 19:02:52:908 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 393.0
+2021-06-12 19:02:52:959 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 401.0
+2021-06-12 19:02:53:000 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 3412.0
+2021-06-12 19:02:53:060 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 770.0
+2021-06-12 19:02:53:087 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 7008.0
+2021-06-12 19:02:53:299 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 6495.0
+2021-06-12 19:02:54:037 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 917.0
+2021-06-12 19:02:54:045 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 39000.0
+2021-06-12 19:02:54:077 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 4301.0
+2021-06-12 19:02:54:113 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 398.0
+2021-06-12 19:02:54:353 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 15444.0
+2021-06-12 19:02:54:364 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 1756.0
+2021-06-12 19:02:54:389 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 1719.0
+2021-06-12 19:02:55:280 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 10160.0
+2021-06-12 19:02:55:296 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 4885.0
+2021-06-12 19:02:55:334 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 251.0
+2021-06-12 19:02:55:428 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 2351.0
+2021-06-12 19:02:55:661 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 7.0
+2021-06-12 19:02:56:026 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 84.0
+2021-06-12 19:02:56:337 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 1168.0
+2021-06-12 19:02:56:371 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 3909.0
+2021-06-12 19:02:56:671 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 34233.0
+2021-06-12 19:02:56:803 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 3681.0
+2021-06-12 19:02:57:036 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 307.0
+2021-06-12 19:02:57:036 [Thread-0] INFO  com.huanhe_tech.siever.Main - QVCC -> Orientation: UP
+2021-06-12 19:02:57:066 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 3544.0
+2021-06-12 19:02:57:242 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 2688.0
+2021-06-12 19:02:57:647 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 5015.0
+2021-06-12 19:02:57:731 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 2814.0
+2021-06-12 19:02:57:962 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 591.0
+2021-06-12 19:02:58:038 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 192755.0
+2021-06-12 19:02:58:237 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 9358.0
+2021-06-12 19:02:58:305 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 693.0
+2021-06-12 19:02:58:505 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 1623.0
+2021-06-12 19:02:58:514 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 46.0
+2021-06-12 19:02:58:530 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 97.0
+2021-06-12 19:02:58:530 [Thread-0] INFO  com.huanhe_tech.siever.Main - RNGR -> Orientation: UP
+2021-06-12 19:02:58:545 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 739.0
+2021-06-12 19:02:58:606 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 6013.0
+2021-06-12 19:02:59:188 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 8047.0
+2021-06-12 19:02:59:281 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 1741.0
+2021-06-12 19:02:59:348 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 210.0
+2021-06-12 19:02:59:657 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 3268.0
+2021-06-12 19:02:59:657 [Thread-0] INFO  com.huanhe_tech.siever.Main - SATS -> Orientation: UP
+2021-06-12 19:02:59:729 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 5893.0
+2021-06-12 19:02:59:866 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 386.0
+2021-06-12 19:03:00:214 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 272.0
+2021-06-12 19:03:00:381 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 2485.0
+2021-06-12 19:03:00:449 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 4938.0
+2021-06-12 19:03:01:115 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 1964.0
+2021-06-12 19:03:01:138 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 3616.0
+2021-06-12 19:03:01:154 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 125.0
+2021-06-12 19:03:01:267 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 1281.0
+2021-06-12 19:03:01:408 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 3000.0
+2021-06-12 19:03:01:534 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 1013.0
+2021-06-12 19:03:01:535 [Thread-0] INFO  com.huanhe_tech.siever.Main - SHG -> Orientation: UP
+2021-06-12 19:03:01:720 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 978.0
+2021-06-12 19:03:01:822 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 2384.0
+2021-06-12 19:03:01:994 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 27.0
+2021-06-12 19:03:02:045 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 223.0
+2021-06-12 19:03:02:220 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 96696.0
+2021-06-12 19:03:02:466 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 4197.0
+2021-06-12 19:03:02:507 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 139.0
+2021-06-12 19:03:02:665 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 3425.0
+2021-06-12 19:03:02:867 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 300.0
+2021-06-12 19:03:02:961 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 894.0
+2021-06-12 19:03:03:542 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 1056.0
+2021-06-12 19:03:03:654 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 2442.0
+2021-06-12 19:03:03:714 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 3444.0
+2021-06-12 19:03:03:933 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 4676.0
+2021-06-12 19:03:03:948 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 3124.0
+2021-06-12 19:03:04:433 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 22422.0
+2021-06-12 19:03:04:632 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 847.0
+2021-06-12 19:03:04:654 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 1217.0
+2021-06-12 19:03:04:716 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 241.0
+2021-06-12 19:03:04:724 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 81.0
+2021-06-12 19:03:04:787 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 1812.0
+2021-06-12 19:03:04:794 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 9157.0
+2021-06-12 19:03:05:058 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 10960.0
+2021-06-12 19:03:05:082 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 11925.0
+2021-06-12 19:03:05:237 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 1570.0
+2021-06-12 19:03:05:282 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 29508.0
+2021-06-12 19:03:05:300 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 3769.0
+2021-06-12 19:03:05:391 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 105.0
+2021-06-12 19:03:05:572 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 9112.0
+2021-06-12 19:03:05:635 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 18093.0
+2021-06-12 19:03:05:736 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 92.0
+2021-06-12 19:03:06:185 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 301.0
+2021-06-12 19:03:06:212 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 540.0
+2021-06-12 19:03:06:292 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 881.0
+2021-06-12 19:03:06:362 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 1458.0
+2021-06-12 19:03:06:550 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 6479.0
+2021-06-12 19:03:06:565 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 1307.0
+2021-06-12 19:03:06:573 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 872.0
+2021-06-12 19:03:06:589 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 2978.0
+2021-06-12 19:03:06:673 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 5496.0
+2021-06-12 19:03:07:215 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 23059.0
+2021-06-12 19:03:07:301 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 5301.0
+2021-06-12 19:03:07:696 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 1905.0
+2021-06-12 19:03:07:868 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 15905.0
+2021-06-12 19:03:08:744 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 9696.0
+2021-06-12 19:03:08:825 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 5171.0
+2021-06-12 19:03:09:323 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 8049.0
+2021-06-12 19:03:09:508 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 5560.0
+2021-06-12 19:03:09:833 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 111.0
+2021-06-12 19:03:09:991 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 2276.0
+2021-06-12 19:03:10:220 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 45.0
+2021-06-12 19:03:10:259 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 194.0
+2021-06-12 19:03:10:297 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 14323.0
+2021-06-12 19:03:11:233 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 274.0
+2021-06-12 19:03:11:360 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 563.0
+2021-06-12 19:03:11:641 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 216.0
+2021-06-12 19:03:11:659 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 68519.0
+2021-06-12 19:03:11:787 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 2932.0
+2021-06-12 19:03:11:802 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 1165.0
+2021-06-12 19:03:11:982 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 13752.0
+2021-06-12 19:03:11:982 [Thread-0] INFO  com.huanhe_tech.siever.Main - VFF -> Orientation: DOWN
+2021-06-12 19:03:11:992 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 18674.0
+2021-06-12 19:03:12:051 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 3587.0
+2021-06-12 19:03:12:092 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 391.0
+2021-06-12 19:03:12:134 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 528.0
+2021-06-12 19:03:12:218 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 235791.0
+2021-06-12 19:03:12:256 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 3012.0
+2021-06-12 19:03:12:270 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 17593.0
+2021-06-12 19:03:12:285 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 10995.0
+2021-06-12 19:03:12:484 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 1835.0
+2021-06-12 19:03:12:504 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 31053.0
+2021-06-12 19:03:12:690 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 565.0
+2021-06-12 19:03:12:736 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 612.0
+2021-06-12 19:03:12:759 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 6799.0
+2021-06-12 19:03:12:847 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 19924.0
+2021-06-12 19:03:12:938 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 26613.0
+2021-06-12 19:03:12:946 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 4266.0
+2021-06-12 19:03:13:170 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 7505.0
+2021-06-12 19:03:13:298 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 249.0
+2021-06-12 19:03:13:388 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 1929.0
+2021-06-12 19:03:13:426 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 376.0
+2021-06-12 19:03:13:442 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 10511.0
+2021-06-12 19:03:13:556 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 7282.0
+2021-06-12 19:03:13:599 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 5868.0
+2021-06-12 19:03:13:710 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 606.0
+2021-06-12 19:03:13:955 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 31659.0
+2021-06-12 19:03:14:093 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 5160.0
+2021-06-12 19:03:14:222 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 47221.0
+2021-06-12 19:03:14:239 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 1917.0
+2021-06-12 19:03:14:294 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 5385.0
+2021-06-12 19:03:14:479 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 162.0
+2021-06-12 19:03:14:631 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 55396.0
+2021-06-12 19:03:14:715 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 498.0
+2021-06-12 19:03:14:777 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 3832.0
+2021-06-12 19:03:14:805 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 1659.0
+2021-06-12 19:03:16:175 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 5863.0
+2021-06-12 19:03:16:306 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 13626.0
+2021-06-12 19:03:16:316 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 19269.0
+2021-06-12 19:03:16:336 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 8059.0
+2021-06-12 19:03:16:731 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 3156.0
+2021-06-12 19:03:16:880 [Thread-0] INFO  com.huanhe_tech.siever.Main - The Max Volume is: 12737.0
+2021-06-12 20:44:52:403 [main] INFO  com.huanhe_tech.siever.Main - Current Time in New York: 2021-06-12 08:44:52
+2021-06-12 20:44:58:311 [Thread-5] INFO  com.huanhe_tech.siever.Main - Acount List: 
+2021-06-12 20:44:58:313 [Thread-5] INFO  com.huanhe_tech.siever.Main - U8978970
+2021-06-12 20:44:59:312 [Thread-0] INFO  com.huanhe_tech.siever.Main - AGLE -> Orientation: DOWN
+2021-06-12 20:44:59:378 [Thread-0] INFO  com.huanhe_tech.siever.Main - The AGLE Max Volume is: 3709.0
+2021-06-12 20:45:16:327 [Thread-0] INFO  com.huanhe_tech.siever.Main - DKNG -> Orientation: DOWN
+2021-06-12 20:45:16:328 [Thread-0] INFO  com.huanhe_tech.siever.Main - The DKNG Max Volume is: 93404.0
+2021-06-12 20:45:16:511 [Thread-0] INFO  com.huanhe_tech.siever.Main - DMTK -> Orientation: DOWN
+2021-06-12 20:45:16:512 [Thread-0] INFO  com.huanhe_tech.siever.Main - The DMTK Max Volume is: 7289.0
+2021-06-12 20:45:19:153 [Thread-0] INFO  com.huanhe_tech.siever.Main - EPAY -> Orientation: DOWN
+2021-06-12 20:45:19:153 [Thread-0] INFO  com.huanhe_tech.siever.Main - The EPAY Max Volume is: 4910.0
+2021-06-12 20:45:20:259 [Thread-0] INFO  com.huanhe_tech.siever.Main - EZGO -> Orientation: DOWN
+2021-06-12 20:45:20:260 [Thread-0] INFO  com.huanhe_tech.siever.Main - The EZGO Max Volume is: 3935.0
+2021-06-12 20:45:22:457 [Thread-0] INFO  com.huanhe_tech.siever.Main - FSLY -> Orientation: DOWN
+2021-06-12 20:45:22:458 [Thread-0] INFO  com.huanhe_tech.siever.Main - The FSLY Max Volume is: 69167.0
+2021-06-12 20:45:24:296 [Thread-0] INFO  com.huanhe_tech.siever.Main - GHG -> Orientation: UP
+2021-06-12 20:45:24:298 [Thread-0] INFO  com.huanhe_tech.siever.Main - The GHG Max Volume is: 2596.0
+2021-06-12 20:45:25:021 [Thread-0] INFO  com.huanhe_tech.siever.Main - GLOP PRA -> Orientation: UP
+2021-06-12 20:45:25:022 [Thread-0] INFO  com.huanhe_tech.siever.Main - The GLOP PRA Max Volume is: 131.0
+2021-06-12 20:45:30:256 [Thread-0] INFO  com.huanhe_tech.siever.Main - HSY -> Orientation: UP
+2021-06-12 20:45:30:256 [Thread-0] INFO  com.huanhe_tech.siever.Main - The HSY Max Volume is: 2772.0
+2021-06-12 20:45:33:791 [Thread-0] INFO  com.huanhe_tech.siever.Main - ISUN -> Orientation: DOWN
+2021-06-12 20:45:33:792 [Thread-0] INFO  com.huanhe_tech.siever.Main - The ISUN Max Volume is: 2795.0
+2021-06-12 20:45:40:921 [Thread-0] INFO  com.huanhe_tech.siever.Main - METX -> Orientation: DOWN
+2021-06-12 20:45:40:922 [Thread-0] INFO  com.huanhe_tech.siever.Main - The METX Max Volume is: 55934.0
+2021-06-12 20:45:42:633 [Thread-0] INFO  com.huanhe_tech.siever.Main - MTRN -> Orientation: UP
+2021-06-12 20:45:42:633 [Thread-0] INFO  com.huanhe_tech.siever.Main - The MTRN Max Volume is: 498.0
+2021-06-12 20:45:47:818 [Thread-0] INFO  com.huanhe_tech.siever.Main - OPTT -> Orientation: DOWN
+2021-06-12 20:45:47:819 [Thread-0] INFO  com.huanhe_tech.siever.Main - The OPTT Max Volume is: 26293.0
+2021-06-12 20:45:55:304 [Thread-0] INFO  com.huanhe_tech.siever.Main - QVCC -> Orientation: UP
+2021-06-12 20:45:55:305 [Thread-0] INFO  com.huanhe_tech.siever.Main - The QVCC Max Volume is: 307.0
+2021-06-12 20:45:56:654 [Thread-0] INFO  com.huanhe_tech.siever.Main - RNGR -> Orientation: UP
+2021-06-12 20:45:56:654 [Thread-0] INFO  com.huanhe_tech.siever.Main - The RNGR Max Volume is: 97.0
+2021-06-12 20:45:57:541 [Thread-0] INFO  com.huanhe_tech.siever.Main - SATS -> Orientation: UP
+2021-06-12 20:45:57:542 [Thread-0] INFO  com.huanhe_tech.siever.Main - The SATS Max Volume is: 3268.0
+2021-06-12 20:45:59:246 [Thread-0] INFO  com.huanhe_tech.siever.Main - SHG -> Orientation: UP
+2021-06-12 20:45:59:247 [Thread-0] INFO  com.huanhe_tech.siever.Main - The SHG Max Volume is: 1013.0
+2021-06-12 20:46:09:518 [Thread-0] INFO  com.huanhe_tech.siever.Main - VFF -> Orientation: DOWN
+2021-06-12 20:46:09:519 [Thread-0] INFO  com.huanhe_tech.siever.Main - The VFF Max Volume is: 13752.0
+2021-06-12 20:49:58:567 [main] INFO  com.huanhe_tech.siever.Main - Current Time in New York: 2021-06-12 08:49:58
+2021-06-12 20:50:04:269 [Thread-5] INFO  com.huanhe_tech.siever.Main - Acount List: 
+2021-06-12 20:50:04:271 [Thread-5] INFO  com.huanhe_tech.siever.Main - U8978970
+2021-06-12 20:50:05:229 [Thread-0] INFO  com.huanhe_tech.siever.Main - AGLE -> Orientation: DOWN
+2021-06-12 20:50:05:292 [Thread-0] INFO  com.huanhe_tech.siever.Main - The AGLE Max Volume is: 3709.0
+2021-06-12 20:50:23:371 [Thread-0] INFO  com.huanhe_tech.siever.Main - DKNG -> Orientation: DOWN
+2021-06-12 20:50:23:372 [Thread-0] INFO  com.huanhe_tech.siever.Main - The DKNG Max Volume is: 93404.0
+2021-06-12 20:50:23:608 [Thread-0] INFO  com.huanhe_tech.siever.Main - DMTK -> Orientation: DOWN
+2021-06-12 20:50:23:611 [Thread-0] INFO  com.huanhe_tech.siever.Main - The DMTK Max Volume is: 7289.0
+2021-06-12 20:50:26:633 [Thread-0] INFO  com.huanhe_tech.siever.Main - EPAY -> Orientation: DOWN
+2021-06-12 20:50:26:634 [Thread-0] INFO  com.huanhe_tech.siever.Main - The EPAY Max Volume is: 4910.0
+2021-06-12 20:50:27:936 [Thread-0] INFO  com.huanhe_tech.siever.Main - EZGO -> Orientation: DOWN
+2021-06-12 20:50:27:937 [Thread-0] INFO  com.huanhe_tech.siever.Main - The EZGO Max Volume is: 3935.0
+2021-06-12 20:50:30:334 [Thread-0] INFO  com.huanhe_tech.siever.Main - FSLY -> Orientation: DOWN
+2021-06-12 20:50:30:335 [Thread-0] INFO  com.huanhe_tech.siever.Main - The FSLY Max Volume is: 69167.0
+2021-06-12 20:50:32:151 [Thread-0] INFO  com.huanhe_tech.siever.Main - GHG -> Orientation: UP
+2021-06-12 20:50:32:153 [Thread-0] INFO  com.huanhe_tech.siever.Main - The GHG Max Volume is: 2596.0
+2021-06-12 20:50:32:910 [Thread-0] INFO  com.huanhe_tech.siever.Main - GLOP PRA -> Orientation: UP
+2021-06-12 20:50:32:911 [Thread-0] INFO  com.huanhe_tech.siever.Main - The GLOP PRA Max Volume is: 131.0
+2021-06-12 20:50:37:986 [Thread-0] INFO  com.huanhe_tech.siever.Main - HSY -> Orientation: UP
+2021-06-12 20:50:37:986 [Thread-0] INFO  com.huanhe_tech.siever.Main - The HSY Max Volume is: 2772.0
+2021-06-12 20:50:41:196 [Thread-0] INFO  com.huanhe_tech.siever.Main - ISUN -> Orientation: DOWN
+2021-06-12 20:50:41:196 [Thread-0] INFO  com.huanhe_tech.siever.Main - The ISUN Max Volume is: 2795.0
+2021-06-12 20:50:48:256 [Thread-0] INFO  com.huanhe_tech.siever.Main - METX -> Orientation: DOWN
+2021-06-12 20:50:48:257 [Thread-0] INFO  com.huanhe_tech.siever.Main - The METX Max Volume is: 55934.0
+2021-06-12 20:50:50:003 [Thread-0] INFO  com.huanhe_tech.siever.Main - MTRN -> Orientation: UP
+2021-06-12 20:50:50:003 [Thread-0] INFO  com.huanhe_tech.siever.Main - The MTRN Max Volume is: 498.0
+2021-06-12 20:50:54:785 [Thread-0] INFO  com.huanhe_tech.siever.Main - OPTT -> Orientation: DOWN
+2021-06-12 20:50:54:786 [Thread-0] INFO  com.huanhe_tech.siever.Main - The OPTT Max Volume is: 26293.0
+2021-06-12 20:51:01:286 [Thread-0] INFO  com.huanhe_tech.siever.Main - QVCC -> Orientation: UP
+2021-06-12 20:51:01:286 [Thread-0] INFO  com.huanhe_tech.siever.Main - The QVCC Max Volume is: 307.0
+2021-06-12 20:51:02:702 [Thread-0] INFO  com.huanhe_tech.siever.Main - RNGR -> Orientation: UP
+2021-06-12 20:51:02:703 [Thread-0] INFO  com.huanhe_tech.siever.Main - The RNGR Max Volume is: 97.0
+2021-06-12 20:51:03:581 [Thread-0] INFO  com.huanhe_tech.siever.Main - SATS -> Orientation: UP
+2021-06-12 20:51:03:581 [Thread-0] INFO  com.huanhe_tech.siever.Main - The SATS Max Volume is: 3268.0
+2021-06-12 20:51:05:272 [Thread-0] INFO  com.huanhe_tech.siever.Main - SHG -> Orientation: UP
+2021-06-12 20:51:05:273 [Thread-0] INFO  com.huanhe_tech.siever.Main - The SHG Max Volume is: 1013.0
+2021-06-12 20:51:19:412 [Thread-0] INFO  com.huanhe_tech.siever.Main - VFF -> Orientation: DOWN
+2021-06-12 20:51:19:412 [Thread-0] INFO  com.huanhe_tech.siever.Main - The VFF Max Volume is: 13752.0
+2021-06-12 21:13:07:559 [main] INFO  com.huanhe_tech.siever.Main - Current Time in New York: 2021-06-12 09:13:07
+2021-06-12 21:13:13:334 [Thread-5] INFO  com.huanhe_tech.siever.Main - Acount List: 
+2021-06-12 21:13:13:336 [Thread-5] INFO  com.huanhe_tech.siever.Main - U8978970
+2021-06-12 21:13:14:278 [Thread-0] INFO  com.huanhe_tech.siever.Main - AGLE -> Orientation: DOWN
+2021-06-12 21:13:14:343 [Thread-0] INFO  com.huanhe_tech.siever.Main - Interval Days From Today: 2
+2021-06-12 21:13:14:344 [Thread-0] INFO  com.huanhe_tech.siever.Main - The AGLE Max Volume is: 3709.0
+2021-06-12 21:13:32:536 [Thread-0] INFO  com.huanhe_tech.siever.Main - DKNG -> Orientation: DOWN
+2021-06-12 21:13:32:537 [Thread-0] INFO  com.huanhe_tech.siever.Main - Interval Days From Today: 2
+2021-06-12 21:13:32:538 [Thread-0] INFO  com.huanhe_tech.siever.Main - The DKNG Max Volume is: 93404.0
+2021-06-12 21:13:32:724 [Thread-0] INFO  com.huanhe_tech.siever.Main - DMTK -> Orientation: DOWN
+2021-06-12 21:13:32:725 [Thread-0] INFO  com.huanhe_tech.siever.Main - Interval Days From Today: 3
+2021-06-12 21:13:32:725 [Thread-0] INFO  com.huanhe_tech.siever.Main - The DMTK Max Volume is: 7289.0
+2021-06-12 21:13:35:737 [Thread-0] INFO  com.huanhe_tech.siever.Main - EPAY -> Orientation: DOWN
+2021-06-12 21:13:35:738 [Thread-0] INFO  com.huanhe_tech.siever.Main - Interval Days From Today: 2
+2021-06-12 21:13:35:738 [Thread-0] INFO  com.huanhe_tech.siever.Main - The EPAY Max Volume is: 4910.0
+2021-06-12 21:13:36:996 [Thread-0] INFO  com.huanhe_tech.siever.Main - EZGO -> Orientation: DOWN
+2021-06-12 21:13:36:997 [Thread-0] INFO  com.huanhe_tech.siever.Main - Interval Days From Today: 2
+2021-06-12 21:13:36:997 [Thread-0] INFO  com.huanhe_tech.siever.Main - The EZGO Max Volume is: 3935.0
+2021-06-12 21:13:39:447 [Thread-0] INFO  com.huanhe_tech.siever.Main - FSLY -> Orientation: DOWN
+2021-06-12 21:13:39:448 [Thread-0] INFO  com.huanhe_tech.siever.Main - Interval Days From Today: 2
+2021-06-12 21:13:39:448 [Thread-0] INFO  com.huanhe_tech.siever.Main - The FSLY Max Volume is: 69167.0
+2021-06-12 21:13:41:625 [Thread-0] INFO  com.huanhe_tech.siever.Main - GHG -> Orientation: UP
+2021-06-12 21:13:41:627 [Thread-0] INFO  com.huanhe_tech.siever.Main - Interval Days From Today: 2
+2021-06-12 21:13:41:627 [Thread-0] INFO  com.huanhe_tech.siever.Main - The GHG Max Volume is: 2596.0
+2021-06-12 21:13:43:042 [Thread-0] INFO  com.huanhe_tech.siever.Main - GLOP PRA -> Orientation: UP
+2021-06-12 21:13:43:042 [Thread-0] INFO  com.huanhe_tech.siever.Main - Interval Days From Today: 2
+2021-06-12 21:13:43:043 [Thread-0] INFO  com.huanhe_tech.siever.Main - The GLOP PRA Max Volume is: 131.0
+2021-06-12 21:13:50:165 [Thread-0] INFO  com.huanhe_tech.siever.Main - HSY -> Orientation: UP
+2021-06-12 21:13:50:166 [Thread-0] INFO  com.huanhe_tech.siever.Main - Interval Days From Today: 2
+2021-06-12 21:13:50:166 [Thread-0] INFO  com.huanhe_tech.siever.Main - The HSY Max Volume is: 2772.0
+2021-06-12 21:13:53:826 [Thread-0] INFO  com.huanhe_tech.siever.Main - ISUN -> Orientation: DOWN
+2021-06-12 21:13:53:827 [Thread-0] INFO  com.huanhe_tech.siever.Main - Interval Days From Today: 3
+2021-06-12 21:13:53:827 [Thread-0] INFO  com.huanhe_tech.siever.Main - The ISUN Max Volume is: 2795.0
+2021-06-12 21:14:01:016 [Thread-0] INFO  com.huanhe_tech.siever.Main - METX -> Orientation: DOWN
+2021-06-12 21:14:01:017 [Thread-0] INFO  com.huanhe_tech.siever.Main - Interval Days From Today: 2
+2021-06-12 21:14:01:017 [Thread-0] INFO  com.huanhe_tech.siever.Main - The METX Max Volume is: 55934.0
+2021-06-12 21:14:02:762 [Thread-0] INFO  com.huanhe_tech.siever.Main - MTRN -> Orientation: UP
+2021-06-12 21:14:02:763 [Thread-0] INFO  com.huanhe_tech.siever.Main - Interval Days From Today: 3
+2021-06-12 21:14:02:763 [Thread-0] INFO  com.huanhe_tech.siever.Main - The MTRN Max Volume is: 498.0
+2021-06-12 21:14:07:252 [Thread-0] INFO  com.huanhe_tech.siever.Main - OPTT -> Orientation: DOWN
+2021-06-12 21:14:07:253 [Thread-0] INFO  com.huanhe_tech.siever.Main - Interval Days From Today: 2
+2021-06-12 21:14:07:253 [Thread-0] INFO  com.huanhe_tech.siever.Main - The OPTT Max Volume is: 26293.0
+2021-06-12 21:14:13:421 [Thread-0] INFO  com.huanhe_tech.siever.Main - QVCC -> Orientation: UP
+2021-06-12 21:14:13:421 [Thread-0] INFO  com.huanhe_tech.siever.Main - Interval Days From Today: 3
+2021-06-12 21:14:13:422 [Thread-0] INFO  com.huanhe_tech.siever.Main - The QVCC Max Volume is: 307.0
+2021-06-12 21:14:14:799 [Thread-0] INFO  com.huanhe_tech.siever.Main - RNGR -> Orientation: UP
+2021-06-12 21:14:14:800 [Thread-0] INFO  com.huanhe_tech.siever.Main - Interval Days From Today: 3
+2021-06-12 21:14:14:800 [Thread-0] INFO  com.huanhe_tech.siever.Main - The RNGR Max Volume is: 97.0
+2021-06-12 21:14:15:748 [Thread-0] INFO  com.huanhe_tech.siever.Main - SATS -> Orientation: UP
+2021-06-12 21:14:15:748 [Thread-0] INFO  com.huanhe_tech.siever.Main - Interval Days From Today: 2
+2021-06-12 21:14:15:749 [Thread-0] INFO  com.huanhe_tech.siever.Main - The SATS Max Volume is: 3268.0
+2021-06-12 21:14:17:466 [Thread-0] INFO  com.huanhe_tech.siever.Main - SHG -> Orientation: UP
+2021-06-12 21:14:17:467 [Thread-0] INFO  com.huanhe_tech.siever.Main - Interval Days From Today: 2
+2021-06-12 21:14:17:467 [Thread-0] INFO  com.huanhe_tech.siever.Main - The SHG Max Volume is: 1013.0
+2021-06-12 21:14:27:383 [Thread-0] INFO  com.huanhe_tech.siever.Main - VFF -> Orientation: DOWN
+2021-06-12 21:14:27:383 [Thread-0] INFO  com.huanhe_tech.siever.Main - Interval Days From Today: 2
+2021-06-12 21:14:27:384 [Thread-0] INFO  com.huanhe_tech.siever.Main - The VFF Max Volume is: 13752.0
+2021-06-12 22:04:57:908 [main] INFO  com.huanhe_tech.siever.Main - Current Time in New York: 2021-06-12 10:04:57
+2021-06-12 22:05:03:733 [Thread-5] INFO  com.huanhe_tech.siever.Main - Acount List: 
+2021-06-12 22:05:03:736 [Thread-5] INFO  com.huanhe_tech.siever.Main - U8978970
+2021-06-12 22:05:04:771 [Thread-0] INFO  com.huanhe_tech.siever.Main - AGLE -> Orientation: DOWN
+2021-06-12 22:05:04:856 [Thread-0] INFO  com.huanhe_tech.siever.Main - Interval Days From Today: 2
+2021-06-12 22:05:04:858 [Thread-0] INFO  com.huanhe_tech.siever.Main - The AGLE Max Volume is: 3709.0
+2021-06-12 22:05:59:344 [main] INFO  com.huanhe_tech.siever.Main - Current Time in New York: 2021-06-12 10:05:59
+2021-06-12 22:06:05:363 [Thread-5] INFO  com.huanhe_tech.siever.Main - Acount List: 
+2021-06-12 22:06:05:365 [Thread-5] INFO  com.huanhe_tech.siever.Main - U8978970
+2021-06-12 22:06:06:299 [Thread-0] INFO  com.huanhe_tech.siever.Main - AGLE -> Orientation: DOWN
+2021-06-12 22:06:06:366 [Thread-0] INFO  com.huanhe_tech.siever.Main - Interval Days From Today: 2
+2021-06-12 22:06:06:369 [Thread-0] INFO  com.huanhe_tech.siever.Main - The AGLE Max Volume is: 3709.0
+2021-06-12 22:11:08:894 [main] INFO  com.huanhe_tech.siever.Main - Current Time in New York: 2021-06-12 10:11:08
+2021-06-12 22:11:10:075 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-06-11 00:00:00', conid= 1715006, id=109, symbol=A, open=143.36, high=143.6, low=141.9, close=143.53, volume=5145, wap=142.841, count=3756}
+2021-06-12 22:11:10:076 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-05-19 00:00:00', conid= 1715006, id=93, symbol=A, open=127.6, high=130.28, low=127.13, close=130.21, volume=6142, wap=129.0655, count=5263}
+2021-06-12 22:11:10:076 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-06-01 00:00:00', conid= 1715006, id=101, symbol=A, open=139.17, high=140.32, low=135.57, close=137.2, volume=9869, wap=137.223, count=7478}
+2021-06-12 22:11:10:076 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-03-25 00:00:00', conid= 1715006, id=55, symbol=A, open=120.86, high=122.33, low=119.88, close=121.9, volume=4756, wap=121.083, count=3901}
+2021-06-12 22:11:10:076 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-05-07 00:00:00', conid= 1715006, id=85, symbol=A, open=133.19, high=134.82, low=133.19, close=133.9, volume=4515, wap=134.096, count=3081}
+2021-06-12 22:11:10:076 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-03-05 00:00:00', conid= 1715006, id=41, symbol=A, open=115.88, high=116.19, low=112.47, close=116.14, volume=13839, wap=114.7795, count=9593}
+2021-06-12 22:11:10:260 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-06-10 00:00:00', conid= 265585, id=108, symbol=AAME, open=4.19, high=4.29, low=4.07, close=4.18, volume=1128, wap=4.16386, count=365}
+2021-06-12 22:11:10:260 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-06-03 00:00:00', conid= 265585, id=103, symbol=AAME, open=5.02, high=5.43, low=4.35, close=4.38, volume=7862, wap=4.850275, count=2250}
+2021-06-12 22:11:10:260 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-05-25 00:00:00', conid= 265585, id=97, symbol=AAME, open=4.14, high=4.17, low=3.93, close=4.09, volume=891, wap=4.062745, count=298}
+2021-06-12 22:11:10:260 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-05-18 00:00:00', conid= 265585, id=92, symbol=AAME, open=4.51, high=4.76, low=4.4, close=4.51, volume=1026, wap=4.58878, count=428}
+2021-06-12 22:11:10:260 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-05-12 00:00:00', conid= 265585, id=88, symbol=AAME, open=3.89, high=4.2, low=3.83, close=4.19, volume=901, wap=4.04318, count=423}
+2021-06-12 22:11:10:261 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-04-28 00:00:00', conid= 265585, id=78, symbol=AAME, open=4.02, high=4.39, low=4.0042, close=4.29, volume=1280, wap=4.22022, count=469}
+2021-06-12 22:11:10:284 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-06-09 00:00:00', conid= 455975127, id=107, symbol=AAN, open=36.76, high=37.49, low=36.2, close=37.15, volume=1526, wap=36.9965, count=1153}
+2021-06-12 22:11:10:284 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-05-12 00:00:00', conid= 455975127, id=88, symbol=AAN, open=31.39, high=31.96, low=28.88, close=29.48, volume=7250, wap=30.255, count=4972}
+2021-06-12 22:11:10:284 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-05-27 00:00:00', conid= 455975127, id=99, symbol=AAN, open=36.5, high=36.81, low=36.05, close=36.13, volume=1099, wap=36.313, count=753}
+2021-06-12 22:11:10:284 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-04-20 00:00:00', conid= 455975127, id=72, symbol=AAN, open=25.55, high=25.85, low=23.82, close=24.2, volume=1100, wap=24.3435, count=673}
+2021-06-12 22:11:10:284 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-04-28 00:00:00', conid= 455975127, id=78, symbol=AAN, open=34.26, high=34.26, low=31.66, close=32.18, volume=5204, wap=33.0085, count=3397}
+2021-06-12 22:11:10:285 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-03-25 00:00:00', conid= 455975127, id=55, symbol=AAN, open=24.19, high=25.63, low=23.69, close=25.47, volume=1203, wap=25.0125, count=955}
+2021-06-12 22:11:10:375 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-06-08 00:00:00', conid= 82819360, id=106, symbol=AAT, open=38.29, high=38.98, low=38.28, close=38.59, volume=1797, wap=38.7585, count=1335}
+2021-06-12 22:11:10:375 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-05-12 00:00:00', conid= 82819360, id=88, symbol=AAT, open=34.01, high=34.37, low=33.27, close=33.4, volume=1073, wap=33.6385, count=812}
+2021-06-12 22:11:10:375 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-05-17 00:00:00', conid= 82819360, id=91, symbol=AAT, open=36.11, high=36.14, low=35.09, close=35.41, volume=4149, wap=35.5745, count=2027}
+2021-06-12 22:11:10:376 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-03-25 00:00:00', conid= 82819360, id=55, symbol=AAT, open=32.2, high=33.09, low=31.47, close=32.82, volume=1500, wap=32.568, count=1122}
+2021-06-12 22:11:10:376 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-04-29 00:00:00', conid= 82819360, id=79, symbol=AAT, open=34.97, high=35.61, low=34.97, close=35.46, volume=1913, wap=35.299, count=1324}
+2021-06-12 22:11:10:376 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-02-01 00:00:00', conid= 82819360, id=18, symbol=AAT, open=27.7, high=28.27, low=27.21, close=28.13, volume=1151, wap=27.8615, count=915}
+2021-06-12 22:11:10:386 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-06-01 00:00:00', conid= 39505341, id=101, symbol=AAWW, open=75.7, high=76.23, low=74.6, close=75.06, volume=1940, wap=75.2375, count=1367}
+2021-06-12 22:11:10:386 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-05-26 00:00:00', conid= 39505341, id=98, symbol=AAWW, open=73.22, high=75.09, low=72.78, close=75.02, volume=1449, wap=74.4115, count=957}
+2021-06-12 22:11:10:386 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-05-10 00:00:00', conid= 39505341, id=86, symbol=AAWW, open=75.0, high=75.48, low=73.29, close=73.3, volume=2720, wap=74.385, count=1919}
+2021-06-12 22:11:10:387 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-05-05 00:00:00', conid= 39505341, id=83, symbol=AAWW, open=70.17, high=71.9, low=67.23, close=71.48, volume=5737, wap=70.19, count=3935}
+2021-06-12 22:11:10:387 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-03-12 00:00:00', conid= 39505341, id=46, symbol=AAWW, open=61.79, high=61.98, low=59.42, close=60.26, volume=2279, wap=60.7695, count=1480}
+2021-06-12 22:11:10:387 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-03-25 00:00:00', conid= 39505341, id=55, symbol=AAWW, open=54.26, high=56.08, low=53.36, close=55.54, volume=2858, wap=54.9655, count=2042}
+2021-06-12 22:11:10:417 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-06-11 00:00:00', conid= 11962137, id=109, symbol=ABB, open=34.6, high=34.65, low=34.45, close=34.55, volume=8681, wap=34.513, count=5050}
+2021-06-12 22:11:10:417 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-06-07 00:00:00', conid= 11962137, id=105, symbol=ABB, open=35.28, high=35.28, low=35.04, close=35.17, volume=7155, wap=35.158, count=4041}
+2021-06-12 22:11:10:417 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-05-12 00:00:00', conid= 11962137, id=88, symbol=ABB, open=33.02, high=33.18, low=32.51, close=32.57, volume=12550, wap=32.8115, count=7037}
+2021-06-12 22:11:10:417 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-05-14 00:00:00', conid= 11962137, id=90, symbol=ABB, open=33.85, high=34.32, low=33.78, close=34.22, volume=14889, wap=34.064, count=7701}
+2021-06-12 22:11:10:417 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-05-04 00:00:00', conid= 11962137, id=82, symbol=ABB, open=32.46, high=32.66, low=32.29, close=32.66, volume=14522, wap=32.503, count=8498}
+2021-06-12 22:11:10:417 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-04-16 00:00:00', conid= 11962137, id=70, symbol=ABB, open=33.27, high=33.48, low=33.15, close=33.38, volume=11819, wap=33.342, count=6703}
+2021-06-12 22:11:10:435 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-06-11 00:00:00', conid= 1714996, id=109, symbol=ABC, open=120.71, high=121.32, low=119.02, close=119.84, volume=3422, wap=119.8295, count=2818}
+2021-06-12 22:11:10:435 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-05-26 00:00:00', conid= 1714996, id=98, symbol=ABC, open=114.94, high=115.51, low=112.68, close=114.68, volume=8775, wap=114.1395, count=6526}
+2021-06-12 22:11:10:436 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-05-21 00:00:00', conid= 1714996, id=95, symbol=ABC, open=120.7, high=122.31, low=120.05, close=120.07, volume=4241, wap=120.8975, count=3088}
+2021-06-12 22:11:10:436 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-05-17 00:00:00', conid= 1714996, id=91, symbol=ABC, open=116.31, high=118.82, low=113.87, close=118.11, volume=7486, wap=116.915, count=5388}
+2021-06-12 22:11:10:436 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-05-04 00:00:00', conid= 1714996, id=82, symbol=ABC, open=123.95, high=125.86, low=122.99, close=125.85, volume=7852, wap=124.8395, count=6089}
+2021-06-12 22:11:10:436 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-05-06 00:00:00', conid= 1714996, id=84, symbol=ABC, open=117.4, high=118.18, low=114.06, close=117.63, volume=10849, wap=116.154, count=7983}
+2021-06-12 22:11:10:464 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-06-11 00:00:00', conid= 197341060, id=109, symbol=ABEO, open=1.8613, high=1.89, low=1.79, close=1.82, volume=7277, wap=1.83116, count=2310}
+2021-06-12 22:11:10:464 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-05-11 00:00:00', conid= 197341060, id=87, symbol=ABEO, open=1.28, high=1.42, low=1.26, close=1.31, volume=25569, wap=1.325415, count=5997}
+2021-06-12 22:11:10:465 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-06-03 00:00:00', conid= 197341060, id=103, symbol=ABEO, open=1.82, high=1.92, low=1.74, close=1.82, volume=22007, wap=1.834655, count=4275}
+2021-06-12 22:11:10:465 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-04-19 00:00:00', conid= 197341060, id=71, symbol=ABEO, open=1.46, high=1.49, low=1.355, close=1.41, volume=11164, wap=1.4103, count=2518}
+2021-06-12 22:11:10:465 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-05-04 00:00:00', conid= 197341060, id=82, symbol=ABEO, open=2.03, high=2.04, low=1.7, close=1.705, volume=45196, wap=1.77543, count=6896}
+2021-06-12 22:11:10:465 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-03-05 00:00:00', conid= 197341060, id=41, symbol=ABEO, open=2.1, high=2.14, low=1.695, close=2.01, volume=37624, wap=1.92893, count=8679}
+2021-06-12 22:11:10:475 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-06-11 00:00:00', conid= 137736417, id=109, symbol=ABEV, open=3.81, high=3.815, low=3.69, close=3.74, volume=206092, wap=3.72535, count=16985}
+2021-06-12 22:11:10:476 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-06-08 00:00:00', conid= 137736417, id=106, symbol=ABEV, open=3.88, high=3.95, low=3.87, close=3.9, volume=276517, wap=3.908645, count=28223}
+2021-06-12 22:11:10:476 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-05-21 00:00:00', conid= 137736417, id=95, symbol=ABEV, open=3.35, high=3.35, low=3.25, close=3.3, volume=326574, wap=3.28722, count=28052}
+2021-06-12 22:11:10:476 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-05-18 00:00:00', conid= 137736417, id=92, symbol=ABEV, open=3.34, high=3.38, low=3.31, close=3.33, volume=178311, wap=3.348815, count=18172}
+2021-06-12 22:11:10:476 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-05-04 00:00:00', conid= 137736417, id=82, symbol=ABEV, open=2.73, high=2.74, low=2.69, close=2.72, volume=107876, wap=2.720145, count=14247}
+2021-06-12 22:11:10:476 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-04-23 00:00:00', conid= 137736417, id=75, symbol=ABEV, open=2.94, high=2.97, low=2.9, close=2.92, volume=124630, wap=2.92538, count=12464}
+2021-06-12 22:11:10:659 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-06-09 00:00:00', conid= 420446448, id=107, symbol=ACB, open=10.05, high=10.64, low=9.97, close=10.23, volume=123473, wap=10.4015, count=39668}
+2021-06-12 22:11:10:659 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-05-14 00:00:00', conid= 420446448, id=90, symbol=ACB, open=6.75, high=7.1, low=6.59, close=6.86, volume=129589, wap=6.8495, count=33482}
+2021-06-12 22:11:10:659 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-05-07 00:00:00', conid= 420446448, id=85, symbol=ACB, open=8.48, high=9.26, low=8.38, close=8.9, volume=98339, wap=8.9825, count=33245}
+2021-06-12 22:11:10:659 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-04-16 00:00:00', conid= 420446448, id=70, symbol=ACB, open=7.82, high=7.89, low=7.51, close=7.88, volume=54730, wap=7.7415, count=17200}
+2021-06-12 22:11:10:659 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-04-28 00:00:00', conid= 420446448, id=78, symbol=ACB, open=8.57, high=9.12, low=8.45, close=9.05, volume=72917, wap=8.9305, count=21802}
+2021-06-12 22:11:10:659 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-03-25 00:00:00', conid= 420446448, id=55, symbol=ACB, open=8.71, high=9.29, low=8.61, close=9.27, volume=87761, wap=9.029, count=28951}
+2021-06-12 22:11:10:683 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-06-08 00:00:00', conid= 30351233, id=106, symbol=ACC, open=48.58, high=49.21, low=48.46, close=48.77, volume=9835, wap=48.95, count=3469}
+2021-06-12 22:11:10:683 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-05-25 00:00:00', conid= 30351233, id=97, symbol=ACC, open=45.98, high=47.36, low=45.75, close=46.69, volume=9202, wap=46.803, count=6327}
+2021-06-12 22:11:10:683 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-05-10 00:00:00', conid= 30351233, id=86, symbol=ACC, open=46.29, high=47.05, low=46.07, close=46.43, volume=7910, wap=46.6625, count=4478}
+2021-06-12 22:11:10:684 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-04-12 00:00:00', conid= 30351233, id=66, symbol=ACC, open=43.23, high=43.5, low=42.82, close=43.5, volume=3586, wap=43.1305, count=2260}
+2021-06-12 22:11:10:684 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-04-26 00:00:00', conid= 30351233, id=76, symbol=ACC, open=45.95, high=46.36, low=45.59, close=45.62, volume=4869, wap=46.047, count=3023}
+2021-06-12 22:11:10:684 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-03-22 00:00:00', conid= 30351233, id=52, symbol=ACC, open=41.83, high=42.76, low=41.64, close=42.69, volume=4129, wap=42.4965, count=2618}
+2021-06-12 22:11:10:713 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-06-10 00:00:00', conid= 391638321, id=108, symbol=ACEL, open=12.81, high=12.81, low=12.55, close=12.66, volume=1150, wap=12.6735, count=614}
+2021-06-12 22:11:10:713 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-05-12 00:00:00', conid= 391638321, id=88, symbol=ACEL, open=12.98, high=13.75, low=12.84, close=12.94, volume=3845, wap=13.3405, count=1940}
+2021-06-12 22:11:10:713 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-05-06 00:00:00', conid= 391638321, id=84, symbol=ACEL, open=12.14, high=12.3, low=11.83, close=11.96, volume=872, wap=12.0345, count=639}
+2021-06-12 22:11:10:713 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-04-29 00:00:00', conid= 391638321, id=79, symbol=ACEL, open=13.24, high=13.56, low=12.97, close=13.07, volume=2211, wap=13.2245, count=1419}
+2021-06-12 22:11:10:713 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-03-25 00:00:00', conid= 391638321, id=55, symbol=ACEL, open=10.41, high=10.74, low=10.05, close=10.69, volume=2153, wap=10.405, count=1273}
+2021-06-12 22:11:10:713 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-03-12 00:00:00', conid= 391638321, id=46, symbol=ACEL, open=12.2, high=12.4, low=11.8, close=12.21, volume=1212, wap=12.081, count=803}
+2021-06-12 22:11:10:780 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-06-11 00:00:00', conid= 753861, id=109, symbol=ACH, open=14.45, high=14.53, low=14.29, close=14.33, volume=750, wap=14.386, count=408}
+2021-06-12 22:11:10:780 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-06-08 00:00:00', conid= 753861, id=106, symbol=ACH, open=13.56, high=13.66, low=13.48, close=13.63, volume=534, wap=13.5875, count=249}
+2021-06-12 22:11:10:780 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-05-28 00:00:00', conid= 753861, id=100, symbol=ACH, open=14.61, high=14.73, low=14.56, close=14.67, volume=769, wap=14.648, count=395}
+2021-06-12 22:11:10:780 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-05-24 00:00:00', conid= 753861, id=96, symbol=ACH, open=13.79, high=13.89, low=13.69, close=13.89, volume=1348, wap=13.7875, count=424}
+2021-06-12 22:11:10:781 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-05-10 00:00:00', conid= 753861, id=86, symbol=ACH, open=16.79, high=16.93, low=16.35, close=16.37, volume=3888, wap=16.712, count=1409}
+2021-06-12 22:11:10:781 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-05-13 00:00:00', conid= 753861, id=89, symbol=ACH, open=14.52, high=14.65, low=13.82, close=14.17, volume=2675, wap=14.302, count=1109}
+2021-06-12 22:11:10:807 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-06-09 00:00:00', conid= 437395849, id=107, symbol=ACHV, open=8.79, high=9.03, low=8.53, close=8.58, volume=1060, wap=8.803, count=508}
+2021-06-12 22:11:10:807 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-05-25 00:00:00', conid= 437395849, id=97, symbol=ACHV, open=7.28, high=7.84, low=7.24, close=7.31, volume=13484, wap=7.5195, count=5929}
+2021-06-12 22:11:10:807 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-05-18 00:00:00', conid= 437395849, id=92, symbol=ACHV, open=9.49, high=10.4, low=9.48, close=10.02, volume=351, wap=9.9725, count=201}
+2021-06-12 22:11:10:807 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-05-13 00:00:00', conid= 437395849, id=89, symbol=ACHV, open=9.7, high=10.08, low=8.71, close=9.0, volume=564, wap=9.2775, count=245}
+2021-06-12 22:11:10:807 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-04-27 00:00:00', conid= 437395849, id=77, symbol=ACHV, open=11.55, high=11.75, low=11.19, close=11.3, volume=392, wap=11.4815, count=271}
+2021-06-12 22:11:10:807 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-04-20 00:00:00', conid= 437395849, id=72, symbol=ACHV, open=10.1, high=10.3, low=9.38, close=9.7, volume=362, wap=9.716, count=232}
+2021-06-12 22:11:10:918 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-06-09 00:00:00', conid= 30207417, id=107, symbol=ACNB, open=27.97, high=28.13, low=27.75, close=27.99, volume=224, wap=27.9115, count=173}
+2021-06-12 22:11:10:918 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-06-04 00:00:00', conid= 30207417, id=104, symbol=ACNB, open=28.9, high=29.3, low=28.7, close=28.93, volume=132, wap=28.98, count=98}
+2021-06-12 22:11:10:918 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-05-25 00:00:00', conid= 30207417, id=97, symbol=ACNB, open=28.15, high=28.15, low=27.56, close=27.6, volume=117, wap=27.781, count=80}
+2021-06-12 22:11:10:918 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-05-10 00:00:00', conid= 30207417, id=86, symbol=ACNB, open=28.93, high=29.45, low=28.5, close=28.73, volume=104, wap=28.865, count=80}
+2021-06-12 22:11:10:918 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-04-21 00:00:00', conid= 30207417, id=73, symbol=ACNB, open=28.13, high=28.32, low=27.25, close=28.1, volume=122, wap=27.8385, count=93}
+2021-06-12 22:11:10:918 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-03-31 00:00:00', conid= 30207417, id=59, symbol=ACNB, open=31.65, high=31.72, low=29.22, close=29.3, volume=102, wap=30.5605, count=91}
+2021-06-12 22:11:10:988 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-06-11 00:00:00', conid= 471767596, id=83, symbol=ACR PRC, open=25.43, high=25.52, low=25.4, close=25.4, volume=193, wap=25.458, count=41}
+2021-06-12 22:11:10:988 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-06-10 00:00:00', conid= 471767596, id=82, symbol=ACR PRC, open=25.5, high=25.59, low=25.45, close=25.45, volume=96, wap=25.551, count=37}
+2021-06-12 22:11:10:988 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-05-12 00:00:00', conid= 471767596, id=62, symbol=ACR PRC, open=25.09, high=25.22, low=24.81, close=24.88, volume=237, wap=24.9835, count=90}
+2021-06-12 22:11:10:988 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-06-01 00:00:00', conid= 471767596, id=75, symbol=ACR PRC, open=25.46, high=25.55, low=25.43, close=25.5, volume=90, wap=25.4735, count=41}
+2021-06-12 22:11:10:988 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-04-13 00:00:00', conid= 471767596, id=41, symbol=ACR PRC, open=24.58, high=24.59, low=24.24, close=24.4, volume=95, wap=24.461, count=51}
+2021-06-12 22:11:10:988 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-05-18 00:00:00', conid= 471767596, id=66, symbol=ACR PRC, open=25.48, high=25.52, low=25.45, close=25.49, volume=733, wap=25.5, count=168}
+2021-06-12 22:11:10:998 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-06-09 00:00:00', conid= 106619222, id=107, symbol=ACRE, open=16.75, high=16.9, low=16.65, close=16.8, volume=3020, wap=16.804, count=1266}
+2021-06-12 22:11:10:998 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-05-12 00:00:00', conid= 106619222, id=88, symbol=ACRE, open=14.7, high=14.7, low=14.0, close=14.06, volume=6149, wap=14.2545, count=2955}
+2021-06-12 22:11:10:998 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-05-10 00:00:00', conid= 106619222, id=86, symbol=ACRE, open=15.05, high=15.15, low=14.91, close=14.95, volume=3288, wap=15.016, count=1643}
+2021-06-12 22:11:10:998 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-04-21 00:00:00', conid= 106619222, id=73, symbol=ACRE, open=13.88, high=14.29, low=13.76, close=14.28, volume=2985, wap=14.15, count=1166}
+2021-06-12 22:11:10:998 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-04-16 00:00:00', conid= 106619222, id=70, symbol=ACRE, open=14.51, high=14.54, low=14.33, close=14.42, volume=1827, wap=14.4205, count=915}
+2021-06-12 22:11:10:998 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-04-08 00:00:00', conid= 106619222, id=64, symbol=ACRE, open=13.8, high=13.92, low=13.6, close=13.9, volume=3618, wap=13.8135, count=1699}
+2021-06-12 22:11:11:016 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-06-08 00:00:00', conid= 83738321, id=106, symbol=ACRX, open=1.57, high=1.67, low=1.545, close=1.67, volume=21463, wap=1.605055, count=3981}
+2021-06-12 22:11:11:016 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-05-13 00:00:00', conid= 83738321, id=89, symbol=ACRX, open=1.07, high=1.09, low=1.02, close=1.03, volume=16371, wap=1.052465, count=3969}
+2021-06-12 22:11:11:016 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-05-18 00:00:00', conid= 83738321, id=92, symbol=ACRX, open=1.2, high=1.6193, low=1.18, close=1.29, volume=62386, wap=1.338145, count=10465}
+2021-06-12 22:11:11:016 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-04-21 00:00:00', conid= 83738321, id=73, symbol=ACRX, open=1.11, high=1.27, low=1.11, close=1.25, volume=12688, wap=1.208195, count=3195}
+2021-06-12 22:11:11:016 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-04-27 00:00:00', conid= 83738321, id=77, symbol=ACRX, open=1.4, high=1.4, low=1.28, close=1.3, volume=17915, wap=1.335535, count=4435}
+2021-06-12 22:11:11:016 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-03-30 00:00:00', conid= 83738321, id=58, symbol=ACRX, open=1.56, high=1.62, low=1.5, close=1.61, volume=14058, wap=1.571575, count=4495}
+2021-06-12 22:11:11:123 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-06-11 00:00:00', conid= 4151, id=109, symbol=ADC, open=71.15, high=71.87, low=71.0, close=71.56, volume=23776, wap=71.4645, count=13176}
+2021-06-12 22:11:11:123 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-06-10 00:00:00', conid= 4151, id=108, symbol=ADC, open=73.35, high=73.9, low=72.98, close=73.72, volume=1064, wap=73.5965, count=831}
+2021-06-12 22:11:11:123 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-05-12 00:00:00', conid= 4151, id=88, symbol=ADC, open=68.18, high=68.81, low=67.18, close=67.49, volume=2513, wap=67.805, count=1596}
+2021-06-12 22:11:11:123 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-05-04 00:00:00', conid= 4151, id=82, symbol=ADC, open=71.78, high=73.0, low=70.68, close=70.99, volume=4771, wap=71.451, count=3592}
+2021-06-12 22:11:11:123 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-04-12 00:00:00', conid= 4151, id=66, symbol=ADC, open=68.31, high=68.31, low=67.17, close=67.66, volume=2386, wap=67.683, count=1559}
+2021-06-12 22:11:11:123 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-04-22 00:00:00', conid= 4151, id=74, symbol=ADC, open=71.42, high=71.71, low=70.83, close=71.34, volume=2694, wap=71.3085, count=1696}
+2021-06-12 22:11:11:248 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-06-10 00:00:00', conid= 252066451, id=108, symbol=ADNT, open=49.22, high=49.74, low=47.37, close=47.42, volume=3160, wap=47.911, count=2255}
+2021-06-12 22:11:11:248 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-06-04 00:00:00', conid= 252066451, id=104, symbol=ADNT, open=53.0, high=53.17, low=51.73, close=52.66, volume=2571, wap=52.469, count=1641}
+2021-06-12 22:11:11:248 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-05-19 00:00:00', conid= 252066451, id=93, symbol=ADNT, open=46.65, high=47.37, low=45.31, close=47.28, volume=3671, wap=46.8665, count=2706}
+2021-06-12 22:11:11:248 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-05-18 00:00:00', conid= 252066451, id=92, symbol=ADNT, open=49.45, high=49.84, low=48.02, close=48.04, volume=3170, wap=48.7345, count=2409}
+2021-06-12 22:11:11:248 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-05-06 00:00:00', conid= 252066451, id=84, symbol=ADNT, open=46.26, high=48.33, low=45.07, close=48.29, volume=5873, wap=46.9485, count=4204}
+2021-06-12 22:11:11:248 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-05-07 00:00:00', conid= 252066451, id=85, symbol=ADNT, open=48.15, high=49.78, low=47.43, close=49.29, volume=5681, wap=49.003, count=3017}
+2021-06-12 22:11:11:307 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-06-03 00:00:00', conid= 265681, id=103, symbol=ADSK, open=276.15, high=278.67, low=271.7, close=274.47, volume=7967, wap=274.7875, count=6757}
+2021-06-12 22:11:11:307 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-05-26 00:00:00', conid= 265681, id=98, symbol=ADSK, open=288.85, high=293.49, low=288.09, close=292.51, volume=5640, wap=291.559, count=4880}
+2021-06-12 22:11:11:307 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-05-19 00:00:00', conid= 265681, id=93, symbol=ADSK, open=267.63, high=274.71, low=266.79, close=273.97, volume=3950, wap=271.541, count=3217}
+2021-06-12 22:11:11:307 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-04-29 00:00:00', conid= 265681, id=79, symbol=ADSK, open=301.5, high=301.5, low=293.79, close=296.28, volume=4588, wap=296.354, count=3876}
+2021-06-12 22:11:11:308 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-05-11 00:00:00', conid= 265681, id=87, symbol=ADSK, open=269.0, high=280.56, low=265.75, close=277.42, volume=4932, wap=275.518, count=4096}
+2021-06-12 22:11:11:308 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-04-15 00:00:00', conid= 265681, id=69, symbol=ADSK, open=299.58, high=303.69, low=298.22, close=298.86, volume=5936, wap=299.467, count=4929}
+2021-06-12 22:11:11:352 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-06-11 00:00:00', conid= 69790398, id=109, symbol=ADUS, open=92.13, high=93.34, low=90.12, close=90.97, volume=376, wap=90.9015, count=353}
+2021-06-12 22:11:11:352 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-05-26 00:00:00', conid= 69790398, id=98, symbol=ADUS, open=94.82, high=96.84, low=94.32, close=95.87, volume=378, wap=95.6585, count=330}
+2021-06-12 22:11:11:352 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-05-13 00:00:00', conid= 69790398, id=89, symbol=ADUS, open=96.66, high=97.42, low=91.03, close=91.96, volume=673, wap=92.8995, count=549}
+2021-06-12 22:11:11:352 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-04-23 00:00:00', conid= 69790398, id=75, symbol=ADUS, open=109.45, high=111.59, low=108.71, close=110.22, volume=416, wap=110.5365, count=357}
+2021-06-12 22:11:11:352 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-04-08 00:00:00', conid= 69790398, id=64, symbol=ADUS, open=103.84, high=105.34, low=102.54, close=105.34, volume=185, wap=104.2205, count=166}
+2021-06-12 22:11:11:352 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-03-22 00:00:00', conid= 69790398, id=52, symbol=ADUS, open=110.0, high=112.4, low=108.79, close=109.52, volume=369, wap=109.799, count=263}
+2021-06-12 22:11:11:434 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-06-10 00:00:00', conid= 387742232, id=108, symbol=AEFC, open=26.5, high=26.57, low=26.33, close=26.54, volume=409, wap=26.491, count=177}
+2021-06-12 22:11:11:434 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-05-27 00:00:00', conid= 387742232, id=99, symbol=AEFC, open=26.04, high=26.06, low=25.95, close=25.98, volume=230, wap=26.004, count=98}
+2021-06-12 22:11:11:434 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-05-24 00:00:00', conid= 387742232, id=96, symbol=AEFC, open=26.6, high=26.64, low=26.5, close=26.52, volume=373, wap=26.59, count=138}
+2021-06-12 22:11:11:434 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-05-12 00:00:00', conid= 387742232, id=88, symbol=AEFC, open=26.0, high=26.01, low=25.74, close=25.82, volume=932, wap=25.874, count=310}
+2021-06-12 22:11:11:434 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-04-26 00:00:00', conid= 387742232, id=76, symbol=AEFC, open=26.85, high=26.95, low=26.81, close=26.87, volume=254, wap=26.8745, count=78}
+2021-06-12 22:11:11:434 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-03-19 00:00:00', conid= 387742232, id=51, symbol=AEFC, open=25.73, high=25.73, low=25.51, close=25.63, volume=1268, wap=25.5925, count=460}
+2021-06-12 22:11:11:466 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-06-10 00:00:00', conid= 469676853, id=86, symbol=AEI, open=5.52, high=6.17, low=5.16, close=5.54, volume=167511, wap=5.6505, count=32516}
+2021-06-12 22:11:11:467 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-05-19 00:00:00', conid= 469676853, id=71, symbol=AEI, open=3.57, high=3.68, low=3.4, close=3.61, volume=12784, wap=3.545, count=3326}
+2021-06-12 22:11:11:467 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-05-03 00:00:00', conid= 469676853, id=59, symbol=AEI, open=10.7, high=11.23, low=10.07, close=10.52, volume=6124, wap=10.704, count=1771}
+2021-06-12 22:11:11:467 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-04-16 00:00:00', conid= 469676853, id=48, symbol=AEI, open=9.2, high=10.03, low=8.6, close=9.33, volume=4619, wap=9.317, count=1356}
+2021-06-12 22:11:11:467 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-04-01 00:00:00', conid= 469676853, id=38, symbol=AEI, open=11.57, high=13.6, low=11.02, close=11.43, volume=17779, wap=12.158, count=5428}
+2021-06-12 22:11:11:467 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-03-25 00:00:00', conid= 469676853, id=33, symbol=AEI, open=10.05, high=12.0, low=9.51, close=11.46, volume=14759, wap=10.89, count=4329}
+2021-06-12 22:11:11:524 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-06-09 00:00:00', conid= 4725951, id=107, symbol=AEO, open=34.47, high=34.51, low=33.44, close=33.68, volume=18637, wap=33.847, count=11672}
+2021-06-12 22:11:11:524 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-06-04 00:00:00', conid= 4725951, id=104, symbol=AEO, open=33.69, high=33.69, low=32.06, close=33.58, volume=39928, wap=32.835, count=22007}
+2021-06-12 22:11:11:524 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-05-28 00:00:00', conid= 4725951, id=100, symbol=AEO, open=36.22, high=36.34, low=34.54, close=35.43, volume=32634, wap=35.4105, count=21563}
+2021-06-12 22:11:11:524 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-05-24 00:00:00', conid= 4725951, id=96, symbol=AEO, open=32.81, high=33.38, low=32.2, close=32.7, volume=25753, wap=32.9615, count=17029}
+2021-06-12 22:11:11:524 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-05-18 00:00:00', conid= 4725951, id=92, symbol=AEO, open=37.87, high=37.92, low=35.13, close=35.76, volume=41274, wap=35.9445, count=23884}
+2021-06-12 22:11:11:524 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-04-30 00:00:00', conid= 4725951, id=80, symbol=AEO, open=35.07, high=35.42, low=34.39, close=34.57, volume=20614, wap=34.6615, count=14536}
+2021-06-12 22:11:11:533 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-06-08 00:00:00', conid= 4211, id=106, symbol=AEP, open=85.98, high=85.98, low=81.94, close=82.97, volume=47587, wap=83.0385, count=28280}
+2021-06-12 22:11:11:533 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-05-24 00:00:00', conid= 4211, id=96, symbol=AEP, open=87.01, high=87.12, low=86.44, close=86.57, volume=7982, wap=86.7915, count=6041}
+2021-06-12 22:11:11:533 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-05-13 00:00:00', conid= 4211, id=89, symbol=AEP, open=85.02, high=87.11, low=84.7, close=86.52, volume=13292, wap=86.218, count=9906}
+2021-06-12 22:11:11:533 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-05-03 00:00:00', conid= 4211, id=81, symbol=AEP, open=89.29, high=89.5, low=88.46, close=88.68, volume=11877, wap=89.0185, count=7908}
+2021-06-12 22:11:11:534 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-04-28 00:00:00', conid= 4211, id=78, symbol=AEP, open=87.32, high=87.6, low=86.36, close=86.73, volume=21757, wap=86.7005, count=12299}
+2021-06-12 22:11:11:534 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-04-20 00:00:00', conid= 4211, id=72, symbol=AEP, open=88.89, high=90.62, low=88.7, close=90.14, volume=20887, wap=90.0545, count=13932}
+2021-06-12 22:11:11:589 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-06-11 00:00:00', conid= 476994099, id=61, symbol=AESC, open=106.27, high=106.48, low=104.69, close=106.48, volume=29, wap=105.732, count=26}
+2021-06-12 22:11:11:589 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-06-04 00:00:00', conid= 476994099, id=56, symbol=AESC, open=103.74, high=103.74, low=102.27, close=103.29, volume=157, wap=103.0, count=93}
+2021-06-12 22:11:11:590 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-05-20 00:00:00', conid= 476994099, id=46, symbol=AESC, open=108.01, high=108.01, low=103.69, close=105.31, volume=88, wap=104.8265, count=44}
+2021-06-12 22:11:11:590 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-05-13 00:00:00', conid= 476994099, id=41, symbol=AESC, open=102.23, high=102.23, low=99.54, close=100.87, volume=148, wap=100.6635, count=81}
+2021-06-12 22:11:11:590 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-04-22 00:00:00', conid= 476994099, id=26, symbol=AESC, open=108.31, high=111.76, low=107.94, close=107.97, volume=1563, wap=109.0415, count=668}
+2021-06-12 22:11:11:590 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-03-25 00:00:00', conid= 476994099, id=7, symbol=AESC, open=99.36, high=100.84, low=97.92, close=100.68, volume=73, wap=99.636, count=53}
+2021-06-12 22:11:11:623 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-06-07 00:00:00', conid= 328849154, id=105, symbol=AEYE, open=18.72, high=20.94, low=18.64, close=19.63, volume=1084, wap=20.0265, count=575}
+2021-06-12 22:11:11:623 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-05-14 00:00:00', conid= 328849154, id=90, symbol=AEYE, open=18.0, high=18.0, low=15.78, close=16.1, volume=2424, wap=16.4815, count=1181}
+2021-06-12 22:11:11:623 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-04-28 00:00:00', conid= 328849154, id=78, symbol=AEYE, open=24.64, high=26.82, low=24.5, close=26.03, volume=695, wap=25.98, count=329}
+2021-06-12 22:11:11:623 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-04-20 00:00:00', conid= 328849154, id=72, symbol=AEYE, open=23.5, high=24.41, low=21.02, close=21.69, volume=1513, wap=22.5295, count=728}
+2021-06-12 22:11:11:623 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-04-08 00:00:00', conid= 328849154, id=64, symbol=AEYE, open=28.91, high=30.4, low=28.91, close=29.68, volume=291, wap=29.5995, count=190}
+2021-06-12 22:11:11:623 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-03-30 00:00:00', conid= 328849154, id=58, symbol=AEYE, open=25.5, high=26.47, low=24.23, close=26.22, volume=790, wap=25.184, count=364}
+2021-06-12 22:11:11:632 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-06-09 00:00:00', conid= 212921044, id=107, symbol=AEZS, open=0.9291, high=1.15, low=0.91, close=1.12, volume=149419, wap=1.0555, count=12710}
+2021-06-12 22:11:11:632 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-05-28 00:00:00', conid= 212921044, id=100, symbol=AEZS, open=0.85, high=0.893, low=0.83, close=0.8841, volume=17771, wap=0.86831, count=2474}
+2021-06-12 22:11:11:632 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-06-01 00:00:00', conid= 212921044, id=101, symbol=AEZS, open=0.901, high=0.9746, low=0.8914, close=0.94, volume=19817, wap=0.929505, count=2982}
+2021-06-12 22:11:11:632 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-05-13 00:00:00', conid= 212921044, id=89, symbol=AEZS, open=0.9, high=0.927, low=0.8223, close=0.8316, volume=24854, wap=0.87491, count=3031}
+2021-06-12 22:11:11:632 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-05-21 00:00:00', conid= 212921044, id=95, symbol=AEZS, open=0.8782, high=0.9046, low=0.876, close=0.8965, volume=9835, wap=0.89311, count=2012}
+2021-06-12 22:11:11:632 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-04-16 00:00:00', conid= 212921044, id=70, symbol=AEZS, open=0.88, high=0.895, low=0.82, close=0.88, volume=29831, wap=0.861895, count=4643}
+2021-06-12 22:11:14:705 [Thread-5] INFO  com.huanhe_tech.siever.Main - Acount List: 
+2021-06-12 22:11:14:706 [Thread-5] INFO  com.huanhe_tech.siever.Main - U8978970
+2021-06-12 22:11:15:371 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-06-04 00:00:00', conid= 357949196, id=104, symbol=AFGB, open=28.34, high=28.8, low=28.34, close=28.69, volume=84, wap=28.5405, count=35}
+2021-06-12 22:11:15:371 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-05-12 00:00:00', conid= 357949196, id=88, symbol=AFGB, open=27.75, high=27.75, low=27.49, close=27.49, volume=44, wap=27.6285, count=17}
+2021-06-12 22:11:15:371 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-04-16 00:00:00', conid= 357949196, id=70, symbol=AFGB, open=28.53, high=28.76, low=28.4, close=28.76, volume=67, wap=28.514, count=26}
+2021-06-12 22:11:15:371 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-03-30 00:00:00', conid= 357949196, id=58, symbol=AFGB, open=27.26, high=27.26, low=27.13, close=27.24, volume=27, wap=27.195, count=13}
+2021-06-12 22:11:15:371 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-03-09 00:00:00', conid= 357949196, id=43, symbol=AFGB, open=27.36, high=27.58, low=27.35, close=27.55, volume=76, wap=27.4985, count=36}
+2021-06-12 22:11:15:371 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-03-19 00:00:00', conid= 357949196, id=51, symbol=AFGB, open=26.97, high=27.01, low=26.81, close=26.9, volume=60, wap=26.903, count=32}
+2021-06-12 22:11:15:387 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-06-11 00:00:00', conid= 225463372, id=109, symbol=AFI, open=5.95, high=5.98, low=5.7, close=5.73, volume=753, wap=5.80379, count=322}
+2021-06-12 22:11:15:387 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-06-10 00:00:00', conid= 225463372, id=108, symbol=AFI, open=6.17, high=6.1994, low=5.87, close=5.94, volume=749, wap=5.96556, count=284}
+2021-06-12 22:11:15:387 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-04-30 00:00:00', conid= 225463372, id=80, symbol=AFI, open=5.54, high=5.54, low=5.18, close=5.19, volume=1170, wap=5.32984, count=492}
+2021-06-12 22:11:15:387 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-05-18 00:00:00', conid= 225463372, id=92, symbol=AFI, open=6.39, high=6.62, low=6.27, close=6.32, volume=791, wap=6.432295, count=277}
+2021-06-12 22:11:15:387 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-04-20 00:00:00', conid= 225463372, id=72, symbol=AFI, open=4.94, high=5.0, low=4.87, close=4.94, volume=2216, wap=4.916275, count=744}
+2021-06-12 22:11:15:387 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-05-10 00:00:00', conid= 225463372, id=86, symbol=AFI, open=6.01, high=6.74, low=6.01, close=6.19, volume=4572, wap=6.35966, count=1595}
+2021-06-12 22:11:15:428 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-06-11 00:00:00', conid= 4227, id=109, symbol=AFL, open=56.33, high=56.47, low=56.06, close=56.25, volume=12116, wap=56.2225, count=7167}
+2021-06-12 22:11:15:429 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-06-07 00:00:00', conid= 4227, id=105, symbol=AFL, open=57.45, high=57.57, low=57.04, close=57.39, volume=23686, wap=57.3745, count=13433}
+2021-06-12 22:11:15:429 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-05-13 00:00:00', conid= 4227, id=89, symbol=AFL, open=54.19, high=55.8, low=54.11, close=55.5, volume=21610, wap=55.2595, count=15494}
+2021-06-12 22:11:15:429 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-05-10 00:00:00', conid= 4227, id=86, symbol=AFL, open=56.37, high=57.35, low=56.03, close=56.53, volume=25964, wap=56.9125, count=16043}
+2021-06-12 22:11:15:429 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-03-23 00:00:00', conid= 4227, id=53, symbol=AFL, open=50.21, high=50.46, low=49.34, close=49.5, volume=20516, wap=49.7455, count=13557}
+2021-06-12 22:11:15:429 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-03-30 00:00:00', conid= 4227, id=58, symbol=AFL, open=51.58, high=52.09, low=51.3, close=51.83, volume=17317, wap=51.723, count=11603}
+2021-06-12 22:11:15:452 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-06-11 00:00:00', conid= 84648122, id=109, symbol=AFT, open=15.36, high=15.41, low=15.32, close=15.41, volume=377, wap=15.352, count=119}
+2021-06-12 22:11:15:452 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-06-07 00:00:00', conid= 84648122, id=105, symbol=AFT, open=15.33, high=15.36, low=15.25, close=15.32, volume=324, wap=15.313, count=113}
+2021-06-12 22:11:15:453 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-06-02 00:00:00', conid= 84648122, id=102, symbol=AFT, open=15.42, high=15.47, low=15.35, close=15.4, volume=466, wap=15.4035, count=236}
+2021-06-12 22:11:15:453 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-05-19 00:00:00', conid= 84648122, id=93, symbol=AFT, open=15.28, high=15.28, low=15.2, close=15.22, volume=505, wap=15.228, count=156}
+2021-06-12 22:11:15:453 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-05-12 00:00:00', conid= 84648122, id=88, symbol=AFT, open=15.45, high=15.48, low=15.37, close=15.37, volume=603, wap=15.4315, count=205}
+2021-06-12 22:11:15:453 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-03-25 00:00:00', conid= 84648122, id=55, symbol=AFT, open=14.81, high=14.81, low=14.71, close=14.75, volume=666, wap=14.7555, count=311}
+2021-06-12 22:11:15:520 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-06-10 00:00:00', conid= 4230, id=108, symbol=AGCO, open=134.38, high=136.0, low=129.72, close=130.24, volume=4365, wap=131.8435, count=3387}
+2021-06-12 22:11:15:520 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-06-01 00:00:00', conid= 4230, id=101, symbol=AGCO, open=140.55, high=142.33, low=139.47, close=140.47, volume=2513, wap=141.009, count=1900}
+2021-06-12 22:11:15:520 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-05-20 00:00:00', conid= 4230, id=94, symbol=AGCO, open=135.4, high=135.58, low=130.34, close=132.25, volume=10468, wap=131.874, count=8318}
+2021-06-12 22:11:15:520 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-05-18 00:00:00', conid= 4230, id=92, symbol=AGCO, open=150.38, high=150.68, low=142.25, close=142.33, volume=3426, wap=144.6935, count=2542}
+2021-06-12 22:11:15:520 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-04-30 00:00:00', conid= 4230, id=80, symbol=AGCO, open=147.01, high=148.07, low=145.06, close=145.92, volume=6643, wap=146.3825, count=4951}
+2021-06-12 22:11:15:520 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-05-06 00:00:00', conid= 4230, id=84, symbol=AGCO, open=151.65, high=156.62, low=151.48, close=156.52, volume=3775, wap=154.704, count=2758}
+2021-06-12 22:11:15:587 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-06-10 00:00:00', conid= 198630479, id=108, symbol=AGI, open=8.64, high=8.91, low=8.59, close=8.91, volume=17434, wap=8.773, count=6351}
+2021-06-12 22:11:15:587 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-06-02 00:00:00', conid= 198630479, id=102, symbol=AGI, open=9.13, high=9.38, low=9.08, close=9.28, volume=20627, wap=9.284, count=8518}
+2021-06-12 22:11:15:587 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-05-13 00:00:00', conid= 198630479, id=89, symbol=AGI, open=8.45, high=8.53, low=8.34, close=8.41, volume=14678, wap=8.4375, count=5455}
+2021-06-12 22:11:15:588 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-05-18 00:00:00', conid= 198630479, id=92, symbol=AGI, open=9.15, high=9.34, low=9.04, close=9.1, volume=27500, wap=9.173, count=10301}
+2021-06-12 22:11:15:588 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-04-30 00:00:00', conid= 198630479, id=80, symbol=AGI, open=8.17, high=8.25, low=7.98, close=8.0, volume=24227, wap=8.0635, count=9356}
+2021-06-12 22:11:15:588 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-04-21 00:00:00', conid= 198630479, id=73, symbol=AGI, open=8.75, high=8.98, low=8.7, close=8.93, volume=23414, wap=8.896, count=9776}
+2021-06-12 22:11:15:597 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-06-09 00:00:00', conid= 131969792, id=107, symbol=AGIO, open=60.05, high=60.71, low=58.62, close=58.9, volume=2013, wap=59.4445, count=1602}
+2021-06-12 22:11:15:597 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-06-01 00:00:00', conid= 131969792, id=101, symbol=AGIO, open=55.68, high=56.59, low=55.47, close=55.87, volume=5244, wap=55.8105, count=3018}
+2021-06-12 22:11:15:597 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-04-30 00:00:00', conid= 131969792, id=80, symbol=AGIO, open=55.64, high=57.55, low=54.77, close=55.8, volume=3945, wap=56.4095, count=2634}
+2021-06-12 22:11:15:597 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-05-05 00:00:00', conid= 131969792, id=83, symbol=AGIO, open=54.16, high=54.62, low=52.27, close=53.27, volume=5769, wap=53.24, count=4167}
+2021-06-12 22:11:15:597 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-04-06 00:00:00', conid= 131969792, id=62, symbol=AGIO, open=54.39, high=55.03, low=52.81, close=54.01, volume=7001, wap=54.487, count=4145}
+2021-06-12 22:11:15:597 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-04-12 00:00:00', conid= 131969792, id=66, symbol=AGIO, open=52.62, high=53.37, low=51.07, close=52.24, volume=5631, wap=52.402, count=4666}
+2021-06-12 22:11:15:612 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-06-09 00:00:00', conid= 228546806, id=107, symbol=AGLE, open=6.8, high=7.06, low=6.63, close=6.65, volume=1211, wap=6.778, count=475}
+2021-06-12 22:11:15:612 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-06-01 00:00:00', conid= 228546806, id=101, symbol=AGLE, open=6.55, high=6.95, low=6.36, close=6.93, volume=1340, wap=6.702, count=766}
+2021-06-12 22:11:15:612 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-05-18 00:00:00', conid= 228546806, id=92, symbol=AGLE, open=7.52, high=7.8, low=7.38, close=7.4, volume=447, wap=7.5885, count=251}
+2021-06-12 22:11:15:613 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-05-11 00:00:00', conid= 228546806, id=87, symbol=AGLE, open=6.96, high=7.54, low=6.96, close=7.4, volume=490, wap=7.3205, count=288}
+2021-06-12 22:11:15:613 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-04-26 00:00:00', conid= 228546806, id=76, symbol=AGLE, open=7.66, high=8.68, low=7.66, close=8.31, volume=1030, wap=8.3275, count=544}
+2021-06-12 22:11:15:613 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-04-13 00:00:00', conid= 228546806, id=67, symbol=AGLE, open=7.28, high=7.47, low=7.14, close=7.4, volume=723, wap=7.3175, count=494}
+2021-06-12 22:11:15:627 [Thread-0] INFO  com.huanhe_tech.siever.Main - AGLE -> Orientation: DOWN
+2021-06-12 22:11:15:655 [Thread-0] INFO  com.huanhe_tech.siever.Main - Interval Days From Today: 2
+2021-06-12 22:11:15:656 [Thread-0] INFO  com.huanhe_tech.siever.Main - The AGLE Max Volume is: 3709.0
+2021-06-12 22:11:15:719 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-06-11 00:00:00', conid= 249963585, id=109, symbol=AGNC, open=18.15, high=18.18, low=17.62, close=17.71, volume=232901, wap=17.8035, count=56018}
+2021-06-12 22:11:15:720 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-06-09 00:00:00', conid= 249963585, id=107, symbol=AGNC, open=18.71, high=18.84, low=18.64, close=18.66, volume=86540, wap=18.7385, count=22135}
+2021-06-12 22:11:15:720 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-05-12 00:00:00', conid= 249963585, id=88, symbol=AGNC, open=18.05, high=18.13, low=17.36, close=17.42, volume=117447, wap=17.652, count=32689}
+2021-06-12 22:11:15:720 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-05-10 00:00:00', conid= 249963585, id=86, symbol=AGNC, open=18.37, high=18.46, low=18.26, close=18.28, volume=41053, wap=18.3755, count=16336}
+2021-06-12 22:11:15:720 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-04-21 00:00:00', conid= 249963585, id=73, symbol=AGNC, open=17.29, high=17.45, low=17.13, close=17.44, volume=36633, wap=17.351, count=11467}
+2021-06-12 22:11:15:720 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-03-29 00:00:00', conid= 249963585, id=57, symbol=AGNC, open=16.94, high=17.09, low=16.75, close=16.76, volume=56019, wap=16.8865, count=18281}
+2021-06-12 22:11:15:758 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-06-10 00:00:00', conid= 385817777, id=108, symbol=AGNCO, open=25.35, high=25.44, low=25.34, close=25.4, volume=684, wap=25.3765, count=282}
+2021-06-12 22:11:15:758 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-06-01 00:00:00', conid= 385817777, id=101, symbol=AGNCO, open=25.5, high=25.66, low=25.4, close=25.55, volume=267, wap=25.4955, count=103}
+2021-06-12 22:11:15:758 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-05-12 00:00:00', conid= 385817777, id=88, symbol=AGNCO, open=25.13, high=25.18, low=24.82, close=24.85, volume=807, wap=24.967, count=375}
+2021-06-12 22:11:15:758 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-05-20 00:00:00', conid= 385817777, id=94, symbol=AGNCO, open=25.49, high=25.5, low=25.27, close=25.31, volume=854, wap=25.392, count=605}
+2021-06-12 22:11:15:758 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-04-12 00:00:00', conid= 385817777, id=66, symbol=AGNCO, open=24.68, high=24.85, low=24.67, close=24.85, volume=565, wap=24.779, count=179}
+2021-06-12 22:11:15:758 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-05-07 00:00:00', conid= 385817777, id=85, symbol=AGNCO, open=25.3, high=25.37, low=25.22, close=25.26, volume=302, wap=25.306, count=168}
+2021-06-12 22:11:15:769 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-06-11 00:00:00', conid= 403081760, id=109, symbol=AGNCP, open=25.22, high=25.29, low=25.1, close=25.15, volume=605, wap=25.188, count=170}
+2021-06-12 22:11:15:769 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-05-12 00:00:00', conid= 403081760, id=88, symbol=AGNCP, open=24.36, high=24.36, low=23.87, close=23.91, volume=1153, wap=24.0935, count=290}
+2021-06-12 22:11:15:769 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-05-10 00:00:00', conid= 403081760, id=86, symbol=AGNCP, open=24.68, high=24.68, low=24.48, close=24.6, volume=593, wap=24.62, count=128}
+2021-06-12 22:11:15:769 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-04-20 00:00:00', conid= 403081760, id=72, symbol=AGNCP, open=23.75, high=23.86, low=23.72, close=23.77, volume=469, wap=23.783, count=138}
+2021-06-12 22:11:15:769 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-04-07 00:00:00', conid= 403081760, id=63, symbol=AGNCP, open=24.03, high=24.07, low=23.9, close=23.93, volume=657, wap=23.9785, count=254}
+2021-06-12 22:11:15:769 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-03-31 00:00:00', conid= 403081760, id=59, symbol=AGNCP, open=23.74, high=23.79, low=23.65, close=23.66, volume=1352, wap=23.7285, count=467}
+2021-06-12 22:11:15:835 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-06-11 00:00:00', conid= 215393907, id=109, symbol=AGR, open=55.0, high=55.29, low=54.59, close=54.99, volume=3365, wap=54.9195, count=2508}
+2021-06-12 22:11:15:835 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-06-01 00:00:00', conid= 215393907, id=101, symbol=AGR, open=52.58, high=52.67, low=52.05, close=52.4, volume=4001, wap=52.325, count=2650}
+2021-06-12 22:11:15:835 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-05-24 00:00:00', conid= 215393907, id=96, symbol=AGR, open=53.03, high=53.5, low=52.74, close=52.93, volume=3048, wap=52.9185, count=1783}
+2021-06-12 22:11:15:835 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-04-28 00:00:00', conid= 215393907, id=78, symbol=AGR, open=50.36, high=50.36, low=49.76, close=50.01, volume=2799, wap=49.955, count=1577}
+2021-06-12 22:11:15:835 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-05-13 00:00:00', conid= 215393907, id=89, symbol=AGR, open=50.8, high=52.93, low=50.65, close=51.72, volume=7142, wap=52.1735, count=4319}
+2021-06-12 22:11:15:835 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-03-05 00:00:00', conid= 215393907, id=41, symbol=AGR, open=45.83, high=46.25, low=44.9, close=46.08, volume=5808, wap=45.484, count=3951}
+2021-06-12 22:11:15:846 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-06-11 00:00:00', conid= 83512173, id=109, symbol=AGRO, open=11.45, high=11.74, low=11.37, close=11.74, volume=15454, wap=11.536, count=5918}
+2021-06-12 22:11:15:847 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-05-27 00:00:00', conid= 83512173, id=99, symbol=AGRO, open=10.61, high=10.62, low=10.14, close=10.21, volume=27329, wap=10.2485, count=12526}
+2021-06-12 22:11:15:847 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-05-19 00:00:00', conid= 83512173, id=93, symbol=AGRO, open=10.58, high=10.88, low=10.42, close=10.6, volume=12257, wap=10.6245, count=6404}
+2021-06-12 22:11:15:847 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-05-05 00:00:00', conid= 83512173, id=83, symbol=AGRO, open=9.2, high=9.36, low=9.12, close=9.34, volume=5377, wap=9.2675, count=2526}
+2021-06-12 22:11:15:847 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-04-28 00:00:00', conid= 83512173, id=78, symbol=AGRO, open=9.33, high=9.64, low=9.33, close=9.55, volume=6154, wap=9.532, count=2688}
+2021-06-12 22:11:15:847 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-03-29 00:00:00', conid= 83512173, id=57, symbol=AGRO, open=7.64, high=7.79, low=7.52, close=7.79, volume=6396, wap=7.6595, count=3421}
+2021-06-12 22:11:15:871 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-06-11 00:00:00', conid= 304144131, id=109, symbol=AGS, open=10.91, high=11.32, low=10.7101, close=10.8, volume=6041, wap=10.852405, count=2587}
+2021-06-12 22:11:15:871 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-06-10 00:00:00', conid= 304144131, id=108, symbol=AGS, open=10.51, high=10.7374, low=9.99, close=10.18, volume=1140, wap=10.17115, count=512}
+2021-06-12 22:11:15:871 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-05-24 00:00:00', conid= 304144131, id=96, symbol=AGS, open=9.74, high=11.21, low=9.7, close=10.73, volume=11207, wap=10.699435, count=4024}
+2021-06-12 22:11:15:871 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-05-11 00:00:00', conid= 304144131, id=87, symbol=AGS, open=8.92, high=8.92, low=8.175, close=8.61, volume=3403, wap=8.528265, count=1514}
+2021-06-12 22:11:15:871 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-05-07 00:00:00', conid= 304144131, id=85, symbol=AGS, open=9.6, high=9.92, low=9.03, close=9.19, volume=7291, wap=9.53532, count=3120}
+2021-06-12 22:11:15:871 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-04-20 00:00:00', conid= 304144131, id=72, symbol=AGS, open=7.5, high=7.63, low=7.11, close=7.44, volume=1267, wap=7.380415, count=734}
+2021-06-12 22:11:15:995 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-06-09 00:00:00', conid= 371248010, id=107, symbol=AHH PRA, open=26.52, high=26.58, low=26.47, close=26.58, volume=42, wap=26.553, count=25}
+2021-06-12 22:11:15:995 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-06-01 00:00:00', conid= 371248010, id=101, symbol=AHH PRA, open=27.66, high=28.06, low=27.47, close=27.62, volume=187, wap=27.6985, count=98}
+2021-06-12 22:11:15:995 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-05-13 00:00:00', conid= 371248010, id=89, symbol=AHH PRA, open=26.45, high=26.75, low=26.43, close=26.64, volume=111, wap=26.617, count=65}
+2021-06-12 22:11:15:995 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-05-17 00:00:00', conid= 371248010, id=91, symbol=AHH PRA, open=26.6, high=27.8, low=26.6, close=26.84, volume=85, wap=27.3115, count=59}
+2021-06-12 22:11:15:995 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-04-30 00:00:00', conid= 371248010, id=80, symbol=AHH PRA, open=26.8, high=26.95, low=26.33, close=26.95, volume=90, wap=26.6945, count=50}
+2021-06-12 22:11:15:995 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-05-06 00:00:00', conid= 371248010, id=84, symbol=AHH PRA, open=26.98, high=27.0, low=26.8, close=26.82, volume=65, wap=26.823, count=34}
+2021-06-12 22:11:16:041 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-06-08 00:00:00', conid= 257940916, id=106, symbol=AHPI, open=4.61, high=4.85, low=4.25, close=4.46, volume=3947, wap=4.52955, count=1205}
+2021-06-12 22:11:16:041 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-05-26 00:00:00', conid= 257940916, id=98, symbol=AHPI, open=3.5301, high=3.68, low=3.451, close=3.64, volume=914, wap=3.587115, count=293}
+2021-06-12 22:11:16:041 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-05-13 00:00:00', conid= 257940916, id=89, symbol=AHPI, open=4.19, high=5.15, low=3.74, close=3.78, volume=20429, wap=4.754435, count=6319}
+2021-06-12 22:11:16:041 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-04-20 00:00:00', conid= 257940916, id=72, symbol=AHPI, open=4.39, high=4.76, low=4.09, close=4.51, volume=4767, wap=4.47924, count=1258}
+2021-06-12 22:11:16:041 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-05-03 00:00:00', conid= 257940916, id=81, symbol=AHPI, open=4.78, high=5.18, low=4.685, close=4.82, volume=2157, wap=4.97591, count=719}
+2021-06-12 22:11:16:041 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-04-12 00:00:00', conid= 257940916, id=66, symbol=AHPI, open=4.6, high=4.6, low=4.35, close=4.37, volume=772, wap=4.461035, count=287}
+2021-06-12 22:11:16:135 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-06-10 00:00:00', conid= 61319701, id=108, symbol=AIG, open=52.91, high=53.1, low=51.52, close=51.57, volume=14759, wap=52.015, count=9010}
+2021-06-12 22:11:16:135 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-06-02 00:00:00', conid= 61319701, id=102, symbol=AIG, open=53.97, high=54.08, low=53.02, close=53.04, volume=27378, wap=53.3315, count=16283}
+2021-06-12 22:11:16:135 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-05-19 00:00:00', conid= 61319701, id=93, symbol=AIG, open=50.47, high=50.77, low=49.55, close=50.67, volume=26399, wap=50.2645, count=16908}
+2021-06-12 22:11:16:135 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-05-10 00:00:00', conid= 61319701, id=86, symbol=AIG, open=51.32, high=52.7, low=51.3, close=51.92, volume=44649, wap=52.2045, count=26349}
+2021-06-12 22:11:16:135 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-04-21 00:00:00', conid= 61319701, id=73, symbol=AIG, open=45.39, high=46.8, low=45.19, close=46.76, volume=22969, wap=46.389, count=11722}
+2021-06-12 22:11:16:135 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-04-14 00:00:00', conid= 61319701, id=68, symbol=AIG, open=46.6, high=47.81, low=46.6, close=47.49, volume=20081, wap=47.493, count=11923}
+2021-06-12 22:11:16:150 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-06-08 00:00:00', conid= 388807582, id=106, symbol=AIH, open=9.18, high=9.56, low=7.7, close=7.75, volume=5788, wap=8.4745, count=1866}
+2021-06-12 22:11:16:150 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-06-01 00:00:00', conid= 388807582, id=101, symbol=AIH, open=9.04, high=11.24, low=9.04, close=10.75, volume=19537, wap=10.4605, count=6363}
+2021-06-12 22:11:16:150 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-05-11 00:00:00', conid= 388807582, id=87, symbol=AIH, open=5.75, high=6.2, low=5.57, close=6.11, volume=2167, wap=5.892, count=807}
+2021-06-12 22:11:16:150 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-05-18 00:00:00', conid= 388807582, id=92, symbol=AIH, open=8.01, high=8.99, low=7.86, close=8.5, volume=7810, wap=8.419, count=2674}
+2021-06-12 22:11:16:151 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-04-20 00:00:00', conid= 388807582, id=72, symbol=AIH, open=5.25, high=5.41, low=5.09, close=5.35, volume=838, wap=5.2605, count=270}
+2021-06-12 22:11:16:151 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-05-03 00:00:00', conid= 388807582, id=81, symbol=AIH, open=8.26, high=8.43, low=6.81, close=7.1, volume=44861, wap=7.634, count=15399}
+2021-06-12 22:11:16:158 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-06-11 00:00:00', conid= 310624816, id=109, symbol=AIHS, open=1.05, high=1.11, low=1.01, close=1.05, volume=28774, wap=1.06911, count=3351}
+2021-06-12 22:11:16:158 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-05-14 00:00:00', conid= 310624816, id=90, symbol=AIHS, open=0.71, high=0.7815, low=0.71, close=0.7274, volume=34658, wap=0.747875, count=4235}
+2021-06-12 22:11:16:158 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-04-28 00:00:00', conid= 310624816, id=78, symbol=AIHS, open=1.32, high=1.4, low=1.2801, close=1.35, volume=6857, wap=1.34671, count=1137}
+2021-06-12 22:11:16:158 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-04-21 00:00:00', conid= 310624816, id=73, symbol=AIHS, open=1.19, high=1.28, low=1.16, close=1.2, volume=5834, wap=1.21453, count=1055}
+2021-06-12 22:11:16:158 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-04-12 00:00:00', conid= 310624816, id=66, symbol=AIHS, open=1.4315, high=1.59, low=1.37, close=1.45, volume=14997, wap=1.45573, count=2734}
+2021-06-12 22:11:16:158 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-03-25 00:00:00', conid= 310624816, id=55, symbol=AIHS, open=1.26, high=1.34, low=1.22, close=1.33, volume=3190, wap=1.281715, count=570}
+2021-06-12 22:11:16:213 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-06-10 00:00:00', conid= 4310, id=108, symbol=AIR, open=40.6, high=40.91, low=39.52, close=39.72, volume=2338, wap=39.956, count=1628}
+2021-06-12 22:11:16:213 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-06-01 00:00:00', conid= 4310, id=101, symbol=AIR, open=42.06, high=42.97, low=41.75, close=42.56, volume=2434, wap=42.5365, count=1549}
+2021-06-12 22:11:16:213 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-05-24 00:00:00', conid= 4310, id=96, symbol=AIR, open=39.29, high=39.71, low=38.73, close=39.5, volume=900, wap=39.359, count=681}
+2021-06-12 22:11:16:213 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-03-24 00:00:00', conid= 4310, id=54, symbol=AIR, open=41.27, high=45.0, low=40.66, close=40.72, volume=3354, wap=42.3735, count=1953}
+2021-06-12 22:11:16:213 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-05-12 00:00:00', conid= 4310, id=88, symbol=AIR, open=38.6, high=39.25, low=37.15, close=37.24, volume=1536, wap=37.8535, count=1197}
+2021-06-12 22:11:16:213 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-03-12 00:00:00', conid= 4310, id=46, symbol=AIR, open=44.82, high=45.49, low=43.9, close=43.97, volume=2169, wap=44.598, count=1348}
+2021-06-12 22:11:16:294 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-06-10 00:00:00', conid= 457630882, id=108, symbol=AIV, open=7.68, high=7.72, low=7.57, close=7.61, volume=23582, wap=7.6295, count=9869}
+2021-06-12 22:11:16:294 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-05-19 00:00:00', conid= 457630882, id=93, symbol=AIV, open=6.58, high=6.65, low=6.39, close=6.62, volume=40945, wap=6.561, count=13600}
+2021-06-12 22:11:16:295 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-05-03 00:00:00', conid= 457630882, id=81, symbol=AIV, open=7.05, high=7.09, low=6.82, close=6.85, volume=21698, wap=6.9365, count=7661}
+2021-06-12 22:11:16:295 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-04-13 00:00:00', conid= 457630882, id=67, symbol=AIV, open=6.22, high=6.27, low=6.0, close=6.23, volume=52438, wap=6.111, count=10242}
+2021-06-12 22:11:16:295 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-04-06 00:00:00', conid= 457630882, id=62, symbol=AIV, open=6.38, high=6.5, low=6.33, close=6.4, volume=39021, wap=6.3995, count=11566}
+2021-06-12 22:11:16:295 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-03-05 00:00:00', conid= 457630882, id=41, symbol=AIV, open=4.79, high=4.82, low=4.6, close=4.82, volume=25166, wap=4.7095, count=7513}
+2021-06-12 22:11:16:413 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-06-09 00:00:00', conid= 6607467, id=107, symbol=AKR, open=22.67, high=22.97, low=22.52, close=22.77, volume=5908, wap=22.7725, count=3791}
+2021-06-12 22:11:16:413 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-05-12 00:00:00', conid= 6607467, id=88, symbol=AKR, open=21.31, high=21.45, low=20.12, close=20.31, volume=4319, wap=20.462, count=2346}
+2021-06-12 22:11:16:413 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-05-10 00:00:00', conid= 6607467, id=86, symbol=AKR, open=22.08, high=22.29, low=21.75, close=21.75, volume=3127, wap=22.0385, count=2260}
+2021-06-12 22:11:16:413 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-04-12 00:00:00', conid= 6607467, id=66, symbol=AKR, open=19.64, high=19.71, low=19.4, close=19.62, volume=4187, wap=19.5725, count=2785}
+2021-06-12 22:11:16:413 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-04-29 00:00:00', conid= 6607467, id=79, symbol=AKR, open=21.55, high=21.82, low=20.95, close=21.35, volume=5768, wap=21.353, count=3486}
+2021-06-12 22:11:16:413 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-03-25 00:00:00', conid= 6607467, id=55, symbol=AKR, open=18.76, high=19.48, low=18.55, close=19.32, volume=2758, wap=19.094, count=1710}
+2021-06-12 22:11:16:504 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-06-08 00:00:00', conid= 4347, id=106, symbol=ALB, open=171.3, high=177.58, low=170.65, close=176.01, volume=4826, wap=174.6975, count=3289}
+2021-06-12 22:11:16:504 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-05-19 00:00:00', conid= 4347, id=93, symbol=ALB, open=155.0, high=157.75, low=152.58, close=156.98, volume=4523, wap=155.3875, count=3163}
+2021-06-12 22:11:16:504 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-04-26 00:00:00', conid= 4347, id=76, symbol=ALB, open=162.75, high=171.96, low=162.0, close=170.57, volume=9036, wap=168.736, count=5617}
+2021-06-12 22:11:16:505 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-05-06 00:00:00', conid= 4347, id=84, symbol=ALB, open=157.74, high=159.13, low=150.0, close=152.85, volume=17017, wap=152.4535, count=11990}
+2021-06-12 22:11:16:505 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-04-05 00:00:00', conid= 4347, id=61, symbol=ALB, open=153.47, high=153.84, low=149.0, close=150.22, volume=4568, wap=150.5595, count=2899}
+2021-06-12 22:11:16:505 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-04-21 00:00:00', conid= 4347, id=73, symbol=ALB, open=147.86, high=153.14, low=146.52, close=153.05, volume=3543, wap=150.7585, count=2442}
+2021-06-12 22:11:16:539 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-06-11 00:00:00', conid= 266000, id=109, symbol=ALCO, open=32.0, high=32.24, low=31.51, close=31.83, volume=612, wap=31.8565, count=348}
+2021-06-12 22:11:16:539 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-06-03 00:00:00', conid= 266000, id=103, symbol=ALCO, open=32.55, high=33.39, low=32.54, close=32.99, volume=281, wap=32.9585, count=162}
+2021-06-12 22:11:16:540 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-05-26 00:00:00', conid= 266000, id=98, symbol=ALCO, open=30.64, high=31.85, low=30.64, close=31.82, volume=132, wap=31.4795, count=84}
+2021-06-12 22:11:16:540 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-05-21 00:00:00', conid= 266000, id=95, symbol=ALCO, open=32.1, high=32.96, low=31.86, close=32.45, volume=205, wap=32.343, count=147}
+2021-06-12 22:11:16:540 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-04-21 00:00:00', conid= 266000, id=73, symbol=ALCO, open=28.67, high=29.69, low=28.67, close=29.48, volume=158, wap=29.2695, count=117}
+2021-06-12 22:11:16:540 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-05-05 00:00:00', conid= 266000, id=83, symbol=ALCO, open=30.46, high=32.93, low=30.21, close=31.55, volume=455, wap=31.757, count=223}
+2021-06-12 22:11:16:557 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-06-11 00:00:00', conid= 30839976, id=109, symbol=ALE, open=70.14, high=70.53, low=70.03, close=70.51, volume=730, wap=70.2395, count=607}
+2021-06-12 22:11:16:557 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-06-03 00:00:00', conid= 30839976, id=103, symbol=ALE, open=68.5, high=69.56, low=68.23, close=69.42, volume=653, wap=69.125, count=464}
+2021-06-12 22:11:16:557 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-05-10 00:00:00', conid= 30839976, id=86, symbol=ALE, open=71.53, high=72.09, low=71.11, close=71.23, volume=1112, wap=71.5035, count=902}
+2021-06-12 22:11:16:557 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-05-13 00:00:00', conid= 30839976, id=89, symbol=ALE, open=68.36, high=70.52, low=68.33, close=70.06, volume=1080, wap=69.839, count=751}
+2021-06-12 22:11:16:557 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-04-05 00:00:00', conid= 30839976, id=61, symbol=ALE, open=69.25, high=72.6, low=68.24, close=70.69, volume=5538, wap=70.9855, count=4115}
+2021-06-12 22:11:16:557 [Thread-0] INFO  com.huanhe_tech.siever.Main - HistDataBean{time='2021-04-28 00:00:00', conid= 30839976, id=78, symbol=ALE, open=69.09, high=69.17, low=68.43, close=68.83, volume=1425, wap=68.7995, count=1098}
+2021-06-12 22:12:31:141 [main] INFO  com.huanhe_tech.siever.Main - Current Time in New York: 2021-06-12 10:12:30
+2021-06-12 22:13:43:791 [main] INFO  com.huanhe_tech.siever.Main - Current Time in New York: 2021-06-12 10:13:43
+2021-06-12 22:16:12:524 [main] INFO  com.huanhe_tech.siever.Main - Current Time in New York: 2021-06-12 10:16:12
+2021-06-12 22:19:19:719 [main] INFO  com.huanhe_tech.siever.Main - Current Time in New York: 2021-06-12 10:19:19
+2021-06-12 22:22:01:157 [main] INFO  com.huanhe_tech.siever.Main - Current Time in New York: 2021-06-12 10:22:00
+2021-06-12 22:25:32:975 [main] INFO  com.huanhe_tech.siever.Main - Current Time in New York: 2021-06-12 10:25:32
+2021-06-12 22:25:55:325 [main] INFO  com.huanhe_tech.siever.Main - Current Time in New York: 2021-06-12 10:25:55
+2021-06-12 22:27:58:880 [main] INFO  com.huanhe_tech.siever.Main - Current Time in New York: 2021-06-12 10:27:58
+2021-06-12 22:28:21:597 [main] INFO  com.huanhe_tech.siever.Main - Current Time in New York: 2021-06-12 10:28:21
+2021-06-12 22:28:40:615 [main] INFO  com.huanhe_tech.siever.Main - Current Time in New York: 2021-06-12 10:28:40
+2021-06-12 22:29:11:063 [main] INFO  com.huanhe_tech.siever.Main - Current Time in New York: 2021-06-12 10:29:10
+2021-06-12 22:29:38:577 [main] INFO  com.huanhe_tech.siever.Main - Current Time in New York: 2021-06-12 10:29:38
+2021-06-12 22:30:03:832 [main] INFO  com.huanhe_tech.siever.Main - Current Time in New York: 2021-06-12 10:30:03
+2021-06-12 22:32:01:535 [main] INFO  com.huanhe_tech.siever.Main - Current Time in New York: 2021-06-12 10:32:01
+2021-06-12 22:35:42:976 [main] INFO  com.huanhe_tech.siever.Main - Current Time in New York: 2021-06-12 10:35:42
+2021-06-12 22:37:29:608 [main] INFO  com.huanhe_tech.siever.Main - Current Time in New York: 2021-06-12 10:37:29
+2021-06-12 22:37:51:456 [main] INFO  com.huanhe_tech.siever.Main - Current Time in New York: 2021-06-12 10:37:51
+2021-06-12 22:40:19:987 [main] INFO  com.huanhe_tech.siever.Main - Current Time in New York: 2021-06-12 10:40:19
+2021-06-12 22:42:03:974 [main] INFO  com.huanhe_tech.siever.Main - Current Time in New York: 2021-06-12 10:42:03
+2021-06-12 22:44:00:695 [main] INFO  com.huanhe_tech.siever.Main - Current Time in New York: 2021-06-12 10:44:00
+2021-06-12 22:44:06:517 [Thread-5] INFO  com.huanhe_tech.siever.Main - Acount List: 
+2021-06-12 22:44:06:519 [Thread-5] INFO  com.huanhe_tech.siever.Main - U8978970
+2021-06-12 22:44:17:194 [Thread-0] INFO  com.huanhe_tech.siever.Main - CBZ -> Orientation: DOWN
+2021-06-12 22:44:20:148 [Thread-0] INFO  com.huanhe_tech.siever.Main - CMSA -> Orientation: UP
+2021-06-12 22:44:28:421 [Thread-0] INFO  com.huanhe_tech.siever.Main - ENV -> Orientation: UP
+2021-06-12 22:45:06:067 [Thread-0] INFO  com.huanhe_tech.siever.Main - SIBN -> Orientation: DOWN
+2021-06-12 22:45:07:212 [Thread-0] INFO  com.huanhe_tech.siever.Main - SONY -> Orientation: UP
+2021-06-12 22:45:13:708 [Thread-0] INFO  com.huanhe_tech.siever.Main - TYHT -> Orientation: DOWN
+2021-06-12 22:45:13:915 [Thread-0] INFO  com.huanhe_tech.siever.Main - UCTT -> Orientation: UP
+2021-06-12 22:47:20:930 [main] INFO  com.huanhe_tech.siever.Main - Current Time in New York: 2021-06-12 10:47:20
+2021-06-12 22:47:26:681 [Thread-5] INFO  com.huanhe_tech.siever.Main - Acount List: 
+2021-06-12 22:47:26:683 [Thread-5] INFO  com.huanhe_tech.siever.Main - U8978970
+2021-06-12 22:47:27:589 [Thread-0] INFO  com.huanhe_tech.siever.Main - AGLE -> Orientation: DOWN
+2021-06-12 22:47:33:983 [Thread-0] INFO  com.huanhe_tech.siever.Main - BERY -> Orientation: UP
+2021-06-12 22:47:45:999 [Thread-0] INFO  com.huanhe_tech.siever.Main - DKNG -> Orientation: DOWN
+2021-06-12 22:47:46:244 [Thread-0] INFO  com.huanhe_tech.siever.Main - DMTK -> Orientation: DOWN
+2021-06-12 22:47:49:040 [Thread-0] INFO  com.huanhe_tech.siever.Main - ENTA -> Orientation: DOWN
+2021-06-12 22:47:49:184 [Thread-0] INFO  com.huanhe_tech.siever.Main - EPAY -> Orientation: DOWN
+2021-06-12 22:47:50:321 [Thread-0] INFO  com.huanhe_tech.siever.Main - EZGO -> Orientation: DOWN
+2021-06-12 22:47:52:727 [Thread-0] INFO  com.huanhe_tech.siever.Main - FSLY -> Orientation: DOWN
+2021-06-12 22:47:54:507 [Thread-0] INFO  com.huanhe_tech.siever.Main - GHG -> Orientation: UP
+2021-06-12 22:47:55:211 [Thread-0] INFO  com.huanhe_tech.siever.Main - GLOP PRA -> Orientation: UP
+2021-06-12 22:48:00:679 [Thread-0] INFO  com.huanhe_tech.siever.Main - HSY -> Orientation: UP
+2021-06-12 22:48:04:051 [Thread-0] INFO  com.huanhe_tech.siever.Main - ISUN -> Orientation: DOWN
+2021-06-12 22:48:11:148 [Thread-0] INFO  com.huanhe_tech.siever.Main - METX -> Orientation: DOWN
+2021-06-12 22:48:21:683 [Thread-0] INFO  com.huanhe_tech.siever.Main - MTRN -> Orientation: UP
+2021-06-12 22:48:32:320 [Thread-0] INFO  com.huanhe_tech.siever.Main - OPTT -> Orientation: DOWN
+2021-06-12 22:48:46:807 [Thread-0] INFO  com.huanhe_tech.siever.Main - QVCC -> Orientation: UP
+2021-06-12 22:48:52:197 [Thread-0] INFO  com.huanhe_tech.siever.Main - RNGR -> Orientation: UP
+2021-06-12 22:48:58:682 [Thread-0] INFO  com.huanhe_tech.siever.Main - SATS -> Orientation: UP
+2021-06-12 22:49:13:946 [Thread-0] INFO  com.huanhe_tech.siever.Main - SHG -> Orientation: UP
+2021-06-12 22:49:39:393 [Thread-0] INFO  com.huanhe_tech.siever.Main - VFF -> Orientation: DOWN

@@ -6,22 +6,26 @@ import java.util.Arrays;
 import java.util.List;
 
 public class CalcAverage {
-    private final double[] arry;
+    private final double[] array;
     private final int durationDays;
 
     public CalcAverage(double[] array, int durationDays) {
-        this.arry = array;
+        this.array = array;
         this.durationDays = durationDays;
     }
 
     public double getAvgOfVolume() {
-        return Arrays.stream(arry).skip(1)
-                .limit(durationDays)
-                .average().orElse(0);
+        double[] array1 = array;
+        Arrays.sort(array1);
+        double sum = 0;
+        for (int i = 1; i < array1.length - 1; i++) {
+            sum = sum + array1[i];
+        }
+        return sum / (array1.length - 2);
     }
 
-    public double[] getArry() {
-        return arry;
+    public double[] getArray() {
+        return array;
     }
 
     public int getDurationDays() {

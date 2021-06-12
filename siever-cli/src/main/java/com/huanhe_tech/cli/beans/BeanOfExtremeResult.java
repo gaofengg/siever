@@ -18,7 +18,7 @@ public class BeanOfExtremeResult {
      * @param orientation orientation UP or Down
      * @param quoteChangeVariance 涨跌幅的取样方差，数值越大，说明波动越大，即大涨大跌
      * @param volumeVariance 成交量的取样方差，数值越大，说明资金波动越大，即大进大出
-     * @param volumeBreak 成交量突破，计算指定周期内的平均成交量（今日成交量不参与计算）av，使用 今日成交量 / av
+     * @param volumeBreak 成交量突破，计算指定周期内的平均成交量 av，使用 今日成交量 / av
      * @param extremeVariance 极点的取样方差，数值越大，说明极值范围内的涨跌幅越大
      *                        按照上涨的标的开盘或单日不会跌太深，下跌的标的开盘或单日不会涨太高的原则
      *                        如果标的上涨，应该使用高点的数组求极值取样方差

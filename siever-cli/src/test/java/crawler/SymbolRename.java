@@ -1,4 +1,4 @@
-package com.huanhe_tech.cli.crawler;
+package crawler;
 
 public class SymbolRename {
     private final String str;

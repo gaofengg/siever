@@ -8,7 +8,8 @@ public class FetchingFinanceDataFromYahoo implements PageProcessor {
     private final Site site = Site.me().setRetryTimes(3).setSleepTime(1000);
     @Override
     public void process(Page page) {
-        String aa = page.getHtml().xpath("//td[@data-reactid='21']/text()").toString();
+//        String aa = page.getHtml().xpath("//td[@data-reactid='21']/text()").toString();
+        String aa = page.getHtml().xpath("//div[@class='tv-widget-fundamentals__row']/span[@class='tv-widget-fundamentals__value']/text()").toString();
         System.out.println(aa);
     }
 
@@ -20,8 +21,10 @@ public class FetchingFinanceDataFromYahoo implements PageProcessor {
     public static void main(String[] args) {
         String symbol = "NOK";
         Spider.create(new FetchingFinanceDataFromYahoo())
-                .addUrl("https://finance.yahoo.com/quote/" + symbol + "/key-statistics?p=" + symbol)
+                .addUrl("https://cn.tradingview.com/symbols/NYSE-" + symbol)
                 .addPipeline(new IPipeline(symbol))
                 .run();
     }
+
+
 }

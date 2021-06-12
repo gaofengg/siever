@@ -3,8 +3,8 @@ package com.huanhe_tech.cli;
 import com.huanhe_tech.cli.beans.BeanOfExtremeResult;
 import com.huanhe_tech.cli.crawler.CrawlerExecutor;
 import com.huanhe_tech.cli.crawler.MarketCapStrToDecimal;
-import com.huanhe_tech.siever.utils.IJdbcUtils;
 import com.huanhe_tech.cli.crawler.SymbolRename;
+import com.huanhe_tech.siever.utils.IJdbcUtils;
 import org.apache.commons.dbutils.QueryRunner;
 import org.apache.commons.dbutils.handlers.ScalarHandler;
 
@@ -71,10 +71,12 @@ public class ConsumeExtremeResult {
             BeanOfExtremeResult beanOfExtremeResult = InstancePool.getQueueWithExtremeResultBean().take();
             if (beanOfExtremeResult.getSymbol().equals("#EOF")) break;
             String yahooFormatSymbol = beanOfExtremeResult.getSymbol();
+            String tradingViewSymbol = beanOfExtremeResult.getSymbol();
             if (beanOfExtremeResult.getSymbol().contains(" ")) {
-                yahooFormatSymbol = new SymbolRename(beanOfExtremeResult.getSymbol()).translate();
+                yahooFormatSymbol = new SymbolRename(yahooFormatSymbol, "-").translate();
+                tradingViewSymbol = new SymbolRename(tradingViewSymbol, "/").translate();
             }
-            CrawlerExecutor crawlerExecutor = new CrawlerExecutor(yahooFormatSymbol).execute();
+            CrawlerExecutor crawlerExecutor = new CrawlerExecutor(yahooFormatSymbol, tradingViewSymbol).execute();
             BigDecimal marketCap = new MarketCapStrToDecimal(crawlerExecutor.getMarketCap()).translate();
             String url = crawlerExecutor.getUrl();
             try {

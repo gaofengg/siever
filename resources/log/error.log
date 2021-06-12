@@ -1,483 +1,915 @@
-2021-06-03 10:07:44:605 [Thread-3] ERROR com.huanhe_tech.siever.Main - java.lang.NullPointerException
-2021-06-03 10:07:47:554 [Thread-5] ERROR com.huanhe_tech.siever.Main - java.lang.NullPointerException
-2021-06-03 10:09:13:956 [Thread-3] ERROR com.huanhe_tech.siever.Main - java.lang.NullPointerException
-2021-06-03 10:09:16:587 [Thread-5] ERROR com.huanhe_tech.siever.Main - java.lang.NullPointerException
-2021-06-03 11:12:04:858 [Thread-3] ERROR com.huanhe_tech.siever.Main - java.lang.NullPointerException
-2021-06-03 11:12:07:533 [Thread-5] ERROR com.huanhe_tech.siever.Main - java.lang.NullPointerException
-2021-06-03 11:26:52:635 [Thread-0] ERROR com.huanhe_tech.siever.Main - Maybe the connection to the api is broken!
-2021-06-03 11:27:00:082 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000001	162
+2021-06-12 19:01:59:791 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000001	162
 Historical Market Data Service error message:No historical market data for AFCG/STK@VALUE Last 1d
-2021-06-03 11:27:03:850 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000002	200
+2021-06-12 19:02:01:704 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000002	200
 No security definition has been found for the request
-2021-06-03 11:27:03:974 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000003	200
+2021-06-12 19:02:03:193 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000003	200
 No security definition has been found for the request
-2021-06-03 11:27:53:041 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000001	162
-Historical Market Data Service error message:No historical market data for AFCG/STK@VALUE Last 1d
-2021-06-03 11:27:56:698 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000002	200
+2021-06-12 19:02:03:682 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000004	200
 No security definition has been found for the request
-2021-06-03 11:27:56:818 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000003	200
+2021-06-12 19:02:03:794 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000005	200
 No security definition has been found for the request
-2021-06-03 11:27:59:895 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000004	162
+2021-06-12 19:02:06:366 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000006	162
 Historical Market Data Service error message:No historical market data for BEPH/STK@VALUE Last 1d
-2021-06-03 11:28:01:863 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000005	200
+2021-06-12 19:02:08:809 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000007	200
 No security definition has been found for the request
-2021-06-03 11:28:06:201 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000006	200
+2021-06-12 19:02:09:405 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000008	200
 No security definition has been found for the request
-2021-06-03 11:28:08:651 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000007	162
+2021-06-12 19:02:10:679 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000009	200
+No security definition has been found for the request
+2021-06-12 19:02:10:797 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000010	200
+No security definition has been found for the request
+2021-06-12 19:02:11:679 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000011	200
+No security definition has been found for the request
+2021-06-12 19:02:11:788 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000012	200
+No security definition has been found for the request
+2021-06-12 19:02:13:548 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000013	200
+No security definition has been found for the request
+2021-06-12 19:02:14:012 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000014	200
+No security definition has been found for the request
+2021-06-12 19:02:15:709 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000015	162
 Historical Market Data Service error message:No historical market data for CPUH/STK@VALUE Last 1d
-2021-06-03 11:28:09:796 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000008	200
+2021-06-12 19:02:16:481 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000016	200
 No security definition has been found for the request
-2021-06-03 11:28:19:268 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000009	162
+2021-06-12 19:02:16:793 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000017	200
+No security definition has been found for the request
+2021-06-12 19:02:17:902 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000018	200
+No security definition has been found for the request
+2021-06-12 19:02:20:092 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000019	162
 Historical Market Data Service error message:No historical market data for ECCW/STK@VALUE Last 1d
-2021-06-03 11:28:33:848 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000010	200
+2021-06-12 19:02:23:037 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000020	200
 No security definition has been found for the request
-2021-06-03 11:28:38:466 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000011	162
-Historical Market Data Service error message:No historical market data for GAINN/STK@VALUE Last 1d
-2021-06-03 11:28:39:705 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000012	200
+2021-06-12 19:02:24:580 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000021	200
 No security definition has been found for the request
-2021-06-03 11:28:41:245 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000013	162
+2021-06-12 19:02:24:700 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000022	200
+No security definition has been found for the request
+2021-06-12 19:02:26:191 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000023	200
+No security definition has been found for the request
+2021-06-12 19:02:26:632 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000024	200
+No security definition has been found for the request
+2021-06-12 19:02:26:737 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000025	200
+No security definition has been found for the request
+2021-06-12 19:02:27:055 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000026	200
+No security definition has been found for the request
+2021-06-12 19:02:27:774 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000027	162
 Historical Market Data Service error message:No historical market data for GLP PRB/STK@VALUE Last 1d
-2021-06-03 11:28:42:227 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000014	162
+2021-06-12 19:02:28:452 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000028	162
 Historical Market Data Service error message:No historical market data for GLSPU/STK@VALUE Last 1d
-2021-06-03 11:28:42:505 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000015	200
+2021-06-12 19:02:28:709 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000029	200
 No security definition has been found for the request
-2021-06-03 11:28:43:363 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000016	200
+2021-06-12 19:02:29:598 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000030	200
 No security definition has been found for the request
-2021-06-03 11:28:46:276 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000017	162
+2021-06-12 19:02:30:424 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000031	200
+No security definition has been found for the request
+2021-06-12 19:02:32:281 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000032	162
 Historical Market Data Service error message:No historical market data for HROWL/STK@VALUE Last 1d
-2021-06-03 11:28:47:446 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000018	162
+2021-06-12 19:02:33:133 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000033	162
 Historical Market Data Service error message:No historical market data for HTFB/STK@VALUE Last 1d
-2021-06-03 11:28:56:264 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000019	200
+2021-06-12 19:02:35:278 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000034	200
 No security definition has been found for the request
-2021-06-03 11:28:56:395 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000020	200
+2021-06-12 19:02:35:385 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000035	200
 No security definition has been found for the request
-2021-06-03 11:29:01:741 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000021	200
+2021-06-12 19:02:35:667 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000036	200
 No security definition has been found for the request
-2021-06-03 11:29:01:872 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000022	200
+2021-06-12 19:02:36:499 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000037	200
 No security definition has been found for the request
-2021-06-03 11:29:02:823 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000023	162
+2021-06-12 19:02:36:630 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000038	200
+No security definition has been found for the request
+2021-06-12 19:02:36:948 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000039	200
+No security definition has been found for the request
+2021-06-12 19:02:37:056 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000040	200
+No security definition has been found for the request
+2021-06-12 19:02:37:791 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000041	162
 Historical Market Data Service error message:No historical market data for JPM PRK/STK@VALUE Last 1d
-2021-06-03 11:29:07:051 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000024	200
+2021-06-12 19:02:38:068 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000042	200
 No security definition has been found for the request
-2021-06-03 11:29:16:524 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000025	200
+2021-06-12 19:02:38:192 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000043	200
 No security definition has been found for the request
-2021-06-03 11:29:37:917 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000001	162
-Historical Market Data Service error message:No historical market data for AFCG/STK@VALUE Last 1d
-2021-06-03 11:29:41:364 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000002	200
+2021-06-12 19:02:38:558 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000044	200
 No security definition has been found for the request
-2021-06-03 11:29:41:470 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000003	200
+2021-06-12 19:02:40:023 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000045	162
+Historical Market Data Service error message:No market data permissions for ARCAEDGE STK
+2021-06-12 19:02:40:501 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000046	200
 No security definition has been found for the request
-2021-06-03 11:29:44:126 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000004	162
-Historical Market Data Service error message:No historical market data for BEPH/STK@VALUE Last 1d
-2021-06-03 11:29:45:934 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000005	200
+2021-06-12 19:02:41:237 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000047	200
 No security definition has been found for the request
-2021-06-03 11:29:49:763 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000006	200
-No security definition has been found for the request
-2021-06-03 11:30:02:431 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000001	162
-Historical Market Data Service error message:No historical market data for AFCG/STK@VALUE Last 1d
-2021-06-03 11:30:05:977 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000002	200
-No security definition has been found for the request
-2021-06-03 11:30:06:085 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000003	200
-No security definition has been found for the request
-2021-06-03 11:30:08:899 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000004	162
-Historical Market Data Service error message:No historical market data for BEPH/STK@VALUE Last 1d
-2021-06-03 11:30:10:714 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000005	200
-No security definition has been found for the request
-2021-06-03 11:30:14:396 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000006	200
-No security definition has been found for the request
-2021-06-03 11:30:16:112 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000007	162
-Historical Market Data Service error message:No historical market data for CPUH/STK@VALUE Last 1d
-2021-06-03 11:30:17:139 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000008	200
-No security definition has been found for the request
-2021-06-03 11:30:27:431 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000009	162
-Historical Market Data Service error message:No historical market data for ECCW/STK@VALUE Last 1d
-2021-06-03 11:30:42:135 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000010	200
-No security definition has been found for the request
-2021-06-03 11:30:46:168 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000011	162
-Historical Market Data Service error message:No historical market data for GAINN/STK@VALUE Last 1d
-2021-06-03 11:30:47:760 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000012	200
-No security definition has been found for the request
-2021-06-03 11:30:48:944 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000013	162
-Historical Market Data Service error message:No historical market data for GLP PRB/STK@VALUE Last 1d
-2021-06-03 11:30:49:651 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000014	162
-Historical Market Data Service error message:No historical market data for GLSPU/STK@VALUE Last 1d
-2021-06-03 11:30:49:964 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000015	200
-No security definition has been found for the request
-2021-06-03 11:30:50:962 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000016	200
-No security definition has been found for the request
-2021-06-03 11:30:53:770 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000017	162
-Historical Market Data Service error message:No historical market data for HROWL/STK@VALUE Last 1d
-2021-06-03 11:30:54:640 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000018	162
-Historical Market Data Service error message:No historical market data for HTFB/STK@VALUE Last 1d
-2021-06-03 11:31:03:854 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000019	200
-No security definition has been found for the request
-2021-06-03 11:31:03:986 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000020	200
-No security definition has been found for the request
-2021-06-03 11:31:09:631 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000021	200
-No security definition has been found for the request
-2021-06-03 11:31:09:739 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000022	200
-No security definition has been found for the request
-2021-06-03 11:31:10:427 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000023	162
-Historical Market Data Service error message:No historical market data for JPM PRK/STK@VALUE Last 1d
-2021-06-03 11:31:15:049 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000024	200
-No security definition has been found for the request
-2021-06-03 11:31:24:912 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000025	200
-No security definition has been found for the request
-2021-06-03 11:31:55:736 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000026	162
+2021-06-12 19:02:49:176 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000048	162
 Historical Market Data Service error message:No historical market data for OCCIO/STK@VALUE Last 1d
-2021-06-03 11:32:04:682 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000027	162
+2021-06-12 19:02:50:067 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000049	200
+No security definition has been found for the request
+2021-06-12 19:02:52:385 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000050	162
 Historical Market Data Service error message:No historical market data for PEB PRG/STK@VALUE Last 1d
-2021-06-03 11:32:05:887 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000028	200
+2021-06-12 19:02:53:551 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000051	200
 No security definition has been found for the request
-2021-06-03 11:32:09:752 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000029	162
+2021-06-12 19:02:54:244 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000052	200
+No security definition has been found for the request
+2021-06-12 19:02:55:147 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000053	162
 Historical Market Data Service error message:No historical market data for PRIF PRH/STK@VALUE Last 1d
-2021-06-03 11:32:14:283 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000030	200
+2021-06-12 19:02:56:144 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000054	200
 No security definition has been found for the request
-2021-06-03 11:32:14:411 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000031	200
+2021-06-12 19:02:56:268 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000055	200
 No security definition has been found for the request
-2021-06-03 11:32:34:612 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000032	162
-Historical Market Data Service error message:??????????????SEGR@SMART Trades
-2021-06-03 11:32:44:752 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000033	200
+2021-06-12 19:03:01:106 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000056	162
+Historical Market Data Service error message:ÀúÊ·ÊÐ³¡Êý¾Ý²éÑ¯Î´·µ»ØÊý¾Ý£ºSEGR@SMART Trades
+2021-06-12 19:03:01:689 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000057	200
 No security definition has been found for the request
-2021-06-03 11:32:44:880 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000034	200
+2021-06-12 19:03:04:255 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000058	200
 No security definition has been found for the request
-2021-06-03 11:32:47:311 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000035	200
+2021-06-12 19:03:04:371 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000059	200
 No security definition has been found for the request
-2021-06-03 11:32:54:042 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000036	162
-Historical Market Data Service error message:No historical market data for TCBIO/STK@VALUE Last 1d
-2021-06-03 11:32:54:535 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000037	200
+2021-06-12 19:03:04:564 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000060	200
 No security definition has been found for the request
-2021-06-03 11:32:55:583 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000038	200
+2021-06-12 19:03:05:940 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000061	200
 No security definition has been found for the request
-2021-06-03 11:32:56:778 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000039	162
+2021-06-12 19:03:06:063 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000062	200
+No security definition has been found for the request
+2021-06-12 19:03:06:520 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000063	200
+No security definition has been found for the request
+2021-06-12 19:03:06:793 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000064	200
+No security definition has been found for the request
+2021-06-12 19:03:06:896 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000065	200
+No security definition has been found for the request
+2021-06-12 19:03:07:661 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000066	200
+No security definition has been found for the request
+2021-06-12 19:03:07:818 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000067	200
+No security definition has been found for the request
+2021-06-12 19:03:08:677 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000068	162
 Historical Market Data Service error message:No historical market data for TRKA/STK@VALUE Last 1d
-2021-06-03 11:32:59:877 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000040	162
+2021-06-12 19:03:09:060 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000069	200
+No security definition has been found for the request
+2021-06-12 19:03:09:171 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000070	200
+No security definition has been found for the request
+2021-06-12 19:03:11:190 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000071	162
 Historical Market Data Service error message:No historical market data for UROY/STK@VALUE Last 1d
-2021-06-03 11:33:09:205 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000041	200
+2021-06-12 19:03:13:939 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000072	200
 No security definition has been found for the request
-2021-06-03 11:33:10:604 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000042	162
+2021-06-12 19:03:14:461 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000073	200
+No security definition has been found for the request
+2021-06-12 19:03:15:575 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000074	162
 Historical Market Data Service error message:No historical market data for XFLT PRA/STK@VALUE Last 1d
-2021-06-03 11:33:27:892 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000001	162
+2021-06-12 19:03:16:659 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000075	200
+No security definition has been found for the request
+2021-06-12 19:03:17:436 [Thread-4] ERROR com.huanhe_tech.siever.Main - java.net.SocketException: Socket closed
+2021-06-12 20:44:58:971 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000001	162
 Historical Market Data Service error message:No historical market data for AFCG/STK@VALUE Last 1d
-2021-06-03 11:33:31:187 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000002	200
+2021-06-12 20:45:01:081 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000002	200
 No security definition has been found for the request
-2021-06-03 11:33:31:300 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000003	200
+2021-06-12 20:45:02:600 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000003	200
 No security definition has been found for the request
-2021-06-03 11:33:33:896 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000004	162
+2021-06-12 20:45:03:082 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000004	200
+No security definition has been found for the request
+2021-06-12 20:45:03:186 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000005	200
+No security definition has been found for the request
+2021-06-12 20:45:05:776 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000006	162
 Historical Market Data Service error message:No historical market data for BEPH/STK@VALUE Last 1d
-2021-06-03 11:33:35:612 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000005	200
+2021-06-12 20:45:07:589 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000007	200
 No security definition has been found for the request
-2021-06-03 11:34:49:472 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000001	162
-Historical Market Data Service error message:No historical market data for AFCG/STK@VALUE Last 1d
-2021-06-03 11:34:52:702 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000002	200
+2021-06-12 20:45:08:038 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000008	200
 No security definition has been found for the request
-2021-06-03 11:34:52:813 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000003	200
+2021-06-12 20:45:08:963 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000009	200
 No security definition has been found for the request
-2021-06-03 11:34:55:165 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000004	162
-Historical Market Data Service error message:No historical market data for BEPH/STK@VALUE Last 1d
-2021-06-03 11:34:56:748 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000005	200
+2021-06-12 20:45:09:081 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000010	200
 No security definition has been found for the request
-2021-06-03 11:35:00:035 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000006	200
+2021-06-12 20:45:09:788 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000011	200
 No security definition has been found for the request
-2021-06-03 11:35:05:209 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000007	162
+2021-06-12 20:45:09:910 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000012	200
+No security definition has been found for the request
+2021-06-12 20:45:11:335 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000013	200
+No security definition has been found for the request
+2021-06-12 20:45:11:826 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000014	200
+No security definition has been found for the request
+2021-06-12 20:45:13:637 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000015	162
 Historical Market Data Service error message:No historical market data for CPUH/STK@VALUE Last 1d
-2021-06-03 11:35:06:163 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000008	200
+2021-06-12 20:45:14:464 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000016	200
 No security definition has been found for the request
-2021-06-03 11:35:16:987 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000009	162
+2021-06-12 20:45:14:808 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000017	200
+No security definition has been found for the request
+2021-06-12 20:45:15:928 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000018	200
+No security definition has been found for the request
+2021-06-12 20:45:18:116 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000019	162
 Historical Market Data Service error message:No historical market data for ECCW/STK@VALUE Last 1d
-2021-06-03 11:36:17:970 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000001	162
-Historical Market Data Service error message:No historical market data for AFCG/STK@VALUE Last 1d
-2021-06-03 11:36:21:411 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000002	200
+2021-06-12 20:45:21:063 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000020	200
 No security definition has been found for the request
-2021-06-03 11:36:21:526 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000003	200
+2021-06-12 20:45:22:600 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000021	200
 No security definition has been found for the request
-2021-06-03 11:36:24:147 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000004	162
-Historical Market Data Service error message:No historical market data for BEPH/STK@VALUE Last 1d
-2021-06-03 11:36:25:949 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000005	200
+2021-06-12 20:45:22:740 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000022	200
 No security definition has been found for the request
-2021-06-03 11:36:29:740 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000006	200
+2021-06-12 20:45:24:147 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000023	200
 No security definition has been found for the request
-2021-06-03 11:36:31:509 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000007	162
-Historical Market Data Service error message:No historical market data for CPUH/STK@VALUE Last 1d
-2021-06-03 11:36:32:503 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000008	200
+2021-06-12 20:45:24:597 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000024	200
 No security definition has been found for the request
-2021-06-03 11:36:46:143 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000001	162
-Historical Market Data Service error message:No historical market data for AFCG/STK@VALUE Last 1d
-2021-06-03 11:36:49:494 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000002	200
+2021-06-12 20:45:24:704 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000025	200
 No security definition has been found for the request
-2021-06-03 11:36:49:609 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000003	200
+2021-06-12 20:45:24:993 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000026	200
 No security definition has been found for the request
-2021-06-03 11:36:52:085 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000004	162
-Historical Market Data Service error message:No historical market data for BEPH/STK@VALUE Last 1d
-2021-06-03 11:36:53:687 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000005	200
-No security definition has been found for the request
-2021-06-03 11:36:57:151 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000006	200
-No security definition has been found for the request
-2021-06-03 11:36:58:997 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000007	162
-Historical Market Data Service error message:No historical market data for CPUH/STK@VALUE Last 1d
-2021-06-03 11:36:59:922 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000008	200
-No security definition has been found for the request
-2021-06-03 11:37:10:769 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000009	162
-Historical Market Data Service error message:No historical market data for ECCW/STK@VALUE Last 1d
-2021-06-03 11:37:25:322 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000010	200
-No security definition has been found for the request
-2021-06-03 11:37:29:533 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000011	162
-Historical Market Data Service error message:No historical market data for GAINN/STK@VALUE Last 1d
-2021-06-03 11:37:31:149 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000012	200
-No security definition has been found for the request
-2021-06-03 11:37:32:363 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000013	162
+2021-06-12 20:45:25:700 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000027	162
 Historical Market Data Service error message:No historical market data for GLP PRB/STK@VALUE Last 1d
-2021-06-03 11:37:33:055 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000014	162
+2021-06-12 20:45:26:387 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000028	162
 Historical Market Data Service error message:No historical market data for GLSPU/STK@VALUE Last 1d
-2021-06-03 11:37:33:298 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000015	200
+2021-06-12 20:45:26:630 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000029	200
 No security definition has been found for the request
-2021-06-03 11:37:34:179 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000016	200
+2021-06-12 20:45:27:434 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000030	200
 No security definition has been found for the request
-2021-06-03 11:37:37:318 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000017	162
+2021-06-12 20:45:28:188 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000031	200
+No security definition has been found for the request
+2021-06-12 20:45:30:127 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000032	162
 Historical Market Data Service error message:No historical market data for HROWL/STK@VALUE Last 1d
-2021-06-03 11:37:38:204 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000018	162
+2021-06-12 20:45:30:963 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000033	162
 Historical Market Data Service error message:No historical market data for HTFB/STK@VALUE Last 1d
-2021-06-03 11:37:49:721 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000019	200
+2021-06-12 20:45:33:240 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000034	200
 No security definition has been found for the request
-2021-06-03 11:37:49:831 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000020	200
+2021-06-12 20:45:33:348 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000035	200
 No security definition has been found for the request
-2021-06-03 11:37:55:084 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000021	200
+2021-06-12 20:45:33:645 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000036	200
 No security definition has been found for the request
-2021-06-03 11:37:55:202 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000022	200
+2021-06-12 20:45:34:494 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000037	200
 No security definition has been found for the request
-2021-06-03 11:37:55:864 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000023	162
+2021-06-12 20:45:34:612 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000038	200
+No security definition has been found for the request
+2021-06-12 20:45:34:944 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000039	200
+No security definition has been found for the request
+2021-06-12 20:45:35:051 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000040	200
+No security definition has been found for the request
+2021-06-12 20:45:35:693 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000041	162
 Historical Market Data Service error message:No historical market data for JPM PRK/STK@VALUE Last 1d
-2021-06-03 11:38:00:439 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000024	200
+2021-06-12 20:45:36:001 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000042	200
 No security definition has been found for the request
-2021-06-03 11:38:10:140 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000025	200
+2021-06-12 20:45:36:135 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000043	200
 No security definition has been found for the request
-2021-06-03 11:38:40:286 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000026	162
+2021-06-12 20:45:36:541 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000044	200
+No security definition has been found for the request
+2021-06-12 20:45:37:985 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000045	162
+Historical Market Data Service error message:No market data permissions for ARCAEDGE STK
+2021-06-12 20:45:38:457 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000046	200
+No security definition has been found for the request
+2021-06-12 20:45:39:154 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000047	200
+No security definition has been found for the request
+2021-06-12 20:45:46:595 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000048	162
 Historical Market Data Service error message:No historical market data for OCCIO/STK@VALUE Last 1d
-2021-06-03 11:38:56:676 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000027	162
+2021-06-12 20:45:47:653 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000049	200
+No security definition has been found for the request
+2021-06-12 20:45:50:299 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000050	162
 Historical Market Data Service error message:No historical market data for PEB PRG/STK@VALUE Last 1d
-2021-06-03 11:38:59:428 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000028	200
+2021-06-12 20:45:51:651 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000051	200
 No security definition has been found for the request
-2021-06-03 11:39:03:744 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000029	162
+2021-06-12 20:45:52:396 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000052	200
+No security definition has been found for the request
+2021-06-12 20:45:53:640 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000053	162
 Historical Market Data Service error message:No historical market data for PRIF PRH/STK@VALUE Last 1d
-2021-06-03 11:39:15:854 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000030	200
+2021-06-12 20:45:54:511 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000054	200
 No security definition has been found for the request
-2021-06-03 11:39:15:986 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000031	200
+2021-06-12 20:45:54:643 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000055	200
 No security definition has been found for the request
-2021-06-03 11:39:50:771 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000032	162
-Historical Market Data Service error message:??????????????SEGR@SMART Trades
-2021-06-03 11:40:03:638 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000033	200
+2021-06-12 20:45:58:875 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000056	162
+Historical Market Data Service error message:ÀúÊ·ÊÐ³¡Êý¾Ý²éÑ¯Î´·µ»ØÊý¾Ý£ºSEGR@SMART Trades
+2021-06-12 20:45:59:422 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000057	200
 No security definition has been found for the request
-2021-06-03 11:40:04:153 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000034	200
+2021-06-12 20:46:01:803 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000058	200
 No security definition has been found for the request
-2021-06-03 11:40:08:265 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000035	200
+2021-06-12 20:46:01:924 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000059	200
 No security definition has been found for the request
-2021-06-03 11:40:16:188 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000036	162
-Historical Market Data Service error message:No historical market data for TCBIO/STK@VALUE Last 1d
-2021-06-03 11:40:16:689 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000037	200
+2021-06-12 20:46:02:131 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000060	200
 No security definition has been found for the request
-2021-06-03 11:40:18:979 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000038	200
+2021-06-12 20:46:03:464 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000061	200
 No security definition has been found for the request
-2021-06-03 11:40:19:877 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000039	162
+2021-06-12 20:46:03:602 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000062	200
+No security definition has been found for the request
+2021-06-12 20:46:04:147 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000063	200
+No security definition has been found for the request
+2021-06-12 20:46:04:428 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000064	200
+No security definition has been found for the request
+2021-06-12 20:46:04:581 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000065	200
+No security definition has been found for the request
+2021-06-12 20:46:05:369 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000066	200
+No security definition has been found for the request
+2021-06-12 20:46:05:520 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000067	200
+No security definition has been found for the request
+2021-06-12 20:46:06:414 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000068	162
 Historical Market Data Service error message:No historical market data for TRKA/STK@VALUE Last 1d
-2021-06-03 11:40:23:768 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000040	162
+2021-06-12 20:46:06:815 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000069	200
+No security definition has been found for the request
+2021-06-12 20:46:06:929 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000070	200
+No security definition has been found for the request
+2021-06-12 20:46:08:764 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000071	162
 Historical Market Data Service error message:No historical market data for UROY/STK@VALUE Last 1d
-2021-06-03 11:40:37:172 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000041	200
+2021-06-12 20:46:11:326 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000072	200
 No security definition has been found for the request
-2021-06-03 11:40:38:450 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000042	162
+2021-06-12 20:46:11:858 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000073	200
+No security definition has been found for the request
+2021-06-12 20:46:12:973 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000074	162
 Historical Market Data Service error message:No historical market data for XFLT PRA/STK@VALUE Last 1d
-2021-06-03 11:40:47:164 [Thread-4] ERROR com.huanhe_tech.siever.Main - java.net.SocketException: Socket closed
-2021-06-03 13:03:33:652 [Thread-4] ERROR com.huanhe_tech.siever.Main - java.net.SocketException: Socket closed
-2021-06-03 17:06:59:139 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000065	162
-Historical Market Data Service error message:No historical market data for AFCG/STK@VALUE Last 1d
-2021-06-03 17:09:39:686 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000001	162
-Historical Market Data Service error message:No historical market data for AFCG/STK@VALUE Last 1d
-2021-06-03 17:10:30:365 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000001	162
-Historical Market Data Service error message:No historical market data for AFCG/STK@VALUE Last 1d
-2021-06-03 17:12:21:808 [Thread-4] ERROR com.huanhe_tech.siever.Main - java.net.SocketException: Socket closed
-2021-06-03 17:17:53:499 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000001	162
-Historical Market Data Service error message:No historical market data for AFCG/STK@VALUE Last 1d
-2021-06-03 17:17:56:320 [Thread-4] ERROR com.huanhe_tech.siever.Main - java.net.SocketException: Socket closed
-2021-06-03 17:22:28:323 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000001	162
-Historical Market Data Service error message:No historical market data for AFCG/STK@VALUE Last 1d
-2021-06-03 17:22:31:169 [Thread-4] ERROR com.huanhe_tech.siever.Main - java.net.SocketException: Socket closed
-2021-06-03 17:41:56:108 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000001	162
-Historical Market Data Service error message:No historical market data for AFCG/STK@VALUE Last 1d
-2021-06-03 17:41:58:924 [Thread-4] ERROR com.huanhe_tech.siever.Main - java.net.SocketException: Socket closed
-2021-06-03 17:44:03:147 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000001	162
-Historical Market Data Service error message:No historical market data for AFCG/STK@VALUE Last 1d
-2021-06-03 17:44:57:214 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000078	200
+2021-06-12 20:46:13:721 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000075	200
 No security definition has been found for the request
-2021-06-03 17:44:57:326 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000079	200
+2021-06-12 20:46:14:004 [Thread-4] ERROR com.huanhe_tech.siever.Main - java.net.SocketException: Socket closed
+2021-06-12 20:50:04:945 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000001	162
+Historical Market Data Service error message:No historical market data for AFCG/STK@VALUE Last 1d
+2021-06-12 20:50:06:881 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000002	200
 No security definition has been found for the request
-2021-06-03 17:47:44:455 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000318	162
+2021-06-12 20:50:08:381 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000003	200
+No security definition has been found for the request
+2021-06-12 20:50:08:862 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000004	200
+No security definition has been found for the request
+2021-06-12 20:50:08:969 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000005	200
+No security definition has been found for the request
+2021-06-12 20:50:11:550 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000006	162
 Historical Market Data Service error message:No historical market data for BEPH/STK@VALUE Last 1d
-2021-06-03 17:50:10:391 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000525	200
+2021-06-12 20:50:13:198 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000007	200
 No security definition has been found for the request
-2021-06-03 17:55:18:059 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000975	200
+2021-06-12 20:50:13:657 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000008	200
 No security definition has been found for the request
-2021-06-03 17:56:56:985 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10001120	162
+2021-06-12 20:50:14:607 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000009	200
+No security definition has been found for the request
+2021-06-12 20:50:14:724 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000010	200
+No security definition has been found for the request
+2021-06-12 20:50:15:489 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000011	200
+No security definition has been found for the request
+2021-06-12 20:50:15:599 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000012	200
+No security definition has been found for the request
+2021-06-12 20:50:17:512 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000013	200
+No security definition has been found for the request
+2021-06-12 20:50:18:146 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000014	200
+No security definition has been found for the request
+2021-06-12 20:50:20:248 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000015	162
 Historical Market Data Service error message:No historical market data for CPUH/STK@VALUE Last 1d
-2021-06-03 17:58:14:318 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10001236	200
+2021-06-12 20:50:21:207 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000016	200
 No security definition has been found for the request
-2021-06-03 18:02:03:671 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10001570	162
+2021-06-12 20:50:21:594 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000017	200
+No security definition has been found for the request
+2021-06-12 20:50:22:958 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000018	200
+No security definition has been found for the request
+2021-06-12 20:50:25:466 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000019	162
 Historical Market Data Service error message:No historical market data for ECCW/STK@VALUE Last 1d
-2021-06-03 18:06:23:533 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10001948	200
+2021-06-12 20:50:28:864 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000020	200
 No security definition has been found for the request
-2021-06-03 18:09:42:819 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10002237	162
-Historical Market Data Service error message:No historical market data for GAINN/STK@VALUE Last 1d
-2021-06-03 18:10:35:467 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10002308	200
+2021-06-12 20:50:30:473 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000021	200
 No security definition has been found for the request
-2021-06-03 18:11:28:033 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10002383	162
+2021-06-12 20:50:30:585 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000022	200
+No security definition has been found for the request
+2021-06-12 20:50:31:992 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000023	200
+No security definition has been found for the request
+2021-06-12 20:50:32:440 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000024	200
+No security definition has been found for the request
+2021-06-12 20:50:32:593 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000025	200
+No security definition has been found for the request
+2021-06-12 20:50:32:888 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000026	200
+No security definition has been found for the request
+2021-06-12 20:50:33:609 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000027	162
 Historical Market Data Service error message:No historical market data for GLP PRB/STK@VALUE Last 1d
-2021-06-03 18:11:31:637 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10002388	162
+2021-06-12 20:50:34:339 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000028	162
 Historical Market Data Service error message:No historical market data for GLSPU/STK@VALUE Last 1d
-2021-06-03 18:11:43:099 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10002406	200
+2021-06-12 20:50:34:622 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000029	200
 No security definition has been found for the request
-2021-06-03 18:12:46:647 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10002500	200
+2021-06-12 20:50:35:436 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000030	200
 No security definition has been found for the request
-2021-06-03 18:15:26:832 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10002733	162
+2021-06-12 20:50:36:149 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000031	200
+No security definition has been found for the request
+2021-06-12 20:50:37:877 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000032	162
 Historical Market Data Service error message:No historical market data for HROWL/STK@VALUE Last 1d
-2021-06-03 18:15:44:113 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10002758	162
+2021-06-12 20:50:38:687 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000033	162
 Historical Market Data Service error message:No historical market data for HTFB/STK@VALUE Last 1d
-2021-06-03 18:18:37:869 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10003011	200
+2021-06-12 20:50:40:678 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000034	200
 No security definition has been found for the request
-2021-06-03 18:18:37:994 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10003012	200
+2021-06-12 20:50:40:792 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000035	200
 No security definition has been found for the request
-2021-06-03 18:20:19:103 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10003159	200
+2021-06-12 20:50:41:068 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000036	200
 No security definition has been found for the request
-2021-06-03 18:20:19:245 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10003160	200
+2021-06-12 20:50:41:917 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000037	200
 No security definition has been found for the request
-2021-06-03 18:20:20:778 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10003162	162
+2021-06-12 20:50:42:030 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000038	200
+No security definition has been found for the request
+2021-06-12 20:50:42:328 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000039	200
+No security definition has been found for the request
+2021-06-12 20:50:42:437 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000040	200
+No security definition has been found for the request
+2021-06-12 20:50:43:077 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000041	162
 Historical Market Data Service error message:No historical market data for JPM PRK/STK@VALUE Last 1d
-2021-06-03 18:20:58:678 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10003218	200
+2021-06-12 20:50:43:351 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000042	200
 No security definition has been found for the request
-2021-06-03 18:22:30:033 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10003351	162
-Historical Market Data Service error message:??????????????LACQ@SMART Trades
-2021-06-03 18:23:53:756 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10003475	200
+2021-06-12 20:50:43:465 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000043	200
 No security definition has been found for the request
-2021-06-03 18:33:29:112 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10004307	162
+2021-06-12 20:50:43:822 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000044	200
+No security definition has been found for the request
+2021-06-12 20:50:45:198 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000045	162
+Historical Market Data Service error message:No market data permissions for ARCAEDGE STK
+2021-06-12 20:50:45:674 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000046	200
+No security definition has been found for the request
+2021-06-12 20:50:46:398 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000047	200
+No security definition has been found for the request
+2021-06-12 20:50:53:590 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000048	162
 Historical Market Data Service error message:No historical market data for OCCIO/STK@VALUE Last 1d
-2021-06-03 18:36:35:453 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10004573	162
+2021-06-12 20:50:54:690 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000049	200
+No security definition has been found for the request
+2021-06-12 20:50:56:761 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000050	162
 Historical Market Data Service error message:No historical market data for PEB PRG/STK@VALUE Last 1d
-2021-06-03 18:38:05:921 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10004696	200
+2021-06-12 20:50:57:878 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000051	200
 No security definition has been found for the request
-2021-06-03 18:39:08:847 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10004787	162
+2021-06-12 20:50:58:516 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000052	200
+No security definition has been found for the request
+2021-06-12 20:50:59:653 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000053	162
 Historical Market Data Service error message:No historical market data for PRIF PRH/STK@VALUE Last 1d
-2021-06-03 18:40:15:980 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10004887	200
+2021-06-12 20:51:00:511 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000054	200
 No security definition has been found for the request
-2021-06-03 18:40:16:099 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10004888	200
+2021-06-12 20:51:00:617 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000055	200
 No security definition has been found for the request
-2021-06-03 18:45:52:047 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10005362	162
-Historical Market Data Service error message:??????????????SEGR@SMART Trades
-2021-06-03 18:49:42:944 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10005700	200
+2021-06-12 20:51:04:894 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000056	162
+Historical Market Data Service error message:ÀúÊ·ÊÐ³¡Êý¾Ý²éÑ¯Î´·µ»ØÊý¾Ý£ºSEGR@SMART Trades
+2021-06-12 20:51:09:905 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000057	200
 No security definition has been found for the request
-2021-06-03 18:49:43:052 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10005701	200
+2021-06-12 20:51:12:144 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000058	200
 No security definition has been found for the request
-2021-06-03 18:49:51:304 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10005713	200
+2021-06-12 20:51:12:256 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000059	200
 No security definition has been found for the request
-2021-06-03 18:51:31:616 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10005858	162
-Historical Market Data Service error message:No historical market data for TCBIO/STK@VALUE Last 1d
-2021-06-03 18:52:05:076 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10005908	200
+2021-06-12 20:51:12:464 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000060	200
 No security definition has been found for the request
-2021-06-03 18:53:17:729 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10006015	200
+2021-06-12 20:51:13:747 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000061	200
 No security definition has been found for the request
-2021-06-03 18:53:39:419 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10006046	162
+2021-06-12 20:51:13:868 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000062	200
+No security definition has been found for the request
+2021-06-12 20:51:14:300 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000063	200
+No security definition has been found for the request
+2021-06-12 20:51:14:569 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000064	200
+No security definition has been found for the request
+2021-06-12 20:51:14:677 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000065	200
+No security definition has been found for the request
+2021-06-12 20:51:15:408 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000066	200
+No security definition has been found for the request
+2021-06-12 20:51:15:545 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000067	200
+No security definition has been found for the request
+2021-06-12 20:51:16:417 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000068	162
 Historical Market Data Service error message:No historical market data for TRKA/STK@VALUE Last 1d
-2021-06-03 18:55:50:965 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10006238	162
+2021-06-12 20:51:16:795 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000069	200
+No security definition has been found for the request
+2021-06-12 20:51:16:913 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000070	200
+No security definition has been found for the request
+2021-06-12 20:51:18:699 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000071	162
 Historical Market Data Service error message:No historical market data for UROY/STK@VALUE Last 1d
-2021-06-03 18:59:31:563 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10006561	200
+2021-06-12 20:51:21:145 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000072	200
 No security definition has been found for the request
-2021-06-03 19:00:09:543 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10006615	200
+2021-06-12 20:51:21:660 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000073	200
 No security definition has been found for the request
-2021-06-03 19:00:50:001 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10006672	162
+2021-06-12 20:51:22:801 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000074	162
 Historical Market Data Service error message:No historical market data for XFLT PRA/STK@VALUE Last 1d
-2021-06-03 19:02:01:360 [Thread-4] ERROR com.huanhe_tech.siever.Main - java.net.SocketException: Socket closed
-2021-06-03 20:03:51:158 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000001	162
+2021-06-12 20:51:23:861 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000075	200
+No security definition has been found for the request
+2021-06-12 20:51:25:608 [Thread-4] ERROR com.huanhe_tech.siever.Main - java.net.SocketException: Socket closed
+2021-06-12 21:13:14:012 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000001	162
 Historical Market Data Service error message:No historical market data for AFCG/STK@VALUE Last 1d
-2021-06-03 20:03:54:818 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000002	200
+2021-06-12 21:13:16:021 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000002	200
 No security definition has been found for the request
-2021-06-03 20:03:54:937 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000003	200
+2021-06-12 21:13:17:554 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000003	200
 No security definition has been found for the request
-2021-06-03 20:03:57:445 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000004	162
+2021-06-12 21:13:18:071 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000004	200
+No security definition has been found for the request
+2021-06-12 21:13:18:224 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000005	200
+No security definition has been found for the request
+2021-06-12 21:13:20:874 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000006	162
 Historical Market Data Service error message:No historical market data for BEPH/STK@VALUE Last 1d
-2021-06-03 20:03:59:124 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000005	200
+2021-06-12 21:13:22:617 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000007	200
 No security definition has been found for the request
-2021-06-03 20:04:02:693 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000006	200
+2021-06-12 21:13:23:082 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000008	200
 No security definition has been found for the request
-2021-06-03 20:04:04:380 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000007	162
+2021-06-12 21:13:24:027 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000009	200
+No security definition has been found for the request
+2021-06-12 21:13:24:139 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000010	200
+No security definition has been found for the request
+2021-06-12 21:13:24:930 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000011	200
+No security definition has been found for the request
+2021-06-12 21:13:25:057 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000012	200
+No security definition has been found for the request
+2021-06-12 21:13:26:859 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000013	200
+No security definition has been found for the request
+2021-06-12 21:13:27:469 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000014	200
+No security definition has been found for the request
+2021-06-12 21:13:29:595 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000015	162
 Historical Market Data Service error message:No historical market data for CPUH/STK@VALUE Last 1d
-2021-06-03 20:04:05:370 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000008	200
+2021-06-12 21:13:30:488 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000016	200
 No security definition has been found for the request
-2021-06-03 20:04:08:545 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000009	162
+2021-06-12 21:13:30:813 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000017	200
+No security definition has been found for the request
+2021-06-12 21:13:32:072 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000018	200
+No security definition has been found for the request
+2021-06-12 21:13:34:535 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000019	162
 Historical Market Data Service error message:No historical market data for ECCW/STK@VALUE Last 1d
-2021-06-03 20:04:11:505 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000010	200
+2021-06-12 21:13:37:874 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000020	200
 No security definition has been found for the request
-2021-06-03 20:04:14:313 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000011	162
-Historical Market Data Service error message:No historical market data for GAINN/STK@VALUE Last 1d
-2021-06-03 20:04:15:022 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000012	200
+2021-06-12 21:13:39:684 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000021	200
 No security definition has been found for the request
-2021-06-03 20:04:16:286 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000013	162
+2021-06-12 21:13:39:842 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000022	200
+No security definition has been found for the request
+2021-06-12 21:13:41:426 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000023	200
+No security definition has been found for the request
+2021-06-12 21:13:42:136 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000024	200
+No security definition has been found for the request
+2021-06-12 21:13:42:512 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000025	200
+No security definition has been found for the request
+2021-06-12 21:13:43:015 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000026	200
+No security definition has been found for the request
+2021-06-12 21:13:44:032 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000027	162
 Historical Market Data Service error message:No historical market data for GLP PRB/STK@VALUE Last 1d
-2021-06-03 20:04:17:170 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000014	162
+2021-06-12 21:13:44:728 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000028	162
 Historical Market Data Service error message:No historical market data for GLSPU/STK@VALUE Last 1d
-2021-06-03 20:04:25:521 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000015	200
+2021-06-12 21:13:45:047 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000029	200
 No security definition has been found for the request
-2021-06-03 20:04:58:375 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000016	200
+2021-06-12 21:13:46:416 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000030	200
 No security definition has been found for the request
-2021-06-03 20:05:00:862 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000017	162
+2021-06-12 21:13:47:516 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000031	200
+No security definition has been found for the request
+2021-06-12 21:13:49:990 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000032	162
 Historical Market Data Service error message:No historical market data for HROWL/STK@VALUE Last 1d
-2021-06-03 20:05:01:732 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000018	162
+2021-06-12 21:13:50:938 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000033	162
 Historical Market Data Service error message:No historical market data for HTFB/STK@VALUE Last 1d
-2021-06-03 20:05:03:935 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000019	200
+2021-06-12 21:13:53:310 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000034	200
 No security definition has been found for the request
-2021-06-03 20:05:04:044 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000020	200
+2021-06-12 21:13:53:418 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000035	200
 No security definition has been found for the request
-2021-06-03 20:05:06:655 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000021	200
+2021-06-12 21:13:53:688 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000036	200
 No security definition has been found for the request
-2021-06-03 20:05:06:765 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000022	200
+2021-06-12 21:13:54:559 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000037	200
 No security definition has been found for the request
-2021-06-03 20:05:07:462 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000023	162
+2021-06-12 21:13:54:680 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000038	200
+No security definition has been found for the request
+2021-06-12 21:13:55:036 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000039	200
+No security definition has been found for the request
+2021-06-12 21:13:55:149 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000040	200
+No security definition has been found for the request
+2021-06-12 21:13:55:806 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000041	162
 Historical Market Data Service error message:No historical market data for JPM PRK/STK@VALUE Last 1d
-2021-06-03 20:05:08:002 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000024	200
+2021-06-12 21:13:56:099 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000042	200
 No security definition has been found for the request
-2021-06-03 20:05:09:447 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000025	162
-Historical Market Data Service error message:??????????????LACQ@SMART Trades
-2021-06-03 20:05:10:521 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000026	200
+2021-06-12 21:13:56:214 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000043	200
 No security definition has been found for the request
-2021-06-03 20:05:17:717 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000027	162
+2021-06-12 21:13:56:594 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000044	200
+No security definition has been found for the request
+2021-06-12 21:13:58:012 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000045	162
+Historical Market Data Service error message:No market data permissions for ARCAEDGE STK
+2021-06-12 21:13:58:491 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000046	200
+No security definition has been found for the request
+2021-06-12 21:13:59:184 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000047	200
+No security definition has been found for the request
+2021-06-12 21:14:06:347 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000048	162
 Historical Market Data Service error message:No historical market data for OCCIO/STK@VALUE Last 1d
-2021-06-03 20:05:20:473 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000028	162
+2021-06-12 21:14:07:154 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000049	200
+No security definition has been found for the request
+2021-06-12 21:14:09:216 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000050	162
 Historical Market Data Service error message:No historical market data for PEB PRG/STK@VALUE Last 1d
-2021-06-03 20:05:21:812 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000029	200
+2021-06-12 21:14:10:308 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000051	200
 No security definition has been found for the request
-2021-06-03 20:05:23:187 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000030	162
+2021-06-12 21:14:10:915 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000052	200
+No security definition has been found for the request
+2021-06-12 21:14:11:757 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000053	162
 Historical Market Data Service error message:No historical market data for PRIF PRH/STK@VALUE Last 1d
-2021-06-03 20:05:24:159 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000031	200
+2021-06-12 21:14:12:639 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000054	200
 No security definition has been found for the request
-2021-06-03 20:05:24:293 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000032	200
+2021-06-12 21:14:12:756 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000055	200
 No security definition has been found for the request
-2021-06-03 20:05:28:668 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000033	162
-Historical Market Data Service error message:??????????????SEGR@SMART Trades
-2021-06-03 20:05:31:535 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000034	200
+2021-06-12 21:14:17:072 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000056	162
+Historical Market Data Service error message:ÀúÊ·ÊÐ³¡Êý¾Ý²éÑ¯Î´·µ»ØÊý¾Ý£ºSEGR@SMART Trades
+2021-06-12 21:14:17:628 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000057	200
 No security definition has been found for the request
-2021-06-03 20:05:31:643 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000035	200
+2021-06-12 21:14:19:996 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000058	200
 No security definition has been found for the request
-2021-06-03 20:05:31:850 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000036	200
+2021-06-12 21:14:20:107 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000059	200
 No security definition has been found for the request
-2021-06-03 20:05:34:245 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000037	162
-Historical Market Data Service error message:No historical market data for TCBIO/STK@VALUE Last 1d
-2021-06-03 20:05:34:725 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000038	200
+2021-06-12 21:14:20:303 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000060	200
 No security definition has been found for the request
-2021-06-03 20:05:35:712 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000039	200
+2021-06-12 21:14:21:630 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000061	200
 No security definition has been found for the request
-2021-06-03 20:05:36:578 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000040	162
+2021-06-12 21:14:21:748 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000062	200
+No security definition has been found for the request
+2021-06-12 21:14:22:218 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000063	200
+No security definition has been found for the request
+2021-06-12 21:14:22:469 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000064	200
+No security definition has been found for the request
+2021-06-12 21:14:22:579 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000065	200
+No security definition has been found for the request
+2021-06-12 21:14:23:310 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000066	200
+No security definition has been found for the request
+2021-06-12 21:14:23:450 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000067	200
+No security definition has been found for the request
+2021-06-12 21:14:24:325 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000068	162
 Historical Market Data Service error message:No historical market data for TRKA/STK@VALUE Last 1d
-2021-06-03 20:05:38:663 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000041	162
+2021-06-12 21:14:24:710 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000069	200
+No security definition has been found for the request
+2021-06-12 21:14:24:821 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000070	200
+No security definition has been found for the request
+2021-06-12 21:14:26:636 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000071	162
 Historical Market Data Service error message:No historical market data for UROY/STK@VALUE Last 1d
-2021-06-03 20:06:11:770 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000042	200
+2021-06-12 21:14:29:297 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000072	200
 No security definition has been found for the request
-2021-06-03 20:06:13:692 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000043	200
+2021-06-12 21:14:29:885 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000073	200
 No security definition has been found for the request
-2021-06-03 20:06:14:812 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000044	162
+2021-06-12 21:14:31:605 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000074	162
 Historical Market Data Service error message:No historical market data for XFLT PRA/STK@VALUE Last 1d
-2021-06-03 20:06:19:118 [Thread-4] ERROR com.huanhe_tech.siever.Main - java.net.SocketException: Socket closed
+2021-06-12 21:14:32:561 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000075	200
+No security definition has been found for the request
+2021-06-12 21:14:32:785 [Thread-4] ERROR com.huanhe_tech.siever.Main - java.net.SocketException: Socket closed
+2021-06-12 22:05:04:388 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000001	162
+Historical Market Data Service error message:No historical market data for AFCG/STK@VALUE Last 1d
+2021-06-12 22:05:06:271 [Thread-4] ERROR com.huanhe_tech.siever.Main - java.net.SocketException: Socket closed
+2021-06-12 22:06:06:019 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000001	162
+Historical Market Data Service error message:No historical market data for AFCG/STK@VALUE Last 1d
+2021-06-12 22:06:07:401 [Thread-4] ERROR com.huanhe_tech.siever.Main - java.net.SocketException: Socket closed
+2021-06-12 22:11:15:354 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000001	162
+Historical Market Data Service error message:No historical market data for AFCG/STK@VALUE Last 1d
+2021-06-12 22:11:16:661 [Thread-4] ERROR com.huanhe_tech.siever.Main - java.net.SocketException: Socket closed
+2021-06-12 22:44:07:187 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000001	162
+Historical Market Data Service error message:No historical market data for AFCG/STK@VALUE Last 1d
+2021-06-12 22:44:08:881 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000002	200
+No security definition has been found for the request
+2021-06-12 22:44:10:352 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000003	200
+No security definition has been found for the request
+2021-06-12 22:44:10:829 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000004	200
+No security definition has been found for the request
+2021-06-12 22:44:10:946 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000005	200
+No security definition has been found for the request
+2021-06-12 22:44:13:637 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000006	162
+Historical Market Data Service error message:No historical market data for BEPH/STK@VALUE Last 1d
+2021-06-12 22:44:15:360 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000007	200
+No security definition has been found for the request
+2021-06-12 22:44:15:819 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000008	200
+No security definition has been found for the request
+2021-06-12 22:44:16:688 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000009	200
+No security definition has been found for the request
+2021-06-12 22:44:16:801 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000010	200
+No security definition has been found for the request
+2021-06-12 22:44:17:696 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000011	200
+No security definition has been found for the request
+2021-06-12 22:44:17:828 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000012	200
+No security definition has been found for the request
+2021-06-12 22:44:19:331 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000013	200
+No security definition has been found for the request
+2021-06-12 22:44:19:884 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000014	200
+No security definition has been found for the request
+2021-06-12 22:44:22:004 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000015	162
+Historical Market Data Service error message:No historical market data for CPUH/STK@VALUE Last 1d
+2021-06-12 22:44:23:164 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000016	200
+No security definition has been found for the request
+2021-06-12 22:44:23:546 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000017	200
+No security definition has been found for the request
+2021-06-12 22:44:25:049 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000018	200
+No security definition has been found for the request
+2021-06-12 22:44:27:533 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000019	162
+Historical Market Data Service error message:No historical market data for ECCW/STK@VALUE Last 1d
+2021-06-12 22:44:30:462 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000020	200
+No security definition has been found for the request
+2021-06-12 22:44:31:946 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000021	200
+No security definition has been found for the request
+2021-06-12 22:44:32:055 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000022	200
+No security definition has been found for the request
+2021-06-12 22:44:33:455 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000023	200
+No security definition has been found for the request
+2021-06-12 22:44:33:889 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000024	200
+No security definition has been found for the request
+2021-06-12 22:44:34:017 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000025	200
+No security definition has been found for the request
+2021-06-12 22:44:34:313 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000026	200
+No security definition has been found for the request
+2021-06-12 22:44:35:010 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000027	162
+Historical Market Data Service error message:No historical market data for GLP PRB/STK@VALUE Last 1d
+2021-06-12 22:44:35:707 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000028	162
+Historical Market Data Service error message:No historical market data for GLSPU/STK@VALUE Last 1d
+2021-06-12 22:44:35:971 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000029	200
+No security definition has been found for the request
+2021-06-12 22:44:36:816 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000030	200
+No security definition has been found for the request
+2021-06-12 22:44:37:598 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000031	200
+No security definition has been found for the request
+2021-06-12 22:44:39:379 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000032	162
+Historical Market Data Service error message:No historical market data for HROWL/STK@VALUE Last 1d
+2021-06-12 22:44:40:205 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000033	162
+Historical Market Data Service error message:No historical market data for HTFB/STK@VALUE Last 1d
+2021-06-12 22:44:42:248 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000034	200
+No security definition has been found for the request
+2021-06-12 22:44:42:365 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000035	200
+No security definition has been found for the request
+2021-06-12 22:44:42:627 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000036	200
+No security definition has been found for the request
+2021-06-12 22:44:43:471 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000037	200
+No security definition has been found for the request
+2021-06-12 22:44:43:580 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000038	200
+No security definition has been found for the request
+2021-06-12 22:44:43:908 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000039	200
+No security definition has been found for the request
+2021-06-12 22:44:44:037 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000040	200
+No security definition has been found for the request
+2021-06-12 22:44:44:692 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000041	162
+Historical Market Data Service error message:No historical market data for JPM PRK/STK@VALUE Last 1d
+2021-06-12 22:44:44:971 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000042	200
+No security definition has been found for the request
+2021-06-12 22:44:45:090 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000043	200
+No security definition has been found for the request
+2021-06-12 22:44:45:437 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000044	200
+No security definition has been found for the request
+2021-06-12 22:44:46:797 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000045	162
+Historical Market Data Service error message:No market data permissions for ARCAEDGE STK
+2021-06-12 22:44:47:246 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000046	200
+No security definition has been found for the request
+2021-06-12 22:44:47:923 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000047	200
+No security definition has been found for the request
+2021-06-12 22:44:54:850 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000048	162
+Historical Market Data Service error message:No historical market data for OCCIO/STK@VALUE Last 1d
+2021-06-12 22:44:55:609 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000049	200
+No security definition has been found for the request
+2021-06-12 22:44:57:925 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000050	162
+Historical Market Data Service error message:No historical market data for PEB PRG/STK@VALUE Last 1d
+2021-06-12 22:44:58:953 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000051	200
+No security definition has been found for the request
+2021-06-12 22:44:59:585 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000052	200
+No security definition has been found for the request
+2021-06-12 22:45:00:441 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000053	162
+Historical Market Data Service error message:No historical market data for PRIF PRH/STK@VALUE Last 1d
+2021-06-12 22:45:01:285 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000054	200
+No security definition has been found for the request
+2021-06-12 22:45:01:397 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000055	200
+No security definition has been found for the request
+2021-06-12 22:45:05:443 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000056	162
+Historical Market Data Service error message:?��?��?????????��????��?????????SEGR@SMART Trades
+2021-06-12 22:45:05:995 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000057	200
+No security definition has been found for the request
+2021-06-12 22:45:08:162 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000058	200
+No security definition has been found for the request
+2021-06-12 22:45:08:296 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000059	200
+No security definition has been found for the request
+2021-06-12 22:45:08:496 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000060	200
+No security definition has been found for the request
+2021-06-12 22:45:09:680 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000061	200
+No security definition has been found for the request
+2021-06-12 22:45:09:827 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000062	200
+No security definition has been found for the request
+2021-06-12 22:45:10:246 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000063	200
+No security definition has been found for the request
+2021-06-12 22:45:10:502 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000064	200
+No security definition has been found for the request
+2021-06-12 22:45:10:617 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000065	200
+No security definition has been found for the request
+2021-06-12 22:45:11:616 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000066	200
+No security definition has been found for the request
+2021-06-12 22:45:11:759 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000067	200
+No security definition has been found for the request
+2021-06-12 22:45:12:662 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000068	162
+Historical Market Data Service error message:No historical market data for TRKA/STK@VALUE Last 1d
+2021-06-12 22:45:13:038 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000069	200
+No security definition has been found for the request
+2021-06-12 22:45:13:151 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000070	200
+No security definition has been found for the request
+2021-06-12 22:45:14:984 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000071	162
+Historical Market Data Service error message:No historical market data for UROY/STK@VALUE Last 1d
+2021-06-12 22:45:17:481 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000072	200
+No security definition has been found for the request
+2021-06-12 22:45:17:988 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000073	200
+No security definition has been found for the request
+2021-06-12 22:45:19:053 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000074	162
+Historical Market Data Service error message:No historical market data for XFLT PRA/STK@VALUE Last 1d
+2021-06-12 22:45:19:769 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000075	200
+No security definition has been found for the request
+2021-06-12 22:45:19:962 [Thread-4] ERROR com.huanhe_tech.siever.Main - java.net.SocketException: Socket closed
+2021-06-12 22:47:27:320 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000001	162
+Historical Market Data Service error message:No historical market data for AFCG/STK@VALUE Last 1d
+2021-06-12 22:47:29:180 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000002	200
+No security definition has been found for the request
+2021-06-12 22:47:30:628 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000003	200
+No security definition has been found for the request
+2021-06-12 22:47:31:084 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000004	200
+No security definition has been found for the request
+2021-06-12 22:47:31:209 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000005	200
+No security definition has been found for the request
+2021-06-12 22:47:33:974 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000006	162
+Historical Market Data Service error message:No historical market data for BEPH/STK@VALUE Last 1d
+2021-06-12 22:47:35:662 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000007	200
+No security definition has been found for the request
+2021-06-12 22:47:36:101 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000008	200
+No security definition has been found for the request
+2021-06-12 22:47:36:999 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000009	200
+No security definition has been found for the request
+2021-06-12 22:47:37:120 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000010	200
+No security definition has been found for the request
+2021-06-12 22:47:37:819 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000011	200
+No security definition has been found for the request
+2021-06-12 22:47:37:931 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000012	200
+No security definition has been found for the request
+2021-06-12 22:47:39:496 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000013	200
+No security definition has been found for the request
+2021-06-12 22:47:40:006 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000014	200
+No security definition has been found for the request
+2021-06-12 22:47:41:959 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000015	162
+Historical Market Data Service error message:No historical market data for CPUH/STK@VALUE Last 1d
+2021-06-12 22:47:43:142 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000016	200
+No security definition has been found for the request
+2021-06-12 22:47:44:081 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000017	200
+No security definition has been found for the request
+2021-06-12 22:47:45:534 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000018	200
+No security definition has been found for the request
+2021-06-12 22:47:48:134 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000019	162
+Historical Market Data Service error message:No historical market data for ECCW/STK@VALUE Last 1d
+2021-06-12 22:47:51:168 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000020	200
+No security definition has been found for the request
+2021-06-12 22:47:52:870 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000021	200
+No security definition has been found for the request
+2021-06-12 22:47:52:982 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000022	200
+No security definition has been found for the request
+2021-06-12 22:47:54:340 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000023	200
+No security definition has been found for the request
+2021-06-12 22:47:54:764 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000024	200
+No security definition has been found for the request
+2021-06-12 22:47:54:908 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000025	200
+No security definition has been found for the request
+2021-06-12 22:47:55:188 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000026	200
+No security definition has been found for the request
+2021-06-12 22:47:55:893 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000027	162
+Historical Market Data Service error message:No historical market data for GLP PRB/STK@VALUE Last 1d
+2021-06-12 22:47:57:038 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000028	162
+Historical Market Data Service error message:No historical market data for GLSPU/STK@VALUE Last 1d
+2021-06-12 22:47:57:278 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000029	200
+No security definition has been found for the request
+2021-06-12 22:47:58:092 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000030	200
+No security definition has been found for the request
+2021-06-12 22:47:58:818 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000031	200
+No security definition has been found for the request
+2021-06-12 22:48:00:572 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000032	162
+Historical Market Data Service error message:No historical market data for HROWL/STK@VALUE Last 1d
+2021-06-12 22:48:01:388 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000033	162
+Historical Market Data Service error message:No historical market data for HTFB/STK@VALUE Last 1d
+2021-06-12 22:48:03:530 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000034	200
+No security definition has been found for the request
+2021-06-12 22:48:03:642 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000035	200
+No security definition has been found for the request
+2021-06-12 22:48:03:907 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000036	200
+No security definition has been found for the request
+2021-06-12 22:48:04:738 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000037	200
+No security definition has been found for the request
+2021-06-12 22:48:04:846 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000038	200
+No security definition has been found for the request
+2021-06-12 22:48:05:166 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000039	200
+No security definition has been found for the request
+2021-06-12 22:48:05:273 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000040	200
+No security definition has been found for the request
+2021-06-12 22:48:05:916 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000041	162
+Historical Market Data Service error message:No historical market data for JPM PRK/STK@VALUE Last 1d
+2021-06-12 22:48:06:206 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000042	200
+No security definition has been found for the request
+2021-06-12 22:48:06:316 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000043	200
+No security definition has been found for the request
+2021-06-12 22:48:06:670 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000044	200
+No security definition has been found for the request
+2021-06-12 22:48:08:068 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000045	162
+Historical Market Data Service error message:No market data permissions for ARCAEDGE STK
+2021-06-12 22:48:08:533 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000046	200
+No security definition has been found for the request
+2021-06-12 22:48:09:249 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000047	200
+No security definition has been found for the request
+2021-06-12 22:48:31:448 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000048	162
+Historical Market Data Service error message:No historical market data for OCCIO/STK@VALUE Last 1d
+2021-06-12 22:48:32:200 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000049	200
+No security definition has been found for the request
+2021-06-12 22:48:42:614 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000050	162
+Historical Market Data Service error message:No historical market data for PEB PRG/STK@VALUE Last 1d
+2021-06-12 22:48:43:614 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000051	200
+No security definition has been found for the request
+2021-06-12 22:48:44:208 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000052	200
+No security definition has been found for the request
+2021-06-12 22:48:45:038 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000053	162
+Historical Market Data Service error message:No historical market data for PRIF PRH/STK@VALUE Last 1d
+2021-06-12 22:48:45:995 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000054	200
+No security definition has been found for the request
+2021-06-12 22:48:46:108 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000055	200
+No security definition has been found for the request
+2021-06-12 22:49:13:545 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000056	162
+Historical Market Data Service error message:?��?��?????????��????��?????????SEGR@SMART Trades
+2021-06-12 22:49:29:326 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000057	200
+No security definition has been found for the request
+2021-06-12 22:49:31:489 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000058	200
+No security definition has been found for the request
+2021-06-12 22:49:31:599 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000059	200
+No security definition has been found for the request
+2021-06-12 22:49:31:805 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000060	200
+No security definition has been found for the request
+2021-06-12 22:49:33:405 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000061	200
+No security definition has been found for the request
+2021-06-12 22:49:33:556 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000062	200
+No security definition has been found for the request
+2021-06-12 22:49:34:161 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000063	200
+No security definition has been found for the request
+2021-06-12 22:49:34:460 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000064	200
+No security definition has been found for the request
+2021-06-12 22:49:34:576 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000065	200
+No security definition has been found for the request
+2021-06-12 22:49:35:295 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000066	200
+No security definition has been found for the request
+2021-06-12 22:49:35:433 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000067	200
+No security definition has been found for the request
+2021-06-12 22:49:36:297 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000068	162
+Historical Market Data Service error message:No historical market data for TRKA/STK@VALUE Last 1d
+2021-06-12 22:49:36:708 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000069	200
+No security definition has been found for the request
+2021-06-12 22:49:36:826 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000070	200
+No security definition has been found for the request
+2021-06-12 22:49:38:643 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000071	162
+Historical Market Data Service error message:No historical market data for UROY/STK@VALUE Last 1d
+2021-06-12 22:49:46:166 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000072	200
+No security definition has been found for the request
+2021-06-12 22:49:46:665 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000073	200
+No security definition has been found for the request
+2021-06-12 22:49:47:723 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000074	162
+Historical Market Data Service error message:No historical market data for XFLT PRA/STK@VALUE Last 1d
+2021-06-12 22:49:48:438 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000075	200
+No security definition has been found for the request
+2021-06-12 22:50:02:325 [Thread-4] ERROR com.huanhe_tech.siever.Main - java.net.SocketException: Socket closed

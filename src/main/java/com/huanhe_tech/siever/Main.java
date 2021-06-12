@@ -18,7 +18,6 @@ public class Main {
         final int extremeNumber = Integer.parseInt(CliParam.getParam("extremeNumber"));
         final int redundancy = Integer.parseInt(CliParam.getParam("redundancy"));
         final int durationDays = Integer.parseInt(CliParam.getParam("durationDays"));
-
         String nowDateTime = ZonedDateTime.now(ZoneId.of("GMT-4")).format(DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss"));
         LLoger.logger.info("Current Time in New York: {}", nowDateTime);
         String uri = "resources/usa.txt";

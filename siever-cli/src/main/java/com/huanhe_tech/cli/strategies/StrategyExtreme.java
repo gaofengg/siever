@@ -63,28 +63,13 @@ public class StrategyExtreme implements Strategy<List<BeanOfHistData>> {
                 List<BeanOfHistData> mergedBeanOfHistDataList = mergeList(lowsList, highList);
                 // 判断合并后的 list 按照日期规则是否有序
                 boolean orderedByTime = isOrderedByTime(mergedBeanOfHistDataList);
-//                if (orderedByTime && latestExtremeToToDay(latestExtremeFromToday, mergedBeanOfHistDataList)) {
                 if (orderedByTime) {
-
-                    // 求涨跌幅取样方差
-                    double[] quoteChange = list.stream().mapToDouble(item -> item.getHigh() - item.getLow()).toArray();
-                    double quoteChangeVar = new CalcVariance(quoteChange, durationDays).getVarOfVolumeWithLimit();
-                    // 求成交量突破，成交量取样方差
-                    double[] volume = list.stream().mapToDouble(BeanOfHistData::getVolume).toArray();
-                    double volumeBreak = new CalcAvgBreak(volume, durationDays).getOnBreak();
-                    double volumeVar = new CalcVariance(volume, durationDays).getVarOfVolumeWithLimit();
-                    // 求极值方差
-                    double[] lowArray = mergedBeanOfHistDataList.stream().mapToDouble(BeanOfHistData::getLow).toArray();
-                    double[] highArray = mergedBeanOfHistDataList.stream().mapToDouble(BeanOfHistData::getHigh).toArray();
-                    double lowExtremeVariance = new CalcVariance(lowArray).getVarOfVolume();
-                    double highExtremeVariance = new CalcVariance(highArray).getVarOfVolume();
-
                     String orientation = orientate(mergedBeanOfHistDataList);
                     // 如果方向是上涨，则找到最低点离今日两日的标的。
                     if (orientation.equals("UP") &&
                             extremeHeader(lowsList, mergedBeanOfHistDataList).equals("LOW") &&
                             firstBreakthrough(list, mergedBeanOfHistDataList, orientation, redundancy)) { // 【过滤条件太苛刻】
-
+                        CalcVarianceSet cvsUp = new CalcVarianceSet(list, mergedBeanOfHistDataList, durationDays, symbol);
                         LLoger.logger.info("{} -> Orientation: {}", symbol, orientation);
                         mergedBeanOfHistDataList.forEach(item -> LLoger.logger.debug(item.toString()));
 
@@ -92,25 +77,25 @@ public class StrategyExtreme implements Strategy<List<BeanOfHistData>> {
                                 conid,
                                 symbol,
                                 orientation,
-                                DoubleDecimalDigits.transition(2, quoteChangeVar),
-                                DoubleDecimalDigits.transition(2, volumeVar),
-                                DoubleDecimalDigits.transition(2, volumeBreak),
-                                DoubleDecimalDigits.transition(2, highExtremeVariance)
+                                DoubleDecimalDigits.transition(2, cvsUp.getQuoteChangeVar()),
+                                DoubleDecimalDigits.transition(2, cvsUp.getVolumeVar()),
+                                DoubleDecimalDigits.transition(2, cvsUp.getVolumeBreak()),
+                                DoubleDecimalDigits.transition(2, cvsUp.getHighExtremeVariance())
                         ));
                     } else if (orientation.equals("DOWN") &&
                             extremeHeader(lowsList, mergedBeanOfHistDataList).equals("HIGH") &&
                             firstBreakthrough(list, mergedBeanOfHistDataList, orientation, redundancy)) { // 【过滤条件太苛刻】
-
+                        CalcVarianceSet cvsDown = new CalcVarianceSet(list, mergedBeanOfHistDataList, durationDays, symbol);
                         LLoger.logger.info("{} -> Orientation: {}", symbol, orientation);
                         mergedBeanOfHistDataList.forEach(item -> LLoger.logger.debug(item.toString()));
                         InstancePool.getQueueWithExtremeResultBean().put(new BeanOfExtremeResult(nextId(),
                                 conid,
                                 symbol,
                                 orientation,
-                                DoubleDecimalDigits.transition(2, quoteChangeVar),
-                                DoubleDecimalDigits.transition(2, volumeVar),
-                                DoubleDecimalDigits.transition(2, volumeBreak),
-                                DoubleDecimalDigits.transition(2, lowExtremeVariance)
+                                DoubleDecimalDigits.transition(2, cvsDown.getQuoteChangeVar()),
+                                DoubleDecimalDigits.transition(2, cvsDown.getVolumeVar()),
+                                DoubleDecimalDigits.transition(2, cvsDown.getVolumeBreak()),
+                                DoubleDecimalDigits.transition(2, cvsDown.getLowExtremeVariance())
                                 ));
 
                     }
