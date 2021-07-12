@@ -66,11 +66,9 @@ public class StrategyExtreme implements Strategy<List<BeanOfHistData>> {
                 if (orderedByTime) {
                     String orientation = orientate(mergedBeanOfHistDataList);
                     // 如果方向是上涨，则找到最低点离今日 redundancy 天的标的。
-                    System.out.println(orientation.equals("UP"));
                     if (orientation.equals("UP") &&
                             extremeHeader(lowsList, mergedBeanOfHistDataList).equals("LOW") &&
                             firstBreakthrough(list, mergedBeanOfHistDataList, orientation, redundancy)) { // 【过滤条件太苛刻】
-                        System.out.println("YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY");
                         CalcVarianceSet cvsUp = new CalcVarianceSet(list, mergedBeanOfHistDataList, durationDays, symbol);
                         LLoger.logger.info("{} -> Orientation: {}", symbol, orientation);
                         mergedBeanOfHistDataList.forEach(item -> LLoger.logger.debug(item.toString()));
