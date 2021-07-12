@@ -65,10 +65,12 @@ public class StrategyExtreme implements Strategy<List<BeanOfHistData>> {
                 boolean orderedByTime = isOrderedByTime(mergedBeanOfHistDataList);
                 if (orderedByTime) {
                     String orientation = orientate(mergedBeanOfHistDataList);
-                    // 如果方向是上涨，则找到最低点离今日两日的标的。
+                    // 如果方向是上涨，则找到最低点离今日 redundancy 天的标的。
+                    System.out.println(orientation.equals("UP"));
                     if (orientation.equals("UP") &&
                             extremeHeader(lowsList, mergedBeanOfHistDataList).equals("LOW") &&
                             firstBreakthrough(list, mergedBeanOfHistDataList, orientation, redundancy)) { // 【过滤条件太苛刻】
+                        System.out.println("YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY");
                         CalcVarianceSet cvsUp = new CalcVarianceSet(list, mergedBeanOfHistDataList, durationDays, symbol);
                         LLoger.logger.info("{} -> Orientation: {}", symbol, orientation);
                         mergedBeanOfHistDataList.forEach(item -> LLoger.logger.debug(item.toString()));
@@ -80,6 +82,8 @@ public class StrategyExtreme implements Strategy<List<BeanOfHistData>> {
                                 DoubleDecimalDigits.transition(2, cvsUp.getQuoteChangeVar()),
                                 DoubleDecimalDigits.transition(2, cvsUp.getVolumeVar()),
                                 DoubleDecimalDigits.transition(2, cvsUp.getVolumeBreak()),
+                                DoubleDecimalDigits.transition(2, cvsUp.getFirstOrderQuoteChangeVar()),
+                                DoubleDecimalDigits.transition(2, cvsUp.getFirstOrderVolumeVar()),
                                 DoubleDecimalDigits.transition(2, cvsUp.getHighExtremeVariance())
                         ));
                     } else if (orientation.equals("DOWN") &&
@@ -95,6 +99,8 @@ public class StrategyExtreme implements Strategy<List<BeanOfHistData>> {
                                 DoubleDecimalDigits.transition(2, cvsDown.getQuoteChangeVar()),
                                 DoubleDecimalDigits.transition(2, cvsDown.getVolumeVar()),
                                 DoubleDecimalDigits.transition(2, cvsDown.getVolumeBreak()),
+                                DoubleDecimalDigits.transition(2, cvsDown.getFirstOrderQuoteChangeVar()),
+                                DoubleDecimalDigits.transition(2, cvsDown.getFirstOrderVolumeVar()),
                                 DoubleDecimalDigits.transition(2, cvsDown.getLowExtremeVariance())
                                 ));
 
@@ -123,7 +129,7 @@ public class StrategyExtreme implements Strategy<List<BeanOfHistData>> {
         String mergedListLastTime = mergedList.get(0).getTime();
         int latestExtremeIntervalDays = new IntervalDaysCalc().intervalDays(mergedListLastTime);
         if (orientation.equals("DOWN") && list.get(0).getLow() < mergedList.get(0).getLow() && latestExtremeIntervalDays > 0) {
-            int count = 0;
+            int count = 1;
             for (int i = 0; i < latestExtremeIntervalDays - 1; i++) {
                 if (list.get(i + 1).getLow() < mergedList.get(0).getLow()) {
                     if (count >= redundancy) {
@@ -138,7 +144,7 @@ public class StrategyExtreme implements Strategy<List<BeanOfHistData>> {
                 }
             }
         } else if (orientation.equals("UP") && list.get(0).getHigh() > mergedList.get(0).getHigh() && latestExtremeIntervalDays > 0 ) {
-            int count = 0;
+            int count = 1;
             for (int i = 0; i < latestExtremeIntervalDays - 1; i++) {
                 if (list.get(i + 1).getHigh() > mergedList.get(0).getHigh()) {
                     if (count >= redundancy) {
@@ -254,7 +260,7 @@ public class StrategyExtreme implements Strategy<List<BeanOfHistData>> {
     }
 
     public String orientate(List<BeanOfHistData> list) {
-        if (list.get(0).getLow() > list.get(list.size() - 1).getLow()) {
+        if (list.get(0).getLow() > list.get(list.size() - 2).getLow()) {
             return "UP";
         } else {
             return "DOWN";

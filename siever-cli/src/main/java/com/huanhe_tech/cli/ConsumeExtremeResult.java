@@ -37,6 +37,8 @@ public class ConsumeExtremeResult {
                     "quote_change_var real," +
                     "volume_var real," +
                     "volume_break real," +
+                    "first_order_quote_change_var real," +
+                    "first_oder_volume_var real," +
                     "extreme_var real," +
                     "market_cap NUMERIC," +
                     "url text)";
@@ -50,9 +52,11 @@ public class ConsumeExtremeResult {
                     "quote_change_var , " +
                     "volume_var, " +
                     "volume_break, " +
+                    "first_order_quote_change_var, " +
+                    "first_oder_volume_var, " +
                     "extreme_var, " +
                     "market_cap," +
-                    " url) values(?, ?, ?, ?, ?, ?, ?, ?, ?)";
+                    " url) values(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
 
             ScalarHandler<Integer> shResult = new ScalarHandler<>();
             int resultTableExistsCount = qr.query(conn, sql_find_result_tbl, shResult);
@@ -70,6 +74,7 @@ public class ConsumeExtremeResult {
         while (true) {
             BeanOfExtremeResult beanOfExtremeResult = InstancePool.getQueueWithExtremeResultBean().take();
             if (beanOfExtremeResult.getSymbol().equals("#EOF")) break;
+            // 通过爬虫获取 yahoo finance 的股票市值，并拼接股票行情预览的 URL
             String yahooFormatSymbol = beanOfExtremeResult.getSymbol();
             String tradingViewSymbol = beanOfExtremeResult.getSymbol();
             if (beanOfExtremeResult.getSymbol().contains(" ")) {
@@ -79,6 +84,7 @@ public class ConsumeExtremeResult {
             CrawlerExecutor crawlerExecutor = new CrawlerExecutor(yahooFormatSymbol, tradingViewSymbol).execute();
             BigDecimal marketCap = new MarketCapStrToDecimal(crawlerExecutor.getMarketCap()).translate();
             String url = crawlerExecutor.getUrl();
+
             try {
                 qr.update(conn, sql_insert_result,
                         beanOfExtremeResult.getConid(),
@@ -87,6 +93,8 @@ public class ConsumeExtremeResult {
                         beanOfExtremeResult.getQuoteChangeVariance(),
                         beanOfExtremeResult.getVolumeVariance(),
                         beanOfExtremeResult.getVolumeBreak(),
+                        beanOfExtremeResult.getFirstOrderQuoteChangeVar(),
+                        beanOfExtremeResult.getFirstOrderVolumeVar(),
                         beanOfExtremeResult.getExtremeVariance(),
                         marketCap,
                         url);

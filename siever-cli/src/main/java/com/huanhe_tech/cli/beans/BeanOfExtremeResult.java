@@ -8,6 +8,8 @@ public class BeanOfExtremeResult {
     private double quoteChangeVariance;
     private double volumeVariance;
     private double volumeBreak;
+    private double firstOrderQuoteChangeVar;
+    private double firstOrderVolumeVar;
     private double extremeVariance;
 
     /**
@@ -24,7 +26,16 @@ public class BeanOfExtremeResult {
      *                        如果标的上涨，应该使用高点的数组求极值取样方差
      *                        反之亦然
      */
-    public BeanOfExtremeResult(int id, long conid, String symbol, String orientation, double quoteChangeVariance, double volumeVariance, double volumeBreak, double extremeVariance) {
+    public BeanOfExtremeResult(int id,
+                               long conid,
+                               String symbol,
+                               String orientation,
+                               double quoteChangeVariance,
+                               double volumeVariance,
+                               double volumeBreak,
+                               double firstOrderQuoteChangeVar,
+                               double firstOrderVolumeVar,
+                               double extremeVariance) {
         this.id = id;
         this.conid = conid;
         this.symbol = symbol;
@@ -32,6 +43,8 @@ public class BeanOfExtremeResult {
         this.quoteChangeVariance = quoteChangeVariance;
         this.volumeVariance = volumeVariance;
         this.volumeBreak = volumeBreak;
+        this.firstOrderQuoteChangeVar = firstOrderQuoteChangeVar;
+        this.firstOrderVolumeVar = firstOrderVolumeVar;
         this.extremeVariance = extremeVariance;
     }
 
@@ -91,6 +104,22 @@ public class BeanOfExtremeResult {
         this.volumeBreak = volumeBreak;
     }
 
+    public double getFirstOrderQuoteChangeVar() {
+        return firstOrderQuoteChangeVar;
+    }
+
+    public void setFirstOrderQuoteChangeVar(double firstOrderQuoteChangeVar) {
+        this.firstOrderQuoteChangeVar = firstOrderQuoteChangeVar;
+    }
+
+    public double getFirstOrderVolumeVar() {
+        return firstOrderVolumeVar;
+    }
+
+    public void setFirstOrderVolumeVar(double firstOrderVolumeVar) {
+        this.firstOrderVolumeVar = firstOrderVolumeVar;
+    }
+
     public double getExtremeVariance() {
         return extremeVariance;
     }
@@ -106,9 +135,12 @@ public class BeanOfExtremeResult {
                 ", conid=" + conid +
                 ", symbol='" + symbol + '\'' +
                 ", orientation='" + orientation + '\'' +
-                ", high_ave=" + quoteChangeVariance +
-                ", low_ave=" + volumeVariance +
-                ", ad=" + volumeBreak +
+                ", quoteChangeVariance=" + quoteChangeVariance +
+                ", volumeVariance=" + volumeVariance +
+                ", volumeBreak=" + volumeBreak +
+                ", firstOrderQuoteChangeVar=" + firstOrderQuoteChangeVar +
+                ", firstOrderVolumeVar=" + firstOrderVolumeVar +
+                ", extremeVariance=" + extremeVariance +
                 '}';
     }
 }

@@ -39,6 +39,8 @@ public class StrategyApply {
                             0.0,
                             0.0,
                             0.0,
+                            0.0,
+                            0.0,
                             0.0
                     ));
                     while (true) {

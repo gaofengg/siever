@@ -18,12 +18,12 @@ public class CalcVariance {
         this.array = array;
     }
 
-    public double getVarOfVolumeWithLimit() {
+    public double getVarWithLimit() {
         DoubleStream limit = Arrays.stream(array).limit(durationDays);
         double[] doubles = limit.toArray();
         return new Variance().evaluate(doubles);
     }
-    public double getVarOfVolume() {
+    public double getVar() {
         return new Variance().evaluate(array);
     }
 }
