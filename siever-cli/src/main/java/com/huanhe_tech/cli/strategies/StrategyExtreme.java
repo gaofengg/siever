@@ -22,10 +22,11 @@ import java.util.*;
 
 public class StrategyExtreme implements Strategy<List<BeanOfHistData>> {
     private int extremeNumbers = 3;
-    private int pileNumbers = 2;
-    private int redundancy = 0;
+    private int pileNumbers = 5;
+    private int redundancy = 2;
     private int durationDays = 30;
     private int id = 0;
+    private int extremeDurationDays = 1;
 
     public StrategyExtreme() {
     }
@@ -35,11 +36,12 @@ public class StrategyExtreme implements Strategy<List<BeanOfHistData>> {
      *                       桩值：计算 low 极值时，两边的桩值必须大于 low 极值，计算 high 极值反之
      * @param extremeNumbers 极值数列里最多保存的极值对象数量
      */
-    public StrategyExtreme(int pileNumbers, int extremeNumbers, int redundancy, int durationDays) {
+    public StrategyExtreme(int pileNumbers, int extremeNumbers, int redundancy, int durationDays, int extremeDurationDays) {
         this.pileNumbers = pileNumbers;
         this.extremeNumbers = extremeNumbers;
         this.redundancy = redundancy;
         this.durationDays = durationDays;
+        this.extremeDurationDays = extremeDurationDays;
     }
 
     @Override
@@ -63,7 +65,9 @@ public class StrategyExtreme implements Strategy<List<BeanOfHistData>> {
                 List<BeanOfHistData> mergedBeanOfHistDataList = mergeList(lowsList, highList);
                 // 判断合并后的 list 按照日期规则是否有序
                 boolean orderedByTime = isOrderedByTime(mergedBeanOfHistDataList);
-                if (orderedByTime) {
+                // 判断合并后的 list 极值之间的最小间隔是否符合要求
+                boolean isFullDuration = new CalcExtremesDurationDays(mergedBeanOfHistDataList, extremeDurationDays).isFullDuration();
+                if (orderedByTime && isFullDuration) {
                     String orientation = orientate(mergedBeanOfHistDataList);
                     // 如果方向是上涨，则找到最低点离今日 redundancy 天的标的。
                     if (orientation.equals("UP") &&

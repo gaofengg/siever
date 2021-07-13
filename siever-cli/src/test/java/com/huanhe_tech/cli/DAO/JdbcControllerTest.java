@@ -341,4 +341,18 @@ class JdbcControllerTest {
 
         list.forEach(System.out::println);
     }
+
+    @Test
+    void test32() {
+        List<String> list = Arrays.asList("2021-07-08 00:00:00", "2021-06-21 00:00:00");
+        List<ZonedDateTime> zdt = new ArrayList<>();
+        for(String str : list) {
+            ZonedDateTime z = StrToZonedDateTime.newYork(str);
+            zdt.add(z);
+        }
+        for (int i = 1; i < zdt.size(); i++) {
+            long between = Duration.between(zdt.get(i - 1), zdt.get(i)).abs().toDays();
+            System.out.println(between);
+        }
+    }
 }
