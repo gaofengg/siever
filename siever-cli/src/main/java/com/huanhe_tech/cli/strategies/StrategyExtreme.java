@@ -27,6 +27,7 @@ public class StrategyExtreme implements Strategy<List<BeanOfHistData>> {
     private int durationDays = 30;
     private int id = 0;
     private int extremeDurationDays = 1;
+    private int openToEndpointPercent = 100;
 
     public StrategyExtreme() {
     }
@@ -36,12 +37,13 @@ public class StrategyExtreme implements Strategy<List<BeanOfHistData>> {
      *                       桩值：计算 low 极值时，两边的桩值必须大于 low 极值，计算 high 极值反之
      * @param extremeNumbers 极值数列里最多保存的极值对象数量
      */
-    public StrategyExtreme(int pileNumbers, int extremeNumbers, int redundancy, int durationDays, int extremeDurationDays) {
+    public StrategyExtreme(int pileNumbers, int extremeNumbers, int redundancy, int durationDays, int extremeDurationDays, int openToEndpointPercent) {
         this.pileNumbers = pileNumbers;
         this.extremeNumbers = extremeNumbers;
         this.redundancy = redundancy;
         this.durationDays = durationDays;
         this.extremeDurationDays = extremeDurationDays;
+        this.openToEndpointPercent = openToEndpointPercent;
     }
 
     @Override
@@ -68,11 +70,14 @@ public class StrategyExtreme implements Strategy<List<BeanOfHistData>> {
                 // 判断合并后的 list 极值之间的最小间隔是否符合要求
                 boolean isFullDuration = new CalcExtremesDurationDays(mergedBeanOfHistDataList, extremeDurationDays).isFullDuration();
                 if (orderedByTime && isFullDuration) {
+                    FilterOpenToEndpoint filterOpenToEndpoint = new FilterOpenToEndpoint(list, redundancy, openToEndpointPercent);
                     String orientation = orientate(mergedBeanOfHistDataList);
                     // 如果方向是上涨，则找到最低点离今日 redundancy 天的标的。
                     if (orientation.equals("UP") &&
                             extremeHeader(lowsList, mergedBeanOfHistDataList).equals("LOW") &&
-                            firstBreakthrough(list, mergedBeanOfHistDataList, orientation, redundancy)) { // 【过滤条件太苛刻】
+                            firstBreakthrough(list, mergedBeanOfHistDataList, orientation, redundancy) &&
+                            filterOpenToEndpoint.whenUp()
+                    ) { // 【过滤条件太苛刻】
                         CalcVarianceSet cvsUp = new CalcVarianceSet(list, mergedBeanOfHistDataList, durationDays, symbol);
                         LLoger.logger.info("{} -> Orientation: {}", symbol, orientation);
                         mergedBeanOfHistDataList.forEach(item -> LLoger.logger.debug(item.toString()));
@@ -90,7 +95,9 @@ public class StrategyExtreme implements Strategy<List<BeanOfHistData>> {
                         ));
                     } else if (orientation.equals("DOWN") &&
                             extremeHeader(lowsList, mergedBeanOfHistDataList).equals("HIGH") &&
-                            firstBreakthrough(list, mergedBeanOfHistDataList, orientation, redundancy)) { // 【过滤条件太苛刻】
+                            firstBreakthrough(list, mergedBeanOfHistDataList, orientation, redundancy) &&
+                            filterOpenToEndpoint.whenDown()
+                    ) { // 【过滤条件太苛刻】
                         CalcVarianceSet cvsDown = new CalcVarianceSet(list, mergedBeanOfHistDataList, durationDays, symbol);
                         LLoger.logger.info("{} -> Orientation: {}", symbol, orientation);
                         mergedBeanOfHistDataList.forEach(item -> LLoger.logger.debug(item.toString()));
@@ -130,38 +137,39 @@ public class StrategyExtreme implements Strategy<List<BeanOfHistData>> {
         boolean flag = false;
         String mergedListLastTime = mergedList.get(0).getTime();
         int latestExtremeIntervalDays = new IntervalDaysCalc().intervalDays(mergedListLastTime);
-        if (orientation.equals("DOWN") && list.get(0).getLow() < mergedList.get(0).getLow() && latestExtremeIntervalDays > 0) {
-            int count = 1;
-            for (int i = 0; i < latestExtremeIntervalDays - 1; i++) {
-                if (list.get(i + 1).getLow() < mergedList.get(0).getLow()) {
-                    if (count >= redundancy) {
-                        flag = false;
-                        break;
-                    } else {
-                        flag = true;
-                    }
-                    count ++;
-                } else {
-                    flag = true;
-                }
-            }
-        } else if (orientation.equals("UP") && list.get(0).getHigh() > mergedList.get(0).getHigh() && latestExtremeIntervalDays > 0 ) {
-            int count = 1;
-            for (int i = 0; i < latestExtremeIntervalDays - 1; i++) {
-                if (list.get(i + 1).getHigh() > mergedList.get(0).getHigh()) {
-                    if (count >= redundancy) {
-                        flag = false;
-                        break;
-                    } else {
-                        flag = true;
-                    }
-                    count ++;
-                } else {
-                    flag =true;
-                }
-            }
-        }
-        return flag;
+        return latestExtremeIntervalDays <= redundancy && latestExtremeIntervalDays >= 1;
+//        if (orientation.equals("DOWN") && list.get(0).getLow() < mergedList.get(0).getLow() && latestExtremeIntervalDays > 0) {
+//            int count = 1;
+//            for (int i = 1; i < latestExtremeIntervalDays; i++) {
+//                if (list.get(i - 1).getLow() < mergedList.get(0).getLow()) {
+//                    if (count >= redundancy) {
+//                        flag = false;
+//                        break;
+//                    } else {
+//                        flag = true;
+//                    }
+//                    count ++;
+//                } else {
+//                    flag = true;
+//                }
+//            }
+//        } else if (orientation.equals("UP") && list.get(0).getHigh() > mergedList.get(0).getHigh() && latestExtremeIntervalDays > 0 ) {
+//            int count = 1;
+//            for (int i = 1; i < latestExtremeIntervalDays; i++) {
+//                if (list.get(i - 1).getHigh() > mergedList.get(0).getHigh()) {
+//                    if (count >= redundancy) {
+//                        flag = false;
+//                        break;
+//                    } else {
+//                        flag = true;
+//                    }
+//                    count ++;
+//                } else {
+//                    flag =true;
+//                }
+//            }
+//        }
+//        return flag;
     }
 
     /**

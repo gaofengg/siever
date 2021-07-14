@@ -271,7 +271,7 @@ class JdbcControllerTest {
         String str = "DLNG PRA";
         String str1 = str.replace(" ", "_");
         String str11 = str1.substring(0, str1.length() - 2);
-        String str12 = str1.substring(str1.length() - 2, str1.length() -1);
+        String str12 = str1.substring(str1.length() - 2, str1.length() - 1);
         String str13 = str11.concat(str12);
         System.out.println(str13);
 
@@ -346,7 +346,7 @@ class JdbcControllerTest {
     void test32() {
         List<String> list = Arrays.asList("2021-07-08 00:00:00", "2021-06-21 00:00:00");
         List<ZonedDateTime> zdt = new ArrayList<>();
-        for(String str : list) {
+        for (String str : list) {
             ZonedDateTime z = StrToZonedDateTime.newYork(str);
             zdt.add(z);
         }
@@ -355,4 +355,17 @@ class JdbcControllerTest {
             System.out.println(between);
         }
     }
+
+    @Test
+    void test33() {
+        System.out.println(test34());
+    }
+
+
+    boolean test34() {
+        List<Integer> list = Arrays.asList(3, 5, 1, 6, 9);
+        list.stream().limit(2).forEach(System.out::println);
+        return list.stream().noneMatch(l -> l % 2 == 0);
+    }
+
 }

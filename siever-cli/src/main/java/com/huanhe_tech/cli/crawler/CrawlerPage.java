@@ -6,8 +6,8 @@ import us.codecraft.webmagic.processor.PageProcessor;
 
 public class CrawlerPage implements PageProcessor {
     private final Site site = Site.me()
-            .setRetryTimes(2)
-            .setSleepTime(3000)
+            .setRetryTimes(3)
+            .setSleepTime(1000)
             .setUserAgent("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36");
     private String marketCap;
 

@@ -19,6 +19,8 @@ public class Main {
         final int redundancy = Integer.parseInt(CliParam.getParam("redundancy"));
         final int durationDays = Integer.parseInt(CliParam.getParam("durationDays"));
         final int extremeDurationDays = Integer.parseInt(CliParam.getParam("extremeDurationDays"));
+        final int openToEndpointPercent = Integer.parseInt(CliParam.getParam("openToEndpointPercent"));
+
         String nowDateTime = ZonedDateTime.now(ZoneId.of("GMT-4")).format(DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss"));
         LLoger.logger.info("Current Time in New York: {}", nowDateTime);
         String uri = "resources/usa.txt";
@@ -38,14 +40,14 @@ public class Main {
                 e.printStackTrace();
             }
 
-            new Thread(() -> new ProduceHistDataBeanToQueue(new StrategyExtreme(pileNumber, extremeNumber, redundancy, durationDays, extremeDurationDays))).start();
-            new Thread(() -> new StrategyApply().getHistDataAndStrategyApply(new StrategyExtreme(pileNumber, extremeNumber, redundancy, durationDays, extremeDurationDays))).start();
+            new Thread(() -> new ProduceHistDataBeanToQueue(new StrategyExtreme(pileNumber, extremeNumber, redundancy, durationDays, extremeDurationDays, openToEndpointPercent))).start();
+            new Thread(() -> new StrategyApply().getHistDataAndStrategyApply(new StrategyExtreme(pileNumber, extremeNumber, redundancy, durationDays, extremeDurationDays, openToEndpointPercent))).start();
             new Thread(ConsumeExtremeResult::new).start();
             // 查表 symbols_list_tbl，请求历史数据，put 到 QueueWithHistDataBean
             // 从 QueueWithHistDataBean 队列 take HistDataBean 创表或更新数据，并计算
         } else if (SymbolsSourceHandler.needUpdate(uri) == 0) {
-            new Thread(() -> new ProduceHistDataBeanToQueue(new StrategyExtreme(pileNumber, extremeNumber, redundancy, durationDays, extremeDurationDays))).start();
-            new Thread(() -> new StrategyApply().getHistDataAndStrategyApply(new StrategyExtreme(pileNumber, extremeNumber, redundancy, durationDays, extremeDurationDays))).start();
+            new Thread(() -> new ProduceHistDataBeanToQueue(new StrategyExtreme(pileNumber, extremeNumber, redundancy, durationDays, extremeDurationDays, openToEndpointPercent))).start();
+            new Thread(() -> new StrategyApply().getHistDataAndStrategyApply(new StrategyExtreme(pileNumber, extremeNumber, redundancy, durationDays, extremeDurationDays, openToEndpointPercent))).start();
             new Thread(ConsumeExtremeResult::new).start();
         } else {
             LLoger.logger.error("You seem to be using expired symbol source data, please update it to " + uri + ".");
