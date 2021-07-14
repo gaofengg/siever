@@ -99,3 +99,67 @@
 2021-07-14 16:44:03:515 [Thread-0] INFO  com.huanhe_tech.siever.Main - AFIN -> Orientation: UP
 2021-07-14 16:44:03:738 [Thread-0] INFO  com.huanhe_tech.siever.Main - AGL -> Orientation: UP
 2021-07-14 16:51:39:365 [main] INFO  com.huanhe_tech.siever.Main - Current Time in New York: 2021-07-14 04:51:39
+2021-07-14 20:48:56:839 [main] INFO  com.huanhe_tech.siever.Main - Current Time in New York: 2021-07-14 08:48:56
+2021-07-14 20:49:01:590 [Thread-5] INFO  com.huanhe_tech.siever.Main - Acount List: 
+2021-07-14 20:49:01:592 [Thread-5] INFO  com.huanhe_tech.siever.Main - U8978970
+2021-07-14 20:49:22:736 [main] INFO  com.huanhe_tech.siever.Main - Current Time in New York: 2021-07-14 08:49:22
+2021-07-14 20:49:27:191 [Thread-5] INFO  com.huanhe_tech.siever.Main - Acount List: 
+2021-07-14 20:49:27:192 [Thread-5] INFO  com.huanhe_tech.siever.Main - U8978970
+2021-07-14 20:50:02:397 [main] INFO  com.huanhe_tech.siever.Main - Current Time in New York: 2021-07-14 08:50:02
+2021-07-14 20:50:06:935 [Thread-5] INFO  com.huanhe_tech.siever.Main - Acount List: 
+2021-07-14 20:50:06:937 [Thread-5] INFO  com.huanhe_tech.siever.Main - U8978970
+2021-07-14 20:50:34:434 [main] INFO  com.huanhe_tech.siever.Main - Current Time in New York: 2021-07-14 08:50:34
+2021-07-14 20:50:38:943 [Thread-5] INFO  com.huanhe_tech.siever.Main - Acount List: 
+2021-07-14 20:50:38:944 [Thread-5] INFO  com.huanhe_tech.siever.Main - U8978970
+2021-07-14 20:50:58:976 [main] INFO  com.huanhe_tech.siever.Main - Current Time in New York: 2021-07-14 08:50:58
+2021-07-14 20:51:03:383 [Thread-5] INFO  com.huanhe_tech.siever.Main - Acount List: 
+2021-07-14 20:51:03:385 [Thread-5] INFO  com.huanhe_tech.siever.Main - U8978970
+2021-07-14 20:51:19:682 [main] INFO  com.huanhe_tech.siever.Main - Current Time in New York: 2021-07-14 08:51:19
+2021-07-14 20:51:24:050 [Thread-5] INFO  com.huanhe_tech.siever.Main - Acount List: 
+2021-07-14 20:51:24:052 [Thread-5] INFO  com.huanhe_tech.siever.Main - U8978970
+2021-07-14 20:51:26:087 [Thread-0] INFO  com.huanhe_tech.siever.Main - AEIS -> Orientation: UP
+2021-07-14 20:51:26:228 [Thread-0] INFO  com.huanhe_tech.siever.Main - AEO -> Orientation: UP
+2021-07-14 20:51:26:301 [Thread-0] INFO  com.huanhe_tech.siever.Main - AERI -> Orientation: UP
+2021-07-14 20:51:26:519 [Thread-0] INFO  com.huanhe_tech.siever.Main - AFIN -> Orientation: UP
+2021-07-14 20:51:26:764 [Thread-0] INFO  com.huanhe_tech.siever.Main - AGL -> Orientation: UP
+2021-07-14 20:52:57:890 [main] INFO  com.huanhe_tech.siever.Main - Current Time in New York: 2021-07-14 08:52:57
+2021-07-14 20:53:02:302 [Thread-5] INFO  com.huanhe_tech.siever.Main - Acount List: 
+2021-07-14 20:53:02:304 [Thread-5] INFO  com.huanhe_tech.siever.Main - U8978970
+2021-07-14 20:53:04:742 [Thread-0] INFO  com.huanhe_tech.siever.Main - AFIN -> Orientation: UP
+2021-07-14 20:53:05:089 [Thread-0] INFO  com.huanhe_tech.siever.Main - AGL -> Orientation: UP
+2021-07-14 20:53:52:999 [main] INFO  com.huanhe_tech.siever.Main - Current Time in New York: 2021-07-14 08:53:52
+2021-07-14 20:53:58:011 [Thread-5] INFO  com.huanhe_tech.siever.Main - Acount List: 
+2021-07-14 20:53:58:013 [Thread-5] INFO  com.huanhe_tech.siever.Main - U8978970
+2021-07-14 20:54:00:962 [Thread-0] INFO  com.huanhe_tech.siever.Main - AGL -> Orientation: UP
+2021-07-14 20:54:26:043 [main] INFO  com.huanhe_tech.siever.Main - Current Time in New York: 2021-07-14 08:54:25
+2021-07-14 20:54:30:540 [Thread-5] INFO  com.huanhe_tech.siever.Main - Acount List: 
+2021-07-14 20:54:30:542 [Thread-5] INFO  com.huanhe_tech.siever.Main - U8978970
+2021-07-14 20:54:33:502 [Thread-0] INFO  com.huanhe_tech.siever.Main - AGL -> Orientation: UP
+2021-07-14 20:55:01:544 [main] INFO  com.huanhe_tech.siever.Main - Current Time in New York: 2021-07-14 08:55:01
+2021-07-14 20:55:06:589 [Thread-5] INFO  com.huanhe_tech.siever.Main - Acount List: 
+2021-07-14 20:55:06:591 [Thread-5] INFO  com.huanhe_tech.siever.Main - U8978970
+2021-07-14 20:55:09:955 [Thread-0] INFO  com.huanhe_tech.siever.Main - AGL -> Orientation: UP
+2021-07-14 20:55:50:665 [main] INFO  com.huanhe_tech.siever.Main - Current Time in New York: 2021-07-14 08:55:50
+2021-07-14 20:55:54:984 [Thread-5] INFO  com.huanhe_tech.siever.Main - Acount List: 
+2021-07-14 20:55:54:986 [Thread-5] INFO  com.huanhe_tech.siever.Main - U8978970
+2021-07-14 20:58:41:315 [main] INFO  com.huanhe_tech.siever.Main - Current Time in New York: 2021-07-14 08:58:40
+2021-07-14 20:59:15:102 [main] INFO  com.huanhe_tech.siever.Main - Current Time in New York: 2021-07-14 08:59:14
+2021-07-14 20:59:17:719 [Thread-0] INFO  com.huanhe_tech.siever.Main - AGL -> Orientation: UP
+2021-07-14 21:04:27:519 [main] INFO  com.huanhe_tech.siever.Main - Current Time in New York: 2021-07-14 09:04:27
+2021-07-14 21:04:29:980 [Thread-0] INFO  com.huanhe_tech.siever.Main - AGL -> Orientation: UP
+2021-07-14 21:05:55:511 [main] INFO  com.huanhe_tech.siever.Main - Current Time in New York: 2021-07-14 09:05:55
+2021-07-14 21:05:57:841 [Thread-0] INFO  com.huanhe_tech.siever.Main - AGL -> Orientation: UP
+2021-07-14 21:06:12:956 [main] INFO  com.huanhe_tech.siever.Main - Current Time in New York: 2021-07-14 09:06:12
+2021-07-14 21:23:52:129 [main] INFO  com.huanhe_tech.siever.Main - Current Time in New York: 2021-07-14 09:23:51
+2021-07-14 21:23:54:496 [Thread-0] INFO  com.huanhe_tech.siever.Main - AGL -> Orientation: UP
+2021-07-14 21:24:17:115 [main] INFO  com.huanhe_tech.siever.Main - Current Time in New York: 2021-07-14 09:24:16
+2021-07-14 21:24:19:451 [Thread-0] INFO  com.huanhe_tech.siever.Main - AGL -> Orientation: UP
+2021-07-14 21:24:34:289 [main] INFO  com.huanhe_tech.siever.Main - Current Time in New York: 2021-07-14 09:24:34
+2021-07-14 21:24:36:602 [Thread-0] INFO  com.huanhe_tech.siever.Main - AGL -> Orientation: UP
+2021-07-14 21:24:54:348 [main] INFO  com.huanhe_tech.siever.Main - Current Time in New York: 2021-07-14 09:24:54
+2021-07-14 21:24:56:450 [Thread-0] INFO  com.huanhe_tech.siever.Main - AFIN -> Orientation: UP
+2021-07-14 21:24:56:836 [Thread-0] INFO  com.huanhe_tech.siever.Main - AGL -> Orientation: UP
+2021-07-14 21:42:59:463 [main] INFO  com.huanhe_tech.siever.Main - Current Time in New York: 2021-07-14 09:42:59
+2021-07-14 21:43:01:951 [Thread-0] INFO  com.huanhe_tech.siever.Main - AGL -> Orientation: UP
+2021-07-14 21:43:29:970 [main] INFO  com.huanhe_tech.siever.Main - Current Time in New York: 2021-07-14 09:43:29
+2021-07-14 21:43:32:413 [Thread-0] INFO  com.huanhe_tech.siever.Main - AGL -> Orientation: UP

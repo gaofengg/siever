@@ -364,7 +364,7 @@ class JdbcControllerTest {
 
     boolean test34() {
         List<Integer> list = Arrays.asList(3, 5, 1, 6, 9);
-        list.stream().limit(2).forEach(System.out::println);
+        list.stream().limit(10).forEach(System.out::println);
         return list.stream().noneMatch(l -> l % 2 == 0);
     }
 

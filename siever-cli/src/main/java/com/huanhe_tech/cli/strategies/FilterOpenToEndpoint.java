@@ -1,6 +1,7 @@
 package com.huanhe_tech.cli.strategies;
 
 import com.huanhe_tech.cli.beans.BeanOfHistData;
+import com.huanhe_tech.siever.utils.IntervalDaysCalc;
 
 import java.util.List;
 
@@ -29,31 +30,32 @@ import java.util.List;
  */
 public class FilterOpenToEndpoint {
     private final List<BeanOfHistData> list;
-    private final int redundancy;
     private final double openToEndpointPercent;
+    private final int latestExtremeIntervalDays;
 
-    public FilterOpenToEndpoint(List<BeanOfHistData> list, int redundancy, double openToEndpointPercent) {
+    public FilterOpenToEndpoint(List<BeanOfHistData> list, List<BeanOfHistData> mergedList, double openToEndpointPercent) {
         this.list = list;
-        this.redundancy = redundancy;
         this.openToEndpointPercent = openToEndpointPercent;
+        String mergedListLastTime = mergedList.get(0).getTime();
+        latestExtremeIntervalDays = new IntervalDaysCalc().intervalDays(mergedListLastTime);
     }
     // 开盘价 list
 
     public boolean whenUp() {
-        if (list.stream().limit(redundancy).anyMatch(l -> l.getLow() == l.getHigh())) {
+        if (list.stream().limit(latestExtremeIntervalDays).anyMatch(l -> l.getLow() == l.getHigh())) {
             return false;
         } else {
-            return list.stream().limit(redundancy).allMatch(l ->
-                    (l.getOpen() - l.getLow()) / (l.getHigh() - l.getLow()) < (openToEndpointPercent / 100)
+            return list.stream().limit(latestExtremeIntervalDays).noneMatch(l ->
+                    (l.getOpen() - l.getLow()) / (l.getHigh() - l.getLow()) > (openToEndpointPercent / 100)
             );
         }
     }
 
     public boolean whenDown() {
-        if (list.stream().limit(redundancy).anyMatch(l -> l.getLow() == l.getHigh())) {
+        if (list.stream().limit(latestExtremeIntervalDays).anyMatch(l -> l.getLow() == l.getHigh())) {
             return false;
         } else {
-            return list.stream().limit(redundancy).allMatch(l ->
+            return list.stream().limit(latestExtremeIntervalDays).allMatch(l ->
                     (l.getHigh() - l.getOpen()) / (l.getHigh() - l.getLow()) < (openToEndpointPercent / 100)
             );
         }

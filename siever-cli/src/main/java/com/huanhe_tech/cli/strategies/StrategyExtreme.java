@@ -70,7 +70,7 @@ public class StrategyExtreme implements Strategy<List<BeanOfHistData>> {
                 // 判断合并后的 list 极值之间的最小间隔是否符合要求
                 boolean isFullDuration = new CalcExtremesDurationDays(mergedBeanOfHistDataList, extremeDurationDays).isFullDuration();
                 if (orderedByTime && isFullDuration) {
-                    FilterOpenToEndpoint filterOpenToEndpoint = new FilterOpenToEndpoint(list, redundancy, openToEndpointPercent);
+                    FilterOpenToEndpoint filterOpenToEndpoint = new FilterOpenToEndpoint(list, mergedBeanOfHistDataList, openToEndpointPercent);
                     String orientation = orientate(mergedBeanOfHistDataList);
                     // 如果方向是上涨，则找到最低点离今日 redundancy 天的标的。
                     if (orientation.equals("UP") &&
