@@ -13,12 +13,12 @@ public class IPipeline implements Pipeline {
 
     @Override
     public void process(ResultItems resultItems, Task task) {
-//        LLoger.logger.debug("https://finance.yahoo.com/chart/" + symbol);
-        LLoger.logger.debug("https://cn.tradingview.com/chart/tVzs7KrQ/?symbol=" + symbol);
+        LLoger.logger.debug("https://finance.yahoo.com/chart/" + symbol);
+//        LLoger.logger.debug("https://cn.tradingview.com/chart/tVzs7KrQ/?symbol=" + symbol);
     }
 
     public String getUrl() {
-//        return "https://finance.yahoo.com/chart/" + symbol;
-        return "https://cn.tradingview.com/chart/tVzs7KrQ/?symbol=" + symbol;
+        return "https://finance.yahoo.com/chart/" + symbol;
+//        return "https://cn.tradingview.com/chart/tVzs7KrQ/?symbol=" + symbol;
     }
 }

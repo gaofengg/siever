@@ -12,7 +12,7 @@ public class CrawlerExecutor {
         this.symbol1 = symbol1;
         this.symbol2 = symbol2;
         crawlerPage = new CrawlerPage();
-        iPipeline = new IPipeline(symbol2);
+        iPipeline = new IPipeline(symbol1);
     }
 
     public CrawlerExecutor execute() {

@@ -111,7 +111,7 @@ public class StrategyExtreme implements Strategy<List<BeanOfHistData>> {
                                 DoubleDecimalDigits.transition(2, cvsDown.getFirstOrderQuoteChangeVar()),
                                 DoubleDecimalDigits.transition(2, cvsDown.getFirstOrderVolumeVar()),
                                 DoubleDecimalDigits.transition(2, cvsDown.getLowExtremeVariance())
-                                ));
+                        ));
 
                     }
                 }
@@ -127,18 +127,39 @@ public class StrategyExtreme implements Strategy<List<BeanOfHistData>> {
      * 第一次出现突破标识日为最近一个交易日
      * 当 orientation 为 DOWN 时，最近一个交易日的低点第一次小于近期高点的最低点（突破日），反之亦然
      * 【过滤条件太苛刻，不容易找到结果，应适当增加 redundancy 冗余值】
-     * @param list 按照日期倒序排序的原始 list
-     * @param mergedList 合并后的 list
+     *
+     * @param list        按照日期倒序排序的原始 list
+     * @param mergedList  合并后的 list
      * @param orientation 趋势方向
-     * @param redundancy 可冗余的条件，即最近一个交易日前允许存在几个突破日
+     * @param redundancy  可冗余的条件，即最近一个交易日前允许存在几个突破日
      * @return 返回
      */
     public boolean firstBreakthrough(List<BeanOfHistData> list, List<BeanOfHistData> mergedList, String orientation, int redundancy) {
         boolean flag = false;
         String mergedListLastTime = mergedList.get(0).getTime();
         int latestExtremeIntervalDays = new IntervalDaysCalc().intervalDays(mergedListLastTime);
-        return latestExtremeIntervalDays <= redundancy && latestExtremeIntervalDays >= 1;
-//        if (orientation.equals("DOWN") && list.get(0).getLow() < mergedList.get(0).getLow() && latestExtremeIntervalDays > 0) {
+//        return latestExtremeIntervalDays <= redundancy && latestExtremeIntervalDays >= 1;
+        //            int count = 1;
+        //            for (int i = 1; i < latestExtremeIntervalDays; i++) {
+        //                if (list.get(i - 1).getHigh() > mergedList.get(0).getHigh()) {
+        //                    if (count >= redundancy) {
+        //                        flag = false;
+        //                        break;
+        //                    } else {
+        //                        flag = true;
+        //                    }
+        //                    count++;
+        //                } else {
+        //                    flag = true;
+        //                }
+        //            }
+        if (orientation.equals("DOWN")
+                && list.get(0).getLow() < mergedList.get(0).getLow()
+                && list.get(0).getHigh() < mergedList.get(0).getHigh()
+                && list.get(0).getOpen() > list.get(0).getClose()
+                && latestExtremeIntervalDays <= redundancy
+                && latestExtremeIntervalDays >= 1
+        ) {
 //            int count = 1;
 //            for (int i = 1; i < latestExtremeIntervalDays; i++) {
 //                if (list.get(i - 1).getLow() < mergedList.get(0).getLow()) {
@@ -153,22 +174,13 @@ public class StrategyExtreme implements Strategy<List<BeanOfHistData>> {
 //                    flag = true;
 //                }
 //            }
-//        } else if (orientation.equals("UP") && list.get(0).getHigh() > mergedList.get(0).getHigh() && latestExtremeIntervalDays > 0 ) {
-//            int count = 1;
-//            for (int i = 1; i < latestExtremeIntervalDays; i++) {
-//                if (list.get(i - 1).getHigh() > mergedList.get(0).getHigh()) {
-//                    if (count >= redundancy) {
-//                        flag = false;
-//                        break;
-//                    } else {
-//                        flag = true;
-//                    }
-//                    count ++;
-//                } else {
-//                    flag =true;
-//                }
-//            }
-//        }
+            return true;
+        } else return orientation.equals("UP")
+                && list.get(0).getHigh() > mergedList.get(0).getHigh()
+                && list.get(0).getLow() > mergedList.get(0).getLow()
+                && list.get(0).getOpen() < list.get(0).getClose()
+                && latestExtremeIntervalDays <= redundancy
+                && latestExtremeIntervalDays >= 1;
 //        return flag;
     }
 

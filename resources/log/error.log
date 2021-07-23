@@ -1,285 +1,60 @@
-2021-07-14 01:10:58:154 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000006	200
+2021-07-22 00:20:29:903 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000001	200
 No security definition has been found for the request
-2021-07-14 01:10:58:298 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000007	200
+2021-07-22 00:20:30:037 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000002	200
 No security definition has been found for the request
-2021-07-14 01:11:19:685 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000038	200
+2021-07-22 00:20:30:729 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000003	200
 No security definition has been found for the request
-2021-07-14 01:11:19:831 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000039	200
+2021-07-22 00:20:30:855 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000004	200
 No security definition has been found for the request
-2021-07-14 01:11:19:962 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000040	200
+2021-07-22 00:20:30:980 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000005	200
 No security definition has been found for the request
-2021-07-14 01:11:24:363 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000047	200
+2021-07-22 00:20:31:220 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000006	200
 No security definition has been found for the request
-2021-07-14 01:11:56:747 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000093	200
+2021-07-22 00:20:31:941 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000007	200
 No security definition has been found for the request
-2021-07-14 01:12:01:080 [Thread-4] ERROR com.huanhe_tech.siever.Main - java.net.SocketException: Socket closed
-2021-07-14 01:15:07:641 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000001	200
+2021-07-22 00:20:33:522 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000008	200
 No security definition has been found for the request
-2021-07-14 01:15:07:773 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000002	200
+2021-07-22 00:20:33:809 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000009	200
 No security definition has been found for the request
-2021-07-14 01:15:08:203 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000003	200
+2021-07-22 00:20:35:302 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000010	200
 No security definition has been found for the request
-2021-07-14 01:15:08:341 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000004	200
+2021-07-22 00:20:35:414 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000011	200
 No security definition has been found for the request
-2021-07-14 01:15:08:468 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000005	200
+2021-07-22 00:20:35:783 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000012	200
 No security definition has been found for the request
-2021-07-14 01:15:08:640 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000006	200
+2021-07-22 00:20:35:892 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000013	200
 No security definition has been found for the request
-2021-07-14 01:15:09:344 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000007	200
+2021-07-22 00:20:37:502 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000014	162
+Historical Market Data Service error message:Unknown contract
+2021-07-22 00:20:37:611 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000015	200
 No security definition has been found for the request
-2021-07-14 01:15:09:459 [Thread-4] ERROR com.huanhe_tech.siever.Main - java.net.SocketException: Socket closed
-2021-07-14 01:16:39:988 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000001	200
+2021-07-22 00:20:37:984 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000016	200
 No security definition has been found for the request
-2021-07-14 01:16:40:163 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000002	200
+2021-07-22 00:20:38:107 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000017	200
 No security definition has been found for the request
-2021-07-14 01:16:40:611 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000003	200
+2021-07-22 00:20:38:793 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000018	200
 No security definition has been found for the request
-2021-07-14 01:16:40:753 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000004	200
+2021-07-22 00:20:38:920 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000019	200
 No security definition has been found for the request
-2021-07-14 01:16:40:873 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000005	200
+2021-07-22 00:20:39:516 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000020	200
 No security definition has been found for the request
-2021-07-14 01:16:41:057 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000006	200
+2021-07-22 00:20:39:962 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000021	200
 No security definition has been found for the request
-2021-07-14 01:16:41:750 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000007	200
+2021-07-22 00:20:40:169 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000022	200
 No security definition has been found for the request
-2021-07-14 01:16:41:818 [Thread-4] ERROR com.huanhe_tech.siever.Main - java.net.SocketException: Socket closed
-2021-07-14 15:50:13:598 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000006	200
+2021-07-22 00:20:40:471 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000023	200
 No security definition has been found for the request
-2021-07-14 15:50:13:723 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000007	200
+2021-07-22 00:20:40:763 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000024	200
 No security definition has been found for the request
-2021-07-14 15:50:34:633 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000038	200
+2021-07-22 00:20:40:874 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000025	200
 No security definition has been found for the request
-2021-07-14 15:50:34:761 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000039	200
+2021-07-22 00:20:41:063 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000026	200
 No security definition has been found for the request
-2021-07-14 15:50:34:888 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000040	200
+2021-07-22 00:20:41:171 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000027	200
 No security definition has been found for the request
-2021-07-14 15:50:39:217 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000047	200
+2021-07-22 00:20:45:582 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000028	200
 No security definition has been found for the request
-2021-07-14 15:51:10:243 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000093	200
+2021-07-22 00:20:46:064 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000029	200
 No security definition has been found for the request
-2021-07-14 15:51:14:507 [Thread-4] ERROR com.huanhe_tech.siever.Main - java.net.SocketException: Socket closed
-2021-07-14 15:51:32:680 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000001	200
+2021-07-22 00:20:54:595 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000042	200
 No security definition has been found for the request
-2021-07-14 15:51:32:795 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000002	200
-No security definition has been found for the request
-2021-07-14 15:51:33:296 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000003	200
-No security definition has been found for the request
-2021-07-14 15:51:33:405 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000004	200
-No security definition has been found for the request
-2021-07-14 15:51:33:512 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000005	200
-No security definition has been found for the request
-2021-07-14 15:51:33:685 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000006	200
-No security definition has been found for the request
-2021-07-14 15:51:34:224 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000007	200
-No security definition has been found for the request
-2021-07-14 15:51:34:295 [Thread-4] ERROR com.huanhe_tech.siever.Main - java.net.SocketException: Socket closed
-2021-07-14 15:51:46:903 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000001	200
-No security definition has been found for the request
-2021-07-14 15:51:47:019 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000002	200
-No security definition has been found for the request
-2021-07-14 15:51:47:442 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000003	200
-No security definition has been found for the request
-2021-07-14 15:51:47:554 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000004	200
-No security definition has been found for the request
-2021-07-14 15:51:47:680 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000005	200
-No security definition has been found for the request
-2021-07-14 15:51:47:854 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000006	200
-No security definition has been found for the request
-2021-07-14 15:51:48:391 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000007	200
-No security definition has been found for the request
-2021-07-14 15:51:48:449 [Thread-4] ERROR com.huanhe_tech.siever.Main - java.net.SocketException: Socket closed
-2021-07-14 15:54:32:103 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000001	200
-No security definition has been found for the request
-2021-07-14 15:54:32:232 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000002	200
-No security definition has been found for the request
-2021-07-14 15:54:32:705 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000003	200
-No security definition has been found for the request
-2021-07-14 15:54:32:825 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000004	200
-No security definition has been found for the request
-2021-07-14 15:54:32:951 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000005	200
-No security definition has been found for the request
-2021-07-14 15:54:33:124 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000006	200
-No security definition has been found for the request
-2021-07-14 15:54:33:691 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000007	200
-No security definition has been found for the request
-2021-07-14 15:54:33:744 [Thread-4] ERROR com.huanhe_tech.siever.Main - java.net.SocketException: Socket closed
-2021-07-14 15:55:58:080 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000001	200
-No security definition has been found for the request
-2021-07-14 15:55:58:198 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000002	200
-No security definition has been found for the request
-2021-07-14 15:55:58:762 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000003	200
-No security definition has been found for the request
-2021-07-14 15:55:58:873 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000004	200
-No security definition has been found for the request
-2021-07-14 15:55:58:998 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000005	200
-No security definition has been found for the request
-2021-07-14 15:55:59:209 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000006	200
-No security definition has been found for the request
-2021-07-14 15:55:59:916 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000007	200
-No security definition has been found for the request
-2021-07-14 15:56:00:011 [Thread-4] ERROR com.huanhe_tech.siever.Main - java.net.SocketException: Socket closed
-2021-07-14 15:57:57:296 [Thread-4] ERROR com.huanhe_tech.siever.Main - java.net.SocketException: Socket closed
-2021-07-14 20:49:01:710 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000001	200
-No security definition has been found for the request
-2021-07-14 20:49:01:824 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000002	200
-No security definition has been found for the request
-2021-07-14 20:49:02:361 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000003	200
-No security definition has been found for the request
-2021-07-14 20:49:02:484 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000004	200
-No security definition has been found for the request
-2021-07-14 20:49:02:592 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000005	200
-No security definition has been found for the request
-2021-07-14 20:49:02:778 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000006	200
-No security definition has been found for the request
-2021-07-14 20:49:03:400 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000007	200
-No security definition has been found for the request
-2021-07-14 20:49:27:303 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000001	200
-No security definition has been found for the request
-2021-07-14 20:49:27:426 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000002	200
-No security definition has been found for the request
-2021-07-14 20:49:27:856 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000003	200
-No security definition has been found for the request
-2021-07-14 20:49:27:963 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000004	200
-No security definition has been found for the request
-2021-07-14 20:49:28:104 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000005	200
-No security definition has been found for the request
-2021-07-14 20:49:28:269 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000006	200
-No security definition has been found for the request
-2021-07-14 20:49:28:828 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000007	200
-No security definition has been found for the request
-2021-07-14 20:49:29:823 [Thread-4] ERROR com.huanhe_tech.siever.Main - java.net.SocketException: Socket closed
-2021-07-14 20:50:07:040 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000001	200
-No security definition has been found for the request
-2021-07-14 20:50:07:157 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000002	200
-No security definition has been found for the request
-2021-07-14 20:50:07:606 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000003	200
-No security definition has been found for the request
-2021-07-14 20:50:07:712 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000004	200
-No security definition has been found for the request
-2021-07-14 20:50:07:826 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000005	200
-No security definition has been found for the request
-2021-07-14 20:50:07:997 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000006	200
-No security definition has been found for the request
-2021-07-14 20:50:08:540 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000007	200
-No security definition has been found for the request
-2021-07-14 20:50:09:550 [Thread-4] ERROR com.huanhe_tech.siever.Main - java.net.SocketException: Socket closed
-2021-07-14 20:50:39:055 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000001	200
-No security definition has been found for the request
-2021-07-14 20:50:39:187 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000002	200
-No security definition has been found for the request
-2021-07-14 20:50:39:630 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000003	200
-No security definition has been found for the request
-2021-07-14 20:50:39:881 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000004	200
-No security definition has been found for the request
-2021-07-14 20:50:39:985 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000005	200
-No security definition has been found for the request
-2021-07-14 20:50:40:156 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000006	200
-No security definition has been found for the request
-2021-07-14 20:50:40:708 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000007	200
-No security definition has been found for the request
-2021-07-14 20:50:41:778 [Thread-4] ERROR com.huanhe_tech.siever.Main - java.net.SocketException: Socket closed
-2021-07-14 20:51:03:493 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000001	200
-No security definition has been found for the request
-2021-07-14 20:51:03:614 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000002	200
-No security definition has been found for the request
-2021-07-14 20:51:04:042 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000003	200
-No security definition has been found for the request
-2021-07-14 20:51:04:152 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000004	200
-No security definition has been found for the request
-2021-07-14 20:51:04:258 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000005	200
-No security definition has been found for the request
-2021-07-14 20:51:04:443 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000006	200
-No security definition has been found for the request
-2021-07-14 20:51:04:974 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000007	200
-No security definition has been found for the request
-2021-07-14 20:51:05:973 [Thread-4] ERROR com.huanhe_tech.siever.Main - java.net.SocketException: Socket closed
-2021-07-14 20:51:24:158 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000001	200
-No security definition has been found for the request
-2021-07-14 20:51:24:273 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000002	200
-No security definition has been found for the request
-2021-07-14 20:51:24:709 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000003	200
-No security definition has been found for the request
-2021-07-14 20:51:24:818 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000004	200
-No security definition has been found for the request
-2021-07-14 20:51:24:928 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000005	200
-No security definition has been found for the request
-2021-07-14 20:51:25:103 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000006	200
-No security definition has been found for the request
-2021-07-14 20:51:25:632 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000007	200
-No security definition has been found for the request
-2021-07-14 20:51:26:814 [Thread-4] ERROR com.huanhe_tech.siever.Main - java.net.SocketException: Socket closed
-2021-07-14 20:53:02:407 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000001	200
-No security definition has been found for the request
-2021-07-14 20:53:02:545 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000002	200
-No security definition has been found for the request
-2021-07-14 20:53:02:994 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000003	200
-No security definition has been found for the request
-2021-07-14 20:53:03:122 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000004	200
-No security definition has been found for the request
-2021-07-14 20:53:03:230 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000005	200
-No security definition has been found for the request
-2021-07-14 20:53:03:396 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000006	200
-No security definition has been found for the request
-2021-07-14 20:53:04:011 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000007	200
-No security definition has been found for the request
-2021-07-14 20:53:05:142 [Thread-4] ERROR com.huanhe_tech.siever.Main - java.net.SocketException: Socket closed
-2021-07-14 20:53:58:120 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000001	200
-No security definition has been found for the request
-2021-07-14 20:53:58:238 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000002	200
-No security definition has been found for the request
-2021-07-14 20:53:58:806 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000003	200
-No security definition has been found for the request
-2021-07-14 20:53:58:912 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000004	200
-No security definition has been found for the request
-2021-07-14 20:53:59:021 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000005	200
-No security definition has been found for the request
-2021-07-14 20:53:59:227 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000006	200
-No security definition has been found for the request
-2021-07-14 20:53:59:987 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000007	200
-No security definition has been found for the request
-2021-07-14 20:54:01:072 [Thread-4] ERROR com.huanhe_tech.siever.Main - java.net.SocketException: Socket closed
-2021-07-14 20:54:30:652 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000001	200
-No security definition has been found for the request
-2021-07-14 20:54:30:761 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000002	200
-No security definition has been found for the request
-2021-07-14 20:54:31:205 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000003	200
-No security definition has been found for the request
-2021-07-14 20:54:31:333 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000004	200
-No security definition has been found for the request
-2021-07-14 20:54:31:528 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000005	200
-No security definition has been found for the request
-2021-07-14 20:54:31:710 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000006	200
-No security definition has been found for the request
-2021-07-14 20:54:32:228 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000007	200
-No security definition has been found for the request
-2021-07-14 20:54:33:628 [Thread-4] ERROR com.huanhe_tech.siever.Main - java.net.SocketException: Socket closed
-2021-07-14 20:55:06:701 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000001	200
-No security definition has been found for the request
-2021-07-14 20:55:06:827 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000002	200
-No security definition has been found for the request
-2021-07-14 20:55:07:404 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000003	200
-No security definition has been found for the request
-2021-07-14 20:55:07:512 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000004	200
-No security definition has been found for the request
-2021-07-14 20:55:07:631 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000005	200
-No security definition has been found for the request
-2021-07-14 20:55:07:876 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000006	200
-No security definition has been found for the request
-2021-07-14 20:55:08:577 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000007	200
-No security definition has been found for the request
-2021-07-14 20:55:10:094 [Thread-4] ERROR com.huanhe_tech.siever.Main - java.net.SocketException: Socket closed
-2021-07-14 20:55:55:095 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000001	200
-No security definition has been found for the request
-2021-07-14 20:55:55:221 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000002	200
-No security definition has been found for the request
-2021-07-14 20:55:55:701 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000003	200
-No security definition has been found for the request
-2021-07-14 20:55:55:827 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000004	200
-No security definition has been found for the request
-2021-07-14 20:55:55:939 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000005	200
-No security definition has been found for the request
-2021-07-14 20:55:56:116 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000006	200
-No security definition has been found for the request
-2021-07-14 20:55:56:667 [Thread-5] ERROR com.huanhe_tech.siever.Main - 10000007	200
-No security definition has been found for the request
-2021-07-14 20:55:57:646 [Thread-4] ERROR com.huanhe_tech.siever.Main - java.net.SocketException: Socket closed
