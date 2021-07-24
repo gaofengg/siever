@@ -19,7 +19,6 @@ public class ContractDetailsHandler implements ApiController.IContractDetailsHan
 
     @Override
     public synchronized void contractDetails(List<ContractDetails> list) {
-        list.forEach(System.out::println);
 
         synchronized (reqTypeFlag) {
             if (!reqTypeFlag.getState()) {

@@ -1,9 +1,48 @@
-2021-07-22 00:20:24:905 [main] INFO  com.huanhe_tech.siever.Main - Current Time in New York: 2021-07-21 12:20:24
-2021-07-22 00:20:29:793 [Thread-5] INFO  com.huanhe_tech.siever.Main - Acount List: 
-2021-07-22 00:20:29:795 [Thread-5] INFO  com.huanhe_tech.siever.Main - U8978970
-2021-07-22 00:20:30:280 [Thread-0] INFO  com.huanhe_tech.siever.Main - ABB -> Orientation: UP
-2021-07-22 00:20:33:180 [Thread-0] INFO  com.huanhe_tech.siever.Main - AGFY -> Orientation: UP
-2021-07-22 00:20:40:481 [Thread-0] INFO  com.huanhe_tech.siever.Main - ASPN -> Orientation: UP
-2021-07-22 00:20:42:608 [Thread-0] INFO  com.huanhe_tech.siever.Main - AZZ -> Orientation: UP
-2021-07-22 00:20:43:050 [Thread-0] INFO  com.huanhe_tech.siever.Main - BBIO -> Orientation: UP
-2021-07-22 00:20:44:788 [Thread-0] INFO  com.huanhe_tech.siever.Main - BLK -> Orientation: UP
+2021-07-24 16:12:41:225 [main] INFO  com.huanhe_tech.siever.Main - Current Time in New York: 2021-07-24 04:12:40
+2021-07-24 16:12:44:443 [Thread-3] INFO  com.huanhe_tech.siever.Main - Acount List: 
+2021-07-24 16:12:44:445 [Thread-3] INFO  com.huanhe_tech.siever.Main - U8978970
+2021-07-24 16:17:46:148 [main] INFO  com.huanhe_tech.siever.Main - Current Time in New York: 2021-07-24 04:17:37
+2021-07-24 16:19:06:076 [Thread-3] INFO  com.huanhe_tech.siever.Main - Acount List: 
+2021-07-24 16:19:06:081 [Thread-3] INFO  com.huanhe_tech.siever.Main - U8978970
+2021-07-24 16:21:56:864 [main] INFO  com.huanhe_tech.siever.Main - Current Time in New York: 2021-07-24 04:21:56
+2021-07-24 16:22:30:539 [Thread-3] INFO  com.huanhe_tech.siever.Main - Acount List: 
+2021-07-24 16:22:30:549 [Thread-3] INFO  com.huanhe_tech.siever.Main - U8978970
+2021-07-24 16:23:44:700 [main] INFO  com.huanhe_tech.siever.Main - Current Time in New York: 2021-07-24 04:23:44
+2021-07-24 16:23:47:996 [Thread-3] INFO  com.huanhe_tech.siever.Main - Acount List: 
+2021-07-24 16:23:48:001 [Thread-3] INFO  com.huanhe_tech.siever.Main - U8978970
+2021-07-24 16:24:04:738 [main] INFO  com.huanhe_tech.siever.Main - Current Time in New York: 2021-07-24 04:24:04
+2021-07-24 16:24:07:897 [Thread-3] INFO  com.huanhe_tech.siever.Main - Acount List: 
+2021-07-24 16:24:07:899 [Thread-3] INFO  com.huanhe_tech.siever.Main - U8978970
+2021-07-24 16:25:57:982 [main] INFO  com.huanhe_tech.siever.Main - Current Time in New York: 2021-07-24 04:25:57
+2021-07-24 16:26:01:111 [Thread-3] INFO  com.huanhe_tech.siever.Main - Acount List: 
+2021-07-24 16:26:01:113 [Thread-3] INFO  com.huanhe_tech.siever.Main - U8978970
+2021-07-24 16:26:22:630 [main] INFO  com.huanhe_tech.siever.Main - Current Time in New York: 2021-07-24 04:26:22
+2021-07-24 16:26:25:902 [Thread-3] INFO  com.huanhe_tech.siever.Main - Acount List: 
+2021-07-24 16:26:25:905 [Thread-3] INFO  com.huanhe_tech.siever.Main - U8978970
+2021-07-24 16:26:35:980 [main] INFO  com.huanhe_tech.siever.Main - Current Time in New York: 2021-07-24 04:26:35
+2021-07-24 16:26:39:106 [Thread-3] INFO  com.huanhe_tech.siever.Main - Acount List: 
+2021-07-24 16:26:39:108 [Thread-3] INFO  com.huanhe_tech.siever.Main - U8978970
+2021-07-24 16:33:33:455 [main] INFO  com.huanhe_tech.siever.Main - Current Time in New York: 2021-07-24 04:33:33
+2021-07-24 16:33:36:591 [Thread-3] INFO  com.huanhe_tech.siever.Main - Acount List: 
+2021-07-24 16:33:36:593 [Thread-3] INFO  com.huanhe_tech.siever.Main - U8978970
+2021-07-24 16:37:05:358 [main] INFO  com.huanhe_tech.siever.Main - Current Time in New York: 2021-07-24 04:37:05
+2021-07-24 16:37:08:491 [Thread-3] INFO  com.huanhe_tech.siever.Main - Acount List: 
+2021-07-24 16:37:08:494 [Thread-3] INFO  com.huanhe_tech.siever.Main - U8978970
+2021-07-24 16:37:21:828 [main] INFO  com.huanhe_tech.siever.Main - Current Time in New York: 2021-07-24 04:37:21
+2021-07-24 16:37:24:976 [Thread-3] INFO  com.huanhe_tech.siever.Main - Acount List: 
+2021-07-24 16:37:24:978 [Thread-3] INFO  com.huanhe_tech.siever.Main - U8978970
+2021-07-24 16:37:52:005 [main] INFO  com.huanhe_tech.siever.Main - Current Time in New York: 2021-07-24 04:37:51
+2021-07-24 16:37:55:293 [Thread-3] INFO  com.huanhe_tech.siever.Main - Acount List: 
+2021-07-24 16:37:55:297 [Thread-3] INFO  com.huanhe_tech.siever.Main - U8978970
+2021-07-24 16:39:50:861 [main] INFO  com.huanhe_tech.siever.Main - Current Time in New York: 2021-07-24 04:39:50
+2021-07-24 16:39:54:055 [Thread-3] INFO  com.huanhe_tech.siever.Main - Acount List: 
+2021-07-24 16:39:54:058 [Thread-3] INFO  com.huanhe_tech.siever.Main - U8978970
+2021-07-24 16:43:41:104 [main] INFO  com.huanhe_tech.siever.Main - Current Time in New York: 2021-07-24 04:43:40
+2021-07-24 16:43:44:262 [Thread-3] INFO  com.huanhe_tech.siever.Main - Acount List: 
+2021-07-24 16:43:44:264 [Thread-3] INFO  com.huanhe_tech.siever.Main - U8978970
+2021-07-24 16:43:56:160 [main] INFO  com.huanhe_tech.siever.Main - Current Time in New York: 2021-07-24 04:43:55
+2021-07-24 16:43:59:299 [Thread-3] INFO  com.huanhe_tech.siever.Main - Acount List: 
+2021-07-24 16:43:59:301 [Thread-3] INFO  com.huanhe_tech.siever.Main - U8978970
+2021-07-24 16:46:32:309 [main] INFO  com.huanhe_tech.siever.Main - Current Time in New York: 2021-07-24 04:46:32
+2021-07-24 16:46:35:464 [Thread-3] INFO  com.huanhe_tech.siever.Main - Acount List: 
+2021-07-24 16:46:35:467 [Thread-3] INFO  com.huanhe_tech.siever.Main - U8978970

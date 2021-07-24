@@ -26,7 +26,7 @@ public class Main {
         String uri = "resources/usa.txt";
         // 将 symbol list 的源文件头的日期与配置文件里值对比，判断源文件是否更新过？
         if (SymbolsSourceHandler.needUpdate(uri) > 0) {
-            System.out.println(SymbolsSourceHandler.needUpdate(uri));
+//            System.out.println(SymbolsSourceHandler.needUpdate(uri));
             // 从本地文件读取 symbol，生成数据对象，put 到队列
             new Thread(() -> new ProduceAllSymbols("usa.txt", InstancePool.getAllSymbolsQueue()).putFlowingSymbolsToQueue(), "Get all symbol thread").start();
             // 从前序队列取出对象数据, 并过滤出 NASDAQ 和 NYSE 的标的，put 到 FiltrateBySymbolTypeQueue 队列

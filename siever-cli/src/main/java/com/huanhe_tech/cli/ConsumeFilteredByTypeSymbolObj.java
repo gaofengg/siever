@@ -3,6 +3,7 @@ package com.huanhe_tech.cli;
 import com.huanhe_tech.cli.queue.FilteredByTypeFlowingSymbol;
 import com.huanhe_tech.cli.queue.FiltrateBySymbolTypeQueue;
 import com.huanhe_tech.siever.utils.IJdbcUtils;
+import com.huanhe_tech.siever.utils.LLoger;
 import org.apache.commons.dbutils.QueryRunner;
 
 import java.sql.Connection;
@@ -26,8 +27,8 @@ public class ConsumeFilteredByTypeSymbolObj {
 
         while (true) {
             FilteredByTypeFlowingSymbol flowingSymbolObj = filtrateBySymbolTypeQueue.takeSymbolObj();
+            LLoger.logger.trace("Flashing symbols list. --> " + flowingSymbolObj.getSymbol());
             persistenceSymbolList(conn, qr, flowingSymbolObj);
-            System.out.println(flowingSymbolObj);
             if (flowingSymbolObj.getSymbol().equals("#EOF")) {
                 IJdbcUtils.closeResource(conn, null);
                 break;
