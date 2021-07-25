@@ -69,7 +69,8 @@ allprojects {
 
     compileJava {
         doFirst {
-            options.compilerArgs = ['--module-path', classpath.asPath]
+            options.compilerArgs = ['--module-path', classpath.asPath, '-encoding', 'utf8']
+//            options.compilerArgs.addAll(['--module-path', classpath.asPath] as int, ['-encoding', utf8])
             classpath = files()
         }
         options.encoding = "UTF-8"

@@ -1,10 +1,2 @@
-2021-07-24 16:13:09:226 [Thread-3] ERROR com.huanhe_tech.siever.Main - 10000142	200
-No security definition has been found for the request
-2021-07-24 16:37:35:361 [Thread-3] ERROR com.huanhe_tech.siever.Main - 10000142	200
-No security definition has been found for the request
-2021-07-24 16:38:04:558 [Thread-3] ERROR com.huanhe_tech.siever.Main - 10000142	200
-No security definition has been found for the request
-2021-07-24 16:40:03:128 [Thread-3] ERROR com.huanhe_tech.siever.Main - 10000142	200
-No security definition has been found for the request
-2021-07-24 16:44:08:159 [Thread-3] ERROR com.huanhe_tech.siever.Main - 10000142	200
-No security definition has been found for the request
+2021-07-25 23:53:31:502 [Thread-1] ERROR com.huanhe_tech.siever.Main - java.lang.NullPointerException
+2021-07-25 23:53:36:553 [Thread-3] ERROR com.huanhe_tech.siever.Main - java.lang.NullPointerException
