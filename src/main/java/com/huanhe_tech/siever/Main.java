@@ -20,12 +20,14 @@ public class Main {
         final int durationDays = Integer.parseInt(CliParam.getParam("durationDays"));
         final int extremeDurationDays = Integer.parseInt(CliParam.getParam("extremeDurationDays"));
         final int openToEndpointPercent = Integer.parseInt(CliParam.getParam("openToEndpointPercent"));
+        final double extremeQuoteChange = Double.parseDouble(CliParam.getParam("extremeQuoteChange"));
 
         String nowDateTime = ZonedDateTime.now(ZoneId.of("GMT-4")).format(DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss"));
         LLoger.logger.info("Current Time in New York: {}", nowDateTime);
         String uri = "resources/usa.txt";
         // 将 symbol list 的源文件头的日期与配置文件里值对比，判断源文件是否更新过？
         if (SymbolsSourceHandler.needUpdate(uri) > 0) {
+            LLoger.logger.info("Symbol 列表需要更新。");
 //            System.out.println(SymbolsSourceHandler.needUpdate(uri));
             // 从本地文件读取 symbol，生成数据对象，put 到队列
             new Thread(() -> new ProduceAllSymbols("usa.txt", InstancePool.getAllSymbolsQueue()).putFlowingSymbolsToQueue(), "Get all symbol thread").start();
@@ -40,14 +42,14 @@ public class Main {
                 e.printStackTrace();
             }
 
-            new Thread(() -> new ProduceHistDataBeanToQueue(new StrategyExtreme(pileNumber, extremeNumber, redundancy, durationDays, extremeDurationDays, openToEndpointPercent))).start();
-            new Thread(() -> new StrategyApply().getHistDataAndStrategyApply(new StrategyExtreme(pileNumber, extremeNumber, redundancy, durationDays, extremeDurationDays, openToEndpointPercent))).start();
+            new Thread(() -> new ProduceHistDataBeanToQueue(new StrategyExtreme(pileNumber, extremeNumber, redundancy, durationDays, extremeDurationDays, openToEndpointPercent, extremeQuoteChange))).start();
+            new Thread(() -> new StrategyApply().getHistDataAndStrategyApply(new StrategyExtreme(pileNumber, extremeNumber, redundancy, durationDays, extremeDurationDays, openToEndpointPercent, extremeQuoteChange))).start();
             new Thread(ConsumeExtremeResult::new).start();
             // 查表 symbols_list_tbl，请求历史数据，put 到 QueueWithHistDataBean
             // 从 QueueWithHistDataBean 队列 take HistDataBean 创表或更新数据，并计算
         } else if (SymbolsSourceHandler.needUpdate(uri) == 0) {
-            new Thread(() -> new ProduceHistDataBeanToQueue(new StrategyExtreme(pileNumber, extremeNumber, redundancy, durationDays, extremeDurationDays, openToEndpointPercent))).start();
-            new Thread(() -> new StrategyApply().getHistDataAndStrategyApply(new StrategyExtreme(pileNumber, extremeNumber, redundancy, durationDays, extremeDurationDays, openToEndpointPercent))).start();
+            new Thread(() -> new ProduceHistDataBeanToQueue(new StrategyExtreme(pileNumber, extremeNumber, redundancy, durationDays, extremeDurationDays, openToEndpointPercent, extremeQuoteChange))).start();
+            new Thread(() -> new StrategyApply().getHistDataAndStrategyApply(new StrategyExtreme(pileNumber, extremeNumber, redundancy, durationDays, extremeDurationDays, openToEndpointPercent, extremeQuoteChange))).start();
             new Thread(ConsumeExtremeResult::new).start();
         } else {
             LLoger.logger.error("You seem to be using expired symbol source data, please update it to " + uri + ".");

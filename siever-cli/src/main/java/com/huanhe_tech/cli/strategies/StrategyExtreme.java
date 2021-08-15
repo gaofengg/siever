@@ -28,6 +28,7 @@ public class StrategyExtreme implements Strategy<List<BeanOfHistData>> {
     private int id = 0;
     private int extremeDurationDays = 1;
     private int openToEndpointPercent = 100;
+    private double extremeQuoteChange = 5.0;
 
     public StrategyExtreme() {
     }
@@ -37,13 +38,14 @@ public class StrategyExtreme implements Strategy<List<BeanOfHistData>> {
      *                       桩值：计算 low 极值时，两边的桩值必须大于 low 极值，计算 high 极值反之
      * @param extremeNumbers 极值数列里最多保存的极值对象数量
      */
-    public StrategyExtreme(int pileNumbers, int extremeNumbers, int redundancy, int durationDays, int extremeDurationDays, int openToEndpointPercent) {
+    public StrategyExtreme(int pileNumbers, int extremeNumbers, int redundancy, int durationDays, int extremeDurationDays, int openToEndpointPercent, double extremeQuoteChange) {
         this.pileNumbers = pileNumbers;
         this.extremeNumbers = extremeNumbers;
         this.redundancy = redundancy;
         this.durationDays = durationDays;
         this.extremeDurationDays = extremeDurationDays;
         this.openToEndpointPercent = openToEndpointPercent;
+        this.extremeQuoteChange = extremeQuoteChange;
     }
 
     @Override
@@ -69,7 +71,9 @@ public class StrategyExtreme implements Strategy<List<BeanOfHistData>> {
                 boolean orderedByTime = isOrderedByTime(mergedBeanOfHistDataList);
                 // 判断合并后的 list 极值之间的最小间隔是否符合要求
                 boolean isFullDuration = new CalcExtremesDurationDays(mergedBeanOfHistDataList, extremeDurationDays).isFullDuration();
-                if (orderedByTime && isFullDuration) {
+                // 单元极值之间的振幅是否符合要求
+                boolean isExtremeQuoteChange = this.hasExtremeQuoteChange(mergedBeanOfHistDataList, extremeQuoteChange);
+                if (orderedByTime && isFullDuration && isExtremeQuoteChange) {
                     FilterOpenToEndpoint filterOpenToEndpoint = new FilterOpenToEndpoint(list, mergedBeanOfHistDataList, openToEndpointPercent);
                     String orientation = orientate(mergedBeanOfHistDataList);
                     // 如果方向是上涨，则找到最低点离今日 redundancy 天的标的。
@@ -138,21 +142,6 @@ public class StrategyExtreme implements Strategy<List<BeanOfHistData>> {
         boolean flag = false;
         String mergedListLastTime = mergedList.get(0).getTime();
         int latestExtremeIntervalDays = new IntervalDaysCalc().intervalDays(mergedListLastTime);
-//        return latestExtremeIntervalDays <= redundancy && latestExtremeIntervalDays >= 1;
-        //            int count = 1;
-        //            for (int i = 1; i < latestExtremeIntervalDays; i++) {
-        //                if (list.get(i - 1).getHigh() > mergedList.get(0).getHigh()) {
-        //                    if (count >= redundancy) {
-        //                        flag = false;
-        //                        break;
-        //                    } else {
-        //                        flag = true;
-        //                    }
-        //                    count++;
-        //                } else {
-        //                    flag = true;
-        //                }
-        //            }
         if (orientation.equals("DOWN")
                 && list.get(0).getLow() < mergedList.get(0).getLow()
                 && list.get(0).getHigh() < mergedList.get(0).getHigh()
@@ -160,20 +149,6 @@ public class StrategyExtreme implements Strategy<List<BeanOfHistData>> {
                 && latestExtremeIntervalDays <= redundancy
                 && latestExtremeIntervalDays >= 1
         ) {
-//            int count = 1;
-//            for (int i = 1; i < latestExtremeIntervalDays; i++) {
-//                if (list.get(i - 1).getLow() < mergedList.get(0).getLow()) {
-//                    if (count >= redundancy) {
-//                        flag = false;
-//                        break;
-//                    } else {
-//                        flag = true;
-//                    }
-//                    count ++;
-//                } else {
-//                    flag = true;
-//                }
-//            }
             return true;
         } else return orientation.equals("UP")
                 && list.get(0).getHigh() > mergedList.get(0).getHigh()
@@ -287,6 +262,43 @@ public class StrategyExtreme implements Strategy<List<BeanOfHistData>> {
         } else {
             return "DOWN";
         }
+    }
+
+    /**
+     * 这是一个判断每个单元极值间（一个高点极值到一个低点极值间）的振幅是否大于或等于配置文件里设定的期望振幅值的方法。
+     * @param mergeList 合并后的极值列表
+     * @param expectedValue 期望单元极值高点和低点键的振幅
+     * @return 如果振幅大于或等于期望的振幅值，返回真，否则返回假
+     */
+    public boolean hasExtremeQuoteChange(List<BeanOfHistData> mergeList, double expectedValue) {
+        List<List<BeanOfHistData>> doubleElementList = new ArrayList<>();
+        for(int i = 0; i <= mergeList.size() / 2 + 1; i = i + 2) {
+            List<BeanOfHistData> tempList = mergeList.subList(i, i + 2);
+            doubleElementList.add(tempList);
+        }
+
+        for(List<BeanOfHistData> list: doubleElementList) {
+            BeanOfHistData b1 = list.get(0);
+            BeanOfHistData b2 = list.get(1);
+            if (b1.getLow() > b2.getLow()) {
+                // 下跌趋势
+                double quoteChangeValue = (b1.getHigh() - b2.getLow()) / b2.getOpen();
+                if (quoteChangeValue < expectedValue / 100) {
+                    break;
+                } else {
+                    return true;
+                }
+            } else if(b1.getLow() < b2.getLow()) {
+                // 上涨趋势
+                double quoteChangeValue = (b2.getHigh() - b1.getLow()) / b1.getOpen();
+                if (quoteChangeValue < expectedValue / 100) {
+                    break;
+                } else {
+                    return true;
+                }
+            }
+        }
+        return false;
     }
 }
 

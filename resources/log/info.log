@@ -1,17 +1,22 @@
-2021-07-25 05:06:24:953 [main] INFO  com.huanhe_tech.siever.Main - Current Time in New York: 2021-07-24 17:06:24
-2021-07-25 05:06:28:136 [Thread-3] INFO  com.huanhe_tech.siever.Main - Acount List: 
-2021-07-25 05:06:28:141 [Thread-3] INFO  com.huanhe_tech.siever.Main - U8978970
-2021-07-25 05:06:55:708 [main] INFO  com.huanhe_tech.siever.Main - 中文
-2021-07-25 05:06:55:727 [main] INFO  com.huanhe_tech.siever.Main - Current Time in New York: 2021-07-24 17:06:55
-2021-07-25 05:06:58:875 [Thread-3] INFO  com.huanhe_tech.siever.Main - Acount List: 
-2021-07-25 05:06:58:878 [Thread-3] INFO  com.huanhe_tech.siever.Main - U8978970
-2021-07-25 05:08:02:120 [main] INFO  com.huanhe_tech.siever.Main - 中文
-2021-07-25 05:08:02:141 [main] INFO  com.huanhe_tech.siever.Main - Current Time in New York: 2021-07-24 17:08:02
-2021-07-25 05:08:05:255 [Thread-3] INFO  com.huanhe_tech.siever.Main - Acount List: 
-2021-07-25 05:08:05:258 [Thread-3] INFO  com.huanhe_tech.siever.Main - U8978970
-2021-07-25 05:08:25:075 [main] INFO  com.huanhe_tech.siever.Main - 中文
-2021-07-25 05:08:25:091 [main] INFO  com.huanhe_tech.siever.Main - Current Time in New York: 2021-07-24 17:08:25
-2021-07-25 05:08:28:249 [Thread-3] INFO  com.huanhe_tech.siever.Main - Acount List: 
-2021-07-25 05:08:28:249 [Thread-3] INFO  com.huanhe_tech.siever.Main - U8978970
-2021-07-25 23:53:26:194 [main] INFO  com.huanhe_tech.siever.Main - 涓枃
-2021-07-25 23:53:26:241 [main] INFO  com.huanhe_tech.siever.Main - Current Time in New York: 2021-07-25 11:53:26
+2021-08-13 01:04:40:765 [main] INFO  com.huanhe_tech.siever.Main - Current Time in New York: 2021-08-12 13:04:40
+2021-08-13 01:04:45:156 [Thread-5] INFO  com.huanhe_tech.siever.Main - Acount List: 
+2021-08-13 01:04:45:159 [Thread-5] INFO  com.huanhe_tech.siever.Main - U8978970
+2021-08-13 01:06:17:832 [main] INFO  com.huanhe_tech.siever.Main - Current Time in New York: 2021-08-12 13:06:17
+2021-08-13 01:06:25:028 [Thread-5] INFO  com.huanhe_tech.siever.Main - Acount List: 
+2021-08-13 01:06:25:030 [Thread-5] INFO  com.huanhe_tech.siever.Main - U8978970
+2021-08-13 01:06:29:681 [Thread-0] INFO  com.huanhe_tech.siever.Main - AUY -> Orientation: UP
+2021-08-13 01:06:33:495 [Thread-0] INFO  com.huanhe_tech.siever.Main - BLDE -> Orientation: DOWN
+2021-08-13 01:06:42:040 [Thread-0] INFO  com.huanhe_tech.siever.Main - CRD A -> Orientation: UP
+2021-08-13 01:06:43:339 [Thread-0] INFO  com.huanhe_tech.siever.Main - CSCW -> Orientation: UP
+2021-08-13 01:06:55:253 [Thread-0] INFO  com.huanhe_tech.siever.Main - GDS -> Orientation: DOWN
+2021-08-13 01:07:01:916 [Thread-0] INFO  com.huanhe_tech.siever.Main - HTOO -> Orientation: DOWN
+2021-08-13 01:07:03:887 [Thread-0] INFO  com.huanhe_tech.siever.Main - IGMS -> Orientation: DOWN
+2021-08-13 01:07:07:947 [Thread-0] INFO  com.huanhe_tech.siever.Main - JD -> Orientation: DOWN
+2021-08-13 01:07:09:471 [Thread-0] INFO  com.huanhe_tech.siever.Main - KL -> Orientation: UP
+2021-08-13 01:07:23:019 [Thread-0] INFO  com.huanhe_tech.siever.Main - NVFY -> Orientation: DOWN
+2021-08-13 01:07:32:227 [Thread-0] INFO  com.huanhe_tech.siever.Main - RBBN -> Orientation: DOWN
+2021-08-13 01:07:41:265 [Thread-0] INFO  com.huanhe_tech.siever.Main - SSRM -> Orientation: UP
+2021-08-13 01:07:43:911 [Thread-0] INFO  com.huanhe_tech.siever.Main - TIGR -> Orientation: DOWN
+2021-08-13 01:07:45:016 [Thread-0] INFO  com.huanhe_tech.siever.Main - TRQ -> Orientation: UP
+2021-08-13 01:07:51:191 [Thread-0] INFO  com.huanhe_tech.siever.Main - XELA -> Orientation: UP
+2021-08-13 01:07:51:845 [Thread-0] INFO  com.huanhe_tech.siever.Main - YI -> Orientation: DOWN
